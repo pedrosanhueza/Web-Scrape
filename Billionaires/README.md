@@ -6,7 +6,7 @@
 
 ### Extracted table into python
 
-![alt text](https://github.com/pedrosanhueza/Web_Scrape/blob/main/Billionaires/Billionaries%20-%20Images/Billionaries%20-%Output%20CSV.png)
+![alt text](https://github.com/pedrosanhueza/Web_Scrape/blob/main/Billionaires/Billionaries%20-%20Images/Billionaries%20-%20Output%20CSV.png)
 
 ### Analysis
 
