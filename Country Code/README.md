@@ -8,7 +8,7 @@
 
 ### Analysis
 
-![alt text](https://github.com/pedrosanhueza/WebScrape_CountryCode/blob/main/Country%20Code%20-%20plot%20imagen.png)
-
+![alt text](https://github.com/pedrosanhueza/Web_Scrape/blob/main/Country%20Code/Country%20Code%20-%20Images/Country%20Code%20-%20plot%20imagen.png)
 ### Go to code
-[WebScrape CountryCode](https://github.com/pedrosanhueza/Web_Scrape/blob/main/Country%20Code/Country%20Code%20-%20Images/Country%20Code%20-%20plot%20imagen.png)
+
+[WebScrape CountryCode](https://countrycode.org/)
