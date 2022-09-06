@@ -27,13 +27,15 @@ col_dates = ['dateUpdated','startDate','endDate','beginningDate','recruitingStar
 
 data[col_dates] = data[col_dates].astype('datetime64[ns]')
 
+data['URL'] = data.jobID.apply(lambda x: f'https://web.byui.edu/StudentEmployment/job/{x}')
+
 columns_to_drop = [
     'jobID', # not needed for EDA
     # 'description', # not needed for EDA
     'summary', # not needed for EDA
     'displayJob', # single boolean
     'dateUpdated', # not needed for display
-    # 'startDate',
+    'startDate',
     'endDate', # not needed for display
     'approximateHoursPerWeek', # not consistent
     'positionsAllocated', # not relevant
@@ -54,50 +56,70 @@ data.drop(columns_to_drop, axis=1, inplace=True)
 
 data['description'] = data['description'].apply(lambda x: [p.text.strip() for p in BeautifulSoup(x).find_all('p') if p.text.strip() != ''])
 
-# ------------------------ STREAMLIT ------------------------------------------------------------------------------------------------
+# ------------------------ STREAMLIT SIDE BAR ------------------------------------------------------------------------------------------------
 
+st.sidebar.write('# FILTERS')
 
-col1, col2, col3 = st.columns(3)
-col1.metric("Jobs", f"{data.shape[0]}", "1.2 °F")
-col2.metric("Managers recluting", "9 mph", "-8%")
-col3.metric("Departments recluting", "86%", "4%")
-
-f'''
-
-#### Quick overview:
-
-Jobs posted: {data.shape[0]}
-
-Jobs that are not 'Online', 'TA', nor 'custodial': {data[~data.title.str.contains('TA|Custodian|Online')].shape[0]}
-
-Managers recluting: {data.managerName.nunique()}
-
-Departments recluting: {data.departmentName.nunique()}
-
-'''
-
-'#### Data filtered:'
-
+# side bar slider
 min = float(data.payRate.min())
 max = float(data.payRate.max())
 step = 0.01
+payRate = st.sidebar.slider(f'Pay Rate Range', min, max, step=step)
 
-payRate = st.slider(f'Pay Rate minimum?', min, max, step=step)
+# Using object multiselect
+departments = st.sidebar.multiselect(
+    "Departments",
+    list(data.departmentName.unique()),
+    list(data.departmentName.unique())
+)
 
-col_order = ['title', 'departmentName', 'payRate', 'managerName','startDate', 'workSchedule', 'beginningDate', 'description']
+# Using "with" notation
+with st.sidebar:
+    add_radio = st.radio(
+        "Choose a shipping method",
+        ("Standard (5-15 days)", "Express (2-5 days)")
+    )
 
-data_KPI = data[data['payRate']>payRate][col_order]
+# ------------------------ STREAMLIT KPI GENERAL ------------------------------------------------------------------------------------------------
 
-f'''
+'## General KPI\'s'
 
-Jobs posted: {data_KPI.shape[0]}
+KPI1_jobs = round(1-(400/data.shape[0]),2)
 
-Jobs that are not 'Online', 'TA', nor 'custodial': {data_KPI[~data_KPI.title.str.contains('TA|Custodian|Online')].shape[0]}
+KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-Managers recluting: {data_KPI.managerName.nunique()}
+jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
 
-Departments recluting: {data_KPI.departmentName.nunique()}
+KPI1,KPI1_1,KPI_K,KPI2, KPI3 = st.columns(5)
+KPI1.metric("Amount of Jobs", f"{data.shape[0]}", f"{KPI1_jobs}%")
+KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}", f"{KPI1_1_max}%")
+KPI_K.metric("Jobs not Online", f"{jobs_not_online}", f"{data.shape[0] / jobs_not_online}%")
+KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}", "-8%")
+KPI3.metric("Departments", f"{data.departmentName.nunique()}", "4%")
 
-'''
+# ------------------------ STREAMLIT KPI FILTERED ------------------------------------------------------------------------------------------------
 
-data_KPI
+col_order = ['title', 'departmentName', 'payRate', 'managerName', 'workSchedule', 'beginningDate', 'description','URL']
+
+# filter Pay Rate
+data_filter = data[data['payRate']>payRate][col_order]
+
+# filter Department
+data_filter = data_filter[data_filter.departmentName.isin(departments)]
+
+KPI1_f = round(1-(400/data.shape[0]),2)
+
+KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
+
+jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
+
+f'''### Filtered KPI\'s (payRate {payRate})'''
+
+KPI1,KPI1_1,KPI_K,KPI2, KPI3 = st.columns(5)
+KPI1.metric("Amount of Jobs", f"{data_filter.shape[0]}", f"{KPI1_jobs}%")
+KPI1_1.metric("Highest Pay Rate Job", f"${data_filter.payRate.max()}", f"{KPI1_1_max}%")
+KPI_K.metric("Jobs not Online", f"{jobs_not_online}", f"{data_filter.shape[0] / jobs_not_online}%")
+KPI2.metric("Managers Recluting", f"{data_filter.managerName.nunique()}", "-8%")
+KPI3.metric("Departments", f"{data_filter.departmentName.nunique()}", "4%")
+
+st.dataframe(data_filter)
