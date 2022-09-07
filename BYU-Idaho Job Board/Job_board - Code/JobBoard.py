@@ -5,11 +5,11 @@ import requests
 import pandas as pd
 import streamlit as st
 from bs4 import BeautifulSoup
-from datetime import date
+import numpy as np
 
 # ------------------------ STREAMLIT ------------------------------------------------------------------------------------------------
 
-'# BYU - Idaho student employment live web scraper'
+'# BYU - Idaho student employment'
 
 # ------------------------ REQUESTS ------------------------------------------------------------------------------------------------
 
@@ -35,13 +35,13 @@ columns_to_drop = [
     'summary', # not needed for EDA
     'displayJob', # single boolean
     'dateUpdated', # not needed for display
-    'startDate',
-    'endDate', # not needed for display
+    # 'startDate',
+    # 'endDate', # not needed for display
     'approximateHoursPerWeek', # not consistent
     'positionsAllocated', # not relevant
     'positionsAvailble', # not relevant
     # 'workSchedule', # not needed for EDA
-    'recruitingStartDate', # not relevant
+    # 'recruitingStartDate', # not relevant
     'requireResume', # not relevant
     'limitApplicants', # not relevant
     'limitNumber', # not relevant
@@ -60,66 +60,60 @@ data['description'] = data['description'].apply(lambda x: [p.text.strip() for p 
 
 st.sidebar.write('# FILTERS')
 
-# side bar slider
-min = float(data.payRate.min())
-max = float(data.payRate.max())
-step = 0.01
-payRate = st.sidebar.slider(f'Pay Rate Range', min, max, step=step)
-
-# Using object multiselect
-departments = st.sidebar.multiselect(
-    "Departments",
-    list(data.departmentName.unique()),
-    list(data.departmentName.unique())
-)
-
-# Using "with" notation
-with st.sidebar:
-    add_radio = st.radio(
-        "Choose a shipping method",
-        ("Standard (5-15 days)", "Express (2-5 days)")
-    )
-
 # ------------------------ STREAMLIT KPI GENERAL ------------------------------------------------------------------------------------------------
 
 '## General KPI\'s'
 
 KPI1_jobs = round(1-(400/data.shape[0]),2)
 
-KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
-
-jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
-
-KPI1,KPI1_1,KPI_K,KPI2, KPI3 = st.columns(5)
-KPI1.metric("Amount of Jobs", f"{data.shape[0]}", f"{KPI1_jobs}%")
-KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}", f"{KPI1_1_max}%")
-KPI_K.metric("Jobs not Online", f"{jobs_not_online}", f"{data.shape[0] / jobs_not_online}%")
-KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}", "-8%")
-KPI3.metric("Departments", f"{data.departmentName.nunique()}", "4%")
-
-# ------------------------ STREAMLIT KPI FILTERED ------------------------------------------------------------------------------------------------
-
-col_order = ['title', 'departmentName', 'payRate', 'managerName', 'workSchedule', 'beginningDate', 'description','URL']
-
-# filter Pay Rate
-data_filter = data[data['payRate']>payRate][col_order]
-
-# filter Department
-data_filter = data_filter[data_filter.departmentName.isin(departments)]
-
-KPI1_f = round(1-(400/data.shape[0]),2)
 
 KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
 jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
 
-f'''### Filtered KPI\'s (payRate {payRate})'''
-
 KPI1,KPI1_1,KPI_K,KPI2, KPI3 = st.columns(5)
-KPI1.metric("Amount of Jobs", f"{data_filter.shape[0]}", f"{KPI1_jobs}%")
-KPI1_1.metric("Highest Pay Rate Job", f"${data_filter.payRate.max()}", f"{KPI1_1_max}%")
-KPI_K.metric("Jobs not Online", f"{jobs_not_online}", f"{data_filter.shape[0] / jobs_not_online}%")
-KPI2.metric("Managers Recluting", f"{data_filter.managerName.nunique()}", "-8%")
-KPI3.metric("Departments", f"{data_filter.departmentName.nunique()}", "4%")
 
-st.dataframe(data_filter)
+KPI1.metric("Amount of Jobs", f"{data.shape[0]}")
+
+KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+
+KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
+
+KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
+
+KPI3.metric("Departments", f"{data.departmentName.nunique()}")
+
+st.dataframe(data)
+
+Chart_option = st.selectbox(
+     'How would you like to be contacted?',
+     ('Pay Rate Bar Char', 'Specific Job', 'Mobile phone'))
+
+df1 = data.payRate.value_counts().reset_index().rename(columns={"index": "Hourly Pay", "payRate": "Amount of Jobs"})
+
+if Chart_option == 'Pay Rate Bar Char':
+    st.bar_chart(
+    df1,
+    y='Amount of Jobs',
+    x='Hourly Pay'
+    )
+
+if Chart_option == 'Specific Job':
+
+    job_title = st.text_input('Job title:', 'Enter job title here')
+
+    df2 = data[data.title == job_title].iloc[0]
+
+    f'Title: \t\t {df2[0]}'
+    f'Department: {df2[1]}'
+    f'Description: {df2[2][0]}'
+    f'Employer: {df2[3]}'
+    f'Pay Rate Hourly: {df2[4]}'
+    f'Work Schedule: {df2[5]}'
+
+df2 = data.endDate.value_counts().reset_index().rename(columns={"index": "endDate", "endDate": "Amount of Jobs"})
+st.bar_chart(
+df2,
+y='Amount of Jobs',
+x='endDate'
+)
