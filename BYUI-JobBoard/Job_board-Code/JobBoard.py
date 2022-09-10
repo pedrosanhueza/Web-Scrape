@@ -34,7 +34,7 @@ data['URL'] = data.jobID.apply(lambda x: f'https://web.byui.edu/StudentEmploymen
 
 columns_to_drop = [
     'jobID', # not needed for EDA
-    # 'description', # not needed for EDA
+    'description', # not needed for EDA
     'summary', # not needed for EDA
     'displayJob', # single boolean
     # 'dateUpdated', # not needed for display
@@ -57,7 +57,7 @@ columns_to_drop = [
 
 data.drop(columns_to_drop, axis=1, inplace=True)
 
-data['description'] = data['description'].apply(lambda x: [p.text.strip() for p in BeautifulSoup(x).find_all('p') if p.text.strip() != ''])
+# data['description'] = data['description'].apply(lambda x: [p.text.strip() for p in BeautifulSoup(x).find_all('p') if p.text.strip() != ''])
 
 # ------------------------ STREAMLIT SIDE BAR ------------------------------------------------------------------------------------------------
 
@@ -132,7 +132,7 @@ if Chart_option == 'Specific Job':
 
     f'Title: \t\t {df2[0]}'
     f'Department: {df2[1]}'
-    f'Description: {df2[2][0]}'
+    # f'Description: {df2[2][0]}'
     f'Employer: {df2[3]}'
     f'Pay Rate Hourly: {df2[4]}'
     f'Work Schedule: {df2[5]}'
