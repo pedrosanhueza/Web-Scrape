@@ -96,7 +96,7 @@ KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
 try:
     KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
 except:
-    KPI4.metric("Jobs posted today",today, '0')
+    KPI4.metric("Jobs posted today",today, f'0% of yesterday')
 
 KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
