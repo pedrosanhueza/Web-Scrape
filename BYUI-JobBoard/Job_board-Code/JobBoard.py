@@ -93,8 +93,10 @@ KPI3, KPI4, KPI_K = st.columns(3)
 
 KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
 
-KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
-
+if today/ yesterday != 0:
+    KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
+else:
+    KPI4.metric("Jobs posted today",today, '0')
 KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
 # ------------------------ STREAMLIT  ----------------------------------------------------)--------------------------------------------
