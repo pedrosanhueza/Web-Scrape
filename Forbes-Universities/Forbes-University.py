@@ -158,4 +158,7 @@ drop_columns = ['organization','academics','financialAid','listImages','geoLocat
 
 data_main.drop(drop_columns, axis=1, inplace=True)
 
-st.map(data=data_main)
+
+st.write('Hello')
+
+# st.map(data=data_main)
