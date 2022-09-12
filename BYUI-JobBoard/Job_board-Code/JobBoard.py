@@ -93,7 +93,7 @@ KPI3, KPI4, KPI_K = st.columns(3)
 
 KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
 
-if today/ yesterday != 0:
+if (today/yesterday) < 1:
     KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
 else:
     KPI4.metric("Jobs posted today",today, '0')
