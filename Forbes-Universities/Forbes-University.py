@@ -161,4 +161,4 @@ data_main.drop(drop_columns, axis=1, inplace=True)
 
 # st.write('Hello')
 
-st.map(data=data_main)
+st.map(data=data_main[['latitude', 'longitude']].dropna())
