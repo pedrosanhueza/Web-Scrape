@@ -159,6 +159,6 @@ drop_columns = ['organization','academics','financialAid','listImages','geoLocat
 data_main.drop(drop_columns, axis=1, inplace=True)
 
 
-# st.write('Hello')
+st.dataframe(data_main)
 
 st.map(data=data_main[['latitude', 'longitude']].dropna())
