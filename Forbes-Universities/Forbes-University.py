@@ -27,7 +27,7 @@ for organizationsLists in responseData:
     row = {}    
     # row['Primary_Key'] = organizationsLists['organization']['naturalId'].split('/')[-1]
     try:
-        row['latutide'] = organizationsLists['organization']['geoLocation']['latitude']
+        row['latitude'] = organizationsLists['organization']['geoLocation']['latitude']
     except:
         pass
     try:
@@ -159,6 +159,6 @@ drop_columns = ['organization','academics','financialAid','listImages','geoLocat
 data_main.drop(drop_columns, axis=1, inplace=True)
 
 
-st.write('Hello')
+# st.write('Hello')
 
-# st.map(data=data_main)
+st.map(data=data_main)
