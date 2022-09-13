@@ -1,8 +1,7 @@
 import streamlit as st # website display
 import requests # to get the html markdown from the url
 from bs4 import BeautifulSoup # to make the html readable
-import pandas as pd # to save table in a csv
-from datetime import datetime # to append current time into file name
+import pandas as pd # to create data frame
 
 url_surplus = 'https://web.byui.edu/SurplusList/'
 html_data = requests.get(url_surplus)
@@ -21,7 +20,7 @@ for item in soup.find_all('tr')[13:]:
     row['Image'] = item.select('td')[7].text
     rows.append(row)
 
-
 data = pd.DataFrame(rows)
 
 st.dataframe(data)
+
