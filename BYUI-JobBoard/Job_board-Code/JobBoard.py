@@ -132,7 +132,7 @@ dept_3 = J_data['departmentName'].iloc[2]
 
 J1,J2,J3 = st.columns(3)
 
-J1.metric(title_1, rate_1, dept_1)
+J1.metric(title_1, f'@{rate_1}', dept_1)
 J2.metric(title_2, rate_2, dept_2)
 J3.metric(title_3, rate_3, dept_3)
 
