@@ -122,9 +122,9 @@ title_1 = J_data['title'].iloc[0]
 title_2 = J_data['title'].iloc[1]
 title_3 = J_data['title'].iloc[2]
 
-rate_1 = J_data['payRate'].iloc[0]
-rate_2 = J_data['payRate'].iloc[1]
-rate_3 = J_data['payRate'].iloc[2]
+rate_1 = "$" + str(J_data['payRate'].iloc[0])
+rate_2 = "$" + str(J_data['payRate'].iloc[1])
+rate_3 = "$" + str(J_data['payRate'].iloc[2])
 
 dept_1 = J_data['departmentName'].iloc[0]
 dept_2 = J_data['departmentName'].iloc[1]
