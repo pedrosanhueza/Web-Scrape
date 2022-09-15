@@ -115,7 +115,7 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 
 
 "## Highest 3 paid jobs:"
-f"##### Title: {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}"
+f"###### Title: {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}"
 f"##### Hourly Pay: {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]}"
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
