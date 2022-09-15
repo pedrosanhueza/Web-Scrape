@@ -113,6 +113,13 @@ f'Jobs posted: {data[data.dateUpdated == d].shape[0]}'
 
 st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']])
 
+f"# Highest paid job: {'tom'}"
+f"## Highest paid job: {'tom'}"
+f"### Highest paid job: {'tom'}"
+f"#### Highest paid job: {'tom'}"
+f"##### Highest paid job: {'tom'}"
+st.write(f"Highest paid job: {'tom'}")
+
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
 st.dataframe(data)
