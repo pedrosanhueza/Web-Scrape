@@ -117,22 +117,24 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 "## Highest 3 paid jobs:"
 
 J_data = data.sort_values('payRate',ascending=False).head(3)
+
+title_1 = J_data['title'].iloc[0]
+title_2 = J_data['title'].iloc[1]
+title_3 = J_data['title'].iloc[2]
+
+rate_1 = J_data['payRate'].iloc[0]
+rate_2 = J_data['payRate'].iloc[1]
+rate_3 = J_data['payRate'].iloc[2]
+
 url_1 = J_data['URL'].iloc[0]
+url_2 = J_data['URL'].iloc[1]
+url_3 = J_data['URL'].iloc[2]
 
 J1,J2,J3 = st.columns(3)
 
-J1.metric(J_data['title'].iloc[0], "$" + J_data['payRate'].iloc[0],J_data['payRate'].iloc[0])
+J1.metric(title_1, "$" + rate_1, url_1)
 J2.metric('Title', J_data['payRate'].iloc[1],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
 J3.metric('Title', J_data['payRate'].iloc[2],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
-
-st.write(f"""
-
-Title: \t {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}
-Hourly Pay: \t\t\t\t\t {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]}
-Application: {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
-""")
-
-st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
