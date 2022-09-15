@@ -118,9 +118,9 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 
 st.write(f"""
 
-Title: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]} {'\n'}
-Hourly Pay: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]} {'\n'}
-Application: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
+Title: \t {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}
+Hourly Pay: \t\t\t\t\t {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]}
+Application: {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
 """)
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
