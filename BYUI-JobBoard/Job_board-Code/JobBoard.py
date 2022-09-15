@@ -132,7 +132,7 @@ url_3 = J_data['URL'].iloc[2]
 
 J1,J2,J3 = st.columns(3)
 
-J1.metric(title_1, "$" + rate_1, url_1)
+J1.metric(title_1, rate_1, url_1)
 J2.metric('Title', J_data['payRate'].iloc[1],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
 J3.metric('Title', J_data['payRate'].iloc[2],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
 
