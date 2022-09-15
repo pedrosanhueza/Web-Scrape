@@ -116,6 +116,14 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 
 "## Highest 3 paid jobs:"
 
+J_data = data.sort_values('payRate',ascending=False).head(3)
+
+J1,J2,J3 = st.columns(3)
+
+J1.metric('Title', J_data['payRate'].iloc[0])
+J2.metric('Title', J_data['payRate'].iloc[1])
+J3.metric('Title', J_data['payRate'].iloc[2])
+
 st.write(f"""
 
 Title: \t {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}
@@ -123,7 +131,7 @@ Hourly Pay: \t\t\t\t\t {data.sort_values('payRate',ascending=False).head(3)['pay
 Application: {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
 """)
 
-st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+"check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)"
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
