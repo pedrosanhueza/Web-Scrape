@@ -117,12 +117,13 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 "## Highest 3 paid jobs:"
 
 J_data = data.sort_values('payRate',ascending=False).head(3)
+url_1 = J_data['URL'].iloc[0]
 
 J1,J2,J3 = st.columns(3)
 
-J1.metric('Title', J_data['payRate'].iloc[0])
-J2.metric('Title', J_data['payRate'].iloc[1])
-J3.metric('Title', J_data['payRate'].iloc[2])
+J1.metric('Title', J_data['payRate'].iloc[0],f'[apply]({J_data['URL'].iloc[0]})')
+J2.metric('Title', J_data['payRate'].iloc[1],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
+J3.metric('Title', J_data['payRate'].iloc[2],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
 
 st.write(f"""
 
