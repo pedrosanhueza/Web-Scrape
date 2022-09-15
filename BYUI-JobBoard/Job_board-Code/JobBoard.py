@@ -107,7 +107,7 @@ KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
 # ------------------------ STREAMLIT  ----------------------------------------------------)--------------------------------------------
 
-f"## Jobs posted on {date_input.strftime('%b %d, %Y')}"
+f"## Jobs posted today ({date_input.strftime('%b %d, %Y')})"
 
 f'Jobs posted: {data[data.dateUpdated == d].shape[0]}'
 
