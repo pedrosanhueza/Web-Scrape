@@ -120,9 +120,7 @@ st.write(f"""
 
 Title: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]} \n
 Hourly Pay: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]} \n
-Application: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]} 
-
-""")
+Application: {'\t'*3} {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}""")
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
