@@ -121,7 +121,7 @@ url_1 = J_data['URL'].iloc[0]
 
 J1,J2,J3 = st.columns(3)
 
-J1.metric('link[apply](www.google.com)', J_data['payRate'].iloc[0],'link[apply](www.google.com)')
+J1.metric(st.write('link[apply](www.google.com)'), J_data['payRate'].iloc[0],'f')
 J2.metric('Title', J_data['payRate'].iloc[1],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
 J3.metric('Title', J_data['payRate'].iloc[2],'[apply](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)')
 
@@ -132,7 +132,7 @@ Hourly Pay: \t\t\t\t\t {data.sort_values('payRate',ascending=False).head(3)['pay
 Application: {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
 """)
 
-"check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)"
+st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
