@@ -115,9 +115,14 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 
 
 "## Highest 3 paid jobs:"
-st.write(f"Title:      {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}")
-st.write(f"Hourly Pay: {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]}")
-st.write(f"Application:{data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}")
+
+st.write(f"""
+
+Title:      {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]}
+Hourly Pay: {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]}
+Application:{data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
+
+""")
 
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
