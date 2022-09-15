@@ -118,9 +118,9 @@ st.table(data[data.dateUpdated == d][['title','payRate','departmentName','URL']]
 
 st.write(f"""
 
-Title:      {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]} \n
-Hourly Pay: {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]} \n
-Application:{data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]} 
+Title: \t*2 {data.sort_values('payRate',ascending=False).head(3)['title'].iloc[0]} \n
+Hourly Pay: \t*2 {data.sort_values('payRate',ascending=False).head(3)['payRate'].iloc[0]} \n
+Application: \t*2 {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]} 
 
 """)
 
