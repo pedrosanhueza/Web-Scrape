@@ -123,6 +123,8 @@ Hourly Pay: \t\t\t\t\t {data.sort_values('payRate',ascending=False).head(3)['pay
 Application: {data.sort_values('payRate',ascending=False).head(3)['URL'].iloc[0]}
 """)
 
+st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
+
 # ------------------------ STREAMLIT TABLE ------------------------------------------------------------------------------------------------
 
 st.dataframe(data)
