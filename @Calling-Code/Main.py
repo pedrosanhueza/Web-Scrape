@@ -1,5 +1,7 @@
 import streamlit as st
 
+# import 
+
 st.write('# Web Analysis')
 st.write('''
     Author: Pedro Sanhueza \n
@@ -9,28 +11,35 @@ st.write('''
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------- ##
 
 options = (
-    'SurplusSaleItems',
-    'Forbes-Universities',
-    'BYUI-JobBoard',
-    'BYU-Idaho Class Catalog',
-    'Forbes',
-    'News',
+    'Surplus Store - BYUI',
+    'Forbes - Universities',
+    'Job Board - BYUI',
+    'Class Catalog - BYUI',
+    'Forbes - Billionaries',
+    'News - CBS',
     'Políticos Españoles',
     'Irvine Spectrum Center',
     'Politicos Chilenos',
     'FIFA World Cup',
     'SINCA MMA Gob',
-    'Mutual Feedback',
+    'Mutual App Feedback',
     'US House of Representatives',
     'Financial Data',
     'Country Code',
-    'Billionaires')
+    'Billionaires',
+    'test')
 
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- End Side Bar ----------------------------------------- ##
 
 st.write('You selected:', option)
+
+if option == 'test':
+
+   import Projects.project1 as project1
+
+   st.write(project1.cat)
 
 if option == 'Billionaires':
 

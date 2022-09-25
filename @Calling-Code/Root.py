@@ -1,4 +1,5 @@
-import stremlit as st
 
-def exampleText():
-    st.write("Root code here!")
+def func1():
+    print('Dog')
+
+cat = "123"
