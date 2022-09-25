@@ -34,9 +34,9 @@ if option == 'Billionaires':
 
    import Billionaires
 
-    st.dataframe(data)
+   st.dataframe(data)
 
-    st.write('Billionaires imported')
+   st.write('Billionaires imported')
 
 tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
