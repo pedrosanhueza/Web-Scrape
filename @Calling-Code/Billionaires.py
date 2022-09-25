@@ -3,7 +3,7 @@ import pandas as pd
 
 data = pd.DataFrame([{'A':1}])
 
-def Bill(data):
+def dataFr():
     st.write('Text inside Bill function')
     st.dataframe(data)
     st.write('END Bill function')
