@@ -1,2 +1,3 @@
+import streamlit as st
 
-print('Root Script')
+st.write('Root Script')
