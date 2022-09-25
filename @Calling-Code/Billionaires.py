@@ -6,6 +6,8 @@ data = pd.DataFrame([{'A':1}])
 def tableFrame():
     return st.dataframe(data)
 
+name = 'Steve Jobs'
+
 def maindata():
     class Person:
         def __init__(self, name, age):

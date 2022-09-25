@@ -6,6 +6,8 @@ st.write('''
     Description: Web Scraping EDA
     ''')
 
+## ----------------------------------------- Beggin Side Bar ----------------------------------------- ##
+
 options = (
     'SurplusSaleItems',
     'Forbes-Universities',
@@ -26,25 +28,19 @@ options = (
 
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
+## ----------------------------------------- End Side Bar ----------------------------------------- ##
+
 st.write('You selected:', option)
 
-match option:
-   
-   case 'Billionaires':
+if option == 'Billionaires':
 
-      import Billionaires
+   import Billionaires
 
-      Billionaires.tableFrame()
+   Billionaires.name
 
-      st.write('Billionaires imported')
-   
-   case 'News':
-      
-      import Root
+   Billionaires.tableFrame()
 
-      Root.exampleText()
-
-      st.write('News imported')
+   st.write('Billionaires imported')
 
 tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
