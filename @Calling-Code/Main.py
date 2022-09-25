@@ -32,9 +32,7 @@ st.write('You selected:', option)
 
 if option == 'Billionaires':
 
-    import Billionaires
-    
-    Billionaires.Bill
+    from Billionaires import dataFr
 
     st.write('Billionaires imported')
 
