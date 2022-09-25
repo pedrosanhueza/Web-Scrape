@@ -1,6 +1,10 @@
+
+## ----------------------------------------- Import -------------------------------------------------- ##
+
+from importlib import import_module
 import streamlit as st
 
-# import 
+from Projects import SurplusStore
 
 st.write('# Web Analysis')
 st.write('''
@@ -33,13 +37,16 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- End Side Bar ----------------------------------------- ##
 
+## ----------------------------------------- Modules Variables ------------------------------------ ##
+
+# data = 
+
+##
 st.write('You selected:', option)
 
 if option == 'test':
 
-   import Projects.project1 as project1
-
-   st.write(project1.cat)
+   st.write(SurplusStore.cat)
 
 if option == 'Billionaires':
 
