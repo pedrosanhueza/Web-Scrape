@@ -34,9 +34,7 @@ if option == 'Billionaires':
 
    import Billionaires
 
-   # Billionaires.tableFrame
-
-   st.dataframe(Billionaires.tableFrame)
+   Billionaires.tableFrame()
 
    st.write('Billionaires imported')
 

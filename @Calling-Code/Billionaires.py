@@ -5,4 +5,6 @@ data = pd.DataFrame([{'A':1}])
 
 def tableFrame():
     
-    return data
+    df = st.dataframe(data)
+    
+    return df
