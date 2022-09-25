@@ -6,5 +6,5 @@ st.write('Showing Billionaires Code here!')
 
 data = pd.DataFrame([{'A':1}])
 
-def Bill(data):
+def Bill():
     st.dataframe(data)
