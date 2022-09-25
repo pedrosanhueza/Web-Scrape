@@ -34,7 +34,7 @@ if option == 'Billionaires':
 
     import Billionaires
     
-    Billionaires.Bill()
+    Billionaires.Bill.data
 
     st.write('Billionaires imported')
 
