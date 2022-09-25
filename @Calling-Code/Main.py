@@ -2,7 +2,7 @@ import streamlit as st
 
 st.write('# Web Analysis')
 st.write('''
-    Author: Pedro Sanhueza
+    Author: Pedro Sanhueza \n
     Description: Web Scraping EDA
     ''')
 
@@ -24,19 +24,27 @@ options = (
     'Country Code',
     'Billionaires')
 
-
-
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 st.write('You selected:', option)
 
-if option == 'Billionaires':
+match option:
+   
+   case 'Billionaires':
 
-   import Billionaires
+      import Billionaires
 
-   Billionaires.tableFrame()
+      Billionaires.tableFrame()
 
-   st.write('Billionaires imported')
+      st.write('Billionaires imported')
+   
+   case 'News':
+      
+      import Root
+
+      Root.exampleText()
+
+      st.write('News imported')
 
 tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 

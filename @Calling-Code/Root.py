@@ -1,3 +1,4 @@
-import streamlit as st
+import stremlit as st
 
-st.write('Root Script')
+def exampleText():
+    st.write("Root code here!")
