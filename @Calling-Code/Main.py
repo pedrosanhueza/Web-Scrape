@@ -34,6 +34,8 @@ if option == 'Billionaires':
 
     from Billionaires import dataFr
 
+    dataFr
+
     st.write('Billionaires imported')
 
 tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
