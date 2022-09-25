@@ -6,11 +6,5 @@ st.write('Showing Billionaires Code here!')
 
 data = pd.DataFrame([{'A':1}])
 
-class Bill:
-  def __init__(self, data, url):
-    self.data = st.dataframe(data)
-    self.url = 'https://www.forbes.com/billionaires/'
-
-# st.dataFrame(
-#     pd.DateFrame({'a':1})
-# )
+def Bill(data):
+    st.dataframe(data)
