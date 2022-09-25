@@ -48,6 +48,8 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 data = SurplusStore.data
 
+## ----------------------------------------- Modules Variables ------------------------------------ ##
+
 st.write('You selected:', option)
 
 if option == 'test':
@@ -63,6 +65,8 @@ if option == 'Billionaires':
    Billionaires.tableFrame()
 
    st.write('Billionaires imported')
+
+## ----------------------------------------- Tables ----------------------------------------------- ##
 
 tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
