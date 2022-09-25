@@ -34,7 +34,7 @@ if option == 'Billionaires':
 
     from Billionaires import dataFr
 
-    dataFr
+    st.dataframe(data)
 
     st.write('Billionaires imported')
 
