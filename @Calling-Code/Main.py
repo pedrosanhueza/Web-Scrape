@@ -5,6 +5,15 @@ from importlib import import_module
 import streamlit as st
 
 from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+# from Projects import SurplusStore
+
 
 st.write('# Web Analysis')
 st.write('''
@@ -15,39 +24,35 @@ st.write('''
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------- ##
 
 options = (
-    'Surplus Store - BYUI',
-    'Forbes - Universities',
-    'Job Board - BYUI',
-    'Class Catalog - BYUI',
-    'Forbes - Billionaries',
-    'News - CBS',
-    'Políticos Españoles',
-    'Irvine Spectrum Center',
-    'Politicos Chilenos',
-    'FIFA World Cup',
-    'SINCA MMA Gob',
-    'Mutual App Feedback',
-    'US House of Representatives',
-    'Financial Data',
-    'Country Code',
-    'Billionaires',
-    'test')
+   'Billionaires',
+   'Class Catalog - BYUI',
+   'Country Code',
+   'FIFA World Cup',
+   'Financial Data',
+   'Forbes - Billionaries',
+   'Forbes - Universities',
+   'Irvine Spectrum Center',
+   'Job Board - BYUI',
+   'Mutual App Feedback',
+   'News - CBS',
+   'Politicos Chilenos',
+   'Políticos Españoles',
+   'SINCA MMA Gob',
+   'Surplus Store - BYUI',
+   'US House of Representatives',
+   'test')
 
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
-## ----------------------------------------- End Side Bar ----------------------------------------- ##
-
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
-# data = 
+data = SurplusStore.data
 
-##
 st.write('You selected:', option)
 
 if option == 'test':
 
-   st.write(SurplusStore.cat)
-   st.write(SurplusStore.dog)
+   st.dataframe(data)
 
 if option == 'Billionaires':
 
