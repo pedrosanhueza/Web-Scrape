@@ -32,7 +32,7 @@ st.write('You selected:', option)
 
 if option == 'Billionaires':
 
-    from Billionaires import dataFr
+   import Billionaires
 
     st.dataframe(data)
 
