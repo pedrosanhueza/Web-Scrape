@@ -1,4 +1,4 @@
-# import streamlit as st
+import streamlit as st
 import pandas as pd
 
 data = pd.DataFrame([{'A':1}])
