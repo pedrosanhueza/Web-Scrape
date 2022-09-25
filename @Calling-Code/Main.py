@@ -47,6 +47,7 @@ st.write('You selected:', option)
 if option == 'test':
 
    st.write(SurplusStore.cat)
+   st.write(SurplusStore.dog)
 
 if option == 'Billionaires':
 
