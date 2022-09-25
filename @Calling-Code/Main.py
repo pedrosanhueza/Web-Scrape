@@ -1,7 +1,10 @@
 import streamlit as st
 
-st.write('# Web Scraping Projects')
-st.write('Author: Pedro Sanhueza')
+st.write('# Web Analysis')
+st.write('''
+    Author: Pedro Sanhueza
+    Description: Web Scraping EDA
+    ''')
 
 options = (
     'SurplusSaleItems',
@@ -21,9 +24,14 @@ options = (
     'Country Code',
     'Billionaires')
 
-option = st.sidebar.selectbox('Webpages', options)
+option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 st.write('You selected:', option)
+
+if option == 'Billionaires':
+
+    import Billionaires
+    st.write('Billionaires imported')
 
 tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
