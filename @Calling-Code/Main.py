@@ -66,12 +66,63 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
 if project_id[option] == 1:
-   st.write('a')
+   from Projects import SurplusStore
 
 elif project_id[option] == 2:
+   from Projects import catalogBYUI
+
+elif project_id[option] == 3:
    st.write('b')
 
-data = catalogBYUI.data
+elif project_id[option] == 4:
+   st.write('b')
+
+elif project_id[option] == 5:
+   st.write('b')
+
+elif project_id[option] == 6:
+   st.write('b')
+
+elif project_id[option] == 7:
+   st.write('b')
+
+elif project_id[option] == 8:
+   st.write('b')
+
+elif project_id[option] == 9:
+   
+   from Projects import jobBoardBYUI
+
+   data = jobBoardBYUI.data
+
+elif project_id[option] == 10:
+   st.write('b')
+
+elif project_id[option] == 11:
+   st.write('b')
+
+elif project_id[option] == 12:
+   st.write('b')
+
+elif project_id[option] == 13:
+   st.write('b')
+
+elif project_id[option] == 14:
+   st.write('b')
+
+elif project_id[option] == 15:
+   st.write('b')
+
+elif project_id[option] == 16:
+   st.write('b')
+
+elif project_id[option] == 17:
+   st.write('b')
+
+else:
+   data = pd.DataFrame({'a':1})
+
+st.dataframe(data)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
