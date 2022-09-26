@@ -52,6 +52,8 @@ if option == 'US House of Representatives':
    
    st.dataframe(data)
 
+st.dataframe(data)
+
 if option == 'Billionaires':
 
    import Billionaires
