@@ -69,7 +69,7 @@ data = catalogBYUI.data
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
-st.write('You selected:', projects[options])
+st.write('You selected:', projects[option])
 
 if option == 'test':
 
