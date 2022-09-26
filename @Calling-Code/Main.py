@@ -63,6 +63,8 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
+with st.container():
+   st.components.v1.html('https://www.house.gov/representatives')
 
 
 if project_id[option] == 1:
@@ -117,7 +119,7 @@ elif project_id[option] == 15:
    
    from Projects import SurplusStore
 
-   
+
 
 elif project_id[option] == 16:
    st.write('b')
