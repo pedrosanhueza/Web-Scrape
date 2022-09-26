@@ -44,7 +44,37 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
 
+projectOption = {
+   'Billionaires':1,
+   'Class Catalog - BYUI':2,
+   'Country Code':3,
+   'FIFA World Cup':4,
+   'Financial Data':5,
+   'Forbes - Billionaries':6,
+   'Forbes - Universities':7,
+   'Irvine Spectrum Center':8,
+   'Job Board - BYUI':9,
+   'Mutual App Feedback':10,
+   'News - CBS':11,
+   'Politicos Chilenos':12,
+   'Políticos Españoles':13,
+   'SINCA MMA Gob':14,
+   'Surplus Store - BYUI':15,
+   'US House of Representatives':16,
+   'test':17
+}
+
 st.write('You selected:', option)
+
+def openProject(option):
+
+   moduleName = projectOption[option]
+
+   from Projects import moduleName
+
+   return data, url
+
+st.write('finish function')
 
 if option == 'US House of Representatives':
    
