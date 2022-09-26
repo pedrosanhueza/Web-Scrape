@@ -1,7 +1,5 @@
 
 ## ----------------------------------------- Import -------------------------------------------------- ##
-
-from importlib import import_module
 import streamlit as st
 
 from Projects import SurplusStore
@@ -95,6 +93,8 @@ elif project_id[option] == 9:
 
    data = jobBoardBYUI.data
 
+   st.dataframe(data)
+
 elif project_id[option] == 10:
    st.write('b')
 
@@ -121,8 +121,6 @@ elif project_id[option] == 17:
 
 else:
    data = pd.DataFrame({'a':1})
-
-st.dataframe(data)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
