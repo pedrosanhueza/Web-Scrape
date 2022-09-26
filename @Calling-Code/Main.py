@@ -66,10 +66,10 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
 if project_id[option] == 1:
-   print('a')
+   st.write('a')
 
 elif project_id[option] == 2:
-   print('b')
+   st.write('b')
 
 data = catalogBYUI.data
 
