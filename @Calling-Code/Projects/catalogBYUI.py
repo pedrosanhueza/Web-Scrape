@@ -11,4 +11,17 @@ df = pd.DataFrame(responseObject)
 
 df = pd.concat([df, df.subjectCode.apply(pd.Series)], axis=1).drop(['subjectCode','__passedCatalogQuery','_score'], axis=1)
 
+df.columns = [
+    'catalogCourseId',
+    'dateStart',
+    'pid',
+    'id',
+    'title',
+    'catalogActivationDate',
+    'name',
+    'description',
+    'id',
+    'linkedGroup'
+]
+
 data = df
