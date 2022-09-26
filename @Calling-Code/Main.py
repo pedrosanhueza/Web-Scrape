@@ -66,42 +66,17 @@ projectOption = {
 
 st.write('You selected:', option)
 
-def openProject(option):
+if projectOption[option] == 1: #'US House of Representatives'
+   st.write(f"DISPLAY {projectOption[option]}")
+   data = representatives.data
+   url = representatives.url
+   url_split = url.replace('https://','').split('/')[0]
 
-   moduleName = projectOption[option]
+elif option == projectOption[option]:
+   data = representatives.data
+   url = representatives.url
+   url_split = url.replace('https://','').split('/')[0]
 
-   from Projects import moduleName
-
-   data = moduleName.data
-
-   url = moduleName.url
-
-   return data, url
-
-st.write('finish function')
-
-openProject(option)
-
-st.dataframe(data)
-
-# if option == 'US House of Representatives':
-   
-#    data = representatives.data
-
-#    url = representatives.url
-   
-#    url_split = url.replace('https://','').split('/')[0]
-
-
-if option == 'Billionaires':
-
-   import Billionaires
-
-   Billionaires.name
-
-   Billionaires.tableFrame()
-
-   st.write('Billionaires imported')
 
 ## ----------------------------------------- Tables ----------------------------------------------------------------------------------- ##
 
@@ -109,7 +84,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   # f"[{url_split}]({url}) website"
+   f"[{url_split}]({url}) website"
 
 with tab2:
    
