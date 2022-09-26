@@ -21,7 +21,7 @@ st.write('''
     Description: Web Scraping EDA
     ''')
 
-projects = {
+project_id = {
    'Billionaires'          :1,
    'Class Catalog - BYUI'  :2,
    'Country Code'          :3,
@@ -65,7 +65,11 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
-st.write(projects[option])
+if project_id[option] == 1:
+   print('a')
+
+elif project_id[option] == 1:
+   print('b')
 
 data = catalogBYUI.data
 
