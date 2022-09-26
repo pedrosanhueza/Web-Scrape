@@ -63,8 +63,11 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
+
+
 if project_id[option] == 1:
    from Projects import SurplusStore
+
 
 elif project_id[option] == 2:
    from Projects import catalogBYUI
