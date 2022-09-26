@@ -49,10 +49,11 @@ st.write('You selected:', option)
 if option == 'US House of Representatives':
    
    data = representatives.data
-   
-   st.dataframe(data)
 
-st.dataframe(data)
+   url = representatives.url
+   
+   url_split = url.replace('https://','').split('/')[0]
+
 
 if option == 'Billionaires':
 
@@ -73,7 +74,10 @@ with tab1:
    "[Open](https://alternativeto.net/) website"
 
 with tab2:
-   st.header("Table")
+   
+   st.header(f"Data extracted from {url_split}")
+
+   st.dataframe(data)
 
 with tab3:
    st.header("Code")

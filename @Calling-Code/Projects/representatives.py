@@ -2,7 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-response = requests.get("https://www.house.gov/representatives")
+url = "https://www.house.gov/representatives"
+response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 tables = soup.select('table')
