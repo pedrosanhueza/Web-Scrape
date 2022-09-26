@@ -5,7 +5,7 @@ from importlib import import_module
 import streamlit as st
 
 from Projects import SurplusStore
-# from Projects import SurplusStore
+from Projects import catalogBYUI
 # from Projects import SurplusStore
 # from Projects import SurplusStore
 # from Projects import SurplusStore
@@ -46,7 +46,7 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
-data = SurplusStore.data
+data = catalogBYUI.data
 
 
 
