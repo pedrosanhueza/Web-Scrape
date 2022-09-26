@@ -68,7 +68,6 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 if project_id[option] == 1:
    from Projects import SurplusStore
 
-
 elif project_id[option] == 2:
    from Projects import catalogBYUI
 
@@ -114,7 +113,11 @@ elif project_id[option] == 14:
    st.write('b')
 
 elif project_id[option] == 15:
-   st.write('b')
+   st.write('SurplusStore')
+   
+   from Projects import SurplusStore
+
+   
 
 elif project_id[option] == 16:
    st.write('b')
