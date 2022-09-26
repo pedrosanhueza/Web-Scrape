@@ -72,17 +72,25 @@ def openProject(option):
 
    from Projects import moduleName
 
+   data = moduleName.data
+
+   url = moduleName.url
+
    return data, url
 
 st.write('finish function')
 
-if option == 'US House of Representatives':
-   
-   data = representatives.data
+openProject(option)
 
-   url = representatives.url
+st.dataframe(data)
+
+# if option == 'US House of Representatives':
    
-   url_split = url.replace('https://','').split('/')[0]
+#    data = representatives.data
+
+#    url = representatives.url
+   
+#    url_split = url.replace('https://','').split('/')[0]
 
 
 if option == 'Billionaires':
@@ -101,13 +109,15 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   f"[{url_split}]({url}) website"
+   # f"[{url_split}]({url}) website"
 
 with tab2:
    
-   st.header(f"Data extracted from {url_split}")
+   st.header(f"Data extracted from @@@")
 
-   st.dataframe(data)
+   # st.header(f"Data extracted from {url_split}")
+
+   # st.dataframe(data)
 
 with tab3:
    st.header("Code")
