@@ -68,14 +68,15 @@ st.write('You selected:', option)
 
 if projectOption[option] == 1: #'US House of Representatives'
    st.write(f"DISPLAY {projectOption[option]}")
-   data = representatives.data
-   url = representatives.url
-   url_split = url.replace('https://','').split('/')[0]
+   # data = representatives.data
+   # url = representatives.url
+   # url_split = url.replace('https://','').split('/')[0]
 
 elif option == projectOption[option]:
-   data = representatives.data
-   url = representatives.url
-   url_split = url.replace('https://','').split('/')[0]
+   st.write("WHAT? @@@")
+   # data = representatives.data
+   # url = representatives.url
+   # url_split = url.replace('https://','').split('/')[0]
 
 
 ## ----------------------------------------- Tables ----------------------------------------------------------------------------------- ##
