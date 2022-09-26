@@ -20,7 +20,7 @@ df.columns = [
     'catalogActivationDate',
     'name',
     'description',
-    'id',
+    'subjectCode-id',
     'linkedGroup'
 ]
 
