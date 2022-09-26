@@ -71,7 +71,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   "[Open](https://alternativeto.net/) website"
+   f"[Open]({url}) website"
 
 with tab2:
    
