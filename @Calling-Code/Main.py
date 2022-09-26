@@ -63,7 +63,9 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
-st.components.v1.html('https://docs.streamlit.io/en/latest')
+st.components.v1.html('''
+<iframe src="https://www.house.gov/representatives" title="description"></iframe>
+''')
 
 
 if project_id[option] == 1:
