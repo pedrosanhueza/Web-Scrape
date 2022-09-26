@@ -65,7 +65,7 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 st.components.v1.html('''
 <iframe src="https://www.house.gov/representatives" title="description"></iframe>
-''')
+''',height=600)
 
 
 if project_id[option] == 1:
