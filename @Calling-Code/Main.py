@@ -48,8 +48,6 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 data = catalogBYUI.data
 
-
-
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
 st.write('You selected:', option)

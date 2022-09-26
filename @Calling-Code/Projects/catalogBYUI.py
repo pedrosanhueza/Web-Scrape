@@ -9,5 +9,6 @@ responseObject = response.json()
 
 df = pd.DataFrame(responseObject)
 
-data = pd.concat([df, df.subjectCode.apply(pd.Series)], axis=1).drop(['subjectCode','__passedCatalogQuery','_score'], axis=1)
+df = pd.concat([df, df.subjectCode.apply(pd.Series)], axis=1).drop(['subjectCode','__passedCatalogQuery','_score'], axis=1)
 
+data = df
