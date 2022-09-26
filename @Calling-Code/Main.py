@@ -63,8 +63,7 @@ option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------ ##
 
-with st.container():
-   st.components.v1.html('https://docs.streamlit.io/en/latest')
+st.components.v1.html('https://docs.streamlit.io/en/latest')
 
 
 if project_id[option] == 1:
