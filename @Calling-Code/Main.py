@@ -15,7 +15,7 @@ from Projects import representatives
 
 st.write('# Web Analysis')
 st.write('''
-    Author: Pedro Sanhueza \n
+    __Author__ : Pedro Sanhueza \n
     Description: Web Scraping EDA
     ''')
 
