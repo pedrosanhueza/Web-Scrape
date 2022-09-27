@@ -90,10 +90,10 @@ elif projectOption[option] == 3:
    url = countryCode.url
    url_split = url.replace('https://','').split('/')[0]
 
-elif projectOption[option] == 4:
-   data = FIFAWorldCup.data
-   url = FIFAWorldCup.url
-   url_split = url.replace('https://','').split('/')[0]
+# elif projectOption[option] == 4:
+#    data = FIFAWorldCup.data
+#    url = FIFAWorldCup.url
+#    url_split = url.replace('https://','').split('/')[0]
 
 # elif projectOption[option] == 5:
 #    data = .data
