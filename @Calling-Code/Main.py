@@ -75,7 +75,7 @@ projectOption = {
 
 st.write('You selected:', option)
 
-if projectOption[option] == 15: #'US House of Representatives'
+if projectOption[option] == 1: #'US House of Representatives'
    # data = SurplusStore.data
    # url = SurplusStore.url
    # url_split = url.replace('https://','').split('/')[0]
@@ -101,7 +101,7 @@ elif projectOption[option] == 15:
    url = SurplusStore.url
    url_split = url.replace('https://','').split('/')[0]
 
-elif projectOption[option] == 16: #'US House of Representatives'
+elif projectOption[option] == 16: 
    data = representatives.data
    url = representatives.url
    url_split = url.replace('https://','').split('/')[0]
@@ -118,7 +118,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   f"[{url_split}]({url}) website"
+   # f"[{url_split}]({url}) website"
 
 with tab2:
    
