@@ -52,6 +52,9 @@ options = (
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 ## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
+## data
+## url - scrape
+## url - website
 
 projectOption = {
    'Billionaires':1,
