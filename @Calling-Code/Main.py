@@ -125,7 +125,7 @@ with tab2:
 
    # st.header(f"Data extracted from {url_split}")
 
-   # st.dataframe(data)
+   st.dataframe(data)
 
 with tab3:
    st.header("Code")
