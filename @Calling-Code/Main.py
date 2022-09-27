@@ -75,10 +75,11 @@ projectOption = {
 
 st.write('You selected:', option)
 
-if projectOption[option] == 1: #'US House of Representatives'
-   data = SurplusStore.data
-   url = SurplusStore.url
-   url_split = url.replace('https://','').split('/')[0]
+if projectOption[option] == 15: #'US House of Representatives'
+   # data = SurplusStore.data
+   # url = SurplusStore.url
+   # url_split = url.replace('https://','').split('/')[0]
+   st.write('Project 1 @@@@@@')
 
 elif projectOption[option] == 2:
    data = catalogBYUI.data
@@ -95,10 +96,10 @@ elif projectOption[option] == 3:
 #    url = FIFAWorldCup.url
 #    url_split = url.replace('https://','').split('/')[0]
 
-# elif projectOption[option] == 5:
-#    data = .data
-#    url = .url
-#    url_split = url.replace('https://','').split('/')[0]
+elif projectOption[option] == 15:
+   data = SurplusStore.data
+   url = SurplusStore.url
+   url_split = url.replace('https://','').split('/')[0]
 
 elif projectOption[option] == 16: #'US House of Representatives'
    data = representatives.data
