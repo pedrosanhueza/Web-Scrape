@@ -118,7 +118,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   # f"[{url_split}]({url}) website"
+   f"[{url_split}]({url}) website"
 
 with tab2:
    
