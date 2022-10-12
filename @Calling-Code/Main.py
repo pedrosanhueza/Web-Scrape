@@ -6,7 +6,7 @@ import pandas as pd
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
 from Projects import countryCode   #3
-from Projects import FIFAWorldCup    #4
+from Projects.FIFA_World_Cup import FIFAWorldCup    #4
 # from Projects import SurplusStore    #5
 # from Projects import SurplusStore    #6
 # from Projects import SurplusStore    #7
@@ -119,11 +119,21 @@ elif projectOption[option] == 3:
    url_split = url.replace('https://','').split('/')[0]
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-# elif projectOption[option] == 4:
-#    data = FIFAWorldCup.data
-#    url = FIFAWorldCup.url
-#    url_split = url.replace('https://','').split('/')[0]
+elif projectOption[option] == 4:
+   data = FIFAWorldCup.data
+   url = FIFAWorldCup.url
+   url_split = url.replace('https://','').split('/')[0]
 
+   tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
+
+   with tab1:
+      st.header(option)
+   with tab2:
+      st.dataframe(data)
+   with tab3:
+      st.header(option)
+   with tab4:
+      st.header(option)
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
    data = SurplusStore.data
