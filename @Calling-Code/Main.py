@@ -134,10 +134,10 @@ elif projectOption[option] == 4:
    else:
       data_main = data[data.Country == country_selected]
 
-   Players_avg = data_main.shape[0] / ( data.shape[0] / data.Country.nunique() )
+   Players_avg = round(1 - data_main.shape[0] / ( data.shape[0] / data.Country.nunique(), 2))
    Age_avg = round(data.HT.mean() / data[data.Country == country_selected].AGE.mean() - 1,2)
-   HT_avg = round(data.HT.mean() / data[data.Country == country_selected].HT.mean() - 1,2)
-   WT_avg = round(data.HT.mean() / data[data.Country == country_selected].WT.mean() - 1,2)
+   HT_avg = round(data.HT.mean() / data[data.Country == country_selected].HT.mean()   - 1,2)
+   WT_avg = round(data.HT.mean() / data[data.Country == country_selected].WT.mean()   - 1,2)
    BMI_avg = round(data.HT.mean() / data[data.Country == country_selected].BMI.mean() - 1,2)
 
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
