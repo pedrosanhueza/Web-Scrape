@@ -130,14 +130,14 @@ elif projectOption[option] == 4:
       st.header(option)
       
       col1, col2 = st.columns(2)
-      col1.metric("Countries", data.Country.nunique(),0)
-      col2.metric("Players", data.shape[0],1)
+      col1.metric("Countries", data.Country.nunique())
+      col2.metric("Players", data.shape[0])
       
       col3, col4, col5, col6 = st.columns(4)
-      col3.metric("Humidity", "86%", "4%")
-      col4.metric("Humidity", "86%", "4%")
-      col5.metric("Humidity", "86%", "4%")
-      col6.metric("Humidity", "86%", "4%")
+      col3.metric("Age Avg", round(data.AGE.mean()))
+      col4.metric("HT Avg", round(data.HT.mean()))
+      col5.metric("WT Avg", round(data.WT.mean()))
+      col6.metric("BMI Avg", "86%", "4%")
 
    with tab2:
       st.dataframe(data)

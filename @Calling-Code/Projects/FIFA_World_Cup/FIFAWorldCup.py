@@ -35,7 +35,7 @@ for idx,country in enumerate(countries):
 
 data = pd.DataFrame(rows)
 
-# data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
+data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
 # POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forward'}
 
