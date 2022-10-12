@@ -130,8 +130,8 @@ elif projectOption[option] == 4:
       st.header(option)
       
       col1, col2 = st.columns(2)
-      col1.metric("Countries", data.Country.nunique(), "1.2 °F")
-      col2.metric("Players", data.shape[0], "-8%")
+      col1.metric("Countries", data.Country.nunique(),0)
+      col2.metric("Players", data.shape[0],1)
       
       col3, col4, col5, col6 = st.columns(4)
       col3.metric("Humidity", "86%", "4%")
