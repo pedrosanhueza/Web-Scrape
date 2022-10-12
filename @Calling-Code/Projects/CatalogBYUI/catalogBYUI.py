@@ -27,3 +27,7 @@ df.columns = [
 ]
 
 data = df
+
+# ----------------------- TEST -----------------------
+
+print(data.columns)

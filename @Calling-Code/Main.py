@@ -91,10 +91,15 @@ elif projectOption[option] == 2:
    url = catalogBYUI.url
    url_split = url.replace('https://','').split('/')[0]
 
-   tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
+   tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
    with tab1:
       st.header(option)
+      col1, col2, col3 = st.columns(3)
+      col1.metric("Classes", data.shape[0], "1.2 °F")
+      col2.metric("Subjects", data.description.nunique(), "-8%")
+      col3.metric("Humidity", "86%", "4%")
+
       st.image('@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png', caption='Website page')
       
       # f"[{url_split}]({url}) website"
