@@ -134,7 +134,7 @@ elif projectOption[option] == 4:
    else:
       data_main = data[data.Country == country_selected]
 
-   Players_avg = round(1 - data_main.shape[0] / (data.shape[0] / data.Country.nunique()) ,2)
+   Players_avg = round(data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
    Age_avg = round(data.HT.mean() / data[data.Country == country_selected].AGE.mean() - 1,2)
    HT_avg = round(data.HT.mean() / data[data.Country == country_selected].HT.mean()   - 1,2)
    WT_avg = round(data.HT.mean() / data[data.Country == country_selected].WT.mean()   - 1,2)
