@@ -121,8 +121,8 @@ elif projectOption[option] == 3:
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 4:
    data = FIFAWorldCup.data
-   url = FIFAWorldCup.url
-   url_split = url.replace('https://','').split('/')[0]
+
+   country_selected = st.sidebar.selectbox(data.Country.unique())
 
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
@@ -137,7 +137,7 @@ elif projectOption[option] == 4:
       col3.metric("Age Avg", round(data.AGE.mean()))
       col4.metric("HT Avg", round(data.HT.mean()))
       col5.metric("WT Avg", round(data.WT.mean()))
-      col6.metric("BMI Avg", "86%", "4%")
+      col6.metric("BMI Avg", round(data.BMI.mean()))
 
    with tab2:
       st.dataframe(data)
