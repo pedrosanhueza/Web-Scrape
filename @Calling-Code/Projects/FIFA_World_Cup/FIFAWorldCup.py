@@ -37,13 +37,16 @@ data = pd.DataFrame(rows)
 
 data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
-# POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forward'}
+POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forward'}
 
-# data.replace({title[1]: POS_mapped}, inplace=True)
+data.replace({title[1]: POS_mapped}, inplace=True)
 
-# data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
+data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
 
-# data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54) # inches to centimeters
+data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54) # inches to centimeters
 
-# # weight column to number
-# data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
+# weight column to number
+data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
+
+# add BMI column
+data['BMI'] = data.apply(lambda x: round(x.WT / (x.HT/100)**2,1) , axis=1)
