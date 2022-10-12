@@ -92,6 +92,22 @@ elif projectOption[option] == 2:
    url = catalogBYUI.url
    url_split = url.replace('https://','').split('/')[0]
 
+   tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
+
+   with tab1:
+      st.header(option)
+      image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
+      st.image(image, caption='Website page')
+      # f"[{url_split}]({url}) website"
+   with tab2:
+      st.header(f"Data extracted from @@@")
+      # st.header(f"Data extracted from {url_split}")
+      st.dataframe(data)
+   with tab3:
+      st.header("Code")
+   with tab4:
+      st.header("Analysis")
+
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 3:
    data = countryCode.data
@@ -128,8 +144,8 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
-   st.image(image, caption='Website page')
+   # image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
+   # st.image(image, caption='Website page')
    # f"[{url_split}]({url}) website"
 
 with tab2:
