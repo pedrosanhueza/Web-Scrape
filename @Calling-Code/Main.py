@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 
 # from Projects import SurplusStore      #1
-from Projects import catalogBYUI       #2
+from Projects.CatalogBYUI import catalogBYUI       #2
 from Projects import countryCode   #3
 from Projects import FIFAWorldCup    #4
 # from Projects import SurplusStore    #5
@@ -78,7 +78,6 @@ projectOption = {
 
 # st.write('You selected:', option)
 
-
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
    # data = SurplusStore.data
@@ -128,6 +127,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
+   st.image('CatalogBYUI.png', caption='Website page')
    # f"[{url_split}]({url}) website"
 
 with tab2:
