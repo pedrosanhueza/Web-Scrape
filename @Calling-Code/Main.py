@@ -136,11 +136,12 @@ elif projectOption[option] == 4:
    with tab1:
       st.header(option)
       
-      col1 = st.columns(1)
+      col1, col1_1 = st.columns(2)
       if country_selected == 'All Countries':
          col1.metric("Countries", data_main.Country.nunique())
       else:
          col1.metric("Country", country_selected)
+      col1_1.metric(' ')
       
       col2, col3, col4, col5, col6 = st.columns(4)
       col2.metric("Players", data_main.shape[0])
