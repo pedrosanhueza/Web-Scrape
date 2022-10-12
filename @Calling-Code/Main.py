@@ -136,8 +136,7 @@ elif projectOption[option] == 4:
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
    with tab1:
-      
-      col2, col3, col4, col5, col6 = st.columns(4)
+      col2, col3, col4, col5, col6 = st.columns(5)
       col2.metric("Players", data_main.shape[0])
       col3.metric("Age Avg", round(data_main.AGE.mean()))
       col4.metric("HT Avg", round(data_main.HT.mean()))
