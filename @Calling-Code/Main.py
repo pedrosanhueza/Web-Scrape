@@ -134,7 +134,7 @@ elif projectOption[option] == 4:
    else:
       data_main = data[data.Country == country_selected]
 
-   Players_avg = data.shape[0] / data.Country.nunique()
+   Players_avg = data_main.shape[0] / ( data.shape[0] / data.Country.nunique() )
    Age_avg = round(data.HT.mean() / data[data.Country == country_selected].AGE.mean() - 1,2)
    HT_avg = round(data.HT.mean() / data[data.Country == country_selected].HT.mean() - 1,2)
    WT_avg = round(data.HT.mean() / data[data.Country == country_selected].WT.mean() - 1,2)
@@ -144,7 +144,7 @@ elif projectOption[option] == 4:
 
    with tab1:
       col2, col3, col4, col5, col6 = st.columns(5)
-      col2.metric("Players",    round(data_main.shape[0]))
+      col2.metric("Players",    round(data_main.shape[0]), str(Players_avg) + '%')
       col3.metric("Age Avg",    round(data_main.AGE.mean()), str(Age_avg) + "%")
       col4.metric("Height Avg", round(data_main.HT.mean()), str(HT_avg)  + "%")
       col5.metric("Weight Avg", round(data_main.WT.mean()), str(WT_avg)  + "%")
