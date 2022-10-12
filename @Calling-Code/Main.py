@@ -76,44 +76,51 @@ projectOption = {
    'test':17
 }
 
-st.write('You selected:', option)
+# st.write('You selected:', option)
 
-if projectOption[option] == 1: #'US House of Representatives'
+
+## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
+if projectOption[option] == 1: #'Billionaires'
    # data = SurplusStore.data
    # url = SurplusStore.url
    # url_split = url.replace('https://','').split('/')[0]
-   st.write('Project 1 @@@@@@')
+   st.write('Billionaires')
 
+## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 2:
    data = catalogBYUI.data
    url = catalogBYUI.url
    url_split = url.replace('https://','').split('/')[0]
 
+## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 3:
    data = countryCode.data
    url = countryCode.url
    url_split = url.replace('https://','').split('/')[0]
 
+## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 4:
 #    data = FIFAWorldCup.data
 #    url = FIFAWorldCup.url
 #    url_split = url.replace('https://','').split('/')[0]
 
+## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
    data = SurplusStore.data
    url = SurplusStore.url
    url_split = url.replace('https://','').split('/')[0]
 
+## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 16: 
    data = representatives.data
    url = representatives.url
    url_split = url.replace('https://','').split('/')[0]
 
+## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 else:
    data = pd.DataFrame({'a':range(10)})
    url = "EXAMPLE.ORG"
    url_split = url.replace('https://','').split('/')[0]
-
 
 ## ----------------------------------------- Tables ----------------------------------------------------------------------------------- ##
 
