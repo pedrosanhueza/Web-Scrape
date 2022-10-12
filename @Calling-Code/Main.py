@@ -127,7 +127,7 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   st.image('CatalogBYUI/CatalogBYUI.png', caption='Website page')
+   st.image('CatalogBYUI/CatalogBYUI', caption='Website page')
    # f"[{url_split}]({url}) website"
 
 with tab2:
