@@ -133,7 +133,7 @@ elif projectOption[option] == 4:
    else:
       data_main = data[data.Country == country_selected]
 
-   Age_avg = round(data.HT.mean() / data[data.Country == country_selected].HT.mean() - 1,3)
+   Age_avg = round(data.HT.mean() / data[data.Country == country_selected].HT.mean() - 1,2)
 
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
