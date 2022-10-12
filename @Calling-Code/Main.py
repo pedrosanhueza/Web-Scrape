@@ -141,7 +141,7 @@ elif projectOption[option] == 4:
       if country_selected == 'All Countries':
          col1.metric("Countries", data_main.Country.nunique())
       else:
-         col1.metric("Country", data_main.Country.unique())
+         col1.metric("Country", country_selected)
 
       col2.metric("Players", data_main.shape[0])
       
