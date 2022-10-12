@@ -3,6 +3,7 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
+import os
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -91,6 +92,8 @@ elif projectOption[option] == 2:
    data = catalogBYUI.data
    url = catalogBYUI.url
    url_split = url.replace('https://','').split('/')[0]
+
+   st.write(os.getcwd())
 
    tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
