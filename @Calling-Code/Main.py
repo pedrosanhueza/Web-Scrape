@@ -122,8 +122,14 @@ elif projectOption[option] == 3:
 elif projectOption[option] == 4:
    data = FIFAWorldCup.data
 
-   countries = tuple(data.Country.unique())
+   countries = ('All Countries',) + tuple(data.Country.unique())
    country_selected = st.sidebar.selectbox("Countries",countries)
+
+   data_main = data.copy()
+   if country_selected == 'All Countries':
+      data_main = data.copy()
+   else:
+      data_main = data[data.Country == country_selected]
 
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
