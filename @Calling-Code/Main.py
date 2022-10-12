@@ -2,6 +2,7 @@
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
 import streamlit as st
 import pandas as pd
+from PIL import Image
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -127,7 +128,8 @@ tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
 with tab1:
    st.header(option)
-   st.image('Projects/CatalogBYUI/CatalogBYUI.png', caption='Website page')
+   image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
+   st.image(image, caption='Website page')
    # f"[{url_split}]({url}) website"
 
 with tab2:
