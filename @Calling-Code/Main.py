@@ -96,8 +96,8 @@ elif projectOption[option] == 2:
 
    with tab1:
       st.header(option)
-      image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
-      st.image(image, caption='Website page')
+      # image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
+      # st.image(image, caption='Website page')
       # f"[{url_split}]({url}) website"
    with tab2:
       st.header(f"Data extracted from @@@")
@@ -140,24 +140,24 @@ else:
 
 ## ----------------------------------------- Tables ----------------------------------------------------------------------------------- ##
 
-tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
+# tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
-with tab1:
-   st.header(option)
-   # image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
-   # st.image(image, caption='Website page')
-   # f"[{url_split}]({url}) website"
+# with tab1:
+#    st.header(option)
+#    # image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
+#    # st.image(image, caption='Website page')
+#    # f"[{url_split}]({url}) website"
 
-with tab2:
+# with tab2:
    
-   st.header(f"Data extracted from @@@")
+#    st.header(f"Data extracted from @@@")
 
-   # st.header(f"Data extracted from {url_split}")
+#    # st.header(f"Data extracted from {url_split}")
 
-   st.dataframe(data)
+#    st.dataframe(data)
 
-with tab3:
-   st.header("Code")
+# with tab3:
+#    st.header("Code")
 
-with tab4:
-   st.header("Analysis")
+# with tab4:
+#    st.header("Analysis")
