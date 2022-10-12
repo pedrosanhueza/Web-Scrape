@@ -2,7 +2,6 @@
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
 import streamlit as st
 import pandas as pd
-from PIL import Image
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -96,10 +95,6 @@ elif projectOption[option] == 2:
 
    with tab1:
       st.header(option)
-      PATH = '@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png'
-      image = Image.open(PATH)
-      st.image(image, caption='Website page')
-      
       st.image('@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png', caption='Website page')
       
       # f"[{url_split}]({url}) website"
