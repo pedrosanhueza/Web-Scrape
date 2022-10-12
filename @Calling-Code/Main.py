@@ -133,14 +133,14 @@ elif projectOption[option] == 4:
    else:
       data_main = data[data.Country == country_selected]
 
-   Age_avg = round(data.HT.mean() / data[data.Country == 'Argentina'].HT.mean() - 1)
+   Age_avg = round(data.HT.mean() / data[data.Country == 'Argentina'].HT.mean() - 1,3)
 
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
    with tab1:
       col2, col3, col4, col5, col6 = st.columns(5)
       col2.metric("Players", data_main.shape[0])
-      col3.metric("Age Avg", round(data_main.AGE.mean()), Age_avg)
+      col3.metric("Age Avg", round(data_main.AGE.mean()), str(Age_avg) + "%")
       col4.metric("Height Avg", round(data_main.HT.mean()))
       col5.metric("Weight Avg", round(data_main.WT.mean()))
       col6.metric("BMI Avg", round(data_main.BMI.mean()))
