@@ -99,7 +99,7 @@ elif projectOption[option] == 2:
 
    with tab1:
       st.header(option)
-      image = Image.open('./CatalogBYUI/CatalogBYUI.png')
+      image = Image.open('@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png')
       st.image(image, caption='Website page')
       # f"[{url_split}]({url}) website"
    with tab2:
