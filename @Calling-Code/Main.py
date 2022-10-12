@@ -3,7 +3,6 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import os
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -93,14 +92,16 @@ elif projectOption[option] == 2:
    url = catalogBYUI.url
    url_split = url.replace('https://','').split('/')[0]
 
-   st.write(os.getcwd())
-
    tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
 
    with tab1:
       st.header(option)
-      image = Image.open('@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png')
+      PATH = '@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png'
+      image = Image.open(PATH)
       st.image(image, caption='Website page')
+      
+      st.image('@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png', caption='Website page')
+      
       # f"[{url_split}]({url}) website"
    with tab2:
       st.header(f"Data extracted from @@@")
