@@ -144,9 +144,9 @@ elif projectOption[option] == 4:
       col2, col3, col4, col5, col6 = st.columns(5)
       col2.metric("Players", data_main.shape[0])
       col3.metric("Age Avg",    round(data_main.AGE.mean()), str(Age_avg) + "%")
-      col4.metric("Height Avg", round(data_main.AGE.mean()), str(HT_avg)  + "%")
-      col5.metric("Weight Avg", round(data_main.AGE.mean()), str(WT_avg)  + "%")
-      col6.metric("BMI Avg",    round(data_main.AGE.mean()), str(BMI_avg) + "%")
+      col4.metric("Height Avg", round(data_main.HT.mean()), str(HT_avg)  + "%")
+      col5.metric("Weight Avg", round(data_main.WT.mean()), str(WT_avg)  + "%")
+      col6.metric("BMI Avg",    round(data_main.BMI.mean()), str(BMI_avg) + "%")
 
    with tab2:
       st.dataframe(data_main)
