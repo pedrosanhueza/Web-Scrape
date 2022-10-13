@@ -161,7 +161,10 @@ elif projectOption[option] == 4:
          st.image(f"{url_pic_country}",width=400)
 
    with tab2:
-      st.dataframe(data_main)
+      if country_selected != 'All Countries':
+         st.dataframe(data_main.drop(['Country_logo','Country'], axis=1))
+      else:
+         st.dataframe(data.drop('Country_logo', axis=1))
    with tab3:
       st.header(option)
    with tab4:
