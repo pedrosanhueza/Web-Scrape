@@ -131,8 +131,10 @@ elif projectOption[option] == 4:
 
    if country_selected == 'All Countries':
       data_main = data.copy()
+      url_pic = 'https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=996&t=st=1665643587~exp=1665644187~hmac=b5a78e55d3efe4334d2c66f46ec5e2b6fd825cd0f94a14ad3bf607b55fedd991'
    else:
       data_main = data[data.Country == country_selected]
+      url_pic = data_main.Country_logo.iloc[0]
 
    Players_avg = round(data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
    Age_avg = round(data.HT.mean() / data[data.Country == country_selected].AGE.mean() - 1,2)
@@ -157,7 +159,6 @@ elif projectOption[option] == 4:
    with tab4:
       st.header(option)
    
-   url_pic = 'https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png'
    html_background = f"""
       <style>
       .stApp {{
