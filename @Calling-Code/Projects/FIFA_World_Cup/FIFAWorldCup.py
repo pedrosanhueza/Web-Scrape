@@ -31,6 +31,7 @@ for idx,country in enumerate(countries):
             row[title[2]] = player.find('td',{'data-index':'2'}).text.strip()
             row[title[3]] = player.find('td',{'data-index':'3'}).text.strip()
             row[title[4]] = player.find('td',{'data-index':'4'}).text.strip()
+            row['Country_logo'] = soup.find('source')['srcset']
             rows.append(row)
 
 data = pd.DataFrame(rows)
