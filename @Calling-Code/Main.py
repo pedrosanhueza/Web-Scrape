@@ -126,10 +126,10 @@ elif projectOption[option] == 4:
    country_selected = st.sidebar.selectbox("Countries",countries)
 
    data_main = data.copy()
-
+   data_main = data[data.Country == country_selected]
    url_pic_country = data_main.Country_logo.iloc[0]
+
    url_pic = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
-   
    st.image(f"{url_pic}",width=400)
 
    Players_avg = round(data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
