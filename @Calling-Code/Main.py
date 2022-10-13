@@ -6,7 +6,7 @@ import pandas as pd
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
 from Projects import countryCode   #3
-from Projects.FIFA_World_Cup import FIFAWorldCup    #4
+from Projects.FIFA_World_Cup.FIFAWorldCup import FIFAWorldCup    #4
 # from Projects import SurplusStore    #5
 # from Projects import SurplusStore    #6
 # from Projects import SurplusStore    #7
@@ -181,6 +181,7 @@ elif projectOption[option] == 4:
          st.dataframe(data.drop('Country_logo', axis=1))
    with tab3:
       st.header(option)
+      st.code(FIFAWorldCup.script, language="python")
    with tab4:
       st.header(option)
 
