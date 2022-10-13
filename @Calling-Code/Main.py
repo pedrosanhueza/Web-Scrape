@@ -164,11 +164,6 @@ elif projectOption[option] == 4:
             background-image: url({url_pic});
             background-attachment: fixed;
             background-size: cover
-            width: 200px; /* width of container */
-            height: 200px; /* height of container */
-            object-fit: cover;
-            object-position: 20% 10%; /* try 20px 10px */ 
-            border: 5px solid black;
             }}</style>"""
    st.markdown(html_background ,unsafe_allow_html=True)
 
