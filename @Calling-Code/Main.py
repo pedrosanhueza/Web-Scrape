@@ -122,6 +122,8 @@ elif projectOption[option] == 3:
 elif projectOption[option] == 4:
    st.header(option)
    data = FIFAWorldCup.data
+
+   data_main = data.copy()
    
    countries = ('All Countries',) + tuple(data.Country.unique())
    country_selected = st.sidebar.selectbox("Countries",countries)
@@ -136,9 +138,6 @@ elif projectOption[option] == 4:
    if position_selected != 'All Positions':
       data_main = data[data.POS == position_selected]
       url_pic_country = data_main.Country_logo.iloc[0]
-
-   data_main = data.copy()
-
    
    url_pic = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
    
