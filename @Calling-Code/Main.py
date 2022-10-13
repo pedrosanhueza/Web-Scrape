@@ -214,6 +214,10 @@ elif projectOption[option] == 9:
 
    KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
 
+   today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
+
+   yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
+
    KPI3, KPI4, KPI_K = st.columns(3)
 
    KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
