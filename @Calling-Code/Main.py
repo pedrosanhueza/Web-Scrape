@@ -25,6 +25,7 @@ from Projects import SurplusStore    #15
 from Projects import representatives    #16
 # from Projects import SurplusStore    #17
 
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.write('# Web Analysis')
 st.write('''
