@@ -129,7 +129,7 @@ elif projectOption[option] == 4:
 
    if country_selected == 'All Countries':
       data_main = data.copy()
-      url_pic = 'https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=996&t=st=1665643587~exp=1665644187~hmac=b5a78e55d3efe4334d2c66f46ec5e2b6fd825cd0f94a14ad3bf607b55fedd991'
+      url_pic = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
    else:
       data_main = data[data.Country == country_selected]
       url_pic = data_main.Country_logo.iloc[0]
