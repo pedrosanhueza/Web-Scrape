@@ -136,8 +136,8 @@ elif projectOption[option] == 4:
    st.image(f"{url_pic}",width=400)
 
    Players_avg = round(data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
-   Age_avg = round(1 - (data[data.Country == country_selected].AGE.mean() / data.AGE.mean() ),2)
-   HT_avg =  round(1 - (data[data.Country == country_selected].HT.mean() / data.HT.mean() ),2)
+   Age_avg = round(1 - data.AGE.mean() / (data[data.Country == country_selected].AGE.mean() ),2)
+   HT_avg =  round(1 - data.HT.mean() / (data[data.Country == country_selected].HT.mean() ),2)
    WT_avg =  round(data.HT.mean() / data[data.Country == country_selected].WT.mean()   - 1,2)
    BMI_avg = round(data.HT.mean() / data[data.Country == country_selected].BMI.mean() - 1,2)
 
