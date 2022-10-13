@@ -189,11 +189,18 @@ elif projectOption[option] == 4:
 
 ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
+
    data = BYUI_JobBoard.data
 
    date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
    
+   d = str(date_input.strftime("%Y-%m-%d"))
+
    st.dataframe(data)
+
+   
+
+
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
