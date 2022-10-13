@@ -239,6 +239,12 @@ elif projectOption[option] == 9:
 
    st.pyplot(fig1)
 
+   if st.button('F'):
+      jobs_to_remove = ['TA','Custodian','Online','Grounds']
+      jobs_to_remove_str = '|'.join(jobs_to_remove)   
+      st.write('Personalised Table')
+      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule']]
+      st.table(data_p)
 
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
