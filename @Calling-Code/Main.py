@@ -126,14 +126,19 @@ elif projectOption[option] == 4:
    countries = ('All Countries',) + tuple(data.Country.unique())
    country_selected = st.sidebar.selectbox("Countries",countries)
 
-   positions = ('All Positions',) + tuple(data.POS.unique())
-   position_selected = st.sidebar.selectbox("Positions",positions)
-
-   data_main = data.copy()
-
    if country_selected != 'All Countries':
       data_main = data[data.Country == country_selected]
       url_pic_country = data_main.Country_logo.iloc[0]
+
+   positions = ('All Positions',) + tuple(data.POS.unique())
+   position_selected = st.sidebar.selectbox("Positions",positions)
+
+   if position_selected != 'All Positions':
+      data_main = data[data.POS == position_selected]
+      url_pic_country = data_main.Country_logo.iloc[0]
+
+   data_main = data.copy()
+
    
    url_pic = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
    
