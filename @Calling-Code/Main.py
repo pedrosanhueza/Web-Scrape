@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import time
+import seaborn as sns
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -230,6 +231,9 @@ elif projectOption[option] == 9:
 
    KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
+   sns.kdeplot(data.payRate, shade=True, color="g")
+
+   
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
