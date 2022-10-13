@@ -170,7 +170,6 @@ elif projectOption[option] == 4:
       unsafe_allow_html=True
      )
 
-   st.markdown(page_bg_img, unsafe_allow_html=True)
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
    data = SurplusStore.data
