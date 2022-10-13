@@ -232,9 +232,9 @@ elif projectOption[option] == 9:
 
    KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
-   fig = sns.kdeplot(data.payRate, shade=True, color="g", bw=0.75)
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.75)
 
-   fig1 = plt.show(fig)
+   fig1 = plt.show()
 
    st.pyplot(fig1)
 
