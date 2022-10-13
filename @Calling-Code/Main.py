@@ -125,8 +125,6 @@ elif projectOption[option] == 4:
    countries = ('All Countries',) + tuple(data.Country.unique())
    country_selected = st.sidebar.selectbox("Countries",countries)
 
-   st.write(country_selected)
-
    data_main = data.copy()
 
    if country_selected == 'All Countries':
@@ -135,6 +133,8 @@ elif projectOption[option] == 4:
    else:
       data_main = data[data.Country == country_selected]
       url_pic = data_main.Country_logo.iloc[0]
+
+   st.image(f"{url_pic}",width=400)
 
    Players_avg = round(data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
    Age_avg = round(data.HT.mean() / data[data.Country == country_selected].AGE.mean() - 1,2)
@@ -158,16 +158,6 @@ elif projectOption[option] == 4:
       st.header(option)
    with tab4:
       st.header(option)
-   
-   st.image(f"{url_pic}",width=400)
-
-   html_background = f"""<style>
-      .stApp {{
-            background-image: url({url_pic});
-            background-attachment: fixed;
-            background-size: cover
-            }}</style>"""
-   # st.markdown(html_background ,unsafe_allow_html=True)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
