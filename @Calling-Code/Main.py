@@ -122,8 +122,12 @@ elif projectOption[option] == 3:
 elif projectOption[option] == 4:
    st.header(option)
    data = FIFAWorldCup.data
+   
    countries = ('All Countries',) + tuple(data.Country.unique())
    country_selected = st.sidebar.selectbox("Countries",countries)
+
+   positions = ('All Positions',) + tuple(data.POS.unique())
+   position_selected = st.sidebar.selectbox("Positions",positions)
 
    data_main = data.copy()
 
