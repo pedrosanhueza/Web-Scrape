@@ -118,7 +118,7 @@ elif projectOption[option] == 3:
    url = countryCode.url
    url_split = url.replace('https://','').split('/')[0]
 
-## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
+## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 elif projectOption[option] == 4:
    st.header(option)
    data = FIFAWorldCup.data
