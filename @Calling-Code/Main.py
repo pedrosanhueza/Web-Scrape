@@ -236,7 +236,7 @@ elif projectOption[option] == 9:
 
    fig1 = plt.show(fig)
 
-   st.pyplot(fig)
+   st.pyplot(fig1)
 
 
 
