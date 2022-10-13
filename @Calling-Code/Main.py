@@ -164,7 +164,8 @@ elif projectOption[option] == 4:
       .stApp {{
             background-image: url({url_pic});
             background-attachment: fixed;
-            background-size: 300px 100px
+            background-size: cover
+            background-blend-mode: lighten;
       }}
       </style>
       """
