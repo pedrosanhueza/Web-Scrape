@@ -159,13 +159,15 @@ elif projectOption[option] == 4:
    with tab4:
       st.header(option)
    
+   st.image(f"{url_pic}",width=400)
+
    html_background = f"""<style>
       .stApp {{
             background-image: url({url_pic});
             background-attachment: fixed;
             background-size: cover
             }}</style>"""
-   st.markdown(html_background ,unsafe_allow_html=True)
+   # st.markdown(html_background ,unsafe_allow_html=True)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
