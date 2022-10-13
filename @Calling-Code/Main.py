@@ -138,8 +138,8 @@ elif projectOption[option] == 4:
    Players_avg = round(1 - data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
    Age_avg =     round(1 - data.AGE.mean() / data[data.Country == country_selected].AGE.mean(),2)
    HT_avg =      round(1 - data.HT.mean()  / data[data.Country == country_selected].HT.mean() ,2)
-   WT_avg =      round(1 - data.HT.mean()  / data[data.Country == country_selected].WT.mean() ,2)
-   BMI_avg =     round(1 - data.HT.mean()  / data[data.Country == country_selected].BMI.mean(),2)
+   WT_avg =      round(1 - data.WT.mean()  / data[data.Country == country_selected].WT.mean() ,2)
+   BMI_avg =     round(1 - data.BMI.mean()  / data[data.Country == country_selected].BMI.mean(),2)
 
    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
@@ -162,7 +162,7 @@ elif projectOption[option] == 4:
 
    with tab2:
       if country_selected != 'All Countries':
-         st.dataframe(data_main.drop(['Country_logo','Country'], axis=1))
+         st.dataframe(data_main.drop('Country_logo', axis=1))
       else:
          st.dataframe(data.drop('Country_logo', axis=1))
    with tab3:
