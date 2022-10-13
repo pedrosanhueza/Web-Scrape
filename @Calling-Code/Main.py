@@ -180,7 +180,8 @@ elif projectOption[option] == 4:
       else:
          st.dataframe(data.drop('Country_logo', axis=1))
    with tab3:
-      st.header(option)
+      st.header('Code for live data extraction')
+      st.write('Runs every time you load the page')
       st.code(FIFAWorldCup.script, language="python")
    with tab4:
       st.header(option)
