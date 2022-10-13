@@ -198,7 +198,21 @@ elif projectOption[option] == 9:
 
    st.dataframe(data)
 
-   
+   '## General KPI\'s'
+
+   KPI1_jobs = round(1-(400/data.shape[0]),2)
+
+   KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
+
+   jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
+
+   KPI1,KPI1_1,KPI2 = st.columns(3)
+
+   KPI1.metric("Amount of Jobs", f"{data.shape[0]}")
+
+   KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+
+   KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
 
 
 
