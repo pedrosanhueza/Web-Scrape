@@ -99,9 +99,11 @@ POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forwa
 
 data.replace({title[1]: POS_mapped}, inplace=True)
 
-data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
+# age column to number
+data[title[2]] = pd.to_numeric(data[title[2]])
 
-data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54) # inches to centimeters
+# inches to centimeters
+data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54)
 
 # weight column to number
 data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
