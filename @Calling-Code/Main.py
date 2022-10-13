@@ -143,7 +143,6 @@ elif projectOption[option] == 4:
       data_main = data[(data.POS == position_selected) & (data.Country == country_selected)]
    
    if (country_selected == 'All Countries') and (position_selected != 'All Positions'):
-      st.write(country_selected,position_selected)
       data_main = data[data.POS == position_selected]
    
    url_pic = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
@@ -176,7 +175,7 @@ elif projectOption[option] == 4:
          st.image(f"{url_pic_country}",width=400)
 
    with tab2:
-      if country_selected != 'All Countries':
+      if (country_selected != 'All Countries' or position_selected != 'All Positions'):
          st.dataframe(data_main.drop('Country_logo', axis=1))
       else:
          st.dataframe(data.drop('Country_logo', axis=1))
