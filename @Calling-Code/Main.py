@@ -157,8 +157,7 @@ elif projectOption[option] == 4:
    with tab4:
       st.header(option)
    
-   st.markdown( 
-      f"""
+   html_background = f"""
       <style>
       .stApp {{
             background-image: url("https://cdn.pixabay.com/photo/2019/04/24/11/27/flowers-4151900_960_720.jpg");
@@ -166,9 +165,8 @@ elif projectOption[option] == 4:
             background-size: cover
       }}
       </style>
-      """,
-      unsafe_allow_html=True
-     )
+      """
+   st.markdown(html_background ,unsafe_allow_html=True)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
