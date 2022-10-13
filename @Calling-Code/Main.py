@@ -234,7 +234,9 @@ elif projectOption[option] == 9:
 
    fig = sns.kdeplot(data.payRate, shade=True, color="g", bw=0.75)
 
-   plt.show()
+   fig1 = plt.show(fig)
+
+   st.pyplot(fig)
 
 
 
