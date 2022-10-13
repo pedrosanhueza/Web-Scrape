@@ -11,7 +11,7 @@ from Projects.FIFA_World_Cup import FIFAWorldCup    #4
 # from Projects import SurplusStore    #6
 # from Projects import SurplusStore    #7
 # from Projects import SurplusStore    #8
-# from Projects import SurplusStore    #9
+from Projects.BYUI_JobBoard import BYUI_JobBoard    #9
 # from Projects import SurplusStore    #10
 # from Projects import SurplusStore    #11
 # from Projects import SurplusStore    #12
@@ -186,44 +186,27 @@ elif projectOption[option] == 4:
    with tab4:
       st.header(option)
 
-## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
+## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
+elif projectOption[option] == 9:
+   data = BYUI_JobBoard.data
+
+   st.dataframe(data)
+
+## -----------------------------------------  ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
    data = SurplusStore.data
    url = SurplusStore.url
    url_split = url.replace('https://','').split('/')[0]
 
-## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
+## -----------------------------------------  ------------------------------------------------------------------------ ##
 elif projectOption[option] == 16: 
    data = representatives.data
    url = representatives.url
    url_split = url.replace('https://','').split('/')[0]
 
-## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
+## -----------------------------------------  ------------------------------------------------------------------------ ##
 else:
    data = pd.DataFrame({'a':range(10)})
    url = "EXAMPLE.ORG"
    url_split = url.replace('https://','').split('/')[0]
 
-## ----------------------------------------- Tables ----------------------------------------------------------------------------------- ##
-
-# tab1, tab2, tab3, tab4 = st.tabs(['Page', 'Table', 'Code', 'Analysis'])
-
-# with tab1:
-#    st.header(option)
-#    # image = Image.open('Projects/CatalogBYUI/CatalogBYUI.png')
-#    # st.image(image, caption='Website page')
-#    # f"[{url_split}]({url}) website"
-
-# with tab2:
-   
-#    st.header(f"Data extracted from @@@")
-
-#    # st.header(f"Data extracted from {url_split}")
-
-#    st.dataframe(data)
-
-# with tab3:
-#    st.header("Code")
-
-# with tab4:
-#    st.header("Analysis")
