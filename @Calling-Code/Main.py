@@ -146,12 +146,18 @@ elif projectOption[option] == 4:
 
    with tab1:
       col2, col3, col4, col5, col6 = st.columns(5)
-      col2.metric("Players",    round(data_main.shape[0]), str(Players_avg) + '%')
-      col3.metric("Age Avg",    round(data_main.AGE.mean()), str(Age_avg) + "%")
-      col4.metric("Height Avg", round(data_main.HT.mean()), str(HT_avg)  + "%")
-      col5.metric("Weight Avg", round(data_main.WT.mean()), str(WT_avg)  + "%")
-      col6.metric("BMI Avg",    round(data_main.BMI.mean()), str(BMI_avg) + "%")
-
+      if country_selected == 'All Countries':
+         col2.metric("Players",    round(data_main.shape[0]))
+         col3.metric("Age Avg",    round(data_main.AGE.mean()))
+         col4.metric("Height Avg", round(data_main.HT.mean()))
+         col5.metric("Weight Avg", round(data_main.WT.mean()))
+         col6.metric("BMI Avg",    round(data_main.BMI.mean()))
+      else:
+         col2.metric("Players",    round(data_main.shape[0]), str(Players_avg) + '%')
+         col3.metric("Age Avg",    round(data_main.AGE.mean()), str(Age_avg) + "%")
+         col4.metric("Height Avg", round(data_main.HT.mean()), str(HT_avg)  + "%")
+         col5.metric("Weight Avg", round(data_main.WT.mean()), str(WT_avg)  + "%")
+         col6.metric("BMI Avg",    round(data_main.BMI.mean()), str(BMI_avg) + "%")
    with tab2:
       st.dataframe(data_main)
    with tab3:
