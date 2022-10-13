@@ -2,6 +2,7 @@
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
 import streamlit as st
 import pandas as pd
+from datetime import datetime, timedelta
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -190,6 +191,8 @@ elif projectOption[option] == 4:
 elif projectOption[option] == 9:
    data = BYUI_JobBoard.data
 
+   date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
+   
    st.dataframe(data)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
