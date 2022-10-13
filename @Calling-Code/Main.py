@@ -163,8 +163,7 @@ elif projectOption[option] == 4:
       .stApp {{
             background-image: url({url_pic});
             background-attachment: fixed;
-            background-size: cover
-            
+            background-size: none
             }}</style>"""
    st.markdown(html_background ,unsafe_allow_html=True)
 
