@@ -130,13 +130,13 @@ elif projectOption[option] == 4:
 
    def loader(num):
       my_bar = st.progress(0)
-      for percent_complete in range(num):
-         time.sleep(0.1)
+      for percent_complete in range(100):
+         time.sleep(num)
          my_bar.progress(percent_complete + 1)
 
-   loader(10)
-   loader(20)
-   loader(100)
+   loader(0.5)
+   loader(0.3)
+   loader(0.1)
 
    data = FIFAWorldCup.data
 
