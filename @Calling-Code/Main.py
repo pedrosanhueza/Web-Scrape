@@ -211,8 +211,12 @@ elif projectOption[option] == 9:
    loader(0.05)
 
    st.write('Build table for Explanatory Data Analysis')
-   st.code(BYUI_JobBoard.script1)
+   st.code(BYUI_JobBoard.script3)
    loader(0.05)
+
+   with st.spinner('Wait for it...'):
+      time.sleep(5)
+      st.success('Done!')
    
    # loader(0.03)
    # loader(0.01)
