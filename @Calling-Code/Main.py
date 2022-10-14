@@ -1,6 +1,5 @@
 
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
-from turtle import onclick
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
@@ -249,7 +248,7 @@ elif projectOption[option] == 9:
 
       st.balloons()
 
-   if st.button("Open"):
+   if st.button("Open", on_click = "Close"):
       # st.session_state.emoji
       st.write('Hello')
       # st.write(st.session_state.emoji)
