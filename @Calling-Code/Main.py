@@ -246,23 +246,24 @@ elif projectOption[option] == 9:
       data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
       st.table(data_p)
 
+   if st.button("ballons"):
       st.balloons()
+   
+   if st.button('snow'):
+      st.snow()
+   if st.button('error'):
+      st.error('This is an error', icon="🚨")
+   if st.button('warning'):
+      st.warning('This is a warning', icon="⚠️")
+   if st.button("info"):
+      st.info('This is a purely informational message', icon="ℹ️")
+   if st.button('success'):
+      st.success('This is a success message!', icon="✅")
+   if st.button('exception'):
+      e = RuntimeError('This is an exception of type RuntimeError')
+      st.exception(e)
 
-   # ---------------------
-   import random
 
-   # callback to update emojis in Session State
-   # in response to the on_click event
-   def random_emoji():
-      st.session_state.emoji = random.choice(emojis)
-
-   # initialize emoji as a Session State variable
-   if "emoji" not in st.session_state:
-      st.session_state.emoji = "👈"
-
-   emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
-
-   st.button(f"Click Me {st.session_state.emoji}", on_click=random_emoji)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 elif projectOption[option] == 15:
