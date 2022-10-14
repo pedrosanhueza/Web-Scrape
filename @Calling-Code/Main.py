@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 import time
 import seaborn as sns
 import matplotlib.pyplot as plt
+import time
 
 # from Projects import SurplusStore      #1
 from Projects.CatalogBYUI import catalogBYUI       #2
@@ -126,6 +127,17 @@ elif projectOption[option] == 3:
 ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 elif projectOption[option] == 4:
    st.header(option)
+
+   def loader(num):
+      my_bar = st.progress(0)
+      for percent_complete in range(num):
+         time.sleep(0.1)
+         my_bar.progress(percent_complete + 1)
+
+   loader(10)
+   loader(20)
+   loader(100)
+
    data = FIFAWorldCup.data
 
    data_main = data.copy()
@@ -251,29 +263,6 @@ elif projectOption[option] == 9:
    
    if st.button("info"):
       st.info('This is a purely informational message', icon="ℹ️")
-      
-      import time
-
-      st.code("import pandas as pd", language="python")
-
-      my_bar = st.progress(0)
-      for percent_complete in range(100):
-         time.sleep(0.1)
-         my_bar.progress(percent_complete + 1)
-      
-      st.code("data = pd.read_csv('tom.csv')", language="python")
-
-      my_bar = st.progress(0)
-      for percent_complete in range(100):
-         time.sleep(0.1)
-         my_bar.progress(percent_complete + 1)
-      
-      st.code("data.pivot_wider()", language="python")
-
-      my_bar = st.progress(0)
-      for percent_complete in range(100):
-         time.sleep(0.1)
-         my_bar.progress(percent_complete + 1)
    
 
 
