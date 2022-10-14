@@ -186,7 +186,7 @@ elif projectOption[option] == 4:
          st.dataframe(data.drop('Country_logo', axis=1))
    with tab3:
       st.header('Code for live data extraction')
-      st.write('Runs every time you load the page')
+      st.write('Runs every time you load the page and updates the table')
       st.code(FIFAWorldCup.script, language="python")
    with tab4:
       st.header(option)
@@ -212,7 +212,7 @@ elif projectOption[option] == 9:
 
    KPI1,KPI1_1,KPI2 = st.columns(3)
 
-   KPI1.metric("Amount of Jobs", f"{data.shape[0]}")
+   KPI1.metric("Jobs posted", f"{data.shape[0]}")
 
    KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
@@ -245,6 +245,9 @@ elif projectOption[option] == 9:
       st.write('Personalised Table')
       data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
       st.table(data_p)
+
+      st.balloons()
+
 
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
