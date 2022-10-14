@@ -249,16 +249,16 @@ elif projectOption[option] == 9:
 
       st.balloons()
 
-   if st.button("Open", onclick = "Close"):
+   if st.button("Open"):
       # st.session_state.emoji
       st.write('Hello')
-      st.write(st.session_state.emoji)
+      # st.write(st.session_state.emoji)
 
       # # initialize emoji as a Session State variable
       # if "emoji" not in st.session_state:
       #    st.session_state.emoji = "👈"
 
-      emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
+      # emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
 
       # st.button(f"Click Me {st.session_state.emoji}", on_click=random_emoji)
 
