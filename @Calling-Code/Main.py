@@ -202,7 +202,7 @@ elif projectOption[option] == 9:
          time.sleep(num)
          my_bar.progress(percent_complete + 1)
 
-   st.write('Extracting data from web.byui.edu/studentemployment')
+   st.write('Extracting data from [web.byui.edu/studentemployment](web.byui.edu/studentemployment)')
    st.code(BYUI_JobBoard.script1)
    loader(0.05)
 
