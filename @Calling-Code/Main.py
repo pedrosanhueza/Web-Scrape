@@ -249,19 +249,15 @@ elif projectOption[option] == 9:
    if st.button("ballons"):
       st.balloons()
    
-   if st.button('snow'):
-      st.snow()
-   if st.button('error'):
-      st.error('This is an error', icon="🚨")
-   if st.button('warning'):
-      st.warning('This is a warning', icon="⚠️")
    if st.button("info"):
       st.info('This is a purely informational message', icon="ℹ️")
-   if st.button('success'):
-      st.success('This is a success message!', icon="✅")
-   if st.button('exception'):
-      e = RuntimeError('This is an exception of type RuntimeError')
-      st.exception(e)
+      
+      st.code("import pandas as pd", language="python")
+      
+      st.code("data = pd.read_csv('tom.csv')", language="python")
+      
+      st.code("data.pivot_wider()", language="python")
+   
 
 
 
