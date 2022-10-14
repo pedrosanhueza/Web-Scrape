@@ -1,5 +1,6 @@
 
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
+from turtle import onclick
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
@@ -248,7 +249,7 @@ elif projectOption[option] == 9:
 
       st.balloons()
 
-   if st.button("Click me"):
+   if st.button("Open", onclick = "Close"):
       # st.session_state.emoji
       st.write('Hello')
       st.write(st.session_state.emoji)
@@ -257,7 +258,7 @@ elif projectOption[option] == 9:
       # if "emoji" not in st.session_state:
       #    st.session_state.emoji = "👈"
 
-      # emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
+      emojis = ["🐶", "🐱", "🐭", "🐹", "🐰", "🦊", "🐻", "🐼"]
 
       # st.button(f"Click Me {st.session_state.emoji}", on_click=random_emoji)
 
