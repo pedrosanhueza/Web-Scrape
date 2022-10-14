@@ -249,7 +249,7 @@ elif projectOption[option] == 9:
       st.balloons()
 
    if st.button("Click me"):
-      st.session_state.emoji
+      # st.session_state.emoji
       st.write('Hello')
       st.write(st.session_state.emoji)
 
