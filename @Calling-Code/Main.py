@@ -252,11 +252,28 @@ elif projectOption[option] == 9:
    if st.button("info"):
       st.info('This is a purely informational message', icon="ℹ️")
       
+      import time
+
       st.code("import pandas as pd", language="python")
+
+      my_bar = st.progress(0)
+      for percent_complete in range(100):
+         time.sleep(0.1)
+         my_bar.progress(percent_complete + 1)
       
       st.code("data = pd.read_csv('tom.csv')", language="python")
+
+      my_bar = st.progress(0)
+      for percent_complete in range(100):
+         time.sleep(0.1)
+         my_bar.progress(percent_complete + 1)
       
       st.code("data.pivot_wider()", language="python")
+
+      my_bar = st.progress(0)
+      for percent_complete in range(100):
+         time.sleep(0.1)
+         my_bar.progress(percent_complete + 1)
    
 
 
