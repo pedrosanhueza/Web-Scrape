@@ -128,16 +128,6 @@ elif projectOption[option] == 3:
 elif projectOption[option] == 4:
    st.header(option)
 
-   def loader(num):
-      my_bar = st.progress(0)
-      for percent_complete in range(100):
-         time.sleep(num)
-         my_bar.progress(percent_complete + 1)
-
-   loader(0.5)
-   loader(0.3)
-   loader(0.1)
-
    data = FIFAWorldCup.data
 
    data_main = data.copy()
@@ -205,6 +195,29 @@ elif projectOption[option] == 4:
 
 ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
+
+   def loader(num):
+      my_bar = st.progress(0)
+      for percent_complete in range(100):
+         time.sleep(num)
+         my_bar.progress(percent_complete + 1)
+
+   st.write('Extracting data from web.byui.edu/studentemployment')
+   st.code(BYUI_JobBoard.script1)
+   loader(0.05)
+
+   st.write('Building table from data extraction')
+   st.code(BYUI_JobBoard.script2)
+   loader(0.05)
+
+   st.write('Build table for Explanatory Data Analysis')
+   st.code(BYUI_JobBoard.script1)
+   loader(0.05)
+   
+   # loader(0.03)
+   # loader(0.01)
+   # st.write('Extracting data from ')
+   # loader(0.005)
 
    data = BYUI_JobBoard.data
 
