@@ -248,7 +248,7 @@ elif projectOption[option] == 9:
 
       st.balloons()
 
-   button_option = st.button("Open", on_click = "Close")
+   button_option = st.button("Open")
    st.write(button_option)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
