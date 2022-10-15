@@ -200,8 +200,6 @@ elif projectOption[option] == 9:
    
    d = str(datetime.today().strftime("%Y-%m-%d"))
 
-   st.dataframe(data)
-
    KPI1_jobs = round(1-(400/data.shape[0]),2)
 
    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
