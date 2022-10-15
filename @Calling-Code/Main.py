@@ -196,7 +196,7 @@ elif projectOption[option] == 4:
 ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
 
-   col2, col3, col4, col5, col6 = st.columns(5)
+   col2, col3, col4, col5, col6 = st.beta_columns([1,2,3,4,5])
 
    col2 = st.button('Button2')
    col3 = st.button('Button3')
