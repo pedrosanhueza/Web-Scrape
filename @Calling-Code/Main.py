@@ -196,63 +196,71 @@ elif projectOption[option] == 4:
 ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
 
-   data = BYUI_JobBoard.data
+   col2, col3, col4, col5, col6 = st.columns(5)
 
-   # date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
+   col2 = st.button('Button2')
+   col3 = st.button('Button3')
+   col4 = st.button('Button4')
+   col5 = st.button('Button5')
+   col6 = st.button('Button6')
+
+#    data = BYUI_JobBoard.data
+
+#    # date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
    
-   d = str(datetime.today().strftime("%Y-%m-%d"))
+#    d = str(datetime.today().strftime("%Y-%m-%d"))
 
-   st.dataframe(data)
+#    st.dataframe(data)
 
-   '## General KPI\'s'
+#    '## General KPI\'s'
 
-   KPI1_jobs = round(1-(400/data.shape[0]),2)
+#    KPI1_jobs = round(1-(400/data.shape[0]),2)
 
-   KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
+#    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-   jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
+#    jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
 
-   KPI1,KPI1_1,KPI2 = st.columns(3)
+#    KPI1,KPI1_1,KPI2 = st.columns(3)
 
-   KPI1.metric("Jobs posted", f"{data.shape[0]}")
+#    KPI1.metric("Jobs posted", f"{data.shape[0]}")
 
-   KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+#    KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
+#    KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
 
-   today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
+#    today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
 
-   yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
+#    yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
 
-   KPI3, KPI4, KPI_K = st.columns(3)
+#    KPI3, KPI4, KPI_K = st.columns(3)
 
-   KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
+#    KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
 
-   try:
-      KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
-   except:
-      KPI4.metric("Jobs posted today",today, f'0% of yesterday')
+#    try:
+#       KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
+#    except:
+#       KPI4.metric("Jobs posted today",today, f'0% of yesterday')
 
-   KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
+#    KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
-   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
+#    sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
 
-   fig1 = plt.show()
+#    fig1 = plt.show()
 
-   st.pyplot(fig1)
+#    st.pyplot(fig1)
 
-   if st.button('Personalised Table'):
-      jobs_to_remove = ['TA','Custodian','Online','Grounds']
-      jobs_to_remove_str = '|'.join(jobs_to_remove)   
-      st.write('Personalised Table')
-      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
-      st.table(data_p)
+#    if st.button('Personalised Table'):
+#       jobs_to_remove = ['TA','Custodian','Online','Grounds']
+#       jobs_to_remove_str = '|'.join(jobs_to_remove)   
+#       st.write('Personalised Table')
+#       data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+#       st.table(data_p)
 
-   if st.button("ballons"):
-      st.balloons()
+#    if st.button("ballons"):
+#       st.balloons()
    
-   if st.button("info"):
-      st.info('This is a purely informational message', icon="ℹ️")
+#    if st.button("info"):
+#       st.info('This is a purely informational message', icon="ℹ️")
    
 
 
