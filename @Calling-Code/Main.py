@@ -196,22 +196,31 @@ elif projectOption[option] == 4:
 ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
 
+   data = BYUI_JobBoard.data
 
-   tab1, tab2 = st.tabs(['Overview', 'Table'])
+
+   tab1, tab2 = st.tabs(['Overview', 'Code'])
    
    with tab1:
-      with st.spinner('Running Code ...'):
-         time.sleep(1.2)
-         st.success('Libraries imported')
-         time.sleep(1.2)
-         st.success('Data organized into table')
-         time.sleep(2.3)
-         st.success('Table ready to EDA')
+      if st.button("Run Code"):
+         with st.spinner('Running Code ...'):
+            time.sleep(3)
+            st.success('Importing libraries')
+            time.sleep(2)
+            st.success('Extracting data from website')
+            time.sleep(4)
+            st.success('Converting data into table')
+            time.sleep(2)
+            st.success('Droping unneeded columns')
+            time.sleep(4)
+            st.table(data)
+            st.success('Display results')
+
 
    with tab2:
       st.code(BYUI_JobBoard.script1)
 
-   # data = BYUI_JobBoard.data
+   
 
    # date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
    
