@@ -204,7 +204,6 @@ elif projectOption[option] == 9:
    with tab1:
       if st.button("Run Code"):
          with st.spinner('Running Code ...'):
-            time.sleep(3)
             st.success('Importing libraries')
             time.sleep(2)
             st.success('Extracting data from website')
@@ -213,7 +212,7 @@ elif projectOption[option] == 9:
             time.sleep(2)
             st.success('Droping unneeded columns')
             time.sleep(4)
-            st.table(data)
+            st.dataframe(data)
             st.success('Display results')
 
 
