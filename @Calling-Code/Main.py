@@ -202,26 +202,23 @@ elif projectOption[option] == 9:
          time.sleep(num)
          my_bar.progress(percent_complete + 1)
 
-   st.write('Extracting data from [web.byui.edu/studentemployment](web.byui.edu/studentemployment)')
+   st.write('## 1/3: Extracting data from [web.byui.edu/studentemployment](web.byui.edu/studentemployment)')
    st.code(BYUI_JobBoard.script1)
-   loader(0.05)
+   with st.spinner('Importing libraries ...'):
+      time.sleep(0.5)
+      st.success('Libraries imported')
 
-   st.write('Building table from data extraction')
+   st.write('## 2/3: Building table from data extraction')
    st.code(BYUI_JobBoard.script2)
-   loader(0.05)
+   with st.spinner('Building table ...'):
+      time.sleep(0.2)
+      st.success('Data organized into table')
 
    st.write('Build table for Explanatory Data Analysis')
    st.code(BYUI_JobBoard.script3)
-   loader(0.05)
-
-   with st.spinner('Wait for it...'):
-      time.sleep(5)
-      st.success('Done!')
-   
-   # loader(0.03)
-   # loader(0.01)
-   # st.write('Extracting data from ')
-   # loader(0.005)
+   with st.spinner('Wrangeling table ...'):
+      time.sleep(0.7)
+      st.success('Table ready to EDA')
 
    data = BYUI_JobBoard.data
 
