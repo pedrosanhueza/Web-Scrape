@@ -229,6 +229,35 @@ elif projectOption[option] == 9:
 
    KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
+   tab1, tab2, tab3, tab4 = st.tabs(['Highest Paid Jobs','Jobs not online','Table','Code'])
+
+   with tab1:
+      col1, col2, col3 = st.columns(3)
+
+      with col1:
+         st.write('')
+      with col2:
+         st.write(data.payRate.max())
+      with col3:
+         st.write('')
+
+   with tab2:
+      jobs_to_remove = ['TA','Custodian','Online','Grounds']
+      jobs_to_remove_str = '|'.join(jobs_to_remove)   
+      st.write('Personalised Table')
+      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+      st.table(data_p)
+      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
+      fig1 = plt.show()
+      st.pyplot(fig1)
+
+   with tab3:
+      st.dataframe(BYUI_JobBoard.data)
+
+   with tab4:
+      BYUI_JobBoard.script1
+
+
 #    sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
 
 #    fig1 = plt.show()
