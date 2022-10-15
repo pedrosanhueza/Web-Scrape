@@ -196,87 +196,78 @@ elif projectOption[option] == 4:
 ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
 
-   def loader(num):
-      my_bar = st.progress(0)
-      for percent_complete in range(100):
-         time.sleep(num)
-         my_bar.progress(percent_complete + 1)
 
-   st.write('## 1/3: Extracting data from [web.byui.edu/studentemployment](web.byui.edu/studentemployment)')
-   st.code(BYUI_JobBoard.script1)
-   with st.spinner('Importing libraries ...'):
-      time.sleep(0.5)
-      st.success('Libraries imported')
-
-   st.write('## 2/3: Building table from data extraction')
-   st.code(BYUI_JobBoard.script2)
-   with st.spinner('Building table ...'):
-      time.sleep(0.2)
-      st.success('Data organized into table')
-
-   st.write('Build table for Explanatory Data Analysis')
-   st.code(BYUI_JobBoard.script3)
-   with st.spinner('Wrangeling table ...'):
-      time.sleep(0.7)
-      st.success('Table ready to EDA')
-
-   data = BYUI_JobBoard.data
-
-   date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
+   tab1, tab2 = st.tabs(['Overview', 'Table'])
    
-   d = str(date_input.strftime("%Y-%m-%d"))
+   with tab1:
+      with st.spinner('Running Code ...'):
+         time.sleep(1.2)
+         st.success('Libraries imported')
+         time.sleep(1.2)
+         st.success('Data organized into table')
+         time.sleep(2.3)
+         st.success('Table ready to EDA')
 
-   st.dataframe(data)
+   with tab2:
+      st.code(BYUI_JobBoard.script1)
 
-   '## General KPI\'s'
+   # data = BYUI_JobBoard.data
 
-   KPI1_jobs = round(1-(400/data.shape[0]),2)
-
-   KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
-
-   jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
-
-   KPI1,KPI1_1,KPI2 = st.columns(3)
-
-   KPI1.metric("Jobs posted", f"{data.shape[0]}")
-
-   KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
-
-   KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
-
-   today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
-
-   yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
-
-   KPI3, KPI4, KPI_K = st.columns(3)
-
-   KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
-
-   try:
-      KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
-   except:
-      KPI4.metric("Jobs posted today",today, f'0% of yesterday')
-
-   KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
-
-   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
-
-   fig1 = plt.show()
-
-   st.pyplot(fig1)
-
-   if st.button('Personalised Table'):
-      jobs_to_remove = ['TA','Custodian','Online','Grounds']
-      jobs_to_remove_str = '|'.join(jobs_to_remove)   
-      st.write('Personalised Table')
-      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
-      st.table(data_p)
-
-   if st.button("ballons"):
-      st.balloons()
+   # date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
    
-   if st.button("info"):
-      st.info('This is a purely informational message', icon="ℹ️")
+   # d = str(date_input.strftime("%Y-%m-%d"))
+
+   # st.dataframe(data)
+
+   # '## General KPI\'s'
+
+   # KPI1_jobs = round(1-(400/data.shape[0]),2)
+
+   # KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
+
+   # jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
+
+   # KPI1,KPI1_1,KPI2 = st.columns(3)
+
+   # KPI1.metric("Jobs posted", f"{data.shape[0]}")
+
+   # KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+
+   # KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
+
+   # today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
+
+   # yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
+
+   # KPI3, KPI4, KPI_K = st.columns(3)
+
+   # KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
+
+   # try:
+   #    KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
+   # except:
+   #    KPI4.metric("Jobs posted today",today, f'0% of yesterday')
+
+   # KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
+
+   # sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
+
+   # fig1 = plt.show()
+
+   # st.pyplot(fig1)
+
+   # if st.button('Personalised Table'):
+   #    jobs_to_remove = ['TA','Custodian','Online','Grounds']
+   #    jobs_to_remove_str = '|'.join(jobs_to_remove)   
+   #    st.write('Personalised Table')
+   #    data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+   #    st.table(data_p)
+
+   # if st.button("ballons"):
+   #    st.balloons()
+   
+   # if st.button("info"):
+   #    st.info('This is a purely informational message', icon="ℹ️")
    
 
 

@@ -47,17 +47,12 @@ script1 = """
 import requests
 import pandas as pd
 from datetime import datetime, timedelta
-"""
 
-script2 = """
 response = requests.get('https://web.byui.edu/studentemployment/api/jobs')
 
 data_json = response.json()
 
 data = pd.DataFrame(data_json)
-"""
-
-script3 = """
 
 col_dates = ['dateUpdated','startDate','endDate','beginningDate','recruitingStartDate']
 
