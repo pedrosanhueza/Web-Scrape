@@ -198,9 +198,9 @@ elif projectOption[option] == 9:
 
    data = BYUI_JobBoard.data
 
-   date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
+   # date_input = st.sidebar.date_input("Jobs posted on",datetime.today())
    
-   d = str(date_input.strftime("%Y-%m-%d"))
+   d = str(datetime.today().strftime("%Y-%m-%d"))
 
    st.dataframe(data)
 
