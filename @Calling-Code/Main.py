@@ -8,23 +8,22 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-Billionaires = __import__('Projects/1_Billionaires')#1
-# from Projects.2_BYUI-Catalog import catalogBYUI       #2
-# from Projects import countryCode   #3
-# from Projects.FIFA_World_Cup import FIFAWorldCup    #4
-# from Projects import SurplusStore    #5
-# from Projects import SurplusStore    #6
-# from Projects import SurplusStore    #7
-# from Projects import SurplusStore    #8
-# from Projects.BYUI_JobBoard import BYUI_JobBoard    #9
-# from Projects import SurplusStore    #10
-# from Projects import SurplusStore    #11
-# from Projects import SurplusStore    #12
-# from Projects import SurplusStore    #13
-# from Projects import SurplusStore    #14
-# from Projects import SurplusStore    #15
-# from Projects import representatives    #16
-# from Projects import SurplusStore    #17
+from Projects._1_Billionaires import forbesBillionaires
+# from Projects._2_BYUI-ClassCatalog import 
+# from Projects._3_CountryCode import countryCode
+# from Projects._4_FIFAWorldCup import FIFAWorldCup
+# from Projects._5_Financial Data import
+# from Projects._6_ForbesBillionaries import 
+# from Projects._7_ForbesUniversities import 
+# from Projects._8_IrvineSpectrumCenter import 
+# from Projects._9_BYUI-JobBoard import 
+# from Projects._10_MutualAppFeedback import 
+# from Projects._11_NewsCBS import 
+# from Projects._12_PoliticosChilenos import 
+# from Projects._13_PolíticosEspañoles import 
+# from Projects._14_SINCAMMAGob import 
+# from Projects._15_BYUI-SurplusStore import 
+# from Projects._16_USHouseRepresentatives import representatives
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -86,7 +85,14 @@ projectOption = {
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
-   data = SurplusStore.data
+   data = forbesBillionaires.data
+
+   tab1, tab2 = st.tabs(['Tale', 'Code'])
+
+   with tab1:
+      st.dataframe(data)
+   with tab2:
+      st.code(forbesBillionaires.script)
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 2:
