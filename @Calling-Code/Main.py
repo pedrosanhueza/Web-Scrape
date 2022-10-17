@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-# from Projects._1_Billionaires import forbesBillionaires
+from Projects._1_Billionaires import forbesBillionaires
 # from Projects._2_BYUI-ClassCatalog import 
 # from Projects._3_CountryCode import countryCode
 # from Projects._4_FIFAWorldCup import FIFAWorldCup
@@ -92,7 +92,7 @@ if projectOption[option] == 1: #'Billionaires'
       # st.dataframe(forbesBillionaires.data)
       st.write("TABLE")
    with tab2:
-      # st.code(forbesBillionaires.script)
+      st.code(forbesBillionaires.script)
       st.write("CODE")
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
