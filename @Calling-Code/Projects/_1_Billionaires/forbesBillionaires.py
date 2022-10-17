@@ -38,31 +38,31 @@ for row in rows:
         }
     ls_.append(tableData)
 
-data = pd.DataFrame(ls_)
+# data = pd.DataFrame(ls_)
 
-cols_to_drop = [
-    'parentListUri',
-    'organization',
-    'title',
-    'selfMadeRank',
-    'residenceStateRegion',
-    'embargo',
-    'residenceMsa',
-    'impactInvestor',
-    'numberOfSiblings',
-    'numberOfSiblingsEst',
-    'bio',
-    # 'totalCharitableDonation',
-    # 'charitableDonationPercentage',
-    'thumbnail',
-    'notableDeal',
-    'valueCreated',
-    'primaryIndustry',
-    'portraitImage',
-    'landscapeImage',
-    'clients']
+# cols_to_drop = [
+#     'parentListUri',
+#     'organization',
+#     'title',
+#     'selfMadeRank',
+#     'residenceStateRegion',
+#     'embargo',
+#     'residenceMsa',
+#     'impactInvestor',
+#     'numberOfSiblings',
+#     'numberOfSiblingsEst',
+#     'bio',
+#     # 'totalCharitableDonation',
+#     # 'charitableDonationPercentage',
+#     'thumbnail',
+#     'notableDeal',
+#     'valueCreated',
+#     'primaryIndustry',
+#     'portraitImage',
+#     'landscapeImage',
+#     'clients']
 
-data.drop(cols_to_drop, axis=1, inplace=True)
+# data.drop(cols_to_drop, axis=1, inplace=True)
 
 data = pd.DataFrame([{'a':1}])
 
