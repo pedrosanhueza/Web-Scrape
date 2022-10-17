@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-from Projects._1_Billionaires import forbesBillionaires
+# from Projects._1_Billionaires import forbesBillionaires
 # from Projects._2_BYUI-ClassCatalog import 
 # from Projects._3_CountryCode import countryCode
 # from Projects._4_FIFAWorldCup import FIFAWorldCup
@@ -25,7 +25,7 @@ from Projects._1_Billionaires import forbesBillionaires
 # from Projects._15_BYUI-SurplusStore import 
 # from Projects._16_USHouseRepresentatives import representatives
 
-st.set_option('deprecation.showPyplotGlobalUse', False)
+# st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # st.write('# Web Analysis')
 # st.write('''
