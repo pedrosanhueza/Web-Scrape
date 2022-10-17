@@ -28,11 +28,11 @@ from Projects import representatives    #16
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-st.write('# Web Analysis')
-st.write('''
-    __Author__ : Pedro Sanhueza \n
-    Description: Web Scraping EDA
-    ''')
+# st.write('# Web Analysis')
+# st.write('''
+#     __Author__ : Pedro Sanhueza \n
+#     Description: Web Scraping EDA
+#     ''')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
