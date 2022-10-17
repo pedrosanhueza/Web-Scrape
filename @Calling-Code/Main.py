@@ -89,9 +89,11 @@ if projectOption[option] == 1: #'Billionaires'
    tab1, tab2 = st.tabs(['Table', 'Code'])
 
    with tab1:
-      st.dataframe(forbesBillionaires.data)
+      # st.dataframe(forbesBillionaires.data)
+      st.write("TABLE")
    with tab2:
-      st.code(forbesBillionaires.script)
+      # st.code(forbesBillionaires.script)
+      st.write("CODE")
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 2:
