@@ -25,6 +25,8 @@ from Projects._1_Billionaires import forbesBillionaires
 # from Projects._15_BYUI-SurplusStore import 
 # from Projects._16_USHouseRepresentatives import representatives
 
+from Projects.test import test
+
 # st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # st.write('# Web Analysis')
@@ -86,7 +88,7 @@ projectOption = {
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
 
-   data = forbesBillionaires.data
+   data = test.data
 
    tab1, tab2 = st.tabs(['Table', 'Code'])
 
