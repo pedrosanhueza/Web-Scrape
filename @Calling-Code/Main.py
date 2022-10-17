@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-from Projects._1_Billionaires import forbesBillionaires
+from Projects.Billionaires import forbesBillionaires
 # from Projects._2_BYUI-ClassCatalog import 
 # from Projects._3_CountryCode import countryCode
 # from Projects._4_FIFAWorldCup import FIFAWorldCup
@@ -88,7 +88,7 @@ projectOption = {
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
 
-   data = test.data
+   data = forbesBillionaires.data
 
    tab1, tab2 = st.tabs(['Table', 'Code'])
 
