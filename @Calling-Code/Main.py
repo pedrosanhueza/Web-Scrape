@@ -85,12 +85,11 @@ projectOption = {
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
-   data = forbesBillionaires.data
 
-   tab1, tab2 = st.tabs(['Tale', 'Code'])
+   tab1, tab2 = st.tabs(['Table', 'Code'])
 
    with tab1:
-      st.dataframe(data)
+      st.dataframe(forbesBillionaires.data)
    with tab2:
       st.code(forbesBillionaires.script)
 
