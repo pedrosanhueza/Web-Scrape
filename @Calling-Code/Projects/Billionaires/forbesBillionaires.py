@@ -64,7 +64,7 @@ from bs4 import BeautifulSoup
 
 # data.drop(cols_to_drop, axis=1, inplace=True)
 
-data = pd.DataFrame({'col1': [1, 2], 'col2': [3, 4], 'col3': [5, 6]})
+data = pd.DataFrame(range(20))
 
 # --------------------------------------------------------------------
 
