@@ -40,6 +40,30 @@ for row in rows:
 
 data = pd.DataFrame(ls_)
 
+cols_to_drop = [
+    'parentListUri',
+    'organization',
+    'title',
+    'selfMadeRank',
+    'residenceStateRegion',
+    'embargo',
+    'residenceMsa',
+    'impactInvestor',
+    'numberOfSiblings',
+    'numberOfSiblingsEst',
+    'bio',
+    # 'totalCharitableDonation',
+    # 'charitableDonationPercentage',
+    'thumbnail',
+    'notableDeal',
+    'valueCreated',
+    'primaryIndustry',
+    'portraitImage',
+    'landscapeImage',
+    'clients']
+
+data.drop(cols_to_drop, axis=1, inplace=True)
+
 # --------------------------------------------------------------------
 
 script = """
@@ -84,4 +108,28 @@ for row in rows:
     ls_.append(tableData)
 
 data = pd.DataFrame(ls_)
+
+cols_to_drop = [
+    'parentListUri',
+    'organization',
+    'title',
+    'selfMadeRank',
+    'residenceStateRegion',
+    'embargo',
+    'residenceMsa',
+    'impactInvestor',
+    'numberOfSiblings',
+    'numberOfSiblingsEst',
+    'bio',
+    # 'totalCharitableDonation',
+    # 'charitableDonationPercentage',
+    'thumbnail',
+    'notableDeal',
+    'valueCreated',
+    'primaryIndustry',
+    'portraitImage',
+    'landscapeImage',
+    'clients']
+
+data.drop(cols_to_drop, axis=1, inplace=True)
 """
