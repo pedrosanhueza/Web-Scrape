@@ -8,22 +8,22 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-# from Projects import SurplusStore      #1
-from Projects.CatalogBYUI import catalogBYUI       #2
-from Projects import countryCode   #3
-from Projects.FIFA_World_Cup import FIFAWorldCup    #4
+Billionaires = __import__('Projects/1_Billionaires')#1
+# from Projects.2_BYUI-Catalog import catalogBYUI       #2
+# from Projects import countryCode   #3
+# from Projects.FIFA_World_Cup import FIFAWorldCup    #4
 # from Projects import SurplusStore    #5
 # from Projects import SurplusStore    #6
 # from Projects import SurplusStore    #7
 # from Projects import SurplusStore    #8
-from Projects.BYUI_JobBoard import BYUI_JobBoard    #9
+# from Projects.BYUI_JobBoard import BYUI_JobBoard    #9
 # from Projects import SurplusStore    #10
 # from Projects import SurplusStore    #11
 # from Projects import SurplusStore    #12
 # from Projects import SurplusStore    #13
 # from Projects import SurplusStore    #14
-from Projects import SurplusStore    #15
-from Projects import representatives    #16
+# from Projects import SurplusStore    #15
+# from Projects import representatives    #16
 # from Projects import SurplusStore    #17
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -86,10 +86,7 @@ projectOption = {
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
-   # data = SurplusStore.data
-   # url = SurplusStore.url
-   # url_split = url.replace('https://','').split('/')[0]
-   st.write('Billionaires')
+   data = SurplusStore.data
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 2:
