@@ -64,6 +64,8 @@ from bs4 import BeautifulSoup
 
 # data.drop(cols_to_drop, axis=1, inplace=True)
 
+data = pd.DataFrame(range(20))
+
 # --------------------------------------------------------------------
 
 script = """

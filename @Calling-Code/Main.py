@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import time
 
-from Projects.Billionaires import forbesBillionaires
+from Projects._1_Billionaires import forbesBillionaires
 # from Projects._2_BYUI-ClassCatalog import 
 # from Projects._3_CountryCode import countryCode
 # from Projects._4_FIFAWorldCup import FIFAWorldCup
