@@ -189,7 +189,7 @@ elif projectOption[option] == 9:
    
    st.markdown('''
    <center>
-      <h1 style="color:green;">
+      <h1 style="color:green;font-size: 120px;">
          BYU-I
          <br>
          Job Board 
@@ -224,6 +224,9 @@ elif projectOption[option] == 9:
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
    st.markdown('''
+   <br>
+   <br>
+   <br>
    <p style="font-size: 40px;">
       Highest Paid Jobs
    </p>
