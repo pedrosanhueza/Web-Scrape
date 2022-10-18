@@ -225,9 +225,9 @@ elif projectOption[option] == 9:
 
    # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
-   data_top5 = data.sort_values('payRate', ascending=False).head(5)
+   data_top5 = data.sort_values('payRate', ascending=False)
 
-   for job in range(5):
+   for job in range(4):
       st.markdown(f'''
       <p>
          <b> Job Title: </b> &emsp;&emsp;&emsp;&emsp;{data_top5.iloc[job].title}
