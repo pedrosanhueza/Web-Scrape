@@ -228,9 +228,13 @@ elif projectOption[option] == 9:
    for job in data[data.payRate == data.payRate.max()]['title']:
       st.markdown(f'''
       <p>
-         Top paid job: \t\t {job}
+         <b> Top paid job:<b> &emsp;&emsp; {job}
          <br>
-         hourly wage: \t\t {data.payRate.max()}
+         hourly wage: {data.payRate.max()}
+         <br>
+
+         <br>
+         <br>
       <p>
       ''',unsafe_allow_html=True)
 
