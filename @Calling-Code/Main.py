@@ -248,7 +248,7 @@ elif projectOption[option] == 9:
    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
       Jobs Posted Today
    </p>
-   <p>
+   <p text-align:center;color:#4F9ACF;>
       {time.strftime("%d %B, %Y")}
    </p>
    <br>
@@ -265,10 +265,9 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   with st.spinner('Wait for it...'):
-      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
-      fig1 = plt.show()
-      st.pyplot(fig1)
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+   fig1 = plt.show()
+   st.pyplot(fig1)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
