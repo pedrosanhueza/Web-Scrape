@@ -223,7 +223,7 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
+   # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
    st.markdown(f'''
 
