@@ -209,30 +209,22 @@ elif projectOption[option] == 9:
 
    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-   jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
-
-   KPI1, KPI1_1, KPI2 = st.columns(3)
-
-   KPI1.metric('Jobs Published', f"{data.shape[0]}")
-
-   KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
-
-   KPI2.metric("Departments Recluting", f"{data.departmentName.nunique()}")
-
    today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
 
    yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
 
-   KPI3, KPI4, KPI_K = st.columns(3)
+   KPI1, KPI2, KPI3, KPI4 = st.columns(4)
 
-   KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
+   KPI1.metric('Jobs Published', f"{data.shape[0]}")
+
+   KPI2.metric("Departments Recluting", f"{data.departmentName.nunique()}")
 
    try:
-      KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
+      KPI3.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
    except:
-      KPI4.metric("Jobs posted today",today, f'0% of yesterday')
+      KPI3.metric("Jobs posted today",today, f'0% of yesterday')
 
-   KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
+   KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
    tab1, tab2, tab3, tab4 = st.tabs(['Highest Paid Jobs','Jobs not online','Table','Code'])
 
