@@ -241,6 +241,14 @@ elif projectOption[option] == 9:
 
    st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
 
+   st.markdown('''
+   <br>
+   <p style="font-size:40px;text-align:center;">
+      Jobs Posted Today 
+   </p>
+   <br>
+   ''',unsafe_allow_html=True)
+
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
 
