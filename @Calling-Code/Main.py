@@ -266,7 +266,7 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   col1, col2 = st.columns([3,1])
+   col1, col2 = st.columns([1,3])
 
    with col1:
       job_type = st.radio("Job Type", ('Online','On-Campus','All'))
