@@ -227,7 +227,7 @@ elif projectOption[option] == 9:
 
    data_top5 = data.sort_values('payRate', ascending=False)
 
-   col0, col1, col2 = st.columns(4)
+   col0, col1, col2, col3 = st.columns(4)
 
    for job in range(4):
       with f'col{job}':
