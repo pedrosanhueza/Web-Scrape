@@ -274,7 +274,7 @@ elif projectOption[option] == 9:
    if st.button("Plot 2"):
       ls_ = ['']
 
-      ls_[0] = data.patRate.to_list()
+      ls_[0] = data.payRate.to_list()
 
       hist_data = ls_
 
