@@ -267,11 +267,11 @@ elif projectOption[option] == 9:
    ''',unsafe_allow_html=True)
 
    job_type = st.radio("Job Type", ('Online','On-Campus','All'))
-   
+
    if job_type == 'Online':
-      data_isOnline = data[data.isOnline == True]
+      data_isOnline = data[data['isOnline'] == True]
    elif job_type == 'On-Campus':
-      data_isOnline = data[data.isOnline == False]
+      data_isOnline = data[data['isOnline'] == False]
    else:
       data_isOnline = data.copy()
 
