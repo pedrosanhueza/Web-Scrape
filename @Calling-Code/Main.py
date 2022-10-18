@@ -80,17 +80,9 @@ projectOption = {
 # st.write('You selected:', option)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-if projectOption[option] == 1: #'Billionaires'
+# if projectOption[option] == 1: #'Billionaires'
 
-   data = forbesBillionaires.data
-
-   tab1, tab2 = st.tabs(['Table', 'Code'])
-
-   with tab1:
-      st.dataframe(data)
-      st.write('TABLE')
-   with tab2:
-      st.code(forbesBillionaires.script)
+st.write("Here")
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 2:
