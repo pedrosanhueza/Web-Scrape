@@ -225,51 +225,57 @@ elif projectOption[option] == 9:
 
    tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
-   with tab1:
-      col1, col2, col3 = st.columns(3)
+   st.markdown(f'''
 
-      with col1:
-         st.write('')
-      with col2:
-         st.write(data.payRate.max(), 12,13)
-      with col3:
-         st.write('')
+   <>
 
-   with tab2:
-      jobs_to_remove = ['TA','Custodian','Online','Grounds']
-      jobs_to_remove_str = '|'.join(jobs_to_remove)   
-      st.write('Personalised Table')
-      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
-      st.dataframe(data_p)
+   ''',unsafe_allow_html=True)
+
+   # with tab1:
+   #    col1, col2, col3 = st.columns(3)
+
+   #    with col1:
+   #       st.write('')
+   #    with col2:
+   #       st.write(data.payRate.max(), 12,13)
+   #    with col3:
+   #       st.write('')
+
+   # with tab2:
+   #    jobs_to_remove = ['TA','Custodian','Online','Grounds']
+   #    jobs_to_remove_str = '|'.join(jobs_to_remove)   
+   #    st.write('Personalised Table')
+   #    data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+   #    st.dataframe(data_p)
       
-      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
-      fig1 = plt.show()
-      st.pyplot(fig1)
+   #    sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
+   #    fig1 = plt.show()
+   #    st.pyplot(fig1)
 
-   with tab3:
-      st.dataframe(BYUI_JobBoard.data)
+   # with tab3:
+   #    st.dataframe(BYUI_JobBoard.data)
 
-   with tab4:
-      st.code(BYUI_JobBoard.script1)
+   # with tab4:
+   #    st.code(BYUI_JobBoard.script1)
 
-   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+   # sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
 
-   fig1 = plt.show()
+   # fig1 = plt.show()
 
-   st.pyplot(fig1)
+   # st.pyplot(fig1)
 
-   if st.button('Personalised Table'):
-      jobs_to_remove = ['TA','Custodian','Online','Grounds']
-      jobs_to_remove_str = '|'.join(jobs_to_remove)   
-      st.write('Personalised Table')
-      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
-      st.table(data_p)
+   # if st.button('Personalised Table'):
+   #    jobs_to_remove = ['TA','Custodian','Online','Grounds']
+   #    jobs_to_remove_str = '|'.join(jobs_to_remove)   
+   #    st.write('Personalised Table')
+   #    data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+   #    st.table(data_p)
 
-   if st.button("ballons"):
-      st.balloons()
+   # if st.button("ballons"):
+   #    st.balloons()
    
-   if st.button("info"):
-      st.info('This is a purely informational message', icon="ℹ️")
+   # if st.button("info"):
+   #    st.info('This is a purely informational message', icon="ℹ️")
    
 
 
