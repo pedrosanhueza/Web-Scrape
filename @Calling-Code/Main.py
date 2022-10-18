@@ -196,7 +196,7 @@ elif projectOption[option] == 9:
       </h1>
    </center>
    <p style="text-align:right;">
-      Author: Pedro Sanhueza
+      **Author:** Pedro Sanhueza
    </p>
    <br>
   ''',unsafe_allow_html=True)
