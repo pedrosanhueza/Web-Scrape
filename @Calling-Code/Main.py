@@ -187,6 +187,11 @@ if projectOption[option] == 1: #'Billionaires'
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
 
+   st.write('''
+   # BYU-I
+   ## Job Board
+   ''')
+
    data = BYUI_JobBoard.data
    
    d = str(datetime.today().strftime("%Y-%m-%d"))
