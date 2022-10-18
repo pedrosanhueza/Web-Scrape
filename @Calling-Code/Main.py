@@ -232,11 +232,11 @@ elif projectOption[option] == 9:
       <p>
          <b> Job Title: </b> &emsp;&emsp;&emsp;&emsp;{data_top5.iloc[job].title}
          <br>
-         <b> Hourly Wage: </b> &emsp;&emsp; {data_top5.iloc[job].payRate}
+         <b> Hourly Wage: </b> &emsp;&emsp;&nbsp; {data_top5.iloc[job].payRate}
          <br>
          <b> Recluter: </b> &emsp;&emsp;&emsp;&emsp; {data_top5.iloc[job].managerName}
          <br>
-         <b> Department: </b> &emsp;&emsp; {data_top5.iloc[job].departmentName}
+         <b> Department: </b> &emsp;&emsp;&ensp; {data_top5.iloc[job].departmentName}
          <br>
       <p>
       ''',unsafe_allow_html=True)
