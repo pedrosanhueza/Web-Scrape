@@ -190,8 +190,10 @@ elif projectOption[option] == 9:
    st.markdown('''
    <center>
       <h1>
-         BYU-I <br>
-         Job Board
+         BYU-I
+         <br>
+         Job Board 
+         <br><br><br>
       </h1>
       
    </center>
