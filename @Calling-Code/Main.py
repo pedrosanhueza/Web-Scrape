@@ -266,18 +266,22 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   job_type = st.radio("Job Type", ('Online','On-Campus','All'))
-   
-   if job_type == 'Online':
-      data_isOnline = data[data.isOnline == True]
-   elif job_type == 'On-Campus':
-      data_isOnline = data[data.isOnline == False]
-   else:
-      data_isOnline = data.copy()
+   col1, col2 = st.columns([3,1])
 
-   sns.kdeplot(data_isOnline.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
-   fig1 = plt.show()
-   st.pyplot(fig1)
+   with col1:
+      job_type = st.radio("Job Type", ('Online','On-Campus','All'))
+      
+      if job_type == 'Online':
+         data_isOnline = data[data.isOnline == True]
+      elif job_type == 'On-Campus':
+         data_isOnline = data[data.isOnline == False]
+      else:
+         data_isOnline = data.copy()
+
+   with col2:   
+      sns.kdeplot(data_isOnline.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+      fig1 = plt.show()
+      st.pyplot(fig1)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
