@@ -235,13 +235,12 @@ elif projectOption[option] == 9:
    # col3.write("hello")
 
    with col1:
-      st.write("hello")
+      st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
+
    with col2:
       sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
       fig1 = plt.show()
       st.pyplot(fig1)
-   with col3:
-      st.write("hello")
 
    st.markdown('''
    <br>
