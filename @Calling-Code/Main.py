@@ -225,7 +225,7 @@ elif projectOption[option] == 9:
 
    # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
-   data_top5 = data.sort_values('payRate', ascending=False)
+   data_top5 = data.sort_values('payRate', ascending=False).head(5)
 
    for job in range(5):
       st.markdown(f'''
