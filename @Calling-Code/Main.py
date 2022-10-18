@@ -211,7 +211,9 @@ elif projectOption[option] == 9:
 
    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-   today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
+   today_data = data[data.dateUpdated == time.strftime("%Y-%m-%d")]
+   
+   today = today_data.shape[0]
 
    yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
 
@@ -248,6 +250,8 @@ elif projectOption[option] == 9:
    </p>
    <br>
    ''',unsafe_allow_html=True)
+
+   st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']])
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
