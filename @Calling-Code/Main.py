@@ -227,7 +227,9 @@ elif projectOption[option] == 9:
 
    st.markdown(f'''
 
-   <>
+   <h6>
+      Highest paid job: {d}
+   <h6>
 
    ''',unsafe_allow_html=True)
 
