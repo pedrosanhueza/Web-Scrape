@@ -193,13 +193,12 @@ elif projectOption[option] == 9:
          BYU-I
          <br>
          Job Board 
-         <br><br>
       </h1>
    </center>
-
    <p style="text-align:right;">
-      Author: Pedro Sanhuez
+      Author: Pedro Sanhueza
    </p>
+   <br>
   ''',unsafe_allow_html=True)
 
    data = BYUI_JobBoard.data
