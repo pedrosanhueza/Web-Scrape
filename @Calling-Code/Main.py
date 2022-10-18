@@ -16,7 +16,7 @@ import time
 # from Projects._6_ForbesBillionaries import forbesBillionaires
 # from Projects._7_ForbesUniversities import Forbes_Universities
 # from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
-# from Projects._9_BYUI_JobBoard import BYUI_JobBoard
+from Projects._9_BYUI_JobBoard import BYUI_JobBoard
 # from Projects._10_MutualAppFeedback import Mutual_App_Feedback
 # from Projects._11_NewsCBS import cbsnews
 # # from Projects._12_PoliticosChilenos import 
@@ -80,9 +80,8 @@ projectOption = {
 # st.write('You selected:', option)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-# if projectOption[option] == 1: #'Billionaires'
-
-st.write("Here")
+if projectOption[option] == 1: #'Billionaires'
+   st.write('Hola!')
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 2:
@@ -187,110 +186,110 @@ st.write("Here")
 #       st.header(option)
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
-# elif projectOption[option] == 9:
+elif projectOption[option] == 9:
 
-#    data = BYUI_JobBoard.data
+   data = BYUI_JobBoard.data
    
-#    d = str(datetime.today().strftime("%Y-%m-%d"))
+   d = str(datetime.today().strftime("%Y-%m-%d"))
 
-#    KPI1_jobs = round(1-(400/data.shape[0]),2)
+   KPI1_jobs = round(1-(400/data.shape[0]),2)
 
-#    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
+   KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-#    jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
+   jobs_not_online = data[~data.title.str.contains('Online')].shape[0]
 
-#    KPI1, KPI1_1, KPI2 = st.columns(3)
+   KPI1, KPI1_1, KPI2 = st.columns(3)
 
-#    KPI1.metric("Jobs posted", f"{data.shape[0]}")
+   KPI1.metric("Jobs posted", f"{data.shape[0]}")
 
-#    KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+   KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-#    KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
+   KPI2.metric("Managers Recluting", f"{data.managerName.nunique()}")
 
-#    today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
+   today = data[data.dateUpdated == time.strftime("%Y-%m-%d")].shape[0]
 
-#    yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
+   yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
 
-#    KPI3, KPI4, KPI_K = st.columns(3)
+   KPI3, KPI4, KPI_K = st.columns(3)
 
-#    KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
+   KPI3.metric("Departments hiring", f"{data.departmentName.nunique()}")
 
-#    try:
-#       KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
-#    except:
-#       KPI4.metric("Jobs posted today",today, f'0% of yesterday')
+   try:
+      KPI4.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
+   except:
+      KPI4.metric("Jobs posted today",today, f'0% of yesterday')
 
-#    KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
+   KPI_K.metric("Jobs not Online", f"{jobs_not_online}")
 
-#    tab1, tab2, tab3, tab4 = st.tabs(['Highest Paid Jobs','Jobs not online','Table','Code'])
+   tab1, tab2, tab3, tab4 = st.tabs(['Highest Paid Jobs','Jobs not online','Table','Code'])
 
-#    with tab1:
-#       col1, col2, col3 = st.columns(3)
+   with tab1:
+      col1, col2, col3 = st.columns(3)
 
-#       with col1:
-#          st.write('')
-#       with col2:
-#          st.write(data.payRate.max())
-#       with col3:
-#          st.write('')
+      with col1:
+         st.write('')
+      with col2:
+         st.write(data.payRate.max())
+      with col3:
+         st.write('')
 
-#    with tab2:
-#       jobs_to_remove = ['TA','Custodian','Online','Grounds']
-#       jobs_to_remove_str = '|'.join(jobs_to_remove)   
-#       st.write('Personalised Table')
-#       data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
-#       st.dataframe(data_p)
+   with tab2:
+      jobs_to_remove = ['TA','Custodian','Online','Grounds']
+      jobs_to_remove_str = '|'.join(jobs_to_remove)   
+      st.write('Personalised Table')
+      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+      st.dataframe(data_p)
       
-#       sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
-#       fig1 = plt.show()
-#       st.pyplot(fig1)
+      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
+      fig1 = plt.show()
+      st.pyplot(fig1)
 
-#    with tab3:
-#       st.dataframe(BYUI_JobBoard.data)
+   with tab3:
+      st.dataframe(BYUI_JobBoard.data)
 
-#    with tab4:
-#       st.code(BYUI_JobBoard.script1)
+   with tab4:
+      st.code(BYUI_JobBoard.script1)
 
-#    if st.button('Trigger Code'):
+   if st.button('Trigger Code'):
       
-#       data_higher = data[data.payRate == data.payRate.max()]
+      data_higher = data[data.payRate == data.payRate.max()]
 
-#       col_x, col_y = st.columns(['A','B'])
+      col_x, col_y = st.columns(['A','B'])
       
-#       with col_x:
-#          for e in range(data_higher.shape[0]):
-#             print(data_higher.title.iloc[0])
-#             print(data_higher.departmentName.iloc[0])
-#             print(data_higher.payRate.iloc[0])
-#             print(data_higher.workSchedule.iloc[0])
-#             print(data_higher.URL.iloc[0])
-#       with col_y:
-#          for e in range(data_higher.shape[0]):
-#             print(data_higher.title.iloc[0])
-#             print(data_higher.departmentName.iloc[0])
-#             print(data_higher.payRate.iloc[0])
-#             print(data_higher.workSchedule.iloc[0])
-#             print(data_higher.URL.iloc[0])
+      with col_x:
+         for e in range(data_higher.shape[0]):
+            print(data_higher.title.iloc[0])
+            print(data_higher.departmentName.iloc[0])
+            print(data_higher.payRate.iloc[0])
+            print(data_higher.workSchedule.iloc[0])
+            print(data_higher.URL.iloc[0])
+      with col_y:
+         for e in range(data_higher.shape[0]):
+            print(data_higher.title.iloc[0])
+            print(data_higher.departmentName.iloc[0])
+            print(data_higher.payRate.iloc[0])
+            print(data_higher.workSchedule.iloc[0])
+            print(data_higher.URL.iloc[0])
 
 
-# #    sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
 
-# #    fig1 = plt.show()
+   fig1 = plt.show()
 
-# #    st.pyplot(fig1)
+   st.pyplot(fig1)
 
-# #    if st.button('Personalised Table'):
-# #       jobs_to_remove = ['TA','Custodian','Online','Grounds']
-# #       jobs_to_remove_str = '|'.join(jobs_to_remove)   
-# #       st.write('Personalised Table')
-# #       data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
-# #       st.table(data_p)
+   if st.button('Personalised Table'):
+      jobs_to_remove = ['TA','Custodian','Online','Grounds']
+      jobs_to_remove_str = '|'.join(jobs_to_remove)   
+      st.write('Personalised Table')
+      data_p = data[~data.title.str.contains(jobs_to_remove_str)].sort_values('payRate', ascending=False)[['title','payRate','workSchedule','URL']]
+      st.table(data_p)
 
-# #    if st.button("ballons"):
-# #       st.balloons()
+   if st.button("ballons"):
+      st.balloons()
    
-# #    if st.button("info"):
-# #       st.info('This is a purely informational message', icon="ℹ️")
+   if st.button("info"):
+      st.info('This is a purely informational message', icon="ℹ️")
    
 
 
