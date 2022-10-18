@@ -78,6 +78,8 @@ data['birthDate'].fillna('Not Specified', inplace=True)
 
 data['firstName'].fillna('Not Specified', inplace=True)
 
+data = pd.DataFrame(range(20))
+
 # --------------------------------------------------------------------
 
 script = """
