@@ -235,7 +235,7 @@ elif projectOption[option] == 9:
    # col3.write("hello")
 
    with col1:
-      st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
+      st.dataframe(data)
 
    with col2:
       sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
