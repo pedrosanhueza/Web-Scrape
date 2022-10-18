@@ -1,3 +1,3 @@
 import pandas as pd
 
-data = pd.dataFrame({'E':range(10)})
+data = pd.dataFrame([{'E':range(10)}])
