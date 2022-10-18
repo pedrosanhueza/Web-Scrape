@@ -251,7 +251,10 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']])
+   if today > 0:
+      st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
+   
+   
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
