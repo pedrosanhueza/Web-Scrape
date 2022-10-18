@@ -189,7 +189,7 @@ elif projectOption[option] == 9:
    
    st.markdown('''
    <center>
-      <h1 style="color:#ff6347;font-size: 120px;">
+      <h1 style="color:#214491;font-size: 120px;">
          BYU-I
          <br>
          Job Board 
