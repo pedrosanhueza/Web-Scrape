@@ -199,7 +199,7 @@ elif projectOption[option] == 9:
 
    KPI1, KPI1_1, KPI2 = st.columns(3)
 
-   KPI1.metric("Jobs posted", f"{data.shape[0]}")
+   KPI1.metric('Jobs Posts', f"{data.shape[0]}")
 
    KPI1_1.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
