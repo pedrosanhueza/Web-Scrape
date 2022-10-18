@@ -266,9 +266,9 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   col1, col2 = st.columns([1,3])
+   col1, col2 = st.columns([4,1])
 
-   with col1:
+   with col2:
       job_type = st.radio("Job Type", ('Online','On-Campus','All'))
       
       if job_type == 'Online':
@@ -278,7 +278,7 @@ elif projectOption[option] == 9:
       else:
          data_isOnline = data.copy()
 
-   with col2:   
+   with col1:   
       sns.kdeplot(data_isOnline.payRate, shade=True, color="#214491", bw=0.8, alpha=0.5, cut=0)
       fig1 = plt.show()
       st.pyplot(fig1)
