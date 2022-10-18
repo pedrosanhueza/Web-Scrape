@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 import time
 import seaborn as sns
 import matplotlib.pyplot as plt
+from plotly.figure_factory import create_distplot
 import time
 
 # from Projects._1_Billionaires import forbesBillionaires
@@ -265,9 +266,19 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
-   fig1 = plt.show()
-   st.pyplot(fig1)
+   if st.button("Plot 1"):
+      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+      fig1 = plt.show()
+      st.pyplot(fig1)
+
+   if st.button("Plot 2"):
+      hist_data = [[1.1, 1.1, 2.5, 3.0, 3.5,
+              3.5, 4.1, 4.4, 4.5, 4.5,
+              5.0, 5.0, 5.2, 5.5, 5.5,
+              5.5, 5.5, 5.5, 6.1, 7.0]]
+      group_labels = ['distplot example']
+
+      fig = create_distplot(hist_data, group_labels)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
