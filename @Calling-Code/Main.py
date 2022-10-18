@@ -280,6 +280,8 @@ elif projectOption[option] == 9:
 
       fig = create_distplot(hist_data, group_labels)
 
+      st.plotly_chart(fig, use_container_width=True)
+
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
 
