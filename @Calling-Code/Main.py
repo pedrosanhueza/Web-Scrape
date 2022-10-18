@@ -228,20 +228,6 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   col1, col2 = st.columns([3,1])
-
-   # col1.write("hello")
-   # col2.write("hello")
-   # col3.write("hello")
-
-   with col1:
-      st.dataframe(data)
-
-   with col2:
-      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
-      fig1 = plt.show()
-      st.pyplot(fig1)
-
    st.markdown('''
    <br>
    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
@@ -279,6 +265,10 @@ elif projectOption[option] == 9:
    </p>
    <br>
    ''',unsafe_allow_html=True)
+
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+   fig1 = plt.show()
+   st.pyplot(fig1)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
