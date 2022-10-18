@@ -219,14 +219,11 @@ elif projectOption[option] == 9:
 
    KPI2.metric("Departments Recluting", f"{data.departmentName.nunique()}")
 
-   try:
-      KPI3.metric("Jobs posted today",today, f'{round((today/yesterday)-1,2)}% of yesterday')
-   except:
-      KPI3.metric("Jobs posted today",today, f'0% of yesterday')
+   KPI3.metric("Jobs Posted Today",today)
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   tab1, tab2, tab3, tab4 = st.tabs(['Highest Paid Jobs','Jobs not online','Table','Code'])
+   tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
    with tab1:
       col1, col2, col3 = st.columns(3)
@@ -234,7 +231,7 @@ elif projectOption[option] == 9:
       with col1:
          st.write('')
       with col2:
-         st.write(data.payRate.max())
+         st.write(data.payRate.max(), 12,13)
       with col3:
          st.write('')
 
