@@ -228,6 +228,12 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
+   col1, col2, col3 = st.columns([1,2,1])
+
+   col1.write("hello")
+   col2.write("hello")
+   col3.write("hello")
+
    st.markdown('''
    <br>
    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
@@ -266,25 +272,9 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   if st.button("Plot 1"):
-      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
-      fig1 = plt.show()
-      st.pyplot(fig1)
-
-   if st.button("Plot 2"):
-      ls_ = ['']
-
-      ls_[0] = data.payRate.to_list()
-
-      hist_data = ls_
-
-      group_labels = ['distplot example']
-
-      fig = create_distplot(hist_data, group_labels)
-
-      fig.show()
-
-      st.plotly_chart(fig, use_container_width=True)
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+   fig1 = plt.show()
+   st.pyplot(fig1)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
