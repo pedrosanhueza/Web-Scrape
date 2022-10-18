@@ -233,13 +233,13 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   Njobs = st.slider('Select a range of values', 1, 100, 3)
+   Njobs = st.slider('Select a range of jobs', 1, 10, 5)
 
    data_topPayRate = data.sort_values('payRate', ascending=False).head(Njobs)[['title','payRate','departmentName','managerName','URL']]
    
    data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
 
-   st.table(data_topPayRate.reset_index().drop('index',axis=1))
+   st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
