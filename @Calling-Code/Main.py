@@ -230,7 +230,7 @@ elif projectOption[option] == 9:
    <br>
    ''',unsafe_allow_html=True)
 
-   Njobs = st.sidebar.slider('Select a range of values', 1, 100, 3)
+   Njobs = st.slider('Select a range of values', 1, 100, 3)
 
    data_topPayRate = data.sort_values('payRate', ascending=False).head(Njobs)[['title','payRate','departmentName','managerName','URL']]
    
