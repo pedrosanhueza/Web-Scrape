@@ -228,7 +228,7 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   col1, col2, col3 = st.columns([3,1])
+   col1, col2 = st.columns([3,1])
 
    # col1.write("hello")
    # col2.write("hello")
