@@ -188,6 +188,10 @@ if projectOption[option] == 1: #'Billionaires'
 elif projectOption[option] == 9:
    
    st.markdown('''
+   <p style="text-align:right;">
+      Author: Pedro Sanhueza
+   </p>
+   
    <center>
       <h1 style="color:#214491;font-size: 120px;">
          BYU-I
@@ -195,9 +199,7 @@ elif projectOption[option] == 9:
          Job Board 
       </h1>
    </center>
-   <p style="text-align:right;">
-      Author: Pedro Sanhueza
-   </p>
+   
    <br>
   ''',unsafe_allow_html=True)
 
