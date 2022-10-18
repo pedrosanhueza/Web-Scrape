@@ -192,6 +192,12 @@ elif projectOption[option] == 9:
    ## Job Board
    ''')
 
+   st.markdown('''
+   # BYU-I
+   ## Job Board
+   **Author**: Pedro Sanhueza
+   ''')
+
    data = BYUI_JobBoard.data
    
    d = str(datetime.today().strftime("%Y-%m-%d"))
