@@ -198,6 +198,10 @@ elif projectOption[option] == 9:
    **Author**: Pedro Sanhueza
    ''')
 
+   st.markdown('''
+   <center>Centered text</center>
+   ''')
+
    data = BYUI_JobBoard.data
    
    d = str(datetime.today().strftime("%Y-%m-%d"))
