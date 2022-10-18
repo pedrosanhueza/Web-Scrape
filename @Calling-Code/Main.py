@@ -230,9 +230,16 @@ elif projectOption[option] == 9:
 
    col1, col2, col3 = st.columns([1,2,1])
 
-   col1.write("hello")
-   col2.write("hello")
-   col3.write("hello")
+   # col1.write("hello")
+   # col2.write("hello")
+   # col3.write("hello")
+
+   with col1:
+      st.write("hello")
+   with col2:
+      st.write("hello")
+   with col3:
+      st.write("hello")
 
    st.markdown('''
    <br>
