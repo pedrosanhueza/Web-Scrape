@@ -225,13 +225,12 @@ elif projectOption[option] == 9:
 
    # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
-   st.markdown(f'''
-
-   <h6>
-      Highest paid job: {d}
-   <h6>
-
-   ''',unsafe_allow_html=True)
+   for job in data[data.payRate == data.payRate.max()]['title']:
+      st.markdown(f'''
+      <p>
+         Highest paid job: {job}
+      <p>
+      ''',unsafe_allow_html=True)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
