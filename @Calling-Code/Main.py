@@ -24,10 +24,9 @@ from Projects._9_BYUI_JobBoard import BYUI_JobBoard
 # from Projects._14_SINCAMMAGob import SINCAMMAGob
 # from Projects._15_BYUI_SurplusStore import SurplusStore
 # from Projects._16_USHouseRepresentatives import representatives
-
 # from Projects.test import test
 
-# st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
