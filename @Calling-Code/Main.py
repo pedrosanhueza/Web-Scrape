@@ -224,7 +224,7 @@ elif projectOption[option] == 9:
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
    st.markdown('''
-   <p>
+   <p style="font-size: 40px;">
       Highest Paid Jobs
    </p>
    <br>
