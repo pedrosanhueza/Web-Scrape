@@ -225,11 +225,11 @@ elif projectOption[option] == 9:
 
    # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
-   data_topPayRate = data.sort_values('payRate', ascending=False).head(4)
+   data_topPayRate = data.sort_values('payRate', ascending=False).head(4)[['title','payRate','departmentName','managerName','URL']]
    
    data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
 
-   st.table(data_topPayRate[['title','payRate','departmentName','managerName','URL']])
+   st.table(data_topPayRate)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
