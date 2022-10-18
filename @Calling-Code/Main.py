@@ -186,21 +186,13 @@ if projectOption[option] == 1: #'Billionaires'
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
-
-   st.write('''
-   # BYU-I
-   ## Job Board
-   ''')
-
+   
    st.markdown('''
-   # BYU-I
-   ## Job Board
-   **Author**: Pedro Sanhueza
-   ''')
-
-   st.markdown('''
-   <center>Centered text</center>
-   ''',unsafe_allow_html=True)
+   <center>
+      # BYU-I
+      # Job Board
+   </center>
+  ''',unsafe_allow_html=True)
 
    data = BYUI_JobBoard.data
    
