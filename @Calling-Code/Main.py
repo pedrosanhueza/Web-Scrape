@@ -272,13 +272,17 @@ elif projectOption[option] == 9:
       st.pyplot(fig1)
 
    if st.button("Plot 2"):
-      hist_data = [[1.1, 1.1, 2.5, 3.0, 3.5,
-              3.5, 4.1, 4.4, 4.5, 4.5,
-              5.0, 5.0, 5.2, 5.5, 5.5,
-              5.5, 5.5, 5.5, 6.1, 7.0]]
+      ls_ = ['']
+
+      ls_[0] = data.patRate.to_list()
+
+      hist_data = ls_
+
       group_labels = ['distplot example']
 
       fig = create_distplot(hist_data, group_labels)
+
+      fig.show()
 
       st.plotly_chart(fig, use_container_width=True)
 
