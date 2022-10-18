@@ -223,7 +223,7 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   '<br>'
+   st.markdown('<br>',unsafe_allow_html=True)
 
    topJobs = st.sidebar.checkbox('Highest paid jobs')
 
