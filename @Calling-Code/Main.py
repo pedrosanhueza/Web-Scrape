@@ -227,7 +227,7 @@ elif projectOption[option] == 9:
 
    st.markdown('''
    <br>
-   <p style="font-size:40px;text-align:center;">
+   <p style="font-size:40px;text-align:center;color=#4F9ACF;">
       Highest Paid Jobs
    </p>
    <br>
@@ -243,7 +243,7 @@ elif projectOption[option] == 9:
 
    st.markdown('''
    <br>
-   <p style="font-size:40px;text-align:center;">
+   <p style="font-size:40px;text-align:center;color=#4F9ACF;">
       Jobs Posted Today 
    </p>
    <br>
