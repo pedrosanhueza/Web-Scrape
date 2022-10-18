@@ -195,8 +195,10 @@ elif projectOption[option] == 9:
          Job Board 
          <br><br><br>
       </h1>
-      
    </center>
+   <right>
+      Author: Pedro Sanhueza
+   </right>
   ''',unsafe_allow_html=True)
 
    data = BYUI_JobBoard.data
