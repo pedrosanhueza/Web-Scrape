@@ -225,14 +225,14 @@ elif projectOption[option] == 9:
 
    st.markdown('<br>',unsafe_allow_html=True)
 
-   topJobs = st.sidebar.checkbox('Highest paid jobs', disabled=True)
+   topJobs = st.sidebar.checkbox('Highest paid jobs', value=True)
 
    if topJobs:
       values = st.sidebar.slider('Select a range of values', 1, 100, 3)
 
-   JobsPostedToday = st.sidebar.checkbox('Jobs Posted Today', disabled=True)
+   JobsPostedToday = st.sidebar.checkbox('Jobs Posted Today', value=True)
 
-   topJobs = st.sidebar.checkbox('Highest paid jobs', disabled=True)
+   topJobs = st.sidebar.checkbox('Highest paid jobs', value=True)
 
    if topJobs:
 
