@@ -228,17 +228,11 @@ elif projectOption[option] == 9:
    for job in data[data.payRate == data.payRate.max()]['title']:
       st.markdown(f'''
       <p>
-         Top paid job: {job}
+         Top paid job: \t\t {job}
          <br>
-         hourly wage: {data.payRate.max()}
+         hourly wage: \t\t {data.payRate.max()}
       <p>
       ''',unsafe_allow_html=True)
-
-   col1 = st.columns(1)
-
-   with col1:
-      st.header("A cat")
-      st.image("https://static.streamlit.io/examples/cat.jpg")
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
