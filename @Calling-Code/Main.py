@@ -223,24 +223,20 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   st.markdown('<br>',unsafe_allow_html=True)
+   st.markdown('''
+   <p>
+      Highest Paid Jobs
+   </p>
+   <br>
+   ''',unsafe_allow_html=True)
 
-   topJobs = st.sidebar.checkbox('Highest paid jobs', value=False)
+   Njobs = st.sidebar.slider('Select a range of values', 1, 100, 3)
 
-   if topJobs:
-      values = st.sidebar.slider('Select a range of values', 1, 100, 3)
+   data_topPayRate = data.sort_values('payRate', ascending=False).head(Njobs)[['title','payRate','departmentName','managerName','URL']]
+   
+   data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
 
-   JobsPostedToday = st.sidebar.checkbox('Jobs Posted Today', value=True)
-
-   topJobs = st.sidebar.checkbox('Highest paid jobs', value=True)
-
-   if topJobs:
-
-      data_topPayRate = data.sort_values('payRate', ascending=False).head(4)[['title','payRate','departmentName','managerName','URL']]
-      
-      data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
-
-      st.table(data_topPayRate.reset_index().drop('index',axis=1))
+   st.table(data_topPayRate.reset_index().drop('index',axis=1))
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
