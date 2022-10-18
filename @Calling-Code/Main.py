@@ -223,13 +223,15 @@ elif projectOption[option] == 9:
 
    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
+   topJobs = st.sidebar.checkbox('Highest paid jobs')
 
-   data_topPayRate = data.sort_values('payRate', ascending=False).head(4)[['title','payRate','departmentName','managerName','URL']]
-   
-   data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
+   if topJobs:
 
-   st.table(data_topPayRate.reset_index().drop('index',axis=1))
+      data_topPayRate = data.sort_values('payRate', ascending=False).head(4)[['title','payRate','departmentName','managerName','URL']]
+      
+      data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
+
+      st.table(data_topPayRate.reset_index().drop('index',axis=1))
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
