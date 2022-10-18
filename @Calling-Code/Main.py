@@ -263,7 +263,7 @@ elif projectOption[option] == 9:
    with tab4:
       st.code(BYUI_JobBoard.script1)
 
-   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.9, alpha=0.5, cut=0)
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
 
    fig1 = plt.show()
 
