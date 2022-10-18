@@ -193,7 +193,7 @@ elif projectOption[option] == 9:
    </p>
    
    <center>
-      <h1 style="color:#214491;font-size: 120px;">
+      <h1 style="color:#214491;font-size: 90px;">
          BYU-I
          <br>
          Job Board 
