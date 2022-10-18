@@ -254,7 +254,19 @@ elif projectOption[option] == 9:
    if today > 0:
       st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
-   
+      st.markdown('''
+   <br>
+   <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+      Pay Rate Distribution
+   </p>
+   <br>
+   ''',unsafe_allow_html=True)
+
+   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+
+   fig1 = plt.show()
+
+   st.pyplot(fig1)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
