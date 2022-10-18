@@ -228,6 +228,17 @@ elif projectOption[option] == 9:
    topJobs = st.sidebar.checkbox('Highest paid jobs')
 
    if topJobs:
+      values = st.slider(
+         'Select a range of values',
+         1, 100, (25, 75))
+
+      st.write('Values:', values)
+
+   JobsPostedToday = st.sidebar.checkbox('Jobs Posted Today')
+
+   topJobs = st.sidebar.checkbox('Highest paid jobs')
+
+   if topJobs:
 
       data_topPayRate = data.sort_values('payRate', ascending=False).head(4)[['title','payRate','departmentName','managerName','URL']]
       
