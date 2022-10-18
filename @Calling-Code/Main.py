@@ -249,28 +249,6 @@ elif projectOption[option] == 9:
    with tab4:
       st.code(BYUI_JobBoard.script1)
 
-   if st.button('Trigger Code'):
-      
-      data_higher = data[data.payRate == data.payRate.max()]
-
-      col_x, col_y = st.columns(['A','B'])
-      
-      with col_x:
-         for e in range(data_higher.shape[0]):
-            print(data_higher.title.iloc[0])
-            print(data_higher.departmentName.iloc[0])
-            print(data_higher.payRate.iloc[0])
-            print(data_higher.workSchedule.iloc[0])
-            print(data_higher.URL.iloc[0])
-      with col_y:
-         for e in range(data_higher.shape[0]):
-            print(data_higher.title.iloc[0])
-            print(data_higher.departmentName.iloc[0])
-            print(data_higher.payRate.iloc[0])
-            print(data_higher.workSchedule.iloc[0])
-            print(data_higher.URL.iloc[0])
-
-
    sns.kdeplot(data.payRate, shade=True, color="g", bw=0.94, alpha=0.5, cut=0)
 
    fig1 = plt.show()
