@@ -227,21 +227,7 @@ elif projectOption[option] == 9:
 
    data_top5 = data.sort_values('payRate', ascending=False)
 
-   col1, col2, col3, col4 = st.columns(4)
-
-   with col1:
-      st.markdown(f'''
-      <p>
-         <b> Job Title: </b> &emsp;&emsp;&emsp;&emsp;{data_top5.iloc[1].title}
-         <br>
-         <b> Hourly Wage: </b> &emsp;&emsp;&nbsp; {data_top5.iloc[1].payRate}
-         <br>
-         <b> Recluter: </b> &emsp;&emsp;&emsp;&emsp; {data_top5.iloc[1].managerName}
-         <br>
-         <b> Department: </b> &emsp;&emsp;&ensp; {data_top5.iloc[0].departmentName}
-         <br>
-      <p>
-      ''',unsafe_allow_html=True)
+   st.table(data_top5)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
