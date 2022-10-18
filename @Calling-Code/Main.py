@@ -229,7 +229,7 @@ elif projectOption[option] == 9:
    
    data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
 
-   st.table(data_topPayRate.reset_index())
+   st.table(data_topPayRate.reset_index().drop('index',axis=1))
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
