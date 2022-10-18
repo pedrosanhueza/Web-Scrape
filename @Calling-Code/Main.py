@@ -237,7 +237,9 @@ elif projectOption[option] == 9:
    with col1:
       st.write("hello")
    with col2:
-      st.write("hello")
+      sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
+      fig1 = plt.show()
+      st.pyplot(fig1)
    with col3:
       st.write("hello")
 
@@ -278,10 +280,6 @@ elif projectOption[option] == 9:
    </p>
    <br>
    ''',unsafe_allow_html=True)
-
-   sns.kdeplot(data.payRate, shade=True, color="g", bw=0.8, alpha=0.5, cut=0)
-   fig1 = plt.show()
-   st.pyplot(fig1)
 
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
