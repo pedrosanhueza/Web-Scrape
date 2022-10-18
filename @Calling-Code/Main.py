@@ -225,15 +225,18 @@ elif projectOption[option] == 9:
 
    # tab1, tab2, tab3, tab4 = st.tabs(['Salary Analysis','Jobs not online','Table','Code'])
 
-   for job in data[data.payRate == data.payRate.max()]['title']:
+   data_top5 = data[data.payRate == data.payRate.max()].head(5)
+
+   for job in range(5):
       st.markdown(f'''
       <p>
-         <b> Top paid job:<b> &emsp;&emsp; {job}
+         <b> Job Title: </b> &emsp;&emsp; {data_top5.iloc[job].title}
          <br>
-         hourly wage: {data.payRate.max()}
+         <b> Hourly Wage: </b> &emsp;&emsp; {data_top5.iloc[job].payRate}
          <br>
-
+         <b> Recluter: </b> &emsp;&emsp; {data_top5.iloc[job].managerName}
          <br>
+         <b> Department: </b> &emsp;&emsp; {data_top5.iloc[job].departmentName}
          <br>
       <p>
       ''',unsafe_allow_html=True)
