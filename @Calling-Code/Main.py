@@ -234,6 +234,12 @@ elif projectOption[option] == 9:
       <p>
       ''',unsafe_allow_html=True)
 
+   col1 = st.columns(1)
+
+   with col1:
+      st.header("A cat")
+      st.image("https://static.streamlit.io/examples/cat.jpg")
+
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
 
