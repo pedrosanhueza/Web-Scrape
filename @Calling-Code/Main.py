@@ -186,12 +186,10 @@ if projectOption[option] == 1: #'Billionaires'
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 elif projectOption[option] == 9:
-
-   st.image('https://brightspotcdn.byui.edu/dims4/default/3b59bf0/2147483647/strip/true/crop/560x314+22+0/resize/852x478!/format/webp/quality/90/?url=http%3A%2F%2Fbyu-idaho-brightspot.s3.amazonaws.com%2F6c%2Fa1%2Fb3306ea14ed5aef8b82a86ee39d0%2Fbyui-offical-logo-blue-01.png')
    
    st.markdown('''
    <center>
-      <h1 style="color:green;font-size: 120px;">
+      <h1 style="color:(33, 68, 145);font-size: 120px;">
          BYU-I
          <br>
          Job Board 
