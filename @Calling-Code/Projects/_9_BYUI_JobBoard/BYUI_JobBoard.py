@@ -34,7 +34,7 @@ columns_to_drop = [
     'limitNumber', # not relevant
     'applicants', # empty
     'jobQuestions', # empty
-    'isOnline', # not accurate
+    # 'isOnline', # not accurate
     'allowOnline', # not accurate
     'jobMajors' # not relevant
     ]
