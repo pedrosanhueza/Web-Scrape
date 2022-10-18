@@ -228,11 +228,7 @@ elif projectOption[option] == 9:
    topJobs = st.sidebar.checkbox('Highest paid jobs')
 
    if topJobs:
-      values = st.slider(
-         'Select a range of values',
-         1, 100, (25, 75))
-
-      st.write('Values:', values)
+      values = st.sidebar.slider('Select a range of values', 1, 100, 3)
 
    JobsPostedToday = st.sidebar.checkbox('Jobs Posted Today')
 
