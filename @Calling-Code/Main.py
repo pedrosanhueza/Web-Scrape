@@ -200,7 +200,7 @@ elif projectOption[option] == 9:
 
    st.markdown('''
    <center>Centered text</center>
-   ''')
+   ''',unsafe_allow_html=True)
 
    data = BYUI_JobBoard.data
    
