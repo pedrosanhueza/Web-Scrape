@@ -259,7 +259,7 @@ elif projectOption[option] == 9:
 
       st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
-      st.markdown('''
+   st.markdown('''
    <br>
    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
       Pay Rate Distribution
