@@ -293,7 +293,7 @@ elif projectOption[option] == 9:
    col1, col2 = st.columns([4,1])
 
    with col2:
-      job_type = st.radio("Job Type", ('Online','On-Campus','All'),'All')
+      job_type = st.radio("Job Type", ('All','Online','On-Campus'))
       
       if job_type == 'Online':
          data_isOnline = data[data.isOnline == True]
