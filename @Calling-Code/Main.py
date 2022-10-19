@@ -35,6 +35,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 IdahoTz = pytz.timezone('US/Mountain') 
 timeZoneMountain = datetime.now(IdahoTz)
 currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
+YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
@@ -274,17 +275,13 @@ elif projectOption[option] == 9:
          Jobs Posted Yesterday
       </p>
       <p style="text-align:center;color:#4F9ACF;">
-         {(datetime.today() - timedelta(1)).strftime("%Y-%m-%d")}
+         {YesterdayTimeInRexburg}
       </p>
       <br>
       ''',unsafe_allow_html=True)
 
       st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
-   st.write(f'{currentTimeInRexburg}')
-   st.write(f'{datetime.today()}')
-   st.write(f'{timedelta(1)}')
-   st.write(timeZoneMountain)
 
    st.markdown('''
    <br>
