@@ -8,6 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from plotly.figure_factory import create_distplot
 import time
+import pytz
 
 # from Projects._1_Billionaires import forbesBillionaires
 # from Projects._2_BYUI_ClassCatalog import catalogBYUI
@@ -28,6 +29,12 @@ from Projects._9_BYUI_JobBoard import BYUI_JobBoard
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
+
+## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
+
+newYorkTz = pytz.timezone('US/Mountain') 
+timeZoneMountain = datetime.now(newYorkTz)
+currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
@@ -212,7 +219,7 @@ elif projectOption[option] == 9:
 
    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-   today_data = data[data.dateUpdated >= time.strftime("%Y-%m-%d")]
+   today_data = data[data.dateUpdated >= currentTimeInRexburg]
 
    # START COMMENT
 
