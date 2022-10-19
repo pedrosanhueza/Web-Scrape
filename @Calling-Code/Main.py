@@ -407,7 +407,7 @@ elif projectOption[option] == 15:
       
    price_mean = '$' + str( round(data.Price.mean(),2) )
 
-   excellent_items = data[data.Condition == 'Excellent'].shape[0] + 'Items'
+   excellent_items = str(data[data.Condition == 'Excellent'].shape[0]) + ' Items'
 
    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
   
