@@ -26,8 +26,17 @@ data = pd.DataFrame(rows)
 
 data.drop(data.tail(1).index,inplace=True) # Drop last row (is empty)
 
-# ------------- plots -------------
+# Change column data types
+data.Price = pd.to_numeric(data.Price.str.replace("$","",regex=True).replace(",","",regex=True))
+data['Item Number'] = pd.to_numeric(data['Item Number'])
 
-import matplotlib.pyplot as plt
-import plotly.express as px
+# data.Qty = pd.to_numeric(data.Qty)
+data.Qty = data.Qty.apply(lambda x: int(x))
+data.Condition = data.Condition.str.capitalize()
+a = data.copy()
+
+# repeat rows based on quantity
+data = data.reindex(data.index.repeat(data.Qty)).reset_index().drop(['index','Qty'], axis=1)
+
+# ------------- plots -------------
 
