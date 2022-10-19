@@ -291,28 +291,33 @@ elif projectOption[option] == 9:
       fig1 = plt.show()
       st.pyplot(fig1)
 
-   columns_ls = st.multiselect(
-   '',
-   data.columns,
-   ['title', 'payRate','managerName'])
+   tab1, tab2 = st.tabs(['Data','Code'])
 
-   st.dataframe(data[columns_ls])
+   with tab1:
+      columns_ls = st.multiselect(
+      '',
+      data.columns,
+      ['title', 'payRate','managerName'])
 
-   @st.cache
-   def convert_df(df):
-      # IMPORTANT: Cache the conversion to prevent computation on every rerun
-      return df.to_csv().encode('utf-8')
+      st.dataframe(data[columns_ls])
 
-   csv = convert_df(data)
+      @st.cache
+      def convert_df(df):
+         # IMPORTANT: Cache the conversion to prevent computation on every rerun
+         return df.to_csv().encode('utf-8')
 
-   file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
+      csv = convert_df(data)
 
-   st.download_button(
-      label = "Download data as CSV",
-      data = csv,
-      file_name = file_name,
-      mime = 'text/csv')
+      file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
 
+      st.download_button(
+         label = "Download data as CSV",
+         data = csv,
+         file_name = file_name,
+         mime = 'text/csv')
+
+   with tab2:
+      st.code(BYUI_JobBoard.script1, language='python')
    
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
