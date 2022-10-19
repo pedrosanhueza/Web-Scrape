@@ -421,9 +421,11 @@ elif projectOption[option] == 15:
 
    st.dataframe(data)
 
-   names = data['Condition'].value_counts().reset_index()['index']
-   values = data['Condition'].value_counts().reset_index()['Condition']
-   st.bar_chart(data=data, x=names, y=values)
+   # names = data['Condition'].value_counts().reset_index()['index']
+
+   # values = data['Condition'].value_counts().reset_index()['Condition']
+   
+   st.line_chart(data[['Condition']])
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 16: 
