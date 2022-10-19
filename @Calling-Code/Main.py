@@ -406,9 +406,9 @@ elif projectOption[option] == 15:
   
    KPI1.metric('Items in Store', f"{data.shape[0]}")
 
-   KPI2.metric('Higher Price Item', f"{data.shape[0]}")
+   KPI2.metric('Higher Price Item', f"{data.Price.max()}")
 
-   KPI3.metric('Average Price', f"{data.Price.mean()}")
+   KPI3.metric('Average Price', f"{round(data.Price.mean(),2)}")
 
    KPI4.metric('Jobs Published', f"{data.shape[0]}")
 
