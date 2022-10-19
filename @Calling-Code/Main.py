@@ -302,10 +302,12 @@ elif projectOption[option] == 9:
 
       csv = convert_df(data)
 
+      file_name = 'BYUI_jobBoard' + str(time.strftime("%Y-%m-%d"))
+
       st.download_button(
          label = "Download data as CSV",
          data = csv,
-         file_name = 'large_df.csv',
+         file_name = file_name,
          mime = 'text/csv')
    
    # with tab1:
