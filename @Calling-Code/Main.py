@@ -321,12 +321,12 @@ elif projectOption[option] == 9:
       st.markdown(f'''
       <br>
       <p style="font-size:20px;text-align:center;color:#4F9ACF;">
-         Python back end code
+         🐍 Source Code
       </p>
-      <a 
-         href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'
-         style="text-align:center;color:#4F9ACF;">
-         Source Code
+      <a style="background-color: navy; color: white; padding: 7px 10px; "
+         target="_blank" 
+         href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
+         GitHub Repository
       </a>
       <br>
       ''',unsafe_allow_html=True)
