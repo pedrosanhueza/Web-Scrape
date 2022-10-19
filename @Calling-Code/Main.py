@@ -284,7 +284,6 @@ elif projectOption[option] == 9:
    st.write(f'{currentTimeInRexburg}')
    st.write(f'{datetime.today()}')
    st.write(f'{timedelta(1)}')
-   st.write(f'{currentTimeInRexburg - timedelta(1)}')
    st.write(timeZoneMountain)
 
    st.markdown('''
