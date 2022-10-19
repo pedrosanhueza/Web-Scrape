@@ -284,33 +284,30 @@ elif projectOption[option] == 9:
       fig1 = plt.show()
       st.pyplot(fig1)
 
-   if st.button('View raw data'):
+   columns_ls = st.multiselect(
+   'Columns: ',
+   data.columns,
+   ['title', 'payRate'])
 
-      columns_ls = st.multiselect(
-      'Columns: ',
-      data.columns,
-      ['title', 'payRate'])
+   st.dataframe(data[columns_ls])
 
-      st.dataframe(data[columns_ls])
+   st.info('Download as a Comma-separated values file', icon='ℹ️')
 
-      st.info('Download as a Comma-separated values file', icon='ℹ️')
+   @st.cache
+   def convert_df(df):
+      # IMPORTANT: Cache the conversion to prevent computation on every rerun
+      return df.to_csv().encode('utf-8')
 
-      @st.cache
-      def convert_df(df):
-         # IMPORTANT: Cache the conversion to prevent computation on every rerun
-         return df.to_csv().encode('utf-8')
+   csv = convert_df(data)
 
-      csv = convert_df(data)
+   file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
 
-      file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
+   st.download_button(
+      label = "Download data as CSV",
+      data = csv,
+      file_name = file_name,
+      mime = 'text/csv')
 
-      st.download_button(
-         label = "Download data as CSV",
-         data = csv,
-         file_name = file_name,
-         mime = 'text/csv')
-      
-      st.info(st.write('Download as a Comma-separated values file'), icon='ℹ️')
    
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
