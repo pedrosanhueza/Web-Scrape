@@ -284,7 +284,7 @@ elif projectOption[option] == 9:
       fig1 = plt.show()
       st.pyplot(fig1)
 
-   with st.expander("Raw Table"):
+   if st.button('View raw data'):
 
       columns_ls = st.multiselect(
       'Columns: ',
@@ -292,6 +292,21 @@ elif projectOption[option] == 9:
       ['title', 'payRate'])
 
       st.dataframe(data[columns_ls])
+
+      st.info('Download as a Comma-separated values file', icon='ℹ️')
+
+      @st.cache
+      def convert_df(df):
+         # IMPORTANT: Cache the conversion to prevent computation on every rerun
+         return df.to_csv().encode('utf-8')
+
+      csv = convert_df(data)
+
+      st.download_button(
+         label = "Download data as CSV",
+         data = csv,
+         file_name = 'large_df.csv',
+         mime = 'text/csv')
    
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
