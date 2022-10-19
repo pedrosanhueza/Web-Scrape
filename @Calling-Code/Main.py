@@ -225,7 +225,7 @@ elif projectOption[option] == 9:
 
    st.write(time.strftime("%Y-%m-%d"))
 
-   st.write(f'{d}')
+   st.write(f'{currentTimeInRexburg}')
 
    # END COMMENT
 
