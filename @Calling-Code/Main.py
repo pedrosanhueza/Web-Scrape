@@ -405,9 +405,9 @@ elif projectOption[option] == 15:
 
    highest_price = '$' + str(data.Price.max())
       
-   price_mean = round(data.Price.mean(),2)
+   price_mean = '$' + str( round(data.Price.mean(),2) )
 
-   excellent_items = data[data.Condition == 'Excellent'].shape[0]
+   excellent_items = data[data.Condition == 'Excellent'].shape[0] + 'Items'
 
    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
   
@@ -417,7 +417,7 @@ elif projectOption[option] == 15:
 
    KPI3.metric('Average Price', f"{price_mean}")
 
-   KPI4.metric('Excellent Condition Items', f"{excellent_items}")
+   KPI4.metric('Excellent Condition', f"{excellent_items}")
 
 
 
