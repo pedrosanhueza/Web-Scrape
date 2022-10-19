@@ -218,7 +218,7 @@ elif projectOption[option] == 9:
 
    st.write(time.strftime("%Y-%m-%d"))
 
-   st.write(datetime.datetime.now().strftime('%Y-%m-%d'))
+   st.write(f'{d}')
 
    # END COMMENT
 
