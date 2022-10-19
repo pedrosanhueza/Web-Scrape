@@ -281,8 +281,6 @@ elif projectOption[option] == 9:
       ''',unsafe_allow_html=True)
 
       st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
-   
-   st.write(YesterdayTimeInRexburg)
 
    st.markdown('''
    <br>
