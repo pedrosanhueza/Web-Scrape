@@ -386,6 +386,22 @@ elif projectOption[option] == 9:
 elif projectOption[option] == 15:
    data = SurplusStore.data
 
+   st.markdown('''
+   <p style="text-align:right;">
+      Author: Pedro Sanhueza
+   </p>
+   
+   <center>
+      <h1 style="color:#214491;font-size: 90px;">
+         BYU-I
+         <br>
+         Surplus Store
+      </h1>
+   </center>
+   
+   <br>
+  ''',unsafe_allow_html=True)
+
    st.dataframe(data)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
