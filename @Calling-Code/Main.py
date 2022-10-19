@@ -302,13 +302,15 @@ elif projectOption[option] == 9:
 
       csv = convert_df(data)
 
-      file_name = 'BYUI_jobBoard' + str(time.strftime("%Y-%m-%d"))
+      file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
 
       st.download_button(
          label = "Download data as CSV",
          data = csv,
          file_name = file_name,
          mime = 'text/csv')
+      
+      st.info(st.write('Download as a Comma-separated values file'), icon='ℹ️')
    
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
