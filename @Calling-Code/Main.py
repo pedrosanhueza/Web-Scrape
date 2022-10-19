@@ -24,7 +24,7 @@ from Projects._9_BYUI_JobBoard import BYUI_JobBoard
 # # from Projects._12_PoliticosChilenos import 
 # from Projects._13_PoliticosEspanoles import DiputadosEspanoles
 # from Projects._14_SINCAMMAGob import SINCAMMAGob
-# from Projects._15_BYUI_SurplusStore import SurplusStore
+from Projects._15_BYUI_SurplusStore import SurplusStore
 # from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
@@ -383,10 +383,10 @@ elif projectOption[option] == 9:
 
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
-# elif projectOption[option] == 15:
-#    data = SurplusStore.data
-#    url = SurplusStore.url
-#    url_split = url.replace('https://','').split('/')[0]
+elif projectOption[option] == 15:
+   data = SurplusStore.data
+
+   st.dataframe(data)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 16: 
