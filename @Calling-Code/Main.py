@@ -294,7 +294,7 @@ elif projectOption[option] == 9:
    columns_ls = st.multiselect(
    '',
    data.columns,
-   ['title', 'payRate'])
+   ['title', 'payRate','managerName'])
 
    st.dataframe(data[columns_ls])
 
