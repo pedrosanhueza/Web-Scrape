@@ -386,31 +386,38 @@ elif projectOption[option] == 9:
 elif projectOption[option] == 15:
    data = SurplusStore.data
 
+
    st.markdown('''
-   <p style="text-align:right;">
-      Author: Pedro Sanhueza
-   </p>
-   
-   <center>
-      <h1 style="color:#214491;font-size: 90px;">
-         BYU-I
-         <br>
-         Surplus Store
-      </h1>
-   </center>
-   
-   <br>
-  ''',unsafe_allow_html=True)
+      <p style="text-align:right;">
+         Author: Pedro Sanhueza
+      </p>
+
+      <center>
+         <h1 style="color:#214491;font-size: 90px;">
+            BYU-I
+            <br>
+            Surplus Store
+         </h1>
+      </center>
+
+      <br>
+   ''',unsafe_allow_html=True)
+
+   highest_price = '$' + str(data.Price.max())
+      
+   price_mean = round(data.Price.mean(),2)
+
+   excellent_items = data[data.Condition == 'Excellent'].shape[0]
 
    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
   
    KPI1.metric('Items in Store', f"{data.shape[0]}")
 
-   KPI2.metric('Higher Price Item', f"{data.Price.max()}")
+   KPI2.metric('Higher Price Item', f"{highest_price}")
 
-   KPI3.metric('Average Price', f"{round(data.Price.mean(),2)}")
+   KPI3.metric('Average Price', f"{price_mean}")
 
-   KPI4.metric('Jobs Published', f"{data.shape[0]}")
+   KPI4.metric('Excellent Condition Items', f"{excellent_items}")
 
 
 
