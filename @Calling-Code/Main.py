@@ -419,9 +419,9 @@ elif projectOption[option] == 15:
 
    KPI4.metric('Excellent Condition', f"{excellent_items}")
 
-
-
    st.dataframe(data)
+
+   st.bar_chart(data=data, x='Condition')
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 16: 
