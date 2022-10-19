@@ -283,6 +283,10 @@ elif projectOption[option] == 9:
       fig1 = plt.show()
       st.pyplot(fig1)
 
+   data.recruitingStartDate = data.recruitingStartDate.astype('datetime64[ns]')
+
+   sns.distplot( a=data["recruitingStartDate"], hist=True, kde=False, rug=False )
+   
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
 
