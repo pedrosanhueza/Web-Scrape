@@ -244,18 +244,19 @@ elif projectOption[option] == 9:
 
    st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
 
-   st.markdown(f'''
-   <br>
-   <p style="font-size:40px;text-align:center;color:#4F9ACF;">
-      Jobs Posted Today
-   </p>
-   <p style="text-align:center;color:#4F9ACF;">
-      {time.strftime("%d %B, %Y")}
-   </p>
-   <br>
-   ''',unsafe_allow_html=True)
-
    if today > 0:
+
+      st.markdown(f'''
+      <br>
+      <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+         Jobs Posted Today
+      </p>
+      <p style="text-align:center;color:#4F9ACF;">
+         {time.strftime("%d %B, %Y")}
+      </p>
+      <br>
+      ''',unsafe_allow_html=True)
+
       st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
       st.markdown('''
