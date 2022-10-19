@@ -317,6 +317,19 @@ elif projectOption[option] == 9:
          mime = 'text/csv')
 
    with tab2:
+
+      st.markdown(f'''
+      <br>
+      <p style="font-size:10px;text-align:center;color:#4F9ACF;">
+         Python back end code
+      </p>
+      <a style="text-align:center;color:#4F9ACF;"
+         href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
+         HERE!
+      </a>
+      <br>
+      ''',unsafe_allow_html=True)
+
       st.code(BYUI_JobBoard.script1, language='python')
    
    # with tab1:
