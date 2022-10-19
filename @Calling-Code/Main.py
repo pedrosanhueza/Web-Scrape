@@ -32,8 +32,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
 
-newYorkTz = pytz.timezone('US/Mountain') 
-timeZoneMountain = datetime.now(newYorkTz)
+IdahoTz = pytz.timezone('US/Mountain') 
+timeZoneMountain = datetime.now(IdahoTz)
 currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
@@ -285,6 +285,7 @@ elif projectOption[option] == 9:
    st.write(f'{datetime.today()}')
    st.write(f'{timedelta(1)}')
    st.write(f'{currentTimeInRexburg - timedelta(1)}')
+   st.write(timeZoneMountain)
 
    st.markdown('''
    <br>
