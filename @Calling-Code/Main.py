@@ -282,12 +282,6 @@ elif projectOption[option] == 9:
       sns.kdeplot(data_isOnline.payRate, shade=True, color="#214491", bw=0.8, alpha=0.5, cut=0)
       fig1 = plt.show()
       st.pyplot(fig1)
-
-   data.recruitingStartDate = data.recruitingStartDate.astype('datetime64[ns]')
-
-   sns.distplot( a=data["recruitingStartDate"], hist=True, kde=False, rug=False )
-   fig2 = plt.show()
-   st.pyplot(fig2)
    
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
