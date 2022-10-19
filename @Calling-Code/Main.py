@@ -285,13 +285,11 @@ elif projectOption[option] == 9:
       st.pyplot(fig1)
 
    columns_ls = st.multiselect(
-   'Columns: ',
+   '',
    data.columns,
    ['title', 'payRate'])
 
    st.dataframe(data[columns_ls])
-
-   st.info('Download as a Comma-separated values file', icon='ℹ️')
 
    @st.cache
    def convert_df(df):
