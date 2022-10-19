@@ -214,6 +214,12 @@ elif projectOption[option] == 9:
 
    today_data = data[data.dateUpdated >= time.strftime("%Y-%m-%d")]
 
+   # START COMMENT
+
+   st.write(time.strftime("%Y-%m-%d"))
+
+   # END COMMENT
+
    today = today_data.shape[0]
 
    yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
