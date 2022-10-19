@@ -221,14 +221,6 @@ elif projectOption[option] == 9:
 
    today_data = data[data.dateUpdated >= currentTimeInRexburg]
 
-   # START COMMENT
-
-   st.write(time.strftime("%Y-%m-%d"))
-
-   st.write(f'{currentTimeInRexburg}')
-
-   # END COMMENT
-
    today = today_data.shape[0]
 
    yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
