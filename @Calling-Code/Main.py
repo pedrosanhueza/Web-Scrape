@@ -261,7 +261,7 @@ elif projectOption[option] == 9:
          Jobs Posted Today
       </p>
       <p style="text-align:center;color:#4F9ACF;">
-         {time.strftime("%d %B, %Y")}
+         {currentTimeInRexburg}
       </p>
       <br>
       ''',unsafe_allow_html=True)
@@ -281,6 +281,11 @@ elif projectOption[option] == 9:
 
       st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
+   st.write(f'{currentTimeInRexburg}')
+   st.write(f'{datetime.today()}')
+   st.write(f'{timedelta(1).strftime("%Y-%m-%d")}')
+   st.write(f'{timedelta(1)}')
+
    st.markdown('''
    <br>
    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
