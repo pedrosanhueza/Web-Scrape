@@ -402,6 +402,18 @@ elif projectOption[option] == 15:
    <br>
   ''',unsafe_allow_html=True)
 
+   KPI1, KPI2, KPI3, KPI4 = st.columns(4)
+  
+   KPI1.metric('Jobs Published', f"{data.shape[0]}")
+
+   KPI2.metric('Jobs Published', f"{data.shape[0]}")
+
+   KPI3.metric('Jobs Published', f"{data.shape[0]}")
+
+   KPI4.metric('Jobs Published', f"{data.shape[0]}")
+
+
+
    st.dataframe(data)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
