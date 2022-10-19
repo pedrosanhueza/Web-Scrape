@@ -403,7 +403,7 @@ elif projectOption[option] == 15:
       <br>
    ''',unsafe_allow_html=True)
 
-   highest_price = '$' + str(data.Price.max())
+   highest_price = '$' + str( round(data.Price.max(),2))
       
    price_mean = '$' + str( round(data.Price.mean(),2) )
 
