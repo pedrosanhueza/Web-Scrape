@@ -223,7 +223,9 @@ elif projectOption[option] == 9:
 
    today = today_data.shape[0]
 
-   yesterday = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")].shape[0]
+   yesterday_data = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")]
+
+   yesterday = yesterday_data.shape[0]
 
    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
 
@@ -265,6 +267,19 @@ elif projectOption[option] == 9:
       ''',unsafe_allow_html=True)
 
       st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
+   elif yesterday > 0:
+      st.markdown(f'''
+      <br>
+      <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+         Jobs Posted Yesterday
+      </p>
+      <p style="text-align:center;color:#4F9ACF;">
+         {(datetime.today() - timedelta(1)).strftime("%Y-%m-%d")}
+      </p>
+      <br>
+      ''',unsafe_allow_html=True)
+
+      st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
    st.markdown('''
    <br>
