@@ -1,3 +1,4 @@
+
 import requests # to get the html markdown from the url
 from bs4 import BeautifulSoup # to make the html readable
 import pandas as pd # to save table in a csv
@@ -22,4 +23,11 @@ for item in soup.find_all('tr')[13:]:
     rows.append(row)
 
 data = pd.DataFrame(rows)
+
+data.drop(data.tail(1).index,inplace=True) # Drop last row (is empty)
+
+# ------------- plots -------------
+
+import matplotlib.pyplot as plt
+import plotly.express as px
 
