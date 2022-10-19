@@ -212,7 +212,7 @@ elif projectOption[option] == 9:
 
    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-   today_data = data[data.dateUpdated == time.strftime("%Y-%m-%d")]
+   today_data = data[data.dateUpdated >= time.strftime("%Y-%m-%d")]
    
    today = today_data.shape[0]
 
