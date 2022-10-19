@@ -323,7 +323,7 @@ elif projectOption[option] == 9:
       <p style="font-size:20px;text-align:center;color:#4F9ACF;">
          🐍 Source Code
       </p>
-      <a style="color:white; padding:7px 10px; text-align:center"
+      <a style="color:#4F9ACF; padding:7px 10px;"
          target="_blank" 
          href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
          GitHub Repository
