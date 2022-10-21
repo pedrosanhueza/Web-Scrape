@@ -96,7 +96,7 @@ if projectOption[option] == 1: #'Billionaires'
    data = BYUI_JobBoard.data
 
    start_dates = data.startDate.dropna().replace('T',' ',regex=True)
-   start_dates_formatted = [datetime.strptime(d, "%Y-%m-%d %H:%M:%S") for d in start_dates]
+   start_dates_formatted = [datetime.strptime(str(d), "%Y-%m-%d %H:%M:%S") for d in start_dates]
    start_dates_formatted = [d for d in start_dates_formatted if d > currentTimeInRexburg]
    rand_names = range(34)
 
