@@ -97,7 +97,7 @@ if projectOption[option] == 1: #'Billionaires'
 
    start_dates = data.startDate.dropna().replace('T',' ',regex=True)
    start_dates_formatted = [datetime.strptime(str(d), "%Y-%m-%d %H:%M:%S") for d in start_dates]
-   start_dates_formatted = [d for d in start_dates_formatted if d > currentTimeInRexburg]
+   start_dates_formatted_1 = [d for d in start_dates_formatted if d > currentTimeInRexburg]
    rand_names = range(34)
 
    st.write(rand_names)
