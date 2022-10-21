@@ -95,12 +95,22 @@ if projectOption[option] == 1: #'Billionaires'
 
    data = BYUI_JobBoard.data
 
-   start_dates = data.startDate.dropna().replace('T',' ',regex=True)
-   start_dates_formatted = [datetime.strptime(d, "%Y-%m-%d %H:%M:%S") for d in start_dates]
-   start_dates_formatted_1 = [d for d in start_dates_formatted if d > currentTimeInRexburg]
-   rand_names = range(34)
+   # def convert_date(x,y,z):   
+   #    orig_date = datetime(x,y,z)
+   #    orig_date = str(orig_date)
+   #    d = datetime.strptime(orig_date, '%Y-%m-%d %H:%M:%S')
+   #    d = d.strftime('%m-%d-%y')
+   #    return d
 
-   st.write(rand_names)
+   # start_dates = data.startDate.dropna().replace('T',' ',regex=True)
+
+   # start_dates_formatted = [x for x in ]
+
+   # start_dates_formatted = [datetime.strptime(d, "%Y-%m-%d %H:%M:%S") for d in start_dates]
+   # start_dates_formatted_1 = [d for d in start_dates_formatted if d > currentTimeInRexburg]
+   # rand_names = range(34)
+
+   # st.write(rand_names)
 
 
 
