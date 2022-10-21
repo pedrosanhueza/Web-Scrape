@@ -6,9 +6,11 @@ from datetime import datetime, timedelta
 import time
 import seaborn as sns
 import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 from plotly.figure_factory import create_distplot
 import time
 import pytz
+
 
 # from Projects._1_Billionaires import forbesBillionaires
 # from Projects._2_BYUI_ClassCatalog import catalogBYUI
@@ -90,6 +92,17 @@ projectOption = {
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
 if projectOption[option] == 1: #'Billionaires'
    st.write('Hola!')
+
+   data = BYUI_JobBoard.data
+
+   start_dates = data.startDate.dropna().replace('T',' ',regex=True)
+   start_dates_formatted = [datetime.strptime(d, "%Y-%m-%d %H:%M:%S") for d in start_dates]
+   start_dates_formatted = [d for d in start_dates_formatted if d > currentTimeInRexburg]
+   rand_names = range(34)
+
+   st.write(rand_names)
+
+
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 2:
@@ -282,6 +295,9 @@ elif projectOption[option] == 9:
 
       st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
    
+   st.write(currentTimeInRexburg)
+   st.write(YesterdayTimeInRexburg)
+
    st.markdown('''
    <br>
    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
