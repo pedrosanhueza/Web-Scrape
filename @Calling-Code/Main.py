@@ -489,17 +489,21 @@ elif projectOption[option] == 16:
    ''',unsafe_allow_html=True)
 
    st.markdown('''
-   <h3 text-align:center>
-      <b> Part 1: </b> Data Extraction 🐍
-   </h3>
+   <center>
+      <h3>
+         <b> Part 1: </b> Data Extraction 🐍
+      </h3>
+   </center>
    ''',unsafe_allow_html=True)
 
    st.code(representatives.script1, language='python')
    
    st.markdown('''
-   <h3 text-align:center>
-      <b> Output </b>
-   </h3>
+   <center>
+      <h3 text-align:center>
+         <b> Output </b>
+      </h3>
+   </center>
    ''',unsafe_allow_html=True)
 
    st.dataframe(data)
