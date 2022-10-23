@@ -552,7 +552,7 @@ elif projectOption[option] == 16:
    newnames = {'R':'Republicans','D':'Democrats'}
    fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
    fig.update_traces(textfont_size=22,textinfo='percent+value')
-   st.plotly_chart(fig)
+   st.plotly_chart(fig,use_container_width=True)
 
    fig = px.bar(data, x='District', color='Party', color_discrete_map={'D': 'Blue', 'R':'Red'},width=1200, height=400)
    fig.update_layout(xaxis={'categoryorder':'total descending'})
@@ -587,7 +587,7 @@ elif projectOption[option] == 16:
 
    fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group",category_orders=order)
    fig.update_xaxes(tickangle=45)
-   st.plotly_chart(fig,use_container_width=True)
+   st.plotly_chart(fig)
 
    st.markdown('''
    <center>
