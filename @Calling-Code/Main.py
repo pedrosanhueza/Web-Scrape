@@ -509,6 +509,15 @@ elif projectOption[option] == 16:
 
    st.dataframe(data)
 
+   st.markdown('''
+   <center>
+      <p style="font-size:30px;">
+         <b> Part 2/3: </b>
+         Explanatory Data Analysis
+      </p>
+   </center>
+   ''',unsafe_allow_html=True)
+
    party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
    if party_group == 'Republicans':
@@ -579,6 +588,17 @@ elif projectOption[option] == 16:
    fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group",category_orders=order)
    fig.update_xaxes(tickangle=45)
    st.plotly_chart(fig)
+
+   st.markdown('''
+   <center>
+      <p style="font-size:30px;">
+         <b> Part 3/3: </b>
+         Conclusion
+      </p>
+   </center>
+   ''',unsafe_allow_html=True)
+
+
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # else:
