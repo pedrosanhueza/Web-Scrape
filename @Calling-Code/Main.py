@@ -542,7 +542,7 @@ elif projectOption[option] == 16:
     x=0.67))
    st.plotly_chart(fig,use_container_width=True)
 
-   st.bar_chart(data.Party)
+   st.bar_chart(data, x='State')
 
    party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
