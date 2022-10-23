@@ -474,6 +474,7 @@ elif projectOption[option] == 16:
    col1, col2 = st.columns([20,1])
 
    with col2:
+      st.markdown('<br><br><br>',unsafe_allow_html=True)
       genre = st.radio(
       "Party",
       ('Republicans', 'Democrats', 'Both'))
