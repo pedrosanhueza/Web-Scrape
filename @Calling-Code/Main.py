@@ -535,6 +535,12 @@ elif projectOption[option] == 16:
    newnames = {'R':'Republicans','D':'Democrats'}
    fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
    fig.update_traces(textfont_size=22,textinfo='percent+value')
+   fig.update_layout(legend=dict(
+    orientation="h",
+    yanchor="bottom",
+    y=1.02,
+    xanchor="right",
+    x=1))
    st.plotly_chart(fig,use_container_width=True)
 
 
