@@ -471,14 +471,14 @@ elif projectOption[option] == 16:
    data = representatives.data
    st.dataframe(data)
 
-   col1, col2 = st.columns([1,3])
+   col1, col2 = st.columns([5,1])
 
-   with col1:
+   with col2:
       genre = st.radio(
       "What's your favorite movie genre",
       ('Comedy', 'Drama', 'Documentary'))
 
-   with col2:
+   with col1:
       fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=1000,labels={'count': 'Amount'},orientation='h')
       fig.update_layout(yaxis={'categoryorder':'total ascending'})
       fig.update_xaxes(tickangle=-45)
