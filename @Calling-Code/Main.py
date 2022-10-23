@@ -472,7 +472,7 @@ elif projectOption[option] == 16:
    
    st.dataframe(data)
 
-   party_group = st.radio("Party",('Both','Republicans','Democrats'), horizontal=True)
+   party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
    if party_group == 'Republicans':
       fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
