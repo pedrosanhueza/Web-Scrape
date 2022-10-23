@@ -470,7 +470,7 @@ elif projectOption[option] == 15:
 elif projectOption[option] == 16: 
    data = representatives.data
    
-   st.dataframe(data)
+   st.markdown(f'{st.dataframe(data)}',unsafe_allow_html=True)
 
    party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
