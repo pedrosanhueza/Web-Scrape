@@ -31,6 +31,7 @@ from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
+st.beta_set_page_config(layout="wide")
 
 ## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
 
@@ -470,7 +471,7 @@ elif projectOption[option] == 15:
 elif projectOption[option] == 16: 
    data = representatives.data
    
-   st.markdown(f'{st.dataframe(data)}',unsafe_allow_html=True)
+   st.dataframe(data)
 
    party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
