@@ -469,6 +469,24 @@ elif projectOption[option] == 15:
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 elif projectOption[option] == 16: 
    data = representatives.data
+
+   st.markdown('''
+      <p style="text-align:right;">
+         Author: Pedro Sanhueza
+      </p>
+
+      <center>
+         <h1 style="color:#214491;font-size: 90px;">
+            UNITED STATES
+            <br>
+            HOUSE of
+            <br>
+            REPRESENTATIVES
+         </h1>
+      </center>
+
+      <br>
+   ''',unsafe_allow_html=True)
    
    st.dataframe(data)
 
@@ -480,7 +498,7 @@ elif projectOption[option] == 16:
       fig.update_xaxes(tickangle=-45)
       newnames = {'R':'Republicans'}
       fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-      st.plotly_chart(fig, use_container_width = True)
+      st.plotly_chart(fig)
 
    elif party_group == 'Democrats':
       fig = px.bar(data[data.Party=='D'],x='State',color='Party',color_discrete_map={'D': 'Blue'},width=900,height=400,labels={'count': 'Amount'})
@@ -499,11 +517,9 @@ elif projectOption[option] == 16:
       fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
       st.plotly_chart(fig)
 
-   left, middle, right = st.columns((2, 5, 2))
-   with middle:
-      fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1000, height=800,barmode="group")
-      fig.update_layout(xaxis={'categoryorder':'total descending'})
-      st.plotly_chart(fig)
+   fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1000, height=800,barmode="group")
+   fig.update_layout(xaxis={'categoryorder':'total descending'})
+   st.plotly_chart(fig)
 
    newnames = {'R':'Republicans','D':'Democrats'}
    fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
