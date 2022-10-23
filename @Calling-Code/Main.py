@@ -524,13 +524,19 @@ elif projectOption[option] == 16:
    data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
    data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
 
-   KPI1,KPI2,KPI3,KPI4 = st.columns(4)
-
+   KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(4)
    KPI1.metric('Districts', f"{data.District.nunique()}")
    KPI2.metric('Representatives', f"{data.Name.nunique()}")
-   KPI3.metric('Party', f"{data.Party.nunique()}")
+   KPI3.metric('Parties', f"{data.Party.nunique()}")
    KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
+   KPI5.metric('Party', f"{data.Party.nunique()}")
 
+   KPI_R_p = data[data.Party=='R'].shape[0] / data.shape[0]
+   KPI_D_p = data[data.Party=='D'].shape[0] / data.shape[0]
+
+   KPI_R,KPI_D = st.columns(2)
+   KPI_R.metric('Representatives', f"{data[data.Party=='R'].shape[0]}", KPI_R_p)
+   KPI_D.metric('Democrats', f"{data[data.Party=='D'].shape[0]}", KPI_D_p)
 
    newnames = {'R':'Republicans','D':'Democrats'}
    fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
