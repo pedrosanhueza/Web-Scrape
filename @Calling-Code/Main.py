@@ -539,7 +539,7 @@ elif projectOption[option] == 16:
     orientation="h",
     yanchor="bottom",
     y=1.02,
-    xanchor="right",
+    xanchor="center",
     x=1))
    st.plotly_chart(fig,use_container_width=True)
 
