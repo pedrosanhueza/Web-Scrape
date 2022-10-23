@@ -476,7 +476,7 @@ elif projectOption[option] == 16:
    fig.update_xaxes(tickangle=-45)
    newnames = {'R':'Republicans','D':'Democrats'}
    fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   st.plotly_chart(fig)
+   st.plotly_chart(fig,use_container_width=True)
 
    fig = px.bar(data[data.Party=='R'], x='State', color='Party', color_discrete_map={'R': 'red'},width=1200, height=400)
    fig.update_layout(xaxis={'categoryorder':'total descending'})
