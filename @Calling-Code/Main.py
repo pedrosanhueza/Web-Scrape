@@ -477,7 +477,7 @@ elif projectOption[option] == 16:
    if party_group == 'Republicans':
       fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
       fig.update_layout(xaxis={'categoryorder':'total descending'})
-      fig.update_xaxes(tickangle=-55)
+      fig.update_xaxes(tickangle=-45)
       newnames = {'R':'Republicans'}
       fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
       st.plotly_chart(fig)
@@ -491,8 +491,8 @@ elif projectOption[option] == 16:
       st.plotly_chart(fig)
    
    elif party_group == 'Both':
-      fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=950,labels={'count': 'Amount'},orientation='h')
-      fig.update_layout(yaxis={'categoryorder':'total ascending'})
+      fig = px.bar(data,x='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=950,labels={'count': 'Amount'})
+      fig.update_layout(xaxis={'categoryorder':'total ascending'})
       fig.update_xaxes(tickangle=-45)
       fig.update_yaxes(title=None)
       newnames = {'R':'Republicans','D':'Democrats'}
