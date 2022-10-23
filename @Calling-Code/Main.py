@@ -497,6 +497,11 @@ elif projectOption[option] == 16:
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    st.plotly_chart(fig)
 
+   newnames = {'R':'Republicans','D':'Democrats'}
+   fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
+   fig.update_traces(textfont_size=22,textinfo='percent+value')
+   st.plotly_chart(fig)
+
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # else:
