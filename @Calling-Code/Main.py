@@ -507,6 +507,30 @@ elif projectOption[option] == 16:
    fig.update_traces(textfont_size=22,textinfo='percent+value')
    st.plotly_chart(fig)
 
+   fig = px.bar(data, x='District', color='Party', color_discrete_map={'D': 'Blue', 'R':'Red'},width=1200, height=400)
+   fig.update_layout(xaxis={'categoryorder':'total descending'})
+   newnames = {'R':'Republicans','D':'Democrats'}
+   fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+   fig.update_xaxes(tickangle=45)
+   st.plotly_chart(fig)
+
+   data_melt_committee = data.copy()
+   data_melt_committee[[0,1,2,3,4,5]] = data['Committee Assignment'].str.split('|',expand=True)
+   data_melt_committee.drop('Committee Assignment',axis=1, inplace=True)
+   data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
+   data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
+   fig = px.bar(
+      data_melt_committee,
+      y='Committee Assignment',
+      color='Party',
+      color_discrete_map={'D': 'Blue', 'R':'Red'},
+      orientation='h',
+      title="Representatives per Party grouped by Committee",
+      width=1200, height=400)
+   fig.update_layout(yaxis={'categoryorder':'total descending'})
+   newnames = {'R':'Republicans','D':'Democrats'}
+   st.plotly_chart(fig)
+
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # else:
