@@ -471,7 +471,7 @@ elif projectOption[option] == 16:
    data = representatives.data
    st.dataframe(data)
 
-   col1, col2 = st.columns([9,1])
+   col1, col2 = st.columns([12,1])
 
    with col2:
       genre = st.radio(
