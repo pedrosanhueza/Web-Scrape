@@ -502,7 +502,6 @@ elif projectOption[option] == 16:
    st.markdown('''
    <center>
       <p style="font-size:30px;">
-         <b> Part 1/3: </b>
          Code Extraction Output
       </p>
    </center>
