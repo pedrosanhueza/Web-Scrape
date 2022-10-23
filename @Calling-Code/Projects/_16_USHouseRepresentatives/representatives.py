@@ -7,7 +7,6 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 tables = soup.select('table')
-[x.text.strip() for x in tables[0].select('td')][5::6]
 
 rows = []
 for table in tables[:56]:
@@ -35,7 +34,6 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 tables = soup.select('table')
-[x.text.strip() for x in tables[0].select('td')][5::6]
 
 rows = []
 for table in tables[:56]:
