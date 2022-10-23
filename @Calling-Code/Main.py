@@ -483,7 +483,7 @@ elif projectOption[option] == 16:
    fig.update_xaxes(tickangle=-45)
    newnames = {'R':'Republicans'}
    fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   st.plotly_chart(fig)
+   st.plotly_chart(fig,use_container_width=True)
 
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
