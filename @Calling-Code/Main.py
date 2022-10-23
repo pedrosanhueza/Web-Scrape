@@ -471,7 +471,7 @@ elif projectOption[option] == 16:
    data = representatives.data
    st.dataframe(data)
 
-   col1, col2 = st.columns([20,1])
+   col1, col2 = st.columns([22,1])
 
    with col2:
       st.markdown('<br><br><br><br><br><br>',unsafe_allow_html=True)
