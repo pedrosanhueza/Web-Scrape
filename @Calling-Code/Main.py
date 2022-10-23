@@ -471,7 +471,7 @@ elif projectOption[option] == 16:
    data = representatives.data
    st.dataframe(data)
 
-   fig = px.bar(data, x='State', color='Party', color_discrete_map={'R': 'red','D': 'blue'},width=1200, height=400)
+   fig = px.bar(data, x='State', color='Party', color_discrete_map={'R': 'red','D': 'blue'},width=900, height=400)
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    fig.update_xaxes(tickangle=-45)
    newnames = {'R':'Republicans','D':'Democrats'}
