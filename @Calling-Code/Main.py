@@ -476,7 +476,7 @@ elif projectOption[option] == 16:
    with col2:
       genre = st.radio(
       "Party",
-      ('Comedy', 'Drama', 'Documentary'))
+      ('Republicans', 'Democrats', 'Both'))
 
    with col1:
       fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=1000,labels={'count': 'Amount'},orientation='h')
