@@ -489,9 +489,9 @@ elif projectOption[option] == 16:
    ''',unsafe_allow_html=True)
 
    st.markdown('''
-   <p>
+   <h6>
       <b> Part 1: </b> Data Extraction
-   </p>
+   </h6>
    ''',unsafe_allow_html=True)
    
    st.dataframe(data)
