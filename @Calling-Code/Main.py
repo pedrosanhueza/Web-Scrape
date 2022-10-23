@@ -537,7 +537,7 @@ elif projectOption[option] == 16:
    fig.update_traces(textfont_size=22,textinfo='percent+value')
    fig.update_layout(legend=dict(
     orientation="h",
-    yanchor="bottom",
+    yanchor="top",
     y=1.02,
     xanchor="right",
     x=1))
