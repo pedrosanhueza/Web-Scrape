@@ -471,7 +471,7 @@ elif projectOption[option] == 16:
    data = representatives.data
    
    st.dataframe(data)
-   genre = st.radio("Party",('Republicans', 'Democrats', 'Both'))
+   genre = st.radio("Party",('Republicans', 'Democrats', 'Both'),horizontal=False)
 
    fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=1000,labels={'count': 'Amount'},orientation='h')
    fig.update_layout(yaxis={'categoryorder':'total ascending'})
