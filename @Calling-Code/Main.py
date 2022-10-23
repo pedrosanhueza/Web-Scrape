@@ -490,11 +490,10 @@ elif projectOption[option] == 16:
 
    st.markdown('''
    <center>
-      <p font-size: 90px;>
+      <p style="font-size:90px;">
          <b> Part 1/3: </b>
          Web Scraping Data Extraction 🐍
       </p>
-      <p>Hello</p>
    </center>
    ''',unsafe_allow_html=True)
 
