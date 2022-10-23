@@ -499,11 +499,11 @@ elif projectOption[option] == 16:
       fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
       st.plotly_chart(fig)
 
-
-
-   fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1000, height=800,barmode="group")
-   fig.update_layout(xaxis={'categoryorder':'total descending'})
-   st.plotly_chart(fig)
+   left, middle, right = st.columns((2, 5, 2))
+   with middle:
+      fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1000, height=800,barmode="group")
+      fig.update_layout(xaxis={'categoryorder':'total descending'})
+      st.plotly_chart(fig)
 
    newnames = {'R':'Republicans','D':'Democrats'}
    fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
