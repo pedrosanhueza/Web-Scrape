@@ -491,7 +491,7 @@ elif projectOption[option] == 16:
    st.markdown('''
    <center>
       <h3>
-         <b> Part 1: </b> Data Extraction 🐍
+         <b> Part 1/3: </b> Web Scraping Data Extraction 🐍
       </h3>
    </center>
    ''',unsafe_allow_html=True)
@@ -501,7 +501,7 @@ elif projectOption[option] == 16:
    st.markdown('''
    <center>
       <h3 text-align:center>
-         <b> Output </b>
+         <b> Code Extraction Output </b>
       </h3>
    </center>
    ''',unsafe_allow_html=True)
