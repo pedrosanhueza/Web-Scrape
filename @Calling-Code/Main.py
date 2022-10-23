@@ -478,7 +478,7 @@ elif projectOption[option] == 16:
       "What's your favorite movie genre",
       ('Comedy', 'Drama', 'Documentary'))
 
-   with tab1:
+   with col1:
       fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=1000,labels={'count': 'Amount'},orientation='h')
       fig.update_layout(yaxis={'categoryorder':'total ascending'})
       fig.update_xaxes(tickangle=-45)
