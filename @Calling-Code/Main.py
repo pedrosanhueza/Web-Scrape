@@ -31,7 +31,6 @@ from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
-st.beta_set_page_config(layout="wide")
 
 ## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
 
@@ -481,7 +480,7 @@ elif projectOption[option] == 16:
       fig.update_xaxes(tickangle=-45)
       newnames = {'R':'Republicans'}
       fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-      st.plotly_chart(fig)
+      st.plotly_chart(fig, use_container_width = True)
 
    elif party_group == 'Democrats':
       fig = px.bar(data[data.Party=='D'],x='State',color='Party',color_discrete_map={'D': 'Blue'},width=900,height=400,labels={'count': 'Amount'})
