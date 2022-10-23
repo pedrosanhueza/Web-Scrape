@@ -540,7 +540,7 @@ elif projectOption[option] == 16:
     yanchor="bottom",
     y=1.02,
     xanchor="right",
-    x=0.5))
+    x=0.75))
    st.plotly_chart(fig,use_container_width=True)
 
 
