@@ -587,7 +587,7 @@ elif projectOption[option] == 16:
 
    fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group",category_orders=order)
    fig.update_xaxes(tickangle=45)
-   st.plotly_chart(fig)
+   st.plotly_chart(fig,use_container_width=True)
 
    st.markdown('''
    <center>
