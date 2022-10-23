@@ -489,7 +489,7 @@ elif projectOption[option] == 16:
    ''',unsafe_allow_html=True)
 
    st.markdown('''
-   <h3>
+   <h3 text-align:center>
       <b> Part 1: </b> Data Extraction 🐍
    </h3>
    ''',unsafe_allow_html=True)
