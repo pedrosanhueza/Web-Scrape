@@ -539,7 +539,7 @@ elif projectOption[option] == 16:
       color_discrete_map={'D': 'Blue', 'R':'Red'},
       title="Committee Members per Party",
       width=1300, height=800,
-      # barmode="group",
+      barmode="group",
       category_orders=order,facet_col="Party")
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    newnames = {'R':'Republicans','D':'Democrats'}
