@@ -540,14 +540,15 @@ elif projectOption[option] == 16:
       title="Committee Members per Party",
       width=1300, height=800,
       # barmode="group",
-      category_orders=order,
-      facet_col="Party"
-      )
+      category_orders=order,facet_col="Party")
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    newnames = {'R':'Republicans','D':'Democrats'}
    fig.for_each_trace(lambda t: t.update(name = newnames[t.name])) # Interactive graph does not show up on GitHub
    st.plotly_chart(fig)
 
+   fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group",category_orders=order)
+   fig.update_xaxes(tickangle=45)
+   st.plotly_chart(fig)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # else:
