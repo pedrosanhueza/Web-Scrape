@@ -471,11 +471,11 @@ elif projectOption[option] == 16:
    data = representatives.data
    st.dataframe(data)
 
-   col1, col2 = st.columns([5,1])
+   col1, col2 = st.columns([7,1])
 
    with col2:
       genre = st.radio(
-      "What's your favorite movie genre",
+      "Party",
       ('Comedy', 'Drama', 'Documentary'))
 
    with col1:
