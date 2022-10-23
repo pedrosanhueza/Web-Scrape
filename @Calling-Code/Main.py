@@ -518,6 +518,20 @@ elif projectOption[option] == 16:
    </center>
    ''',unsafe_allow_html=True)
 
+   KPI1,KPI2,KPI3,KPI4 = st.columns(4)
+
+   KPI1.metric('States/Districts', f"{data.shape[0]}")
+   KPI2.metric('Representatives', f"{data.shape[0]}")
+   KPI3.metric('Party', f"{data.shape[0]}")
+   KPI4.metric('Committees', f"{data.shape[0]}")
+
+
+   newnames = {'R':'Republicans','D':'Democrats'}
+   fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
+   fig.update_traces(textfont_size=22,textinfo='percent+value')
+   st.plotly_chart(fig,use_container_width=True)
+
+
    party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
    if party_group == 'Republicans':
@@ -549,10 +563,6 @@ elif projectOption[option] == 16:
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    st.plotly_chart(fig)
 
-   newnames = {'R':'Republicans','D':'Democrats'}
-   fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
-   fig.update_traces(textfont_size=22,textinfo='percent+value')
-   st.plotly_chart(fig,use_container_width=True)
 
    fig = px.bar(data, x='District', color='Party', color_discrete_map={'D': 'Blue', 'R':'Red'},width=1200, height=400)
    fig.update_layout(xaxis={'categoryorder':'total descending'})
