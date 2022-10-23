@@ -520,10 +520,10 @@ elif projectOption[option] == 16:
 
    KPI1,KPI2,KPI3,KPI4 = st.columns(4)
 
-   KPI1.metric('States/Districts', f"{data.shape[0]}")
-   KPI2.metric('Representatives', f"{data.shape[0]}")
-   KPI3.metric('Party', f"{data.shape[0]}")
-   KPI4.metric('Committees', f"{data.shape[0]}")
+   KPI1.metric('Districts', f"{data.District.nunique()}")
+   KPI2.metric('Representatives', f"{data.Name.nunique()}")
+   KPI3.metric('Party', f"{data.Party.nunique()}")
+   KPI4.metric('Committees', f"{data['Committee Assignment'].nunique()}")
 
 
    newnames = {'R':'Republicans','D':'Democrats'}
