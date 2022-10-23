@@ -524,7 +524,7 @@ elif projectOption[option] == 16:
    data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
    data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
 
-   KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(4)
+   KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
    KPI1.metric('Districts', f"{data.District.nunique()}")
    KPI2.metric('Representatives', f"{data.Name.nunique()}")
    KPI3.metric('Parties', f"{data.Party.nunique()}")
