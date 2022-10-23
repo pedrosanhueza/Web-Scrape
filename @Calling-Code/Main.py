@@ -471,18 +471,21 @@ elif projectOption[option] == 16:
    data = representatives.data
    st.dataframe(data)
 
-   genre = st.radio(
-    "What's your favorite movie genre",
-    ('Comedy', 'Drama', 'Documentary'),
-    horizontal=True)
+   col1, col2 = st.columns([3,1])
 
-   fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=1000,labels={'count': 'Amount'},orientation='h')
-   fig.update_layout(yaxis={'categoryorder':'total ascending'})
-   fig.update_xaxes(tickangle=-45)
-   fig.update_yaxes(title=None)
-   newnames = {'R':'Republicans','D':'Democrats'}
-   fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   st.plotly_chart(fig)
+   with col2:
+      genre = st.radio(
+      "What's your favorite movie genre",
+      ('Comedy', 'Drama', 'Documentary'))
+
+   with tab1:
+      fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=800,height=1000,labels={'count': 'Amount'},orientation='h')
+      fig.update_layout(yaxis={'categoryorder':'total ascending'})
+      fig.update_xaxes(tickangle=-45)
+      fig.update_yaxes(title=None)
+      newnames = {'R':'Republicans','D':'Democrats'}
+      fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+      st.plotly_chart(fig)
 
    fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
    fig.update_layout(xaxis={'categoryorder':'total descending'})
