@@ -476,7 +476,7 @@ elif projectOption[option] == 16:
     ('Comedy', 'Drama', 'Documentary'),
     horizontal=True)
 
-   fig = px.bar(data,x='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=900,height=400,labels={'count': 'Amount'},orientation='h')
+   fig = px.bar(data,x='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=900,height=400,labels={'count': 'Amount'})
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    fig.update_xaxes(tickangle=-45)
    newnames = {'R':'Republicans','D':'Democrats'}
