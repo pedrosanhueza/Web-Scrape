@@ -490,7 +490,7 @@ elif projectOption[option] == 16:
 
    st.markdown('''
    <h3>
-      <b> Part 1: </b> &emsp;&emsp;&emsp; Data Extraction
+      <b> Part 1: </b> &emsp; Data Extraction
    </h3>
    ''',unsafe_allow_html=True)
    
