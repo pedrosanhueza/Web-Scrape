@@ -493,6 +493,10 @@ elif projectOption[option] == 16:
    fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
    st.plotly_chart(fig)
 
+   fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group")
+   fig.update_layout(xaxis={'categoryorder':'total descending'})
+   st.plotly_chart(fig)
+
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 # else:
