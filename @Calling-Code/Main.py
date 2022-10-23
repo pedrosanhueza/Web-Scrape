@@ -475,7 +475,7 @@ elif projectOption[option] == 16:
    fig.update_layout(xaxis={'categoryorder':'total descending'})
    fig.update_xaxes(tickangle=-45)
    newnames = {'R':'Republicans','D':'Democrats'}
-   # fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+   fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
    
    # fig.show()
 
