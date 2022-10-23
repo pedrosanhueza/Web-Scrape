@@ -4,12 +4,12 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import time
+import pytz
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import plotly.express as px
 from plotly.figure_factory import create_distplot
-import time
-import pytz
 
 
 # from Projects._1_Billionaires import forbesBillionaires
