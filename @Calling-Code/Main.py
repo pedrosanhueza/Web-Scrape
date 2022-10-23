@@ -529,14 +529,7 @@ elif projectOption[option] == 16:
    KPI2.metric('Representatives', f"{data.Name.nunique()}")
    KPI3.metric('Parties', f"{data.Party.nunique()}")
    KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
-   KPI5.metric('Party', f"{data.Party.nunique()}")
-
-   KPI_R_p = data[data.Party=='R'].shape[0] / data.shape[0]
-   KPI_D_p = data[data.Party=='D'].shape[0] / data.shape[0]
-
-   KPI_R,KPI_D = st.columns(2)
-   KPI_R.metric('Representatives', f"{data[data.Party=='R'].shape[0]}", KPI_R_p)
-   KPI_D.metric('Democrats', f"{data[data.Party=='D'].shape[0]}", KPI_D_p)
+   KPI5.metric('States', f"{data.States.nunique()}")
 
    newnames = {'R':'Republicans','D':'Democrats'}
    fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
