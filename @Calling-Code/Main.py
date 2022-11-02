@@ -76,6 +76,7 @@ options = (
 
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
+projects = st.selectbox('Web Scraping Projects', options)
 
 
 ## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
