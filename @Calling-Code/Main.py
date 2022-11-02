@@ -40,7 +40,9 @@ st.markdown('''
 <p style="font-size:20px;text-align:center;">
    Showcasing Personal Projects
    <br>
-   I extract live data from various websites, then use it for analysis with regression models, predictory ML/AI, EDA, and more ...
+   I extract live data from various websites, then use it for analysis.
+   <br>
+   Regression models, predictory ML/AI, EDA, and more ...
 </p>
 ''',unsafe_allow_html=True)
 
