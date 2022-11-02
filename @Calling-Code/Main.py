@@ -26,7 +26,7 @@ import os
 # from Projects._13_PoliticosEspanoles import DiputadosEspanoles
 # from Projects._14_SINCAMMAGob import SINCAMMAGob
 # from Projects._15_BYUI_SurplusStore import SurplusStore
-# from Projects._16_USHouseRepresentatives import representatives
+from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -96,7 +96,7 @@ options = (
 
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
-project = st.selectbox('Select a project: ', options)
+project = st.selectbox('Select project: ', options)
 
 
 ## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
