@@ -34,7 +34,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
 st.markdown('''
-<h1 style="font-size:40px;text-align:center;color:#4F9ACF;">
+<h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
 </h1>
 ''',unsafe_allow_html=True)
