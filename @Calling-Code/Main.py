@@ -37,6 +37,11 @@ st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
 </h1>
+<p style="font-size:20px;text-align:center;">
+   Showcasing Personal Projects
+   <br>
+   I extract live data from various websites, then use it for analysis
+</p>
 ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
