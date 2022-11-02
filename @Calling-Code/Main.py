@@ -74,6 +74,26 @@ options = (
    'US House of Representatives',
    'test')
 
+
+options = (
+   'forbes.com/billionaires/',
+   'https://www.byui.edu/catalog#/courses',
+   'https://countrycode.org/',
+   'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams',
+   'Financial Data',
+   'Forbes - Billionaries',
+   'Forbes - Universities',
+   'Irvine Spectrum Center',
+   'Job Board - BYUI',
+   'Mutual App Feedback',
+   'News - CBS',
+   'Politicos Chilenos',
+   'Políticos Españoles',
+   'SINCA MMA Gob',
+   'Surplus Store - BYUI',
+   'US House of Representatives',
+   'test')
+
 option = st.sidebar.selectbox('Web Scraping Projects', options)
 
 project = st.selectbox('Select a project: ', options)
