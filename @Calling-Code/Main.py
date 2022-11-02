@@ -24,14 +24,14 @@ st.write(
 # from Projects._6_ForbesBillionaries import forbesBillionaires
 # from Projects._7_ForbesUniversities import Forbes_Universities
 # from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
-from Projects._9_BYUI_JobBoard import BYUI_JobBoard
+# from Projects._9_BYUI_JobBoard import BYUI_JobBoard
 # from Projects._10_MutualAppFeedback import Mutual_App_Feedback
 # from Projects._11_NewsCBS import cbsnews
 # # from Projects._12_PoliticosChilenos import 
 # from Projects._13_PoliticosEspanoles import DiputadosEspanoles
 # from Projects._14_SINCAMMAGob import SINCAMMAGob
-from Projects._15_BYUI_SurplusStore import SurplusStore
-from Projects._16_USHouseRepresentatives import representatives
+# from Projects._15_BYUI_SurplusStore import SurplusStore
+# from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -105,7 +105,7 @@ projectOption = {
 if projectOption[option] == 1: #'Billionaires'
    st.write('Hola!')
 
-   data = BYUI_JobBoard.data
+   # data = BYUI_JobBoard.data
 
    # def convert_date(x,y,z):   
    #    orig_date = datetime(x,y,z)
