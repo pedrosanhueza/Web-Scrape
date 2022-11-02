@@ -127,8 +127,8 @@ projectOption = {
 # st.write('You selected:', option)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-# if projectOption[option] == 1: #'Billionaires'
-#    st.write('Hola!')
+if projectOption[option] == 1: #'Billionaires'
+   st.write('Hola!')
 
    # data = BYUI_JobBoard.data
 
@@ -254,7 +254,7 @@ projectOption = {
 #       st.header(option)
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
-if projectOption[option] == 9:
+elif projectOption[option] == 9:
    
    st.markdown('''
    <p style="text-align:right;">
