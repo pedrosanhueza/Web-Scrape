@@ -1,4 +1,3 @@
-
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
 import streamlit as st
 import pandas as pd
@@ -31,6 +30,14 @@ from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
+
+## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
+
+st.markdown('''
+<h1>
+   Hi! 👋🏼
+</h1>
+''',unsafe_allow_html=True)
 
 ## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
 
