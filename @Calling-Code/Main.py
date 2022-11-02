@@ -11,11 +11,6 @@ import plotly.express as px
 from plotly.figure_factory import create_distplot
 import os
 
-st.write(
-   os.getcwd()
-)
-
-
 # from Projects._1_Billionaires import forbesBillionaires
 # from Projects._2_BYUI_ClassCatalog import catalogBYUI
 # from Projects._3_CountryCode import countryCode
@@ -39,7 +34,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
 st.markdown('''
-<h1>
+<h1 style="font-size:40px;text-align:center;color:#4F9ACF;">
    Hi! 👋🏼
 </h1>
 ''',unsafe_allow_html=True)
@@ -73,6 +68,8 @@ options = (
    'test')
 
 option = st.sidebar.selectbox('Web Scraping Projects', options)
+
+
 
 ## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
 ## data
