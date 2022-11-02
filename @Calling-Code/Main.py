@@ -127,7 +127,7 @@ projectOption = {
 # st.write('You selected:', option)
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-if projectOption[option] == 1: #'Billionaires'
+if projectOption[project] == 1: #'Billionaires'
    st.write('Hola!')
 
    # data = BYUI_JobBoard.data
