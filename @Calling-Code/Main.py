@@ -9,6 +9,11 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import plotly.express as px
 from plotly.figure_factory import create_distplot
+import os
+
+st.write(
+   os.getcwd()
+)
 
 
 # from Projects._1_Billionaires import forbesBillionaires
