@@ -76,7 +76,7 @@ options = (
 
 
 options = (
-   'forbes.com/billionaires/',
+   'Billionaires',
    'byui.edu/catalog#/courses',
    'countrycode.org/',
    'foxsports.com/soccer',
