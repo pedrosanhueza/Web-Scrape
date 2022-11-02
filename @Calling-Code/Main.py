@@ -77,9 +77,9 @@ options = (
 
 options = (
    'forbes.com/billionaires/',
-   'https://www.byui.edu/catalog#/courses',
-   'https://countrycode.org/',
-   'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams',
+   'byui.edu/catalog#/courses',
+   'countrycode.org/',
+   'foxsports.com/soccer',
    'Financial Data',
    'Forbes - Billionaries',
    'Forbes - Universities',
