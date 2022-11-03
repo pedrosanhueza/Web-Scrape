@@ -73,15 +73,14 @@ project = st.selectbox('Select project: ', projects)
 
 project_order = list(projectOption.values())
 
-
 IdahoTz = pytz.timezone('US/Mountain') 
 timeZoneMountain = datetime.now(IdahoTz)
 currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
 YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-if project_order[project] == 1:
-   st.write(project_order[project])
+if projectOption[project] == 1:
+   st.write(project)
 
    # data = BYUI_JobBoard.data
 
@@ -105,8 +104,8 @@ if project_order[project] == 1:
 
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
-if project_order[project] == 2:
-   st.write(project_order[project])
+if projectOption[project] == 2:
+   st.write(project)
 #    url = catalogBYUI.url
 #    url_split = url.replace('https://','').split('/')[0]
 
