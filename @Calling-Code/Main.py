@@ -47,15 +47,15 @@ st.markdown('''
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
 projectOption = {
-   'Billionaires':1,
-   'Class Catalog - BYUI':2,
-   'Country Code':3,
-   'FIFA World Cup':4,
-   'Financial Data':5,
-   'Forbes - Billionaries':6,
-   'Forbes - Universities':7,
-   'Irvine Spectrum Center':8,
-   'Job Board - BYUI':9,
+   'TEST':1,
+   'byui.edu/catalog#/courses':2,
+   'countrycode.org/':3,
+   'foxsports.com/soccer/2022-fifa-world-cup/teams':4,
+   'advfn.com/':5,
+   'forbes.com/billionaires/':6,
+   'forbes.com/top-colleges/':7,
+   'irvinespectrumcenter.com/shopping/stores':8,
+   'web.byui.edu/studentemployment/':9,
    'Mutual App Feedback':10,
    'News - CBS':11,
    'Politicos Chilenos':12,
@@ -457,7 +457,7 @@ if projectOption[project] == 15:
    st.line_chart(data[['Condition']])
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
-if projectOption[project] == 16:
+if projectOption[project] == 162:
    data = representatives.data
 
    st.markdown('''
