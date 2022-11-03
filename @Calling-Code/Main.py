@@ -457,7 +457,7 @@ if projectOption[project] == 15:
    st.line_chart(data[['Condition']])
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
-if projectOption[option] == 16: 
+if projectOption[project] == 16:
    data = representatives.data
 
    st.markdown('''
