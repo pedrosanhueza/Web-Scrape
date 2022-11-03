@@ -44,13 +44,6 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-## ----------------------------------------- General Variables ----------------------------------------------------------------------------- ##
-
-IdahoTz = pytz.timezone('US/Mountain') 
-timeZoneMountain = datetime.now(IdahoTz)
-currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
-YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
-
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
 projectOption = {
@@ -76,17 +69,19 @@ projects = tuple(projectOption.keys())
 
 project = st.selectbox('Select project: ', projects)
 
+## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
-## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
-## data
-## url - scrape
-## url - website
+project_order = list(projectOption.values())
 
-# st.write('You selected:', option)
+
+IdahoTz = pytz.timezone('US/Mountain') 
+timeZoneMountain = datetime.now(IdahoTz)
+currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
+YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-if projectOption[project] == 1: #'Billionaires'
-   st.write('Hola!')
+if project_order[project] == 1:
+   st.write(project_order[project])
 
    # data = BYUI_JobBoard.data
 
@@ -110,8 +105,8 @@ if projectOption[project] == 1: #'Billionaires'
 
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
-# elif projectOption[option] == 2:
-#    data = catalogBYUI.data
+if project_order[project] == 2:
+   st.write(project_order[project])
 #    url = catalogBYUI.url
 #    url_split = url.replace('https://','').split('/')[0]
 
