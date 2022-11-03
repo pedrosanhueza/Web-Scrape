@@ -206,7 +206,8 @@ if projectOption[project] == 2:
 #       st.header(option)
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
-elif projectOption[option] == 9:
+if projectOption[project] == 9:
+   st.write(project)
    
    st.markdown('''
    <p style="text-align:right;">
@@ -411,8 +412,8 @@ elif projectOption[option] == 9:
 
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
-elif projectOption[option] == 15:
-   data = SurplusStore.data
+if projectOption[project] == 15:
+   st.write(project)
 
 
    st.markdown('''
