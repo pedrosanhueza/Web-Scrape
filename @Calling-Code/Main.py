@@ -416,6 +416,10 @@ if projectOption[project] == 10:
    
    st.write(project)
 
+   data = Mutual_App_Feedback.data
+
+   st.dataframe(data)
+
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
