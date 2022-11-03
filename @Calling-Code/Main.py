@@ -53,55 +53,6 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
-options = (
-   'Billionaires',
-   'Class Catalog - BYUI',
-   'Country Code',
-   'FIFA World Cup',
-   'Financial Data',
-   'Forbes - Billionaries',
-   'Forbes - Universities',
-   'Irvine Spectrum Center',
-   'Job Board - BYUI',
-   'Mutual App Feedback',
-   'News - CBS',
-   'Politicos Chilenos',
-   'Políticos Españoles',
-   'SINCA MMA Gob',
-   'Surplus Store - BYUI',
-   'US House of Representatives',
-   'test')
-
-
-options = (
-   'Billionaires',
-   'byui.edu/catalog#/courses',
-   'countrycode.org/',
-   'foxsports.com/soccer',
-   'Financial Data',
-   'Forbes - Billionaries',
-   'Forbes - Universities',
-   'Irvine Spectrum Center',
-   'Job Board - BYUI',
-   'Mutual App Feedback',
-   'News - CBS',
-   'Politicos Chilenos',
-   'Políticos Españoles',
-   'SINCA MMA Gob',
-   'Surplus Store - BYUI',
-   'house.gov/representatives',
-   'test')
-
-option = st.sidebar.selectbox('Web Scraping Projects', options)
-
-project = st.selectbox('Select project: ', options)
-
-
-## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
-## data
-## url - scrape
-## url - website
-
 projectOption = {
    'Billionaires':1,
    'Class Catalog - BYUI':2,
@@ -119,8 +70,17 @@ projectOption = {
    'SINCA MMA Gob':14,
    'Surplus Store - BYUI':15,
    'house.gov/representatives':16,
-   'test':17
-}
+   'test':17}
+
+projects = tuple(projectOption.keys())
+
+project = st.selectbox('Select project: ', projects)
+
+
+## ----------------------------------------- Modules Variables ------------------------------------------------------------------------ ##
+## data
+## url - scrape
+## url - website
 
 # st.write('You selected:', option)
 
