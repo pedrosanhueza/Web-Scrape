@@ -431,6 +431,10 @@ if projectOption[project] == 10:
    </div>
    ''',unsafe_allow_html=True)
 
+   st.markdown(f'''
+   <img src="{logo}">
+   ''',unsafe_allow_html=True)
+
    st.code(scrpt_1)
 
    st.dataframe(data)
