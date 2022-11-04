@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+from datetime import datetime
 
 # ----------------------------------- 12 sec: Build Tabular Data ----------------------------------- #
 
@@ -61,7 +62,10 @@ data = pd.DataFrame(rows_merged)
 # change dtype
 data = data.astype({'votes': 'float','comments': 'float'}, copy=True)
 # add column with months
-data['date_created_month'] = data['date_created'].apply(lambda x: x.split(' ')[1].replace(',',''))
-data['date_created_month'] = data['date_created_month'].replace({'Fe':'Feb','Ap':'Apr','Ma':'May'})
+data['date_created_month'] = data['date_created'].apply(
+    lambda x:
+    x.split(' ')[1].replace(',','')
+    if 'days' not in x
+    else datetime.now().strftime('%h'))
 
 # -----------------------------------
