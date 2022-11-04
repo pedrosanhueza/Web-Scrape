@@ -419,26 +419,7 @@ if projectOption[project] == 10:
    scrpt_1 = Mutual_App_Feedback.script_1
 
    st.markdown(f'''
-   <div style="
-   background-image:url('{logo}');
-   padding:5px;
-   width:150px;
-   height:200px;
-   border:1px solid black;
-   background-repeat:no-repeat;">
-   
-   <p>See the background image?</p>
-   </div>
-   ''',unsafe_allow_html=True)
-
-   st.markdown(f'''
-   <img src="{logo}" alt="Logo">
-   ''',unsafe_allow_html=True)
-
-   st.markdown(f'''
-   <a href="default.asp">
-      <img src="{logo}" alt="HTML tutorial">
-   </a>
+   <img src="{logo}" alt="Logo" style="text-align:right;">
    ''',unsafe_allow_html=True)
 
    st.code(scrpt_1)
