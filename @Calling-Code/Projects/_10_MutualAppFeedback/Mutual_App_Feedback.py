@@ -53,5 +53,5 @@ rows_merged = []
 for idx, row in enumerate(rows):
     rows_merged.append({**row,**rows_votes[idx]})
 
-data = pd.DataFrame.rows_merged
+data = pd.DataFrame(rows_merged)
 # -----------------------------------
