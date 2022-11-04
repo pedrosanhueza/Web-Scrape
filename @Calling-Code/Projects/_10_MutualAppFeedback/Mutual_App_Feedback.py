@@ -80,6 +80,8 @@ logo = soup.find('img')['src']
 script_1 = '''
 url_base = 'feedback.mutual.app'
 
+page = 1 # used later for loop over all pages
+
 url = f'https://{url_base}/?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
 
 response = requests.get(url)
@@ -87,6 +89,8 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 info = soup.find_all('div',{'class':'sInfo'})
+
+rows = []
 
 for attribute in info:
     row = {}
