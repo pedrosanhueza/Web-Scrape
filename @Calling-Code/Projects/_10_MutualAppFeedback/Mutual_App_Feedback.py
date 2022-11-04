@@ -68,7 +68,11 @@ data['date_created_month'] = data['date_created'].apply(
     if 'days' not in x
     else datetime.now().strftime('%h'))
 
-logo = soup.find('link')['href']
+# find logo
+url = 'https://blog.mutual.app/'
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+logo = soup.find('img')['src']
 
 # ----------------------------------- scripts 1 -----------------------------------
 
