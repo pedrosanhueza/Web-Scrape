@@ -421,8 +421,12 @@ if projectOption[project] == 10:
    st.markdown(f'''
    <div style="
    background-image:url('{logo}');
+   padding:5px;
+   width:150px;
+   height:200px;
+   border:1px solid black;
    background-repeat:no-repeat;">
-
+   
    <p>See the background image?</p>
    </div>
    ''',unsafe_allow_html=True)
