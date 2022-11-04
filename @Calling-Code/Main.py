@@ -428,9 +428,12 @@ if projectOption[project] == 10:
    </center>
    ''',unsafe_allow_html=True)
 
-   st.code(scrpt_1)
+   tab1, tab2 = st.tabs(["Analysis 🧐", "Script 🐍"])
 
-   st.dataframe(data)
+   with tab1:
+      st.code(scrpt_1)
+   with tab2:
+      st.dataframe(data)
 
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
