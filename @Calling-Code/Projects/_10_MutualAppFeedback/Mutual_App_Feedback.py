@@ -8,9 +8,10 @@ from datetime import datetime
 page = 1
 rows = []
 rows_votes = []
+url_base = 'feedback.mutual.app'
 
 while page:
-    url = f'https://feedback.mutual.app/?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
+    url = f'https://{url_base}/?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     
@@ -77,10 +78,16 @@ logo = soup.find('img')['src']
 # ----------------------------------- scripts 1 -----------------------------------
 
 script_1 = '''
-url = 'https://feedback.mutual.app/?page=1&order=popular&filter=all#controls'
+url_base = 'feedback.mutual.app'
+
+url = f'https://{url_base}/?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
+
 response = requests.get(url)
+
 soup = BeautifulSoup(response.text, 'html.parser')
+
 info = soup.find_all('div',{'class':'sInfo'})
+
 for attribute in info:
     row = {}
     row['page'] = page
