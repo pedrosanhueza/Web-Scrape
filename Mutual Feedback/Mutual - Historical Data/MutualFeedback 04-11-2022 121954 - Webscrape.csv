@@ -1,0 +1,478 @@
+,page,id,suggestion,author,date_created,last_upvoted,comments,status,votes
+0,1,161005,See who i have liked,Moses,"19 Feb, 2021",today,81,Feedback Needed,1.2000
+1,1,170983,Watch an ad to see a person who likes you,Anonymous,"19 Mar, 2021",yesterday,35,Feedback Needed,627
+2,1,161962,Last onlinerecently active,Moses,"22 Feb, 2021",today,54,Feedback Needed,598
+3,1,177816,Skip a profile save for later,Brian,"11 Apr, 2021",today,42,Feedback Needed,521
+4,1,164928,Filter church activity,Moses,"01 Mar, 2021",30 Oct,47,Released,483
+5,1,296565,Remove swipe limit,Sheppard,30 Apr,today,66,Feedback Needed,382
+6,1,161000,Dark mode,Moses,"19 Feb, 2021",2 days ago,11,Feedback Needed,224
+7,1,169459,Voice messaging,Johnson Daniel Kalu,"15 Mar, 2021",30 Oct,18,Feedback Needed,206
+8,1,164962,Hide inactive profiles,Dallin,"02 Mar, 2021",today,4,Feedback Needed,199
+9,1,161961,Conversation prompts,Moses,"22 Feb, 2021",28 Oct,26,Feedback Needed,167
+10,1,165044,Neighboring countries filter,Erik,"02 Mar, 2021",today,19,Feedback Needed,164
+11,1,165319,Higher character count in bio,Qaseem,"02 Mar, 2021",today,18,Feedback Needed,162
+12,1,165991,Search by name,Morgan,"03 Mar, 2021",01 Nov,27,Feedback Needed,155
+13,1,165329,Increase photo count,Qaseem Maajid-Bey,"02 Mar, 2021",01 Nov,4,Feedback Needed,139
+14,1,170628,Match explanations,Aidan Nemelka,"18 Mar, 2021",25 Oct,6,Feedback Needed,129
+15,1,174999,Allow short videos to be added to profile,Jeannine,"30 Mar, 2021",29 Oct,27,Feedback Needed,128
+16,1,165005,Share photos send photos in chat,Ejkl,"02 Mar, 2021",2 days ago,20,Feedback Needed,117
+17,1,170306,Profile analytics,Robert,"17 Mar, 2021",30 Oct,19,Feedback Needed,115
+18,1,179902,Mutual games,Joe,"17 Apr, 2021",20 Oct,11,Feedback Needed,106
+19,1,169249,Video call speed dating,Anonymous,"13 Mar, 2021",18 Oct,14,Feedback Needed,94
+20,1,169448,Change unmatch reasons,Nate,"15 Mar, 2021",14 Oct,9,Feedback Needed,78
+21,1,176350,Display full name,KH,"05 Apr, 2021",14 Oct,38,Feedback Needed,76
+22,1,172670,Show approximate number of people in range,Robert,"17 Mar, 2021",01 Nov,2,Feedback Needed,74
+23,1,175785,Bring back old matches,Greg,"01 Apr, 2021",2 days ago,5,Feedback Needed,72
+24,1,164958,Nudges or reminders,Sarah,"02 Mar, 2021",29 Sep,2,Feedback Needed,70
+25,1,338157,Display where the person actually lives instead of just where that person is tra,Angie,21 Oct,today,1,Feedback Needed,5
+26,1,334432,See notes sent and read status,Trevor,03 Oct,01 Nov,1,Feedback Needed,5
+27,1,336290,Make notes great again,N,12 Oct,18 Oct,0,Feedback Needed,4
+28,1,334096,Filter by school attendance,Jacob,01 Oct,19 Oct,0,Feedback Needed,4
+29,1,337572,People who have liked me can bypass filters,Tustin,19 Oct,24 Oct,0,Feedback Needed,3
+30,1,335574,Stop just swipe and allow more communication,Zac,08 Oct,today,0,Feedback Needed,2
+31,1,332372,Filter by persons name,Jonathan Hansen,25 Sep,19 Oct,0,Feedback Needed,2
+32,1,329849,Short profile videos,Samuel Roberts,15 Sep,15 Sep,1,Feedback Needed,1
+33,1,337834,Lets talk about prompt,Virginia,20 Oct,20 Oct,0,Feedback Needed,1
+34,1,336846,Member status filter,Tyler,14 Oct,14 Oct,0,Feedback Needed,1
+35,1,333056,Edit a message that has been sent,Richard Bernal,27 Sep,27 Sep,0,Feedback Needed,1
+36,1,332306,Add how many kids,Stacie Tillotson,24 Sep,24 Sep,0,Feedback Needed,1
+37,1,328515,Delete messages,LÃ­a,11 Sep,11 Sep,0,Feedback Needed,1
+38,1,168489,Let queer members match with other queer members,Rachel,"10 Mar, 2021",31 Oct,132,Open,1.1000
+39,1,165279,Birthday surprise,Jefferson Glenn,"02 Mar, 2021",29 Oct,10,Open,288
+40,1,161959,Filter has children or not,Moses,"22 Feb, 2021",13 Oct,29,Released,256
+41,1,161947,Filter interest level,Moses,"22 Feb, 2021",19 Oct,39,Released,243
+42,1,157427,Video chat,Moses,"03 Feb, 2021",yesterday,24,Released,190
+43,1,175881,Free trial,Erica,"01 Apr, 2021",yesterday,26,Closed,156
+44,1,164933,Filter temple recommend,Moses,"01 Mar, 2021",29 Oct,16,Released,145
+45,1,161963,Filter politics,Moses,"22 Feb, 2021",19 Oct,25,Closed,143
+46,1,164926,Share a profile,Moses,"01 Mar, 2021",19 Oct,21,Released,134
+47,1,161966,Filter divorced,Moses,"22 Feb, 2021",01 Nov,27,Released,120
+48,1,172738,Show likelyhood to respond,Josh,"23 Mar, 2021",13 Oct,12,Closed,88
+49,1,169296,Filter weight,Pedro,"14 Mar, 2021",14 Oct,32,Closed,86
+50,2,172181,Filter those that like you,Collin,"21 Mar, 2021",19 Oct,7,Closed,84
+51,2,176175,Dealbreakers,Damian,"03 Apr, 2021",14 Oct,10,Closed,82
+52,2,170905,Penalize ignoring a message from a match,Daniel,"18 Mar, 2021",25 Oct,26,Closed,79
+53,2,164998,Filter ethnicity,B,"02 Mar, 2021",17 Oct,23,Closed,76
+54,2,171625,An are you dating someone thing,Mathieu Brewer,"20 Mar, 2021",14 Oct,5,Closed,72
+55,2,179921,Notes should be one per day anytime i want to use it not once every 24 hrs exact,Eliot,"18 Apr, 2021",10 Oct,4,Open,67
+56,2,170894,Filter specific tag,Sanford Bassett,"18 Mar, 2021",17 Oct,61,Open,60
+57,2,176262,Add additional location filter by state,Ryan,"04 Apr, 2021",02 Oct,8,Open,51
+58,2,184861,List view of people whove liked you,Anonymous,"12 May, 2021",24 Sep,8,Closed,50
+59,2,197289,Ghosting ratio,Sunny,"10 Jul, 2021",13 Oct,6,Open,49
+60,2,170233,Group date feature,Jaden,"16 Mar, 2021",12 Sep,8,Open,48
+61,2,172119,A notification sound,Bradley,"21 Mar, 2021",12 Sep,3,Open,48
+62,2,253422,Description first optionally,Jackson,"03 Dec, 2021",13 Oct,3,Open,45
+63,2,161964,Filter pets,Moses,"22 Feb, 2021",13 Oct,2,Closed,45
+64,2,180047,Not for me instead of no reason,Kay,"19 Apr, 2021",19 Oct,1,Open,42
+65,2,174225,Time stamps,emma,"27 Mar, 2021",yesterday,3,Open,41
+66,2,184344,Picture upload zoom issue,Daniel,"09 May, 2021",22 Oct,6,Open,40
+67,2,203487,When ward hopping have option to display both real and hopped location,Matt Eden,"17 Aug, 2021",01 Sep,4,Open,38
+68,2,165040,Add spotify top artists,Moses,"02 Mar, 2021",13 Oct,8,Open,37
+69,2,176263,Reset all down swipes option,Ryan,"04 Apr, 2021",14 Oct,3,Closed,36
+70,2,190177,See who liked me list view,Michael Patterson,"09 Jun, 2021",20 Sep,8,Open,35
+71,2,198340,Filter body type,Stephanie,"17 Jul, 2021",13 Oct,9,Open,33
+72,2,181754,Filter exclude utah from results,Chris,"26 Apr, 2021",20 Oct,4,Open,33
+73,2,200161,Filter language,Paige,"27 Jul, 2021",26 Aug,15,Closed,32
+74,2,192803,Friends only section,Adam fox,"19 Jun, 2021",17 Oct,14,Open,32
+75,2,202492,Make the about me section a required field,Moses Lotulelei,"10 Aug, 2021",13 Oct,4,Open,32
+76,2,183909,Show new people by most compatible first,Laura,"07 May, 2021",20 Aug,3,Open,31
+77,2,190702,Display if willing to relocate on profile,mark Osborn,"11 Jun, 2021",10 Oct,7,Closed,30
+78,2,192616,Add a blind dating feature for people who dont want looks to influence if they m,Chad,"19 Jun, 2021",13 Oct,7,Open,29
+79,2,175614,Downvote option on the feedback site,Jared,"31 Mar, 2021",21 Sep,6,Closed,28
+80,2,189478,Get rid of spamfraudulent users,Chele,"07 Jun, 2021",14 Oct,13,Open,27
+81,2,170258,Web browser support,Q,"16 Mar, 2021",13 Oct,10,Open,26
+82,2,164931,Filter favorite school,Moses,"01 Mar, 2021",13 Oct,24,Open,25
+83,2,179087,Add more then 2 letters for the state or country better geographic clarity pleas,James McLean,"14 Apr, 2021",17 Sep,1,Open,24
+84,2,181384,Photo age,Joseph Smith,"23 Apr, 2021",01 Sep,2,Open,23
+85,2,173851,Limit total number of matches based on your responsiveness with existing matches,Josh,"26 Mar, 2021",15 Oct,0,Closed,21
+86,2,307193,Lower subscription price,Bay,11 Jun,20 Sep,1,Closed,20
+87,2,194118,Add education level,Holly,"26 Jun, 2021",01 Sep,4,Open,19
+88,2,165226,Facebook mutual friends,Ashlee,"02 Mar, 2021",07 Jul,3,Closed,19
+89,2,172209,Home screen should be messaging,Dan,"21 Mar, 2021",21 Sep,1,Open,19
+90,2,173621,Automatically translate messages,Giovanna,"25 Mar, 2021",07 Jul,10,Closed,18
+91,2,199535,Fix photo sizing,Kyra,"26 Jul, 2021",21 Sep,8,Open,18
+92,2,186715,Allow those who you have liked to see you liked them,Anonymous,"21 May, 2021",02 Oct,2,Open,18
+93,2,164972,World wide distance,Cole,"02 Mar, 2021",14 Sep,2,Open,18
+94,2,175897,Publish dating market statistics for an area,Trent,"02 Apr, 2021",29 Aug,0,Open,18
+95,2,188769,Filter returned missionary,Matthew S. Mahoney,"03 Jun, 2021",19 Aug,12,Open,17
+96,2,192610,Add a section asking about covid vaccination status,Chad,"19 Jun, 2021",13 Oct,6,Open,17
+97,2,165321,Minimum character count in bio,Qaseem Maajid-Bey,"02 Mar, 2021",11 Sep,2,Closed,17
+98,2,194685,See at least 1 person per week,Micah Conover,"29 Jun, 2021",10 Oct,0,Closed,17
+99,2,179930,Timedate stamp on messages,Howie,"18 Apr, 2021",yesterday,1,Open,16
+100,3,164969,Scroll bar,Cole,"02 Mar, 2021",02 Aug,1,Open,16
+101,3,192772,Be able to set your location to your home city while traveling,Jacob Coleman,"19 Jun, 2021",01 Sep,0,Closed,16
+102,3,173770,Party room,Braeden,"25 Mar, 2021",14 Jul,0,Open,16
+103,3,198341,Filter gym activity,Shelby,"17 Jul, 2021",02 Oct,2,Open,15
+104,3,201410,Rollover notes,Barry,"03 Aug, 2021",26 Aug,1,Open,15
+105,3,186181,Optional profile feedback,Jeremy,"18 May, 2021",21 Aug,7,Open,14
+106,3,189906,Make the distance slider better,Ryan,"08 Jun, 2021",14 Oct,5,Open,14
+107,3,266157,The new about me section is too short,Liz,"27 Dec, 2021",14 Oct,4,Open,14
+108,3,200613,No dead animals,Kelsi,"28 Jul, 2021",23 Sep,4,Open,14
+109,3,217248,Unmatch feedback,R,"22 Sep, 2021",14 Oct,3,Open,14
+110,3,282931,Family tree app linked to this,Hailey,26 Feb,03 Aug,2,Open,14
+111,3,200637,Give stats on your profile percentageswhats successful,Todd,"29 Jul, 2021",20 Aug,2,Open,14
+112,3,188116,Get rid of say hi,J,"31 May, 2021",10 Oct,1,Open,14
+113,3,173521,Questionnaire,Jared,"25 Mar, 2021",09 Aug,1,Closed,14
+114,3,202149,React to messages sent,Kristina Cannon,"09 Aug, 2021",09 Aug,0,Open,14
+115,3,176239,Pause profile,Amanda,"04 Apr, 2021",18 Oct,0,Closed,14
+116,3,194293,Require member record number,Rachel,"28 Jun, 2021",13 Oct,8,Closed,13
+117,3,189884,Verified profiles filter for them,Jeramy,"08 Jun, 2021",13 Oct,7,Open,13
+118,3,194489,Filter modesty,Mitch,"29 Jun, 2021",10 Oct,5,Closed,13
+119,3,281412,Force users to complete verification,Michael,20 Feb,24 Sep,3,Open,13
+120,3,186677,Date ideas,Nathaniel Sparks,"20 May, 2021",01 Sep,3,Open,13
+121,3,202557,Message preview in notification,Sterling,"10 Aug, 2021",20 Aug,2,Open,13
+122,3,211694,Reset all downswipes from people who like you,Tyler Alley,"05 Sep, 2021",01 Sep,1,Open,13
+123,3,175898,Option for more detailed profile info,Trent,"02 Apr, 2021",09 Aug,1,Open,13
+124,3,173095,Multiple search locations,Frank the Dog from Men In Black 2,"23 Mar, 2021",14 Jul,1,Open,13
+125,3,225427,Clarify interested in,N.,"18 Oct, 2021",20 Aug,0,Open,13
+126,3,193363,Reasons for swiping,Holly,"23 Jun, 2021",28 Jul,0,Open,13
+127,3,173511,No gun photos,Lj,"24 Mar, 2021",21 Sep,21,Open,12
+128,3,177626,Repeal height filter,Aaron,"09 Apr, 2021",10 Oct,11,Open,12
+129,3,196148,Filter unwanted names,Anne Lester,"06 Jul, 2021",12 Jul,6,Closed,12
+130,3,198728,Read receipts for sent notes,Jeff,"20 Jul, 2021",13 Oct,5,Open,12
+131,3,176295,Metric vs imperial on height,Anonymous,"04 Apr, 2021",07 Jul,3,Open,12
+132,3,218963,Allow users to hide read receipts,Michael Allen,"26 Sep, 2021",15 Oct,2,Open,12
+133,3,196166,Change location,Chantelle,"06 Jul, 2021",04 Oct,1,Closed,12
+134,3,223698,Be notified when a match decides to say goodbye,DJ,"11 Oct, 2021",21 Sep,0,Open,12
+135,3,210998,Superlike feature,alberthallingtonianianan,"31 Aug, 2021",20 Aug,0,Open,12
+136,3,187180,Purge users,Bparks,"25 May, 2021",21 Sep,0,Closed,12
+137,3,164959,Tagging the other people in the photo,Alex,"02 Mar, 2021",09 Aug,1,Closed,11
+138,3,186991,Check to mark your divorce is finalized,A,"23 May, 2021",21 Aug,0,Closed,11
+139,3,185111,Healthy fitness level filter,Anonymous,"13 May, 2021",08 Sep,3,Open,10
+140,3,211333,Liked image,Payton,"02 Sep, 2021",20 Aug,0,Open,10
+141,3,186730,Reviews would be fun,j the Zuni,"21 May, 2021",11 Jun,9,Closed,9
+142,3,308444,Lower prices of inapp purchases subscriptions,Tim W,16 Jun,09 Aug,5,Closed,9
+143,3,201800,Add a lifetime membership option,T,"05 Aug, 2021",13 Oct,5,Open,9
+144,3,174229,Social media section,Khiler,"27 Mar, 2021",05 Jan,5,Closed,9
+145,3,165097,Filter instagram profile,Leonard,"02 Mar, 2021",13 Oct,5,Closed,9
+146,3,175219,Down to chat toggle,Jairon Terrero,"30 Mar, 2021",13 Oct,3,Open,9
+147,3,190987,Account vacationtake a break mode,Adam Proctor,"13 Jun, 2021",21 Sep,2,Closed,9
+148,3,232162,More info snippets,Sid,"12 Nov, 2021",20 Aug,1,Open,9
+149,3,196140,Sort matches by distance,Ddport,"06 Jul, 2021",20 Aug,1,Open,9
+150,4,187103,Reverify people regularly,Isabella,"24 May, 2021",21 Sep,1,Closed,9
+151,4,184715,Show which chats you havent replied to,Alex,"11 May, 2021",07 Jul,1,Open,9
+152,4,269055,Replace gloomy cloud image,Jonathan,05 Jan,15 Oct,0,Open,9
+153,4,224556,Show all matches locations on a map,Cory,"13 Oct, 2021",20 Aug,0,Open,9
+154,4,223700,Like declined,DJ,"11 Oct, 2021",12 Oct,0,Open,9
+155,4,203302,Unblock,Keith,"16 Aug, 2021",15 Oct,0,Open,9
+156,4,185701,Ward hopping,Lindsay,"16 May, 2021",26 Sep,0,Open,9
+157,4,190597,Filter by region,Matt,"10 Jun, 2021",09 Aug,13,Closed,8
+158,4,214101,Hair and eye color filter,Joe,"14 Sep, 2021",01 Sep,4,Open,8
+159,4,189876,Mix in people that like me,TJ,"08 Jun, 2021",25 Oct,3,Closed,8
+160,4,285801,Gpsprivacy,None of your beeswax,14 Mar,11 Sep,2,Open,8
+161,4,222916,Another ui overhaul,Ammon,"09 Oct, 2021",03 Aug,2,Open,8
+162,4,210999,Match guide,alberthallingtonianianan,"31 Aug, 2021",07 Sep,2,Open,8
+163,4,201202,Premium lite,Josh,"02 Aug, 2021",09 Aug,1,Open,8
+164,4,195253,Pause locations,Josh,"02 Jul, 2021",25 Oct,1,Closed,8
+165,4,190895,Automatically refresh the chat page,Brett,"12 Jun, 2021",03 Jul,1,Closed,8
+166,4,232160,Swipe up feedback,Sid,"12 Nov, 2021",13 Sep,0,Closed,8
+167,4,205322,Matchmaking other users,David,"28 Aug, 2021",07 Jul,5,Closed,7
+168,4,285645,Photo descriptions more photos,Bartholemew,13 Mar,25 Oct,4,Open,7
+169,4,224559,Exclude certain locations,Cory,"13 Oct, 2021",21 Oct,4,Open,7
+170,4,198315,Match reminder,Garret,"17 Jul, 2021",21 Sep,3,Open,7
+171,4,169315,Picture suggestions,Jake,"14 Mar, 2021","26 Jul, '21",3,Closed,7
+172,4,272690,Add a spot for special needs people,Justin,19 Jan,17 Oct,2,Open,7
+173,4,169853,I dont like you,Alec,"15 Mar, 2021",07 Jul,2,Closed,7
+174,4,319288,Add asl as a language option,Elizabeth Anderson,29 Jul,31 Oct,1,Open,7
+175,4,268925,Texting vs in person,Sarah,05 Jan,20 Aug,1,Open,7
+176,4,211582,See who took a screenshot,Shei,"04 Sep, 2021",25 Sep,1,Closed,7
+177,4,183681,Hide me from certain names,Halsey W,"06 May, 2021",08 Jul,1,Closed,7
+178,4,299626,Three strikes youre out,JJ,13 May,11 Sep,0,Closed,7
+179,4,284319,Inability to screenshot,Lily,06 Mar,10 Jul,0,Open,7
+180,4,200935,Link friends mutual profiles to one another for easy browsing,Sam,"31 Jul, 2021",09 Aug,0,Open,7
+181,4,314355,Filter relationship goals,Enisha Cray,07 Jul,30 Sep,9,Closed,6
+182,4,314524,Develop mutual for computersbrowser not just mobile devices,Courtney Wayment,07 Jul,10 Oct,6,Closed,6
+183,4,188240,X miles away,Madeleine,"01 Jun, 2021",20 Aug,3,Closed,6
+184,4,200820,Edit sent notes,Sarah Campbell,"30 Jul, 2021",03 Jul,2,Open,6
+185,4,199469,Connect with others who served in same mission or where you live,Heather Elise Harkness,"25 Jul, 2021",13 Oct,2,Open,6
+186,4,194908,Let me change my name,Jessica/Jessie,"01 Jul, 2021",04 Aug,2,Open,6
+187,4,302990,Clean slate,James Franckum,27 May,21 Sep,1,Closed,6
+188,4,220259,Better verification,Ronnie,"28 Sep, 2021",01 Sep,1,Open,6
+189,4,188118,More profile prompts,J,"31 May, 2021",27 May,1,Open,6
+190,4,188038,Change ux to incorporate text and pictures,Joshua,"30 May, 2021",20 Aug,1,Open,6
+191,4,205697,Dont erase chats,Mike,"29 Aug, 2021",10 Jul,0,Closed,6
+192,4,192615,Put people who have liked me in the front of my feed,Chad,"19 Jun, 2021",12 Oct,0,Closed,6
+193,4,183418,List location next to name in matches and archives,Brett,"04 May, 2021",20 Aug,0,Open,6
+194,4,203999,Recommend a swipe to a friend,Dea,"21 Aug, 2021",09 Aug,5,Closed,5
+195,4,311004,More payment methods,Randle,24 Jun,20 Aug,2,Open,5
+196,4,307040,Move name location age on profile photo to lower screen,Anne,10 Jun,30 Oct,2,Closed,5
+197,4,186483,Height filter,Ella,"20 May, 2021",22 Jul,2,Closed,5
+198,4,311374,Make no reason the default for unmatching,Tyler,26 Jun,13 Oct,1,Open,5
+199,4,253900,Background check every profile claim,Joel,"04 Dec, 2021",25 May,1,Closed,5
+200,5,202015,Save message as draft,Zach,"06 Aug, 2021",08 Oct,1,Open,5
+201,5,296298,Change the x to something else,Maz,29 Apr,25 Aug,0,Open,5
+202,5,284245,Change the screen after a match,Aaron,05 Mar,09 Jul,0,Open,5
+203,5,200947,Make more moneys,Brenton Kloepfer,"31 Jul, 2021",19 Aug,0,Open,5
+204,5,197187,Remove unnecessary notifications,Mac,"09 Jul, 2021",27 May,0,Open,5
+205,5,189874,Fix people showing up twice,TJ,"08 Jun, 2021",14 Jul,0,Closed,5
+206,5,188057,Reset undo removed deleted match matches,Dallin,"30 May, 2021",23 Feb,0,Closed,5
+207,5,187899,Make it easier to use the date calendar to put in your birthdate,Shawn,"28 May, 2021",20 Aug,0,Open,5
+208,5,264559,New layout problematic,Mikki,"22 Dec, 2021",17 Feb,6,Closed,4
+209,5,326879,Filter tags interests hobbies etc,Kersten,05 Sep,13 Oct,4,Open,4
+210,5,314493,Uber ratings for other peoples profiles,Danny,07 Jul,13 Oct,4,Open,4
+211,5,314379,Allow appeals for a banned account,James,07 Jul,13 Oct,3,Closed,4
+212,5,308219,Require sending a note or comment to like,Patrick,15 Jun,21 Jul,3,Closed,4
+213,5,253882,Filter income level,Joel,"04 Dec, 2021",24 Sep,3,Closed,4
+214,5,198980,Delete message,Rosa,"22 Jul, 2021",14 Oct,2,Open,4
+215,5,195352,Select age range,Monica,"04 Jul, 2021",15 Oct,2,Closed,4
+216,5,192905,Filter matches by location,Dax,"20 Jun, 2021",07 Jul,2,Closed,4
+217,5,262981,Favorite quote,Nic,"18 Dec, 2021",12 Aug,1,Open,4
+218,5,195213,Hide someones profile from your account,Courtney,"02 Jul, 2021",25 Sep,1,Closed,4
+219,5,184394,Have mutual make leaving feedback or contacting admin easily accessible,Danny,"10 May, 2021",05 Jan,1,Closed,4
+220,5,183925,Sort by distance,Alex,"07 May, 2021",20 Aug,1,Closed,4
+221,5,168995,A mutual themed apples to apples like game called its mutual,Samuel Ambler,"12 Mar, 2021","23 Jun, '21",1,Closed,4
+222,5,324480,Allow pictures in chat,Josh,25 Aug,16 Oct,0,Open,4
+223,5,308118,Dont make photos full screen,lana,14 Jun,25 Oct,0,Closed,4
+224,5,306328,Filter out inactive or hardly used profiles,Thomas F,08 Jun,25 Sep,0,Open,4
+225,5,288069,Save conversations,Bee,25 Mar,20 Aug,0,Open,4
+226,5,251980,Voice memo included in bio with prompt question,Adam Garaycochea,"29 Nov, 2021",09 Aug,0,Open,4
+227,5,216093,Mark messages as unread again,Mayci,"19 Sep, 2021",20 Aug,0,Open,4
+228,5,202351,Diversify your app store ad pictures,Sarah,"09 Aug, 2021",03 Aug,0,Open,4
+229,5,199400,Make copying text possible at least bios,Delbert,"24 Jul, 2021","17 Dec, '21",0,Open,4
+230,5,195353,Give referral,Jacob,"04 Jul, 2021",09 Aug,0,Closed,4
+231,5,188393,Poke or reminder notification,James,"01 Jun, 2021",21 Sep,0,Closed,4
+232,5,182927,Dont allow blurry pictures,Lynette Olsen,"01 May, 2021",11 Sep,0,Closed,4
+233,5,175297,See who has premium,Mary,"31 Mar, 2021","03 May, '21",0,Closed,4
+234,5,263612,Delete about me prompts,Cameron,"20 Dec, 2021",17 Feb,4,Open,3
+235,5,318607,Change the school feature,Bryant,27 Jul,20 Aug,3,Open,3
+236,5,192604,Swipe up on all button,Chad,"19 Jun, 2021",13 Oct,2,Open,3
+237,5,335842,Require photos that are recent,Jacob Patch,10 Oct,25 Oct,1,Open,3
+238,5,314395,Daily automated match suggestions,John,07 Jul,13 Oct,1,Open,3
+239,5,263544,Freeze profilematches,KJ,"19 Dec, 2021",16 Aug,1,Closed,3
+240,5,263297,Comment on peoples photos,Nicholas allen,"19 Dec, 2021",20 Aug,1,Closed,3
+241,5,228666,Communities,Moses Lotulelei,"27 Oct, 2021",20 Aug,1,Open,3
+242,5,195218,Height in high heals,Linda Manqana,"02 Jul, 2021",25 Sep,1,Closed,3
+243,5,186471,Remove non active account,Radeb,"19 May, 2021",10 Jul,1,Closed,3
+244,5,185706,Fisher interest tag,Sarah,"16 May, 2021",03 Jul,1,Open,3
+245,5,334473,Add a time thats marked with the last time theyre active,Mel,03 Oct,yesterday,0,Open,3
+246,5,319469,American sign language,Elizabeth Anderson,30 Jul,12 Oct,0,Open,3
+247,5,319367,Religious views,Noel S,29 Jul,12 Sep,0,Open,3
+248,5,317938,Login with email,Brett,23 Jul,13 Oct,0,Open,3
+249,5,302955,Randomized question,Austin,26 May,13 Sep,0,Open,3
+250,6,291760,Punch in boxes for preferences,Makayla,08 Apr,11 Sep,0,Open,3
+251,6,277445,Move bring everyone back away from undo last action it has wasted so many hours ,Robbie,03 Feb,13 Sep,0,Open,3
+252,6,252702,Getting notifications about when someone votes on your suggestion,Jonathan Hansen,"02 Dec, 2021",28 Jul,0,Open,3
+253,6,229852,Move to archive,Hayden,"03 Nov, 2021",13 Sep,0,Open,3
+254,6,205017,Inactive accounts,andrade,"28 Aug, 2021",13 Oct,0,Closed,3
+255,6,197244,Swiped up by mistake,Robert Hernandez,"09 Jul, 2021",09 Aug,0,Closed,3
+256,6,194730,Separate notification types,Alan,"30 Jun, 2021",27 May,0,Open,3
+257,6,194183,5 swipe ups for 1 revealed like,Rodrigo Anselmo Maciel,"26 Jun, 2021",19 Jul,0,Closed,3
+258,6,194105,Being able to select specific countries,Rebecca,"26 Jun, 2021",09 Aug,0,Closed,3
+259,6,193047,Take out blur factor,Eden,"21 Jun, 2021","17 Dec, '21",0,Open,3
+260,6,190517,Tag match ratios,Jared,"10 Jun, 2021","25 Aug, '21",0,Open,3
+261,6,187200,Tutorial,Sweet Sue,"25 May, 2021",20 Aug,0,Open,3
+262,6,186420,Pin profile,Owen,"19 May, 2021",08 Feb,0,Open,3
+263,6,184920,Fix mexicos line,Kellen DeAlba,"12 May, 2021",03 Jul,0,Open,3
+264,6,183203,Display distance,DJ,"03 May, 2021","26 Jun, '21",0,Closed,3
+265,6,182641,Location in english,Theo,"29 Apr, 2021",03 Jul,0,Open,3
+266,6,314457,Make all mutual features free by default and funded by ads,Matt,07 Jul,08 Jul,3,Closed,2
+267,6,314588,Limit total number of matches you can have at once,joel,07 Jul,08 Jul,2,Closed,2
+268,6,314432,Video messaging option a la marco polo,Anonymous,07 Jul,07 Jul,2,Open,2
+269,6,314410,Make it so only swipe ups count towards swipe limit,Ania,07 Jul,07 Jul,2,Open,2
+270,6,314392,Mutual hosted events for meet ups,Jake,07 Jul,07 Jul,2,Open,2
+271,6,314384,Show home location instead of just current location,Mark Lees,07 Jul,07 Jul,2,Open,2
+272,6,314378,Make height filter free,Spencer Taylor,07 Jul,07 Jul,2,Closed,2
+273,6,310243,Get premium message in red,Andrea,22 Jun,22 Jun,2,Open,2
+274,6,307254,Show a countdown until you get more swipes,Jonathan Hansen,11 Jun,09 Aug,2,Open,2
+275,6,323444,Question game,Jason Belasknap,19 Aug,13 Oct,1,Open,2
+276,6,315194,About section length of words extend the limit,Marsha,10 Jul,06 Oct,1,Open,2
+277,6,314409,Map for your local area that shows people near you,Tanner,07 Jul,03 Oct,1,Closed,2
+278,6,314285,Filter by continent,Lukas,07 Jul,24 Aug,1,Open,2
+279,6,311006,Filter wants future children,Randle,24 Jun,07 Jul,1,Closed,2
+280,6,308723,Notifications on chat tab back to how many unread you have rather than how many ,Quincey,16 Jun,01 Sep,1,Open,2
+281,6,307288,Work on conversation glitch,Allie,11 Jun,25 Oct,1,Closed,2
+282,6,269463,See whos in your general area,Ty,07 Jan,15 Apr,1,Closed,2
+283,6,221738,Add a date andor version number when suggestions get added,Taylor,"05 Oct, 2021",03 Jul,1,Closed,2
+284,6,170171,Bug on the verification,Mel,"16 Mar, 2021",03 Jul,1,Open,2
+285,6,337158,Daily out of 100 swipe tracker,Tustin,17 Oct,19 Oct,0,Open,2
+286,6,336237,How to retake an account verification picture,Leandro Garcia,11 Oct,12 Oct,0,Open,2
+287,6,334938,Be able to add your own dates,Evin Mears,05 Oct,09 Oct,0,Open,2
+288,6,334579,Message translation,Neil,03 Oct,12 Oct,0,Open,2
+289,6,334378,Likes you tab skip button,Elle,02 Oct,18 Oct,0,Open,2
+290,6,330427,Add a not sure option to swiping,Becky Koyle,17 Sep,23 Oct,0,Open,2
+291,6,328084,View profiles without opening the chat,Kara,09 Sep,13 Oct,0,Open,2
+292,6,327253,Allow option to turn off international views of profile,RK,06 Sep,13 Oct,0,Open,2
+293,6,325958,Date they swiped on you,Ariel,01 Sep,23 Oct,0,Open,2
+294,6,325951,Body positive filter for body type,Stevo,01 Sep,14 Oct,0,Open,2
+295,6,325943,Filter by school,Josh,01 Sep,13 Oct,0,Open,2
+296,6,325928,Add ancestry information,Coleman,01 Sep,13 Oct,0,Open,2
+297,6,323786,Sister sisterinlaw mode let them help me improve my profile,Adam Montie,22 Aug,13 Oct,0,Open,2
+298,6,320973,Height optional,Nick,07 Aug,14 Oct,0,Open,2
+299,6,320387,Compatibility quiztest,Noel S,04 Aug,01 Nov,0,Open,2
+300,7,318719,Remove profiles not wanting to be seen again,Stephen,27 Jul,01 Sep,0,Open,2
+301,7,317900,Within your state option,Kersten,23 Jul,13 Oct,0,Open,2
+302,7,316491,Ratio of swipe ups to downs,Corban Critchfield,16 Jul,13 Oct,0,Open,2
+303,7,314957,Stats data analytics as paid feature,User,09 Jul,29 Aug,0,Open,2
+304,7,314698,Change using the word resurrection,Joseph Thompson,08 Jul,30 Sep,0,Open,2
+305,7,314580,Make mutual friendlier to older age groups,Shelly Bingham,07 Jul,13 Oct,0,Open,2
+306,7,314503,Bring back generic notes,Daniel,07 Jul,16 Oct,0,Closed,2
+307,7,314450,Premium for beta testers,rachel,07 Jul,30 Sep,0,Closed,2
+308,7,314380,Make algorithm show profiles similar to ones i swipe up on,Tyler,07 Jul,30 Sep,0,Open,2
+309,7,313594,Show a profiles location on the map,D. Coston,05 Jul,26 Oct,0,Open,2
+310,7,313591,Allow bio copying for easy translation,D. Coston,05 Jul,26 Oct,0,Open,2
+311,7,307616,Reset all swipe ups just not those youve messaged,Christopher,12 Jun,10 Oct,0,Closed,2
+312,7,306136,Deactivate accounts not being actively used,Spencer,07 Jun,11 Sep,0,Closed,2
+313,7,297801,Send a mutual dates suggestion in a note,Joshua,05 May,21 Jul,0,Open,2
+314,7,293650,Badge if someone is on mutualup,Adam,17 Apr,11 Jun,0,Open,2
+315,7,286802,Liking or hearting individual photos,Caio,19 Mar,10 Jul,0,Closed,2
+316,7,253888,Filter career type,Joel,"04 Dec, 2021",28 May,0,Open,2
+317,7,252637,Read receipts,Daniel,"02 Dec, 2021",01 Sep,0,Closed,2
+318,7,232732,Event changes or opt out,Cottam,"15 Nov, 2021",13 Oct,0,Open,2
+319,7,220166,New update,ClassyLady,"28 Sep, 2021","17 Oct, '21",0,Open,2
+320,7,212007,See if they actually have seen your message,Karli,"08 Sep, 2021",13 Oct,0,Closed,2
+321,7,204124,Potentially pending,Jackson,"23 Aug, 2021","17 Dec, '21",0,Closed,2
+322,7,203820,Make the ward hop indicator on a profile clearer,Tay,"19 Aug, 2021","29 Dec, '21",0,Open,2
+323,7,200575,Paid user or not,David,"28 Jul, 2021",16 Jan,0,Closed,2
+324,7,195211,How many times someone has viewed your profile,Courtney,"02 Jul, 2021",07 Jul,0,Closed,2
+325,7,194008,This group is awesome,Jackline Akao,"25 Jun, 2021","07 Aug, '21",0,Closed,2
+326,7,192540,Outside preferred radius,Moses,"18 Jun, 2021",07 Jul,0,Closed,2
+327,7,189233,See when your message is seen,Joseph Uzoho,"05 Jun, 2021","01 Aug, '21",0,Closed,2
+328,7,184450,Calendar feature,Kat,"10 May, 2021","23 Jun, '21",0,Closed,2
+329,7,183875,Ideal timeline,Sassafrass,"06 May, 2021",09 Aug,0,Closed,2
+330,7,182877,A wall to talk like on facebook,Grace-Caroline,"30 Apr, 2021",07 Jul,0,Closed,2
+331,7,174982,Create a support for huawei app gallery,EfraÃ­m LÃ³pez CÃ³rdoba,"30 Mar, 2021","10 May, '21",0,Open,2
+332,7,319125,Cant see whete they went on a mission,Rachel,28 Jul,28 Jul,1,Closed,1
+333,7,319103,Can no longer see where they go to school,Rachel,28 Jul,28 Jul,1,Open,1
+334,7,316428,Filter drinking,I wish I could filter out those that drink at all,16 Jul,16 Jul,1,Open,1
+335,7,315070,User full disclosure,K Anon,09 Jul,09 Jul,1,Open,1
+336,7,315066,Modesty standards for men too,K Anon,09 Jul,09 Jul,1,Closed,1
+337,7,313600,Option to not show mission status,D. Coston,05 Jul,05 Jul,1,Closed,1
+338,7,312976,See who reported you,Rachel,01 Jul,01 Jul,1,Closed,1
+339,7,312948,Review before suspending a reported account,Rachel,01 Jul,01 Jul,1,Closed,1
+340,7,311735,Mode for only mutual dates,Joseph p,28 Jun,28 Jun,1,Closed,1
+341,7,285758,Bountiful mode 15 bounty to whoever can set you up on a good date,Steve,13 Mar,13 Mar,1,Closed,1
+342,7,281777,Put peoples zodiac sign on their profile,Foster Pratt,21 Feb,21 Feb,1,Open,1
+343,7,267770,Activate profile boost button is not working,Isabel,"31 Dec, 2021","31 Dec, '21",1,Closed,1
+344,7,184202,See my profile,Alexa,"08 May, 2021","08 May, '21",1,Closed,1
+345,7,183059,See if theyve seen your message,Will,"03 May, 2021","03 May, '21",1,Closed,1
+346,7,340465,Unmatching,Leandro Garcia,2 days ago,2 days ago,0,Open,1
+347,7,339840,Static location,JN,30 Oct,30 Oct,0,Open,1
+348,7,339181,Prove your age,Jeff,27 Oct,27 Oct,0,Feedback Needed,1
+349,7,339085,Reply option to a particular message in chat by long pressing,MG,26 Oct,26 Oct,0,Feedback Needed,1
+350,8,338754,Prevent followers from seeing your location,Matt,25 Oct,25 Oct,0,Feedback Needed,1
+351,8,338471,Actually search within country boundaries,Jeffrey,23 Oct,23 Oct,0,Open,1
+352,8,337335,Phone speed dating,Daniel Cassani,18 Oct,18 Oct,0,Open,1
+353,8,337064,Note and boost synchronous renewal,Josh,16 Oct,16 Oct,0,Open,1
+354,8,336780,Not having to bring everyone back who likes you,Cody,14 Oct,14 Oct,0,Open,1
+355,8,336505,Specific top age range,Anonymous,13 Oct,13 Oct,0,Open,1
+356,8,336485,Holiday special see who likes you,Joshua Ford,13 Oct,13 Oct,0,Open,1
+357,8,336030,Likes me tab,Jason,10 Oct,10 Oct,0,Open,1
+358,8,335712,Premium members,Leandro Garcia,09 Oct,09 Oct,0,Open,1
+359,8,334818,Draw map filter,Preston,04 Oct,04 Oct,0,Open,1
+360,8,334780,Give us a filter for verified profiles,D. C.,04 Oct,04 Oct,0,Open,1
+361,8,333610,Mutual dislikes,Genius human,29 Sep,29 Sep,0,Closed,1
+362,8,333522,Have the option to hide current location,Mae,29 Sep,29 Sep,0,Open,1
+363,8,333117,Option to not use the age range filter,emma,27 Sep,27 Sep,0,Closed,1
+364,8,332261,Connect with facebook,Richard,24 Sep,24 Sep,0,Open,1
+365,8,332211,Be quicker on weekends,Lynsey,24 Sep,24 Sep,0,Open,1
+366,8,332140,Get rid of the politics tab,Carson,24 Sep,24 Sep,0,Open,1
+367,8,331649,Different profile for each language spoken,Eric,22 Sep,22 Sep,0,Open,1
+368,8,331424,Search for profiles by interests,Becky Koyle,21 Sep,21 Sep,0,Open,1
+369,8,330989,Share top choices to improve and receive more matches,Bobby k.,20 Sep,20 Sep,0,Open,1
+370,8,330623,Notify when matches expire,Alex,18 Sep,18 Sep,0,Open,1
+371,8,330484,Draw map filter,Preston,18 Sep,18 Sep,0,Open,1
+372,8,330117,Video option,Isaac,16 Sep,16 Sep,0,Open,1
+373,8,329236,See what picture they swiped up on,Dallin,13 Sep,13 Sep,0,Open,1
+374,8,328601,Make it where we can select location by states or countries,Noel S,11 Sep,11 Sep,0,Open,1
+375,8,328302,16 personality test,Cory Rallison,10 Sep,10 Sep,0,Open,1
+376,8,328301,How long they have been single,Cory Rallison,10 Sep,10 Sep,0,Open,1
+377,8,328033,Homemaker,Alejandro Garcia,08 Sep,08 Sep,0,Open,1
+378,8,327186,Set age limit for sure,Maddie Z,06 Sep,06 Sep,0,Open,1
+379,8,326788,Messaging and liking,TYLER,04 Sep,04 Sep,0,Open,1
+380,8,326625,Unsend a message that has not been read,N,04 Sep,04 Sep,0,Open,1
+381,8,324914,Combine interest tags,Eric,26 Aug,26 Aug,0,Open,1
+382,8,324843,Show province abbreviations in canada,Anonymous,26 Aug,26 Aug,0,Open,1
+383,8,324835,Change height measurement unit in canada,BH,26 Aug,26 Aug,0,Open,1
+384,8,324674,Send as many notes per subscription,Lee,25 Aug,25 Aug,0,Open,1
+385,8,324487,Location detail,An,25 Aug,25 Aug,0,Open,1
+386,8,324241,Show when someone liked you,Ben,24 Aug,24 Aug,0,Open,1
+387,8,323985,Longer messages,Wil John-son,22 Aug,22 Aug,0,Open,1
+388,8,323736,Where im from section and filter,Elijah,21 Aug,21 Aug,0,Open,1
+389,8,323719,Send note to past likes,Elijah Ide,21 Aug,21 Aug,0,Open,1
+390,8,323646,When people are online,Winter,21 Aug,21 Aug,0,Open,1
+391,8,323615,Seeing a list of who you have liked and their response back,Anastasia,20 Aug,20 Aug,0,Open,1
+392,8,323602,If you are liked by someone with a premium account you should see that regardles,Levente Czutor,20 Aug,20 Aug,0,Open,1
+393,8,323592,Choosing the state,Liberty,20 Aug,20 Aug,0,Open,1
+394,8,323581,Personality traits,Lisa,20 Aug,20 Aug,0,Open,1
+395,8,323530,Add energy as a shared trait,Anonymous,20 Aug,20 Aug,0,Open,1
+396,8,323479,Show me the numbers,Mike,19 Aug,19 Aug,0,Open,1
+397,8,323373,On vacation mode,@mylifeas.dany,19 Aug,19 Aug,0,Open,1
+398,8,323117,Make education level optional,Allie,18 Aug,18 Aug,0,Open,1
+399,8,322875,Filter by interests,Jim Gregson,17 Aug,17 Aug,0,Open,1
+400,9,321895,Show when people are online,Richmond,12 Aug,12 Aug,0,Open,1
+401,9,321887,Be able to send multiple messages not just one,Lee,12 Aug,12 Aug,0,Open,1
+402,9,321625,Dont zoom in on photos,Rachel Krueger,11 Aug,11 Aug,0,Open,1
+403,9,321263,Fix tags interests,Adam,09 Aug,04 Sep,0,Open,1
+404,9,320804,Search profiles by interests and filter by deal breakers,Becky Koyle,05 Aug,05 Aug,0,Open,1
+405,9,320801,Longer bio,Becky Koyle,05 Aug,05 Aug,0,Open,1
+406,9,320510,Filter by country,Mark Pammesberger,04 Aug,04 Aug,0,Open,1
+407,9,320368,Creat groups that have the same interests as you,Noel S,03 Aug,03 Aug,0,Open,1
+408,9,320367,Have control over who can see your profile,Noel S,03 Aug,03 Aug,0,Open,1
+409,9,320187,Meeting fun people,Tracy mckay,03 Aug,03 Aug,0,Open,1
+410,9,319982,Recycle through previous views once new filters are up and going,Becky,02 Aug,02 Aug,0,Open,1
+411,9,319905,Filter college,Hannah,01 Aug,01 Aug,0,Open,1
+412,9,319480,Have an option to send notes with a small fee and if you send one that person ca,D Carey,30 Jul,30 Jul,0,Closed,1
+413,9,319368,Voice call,Noel S,29 Jul,29 Jul,0,Open,1
+414,9,318881,There should be a space to add your love language,Davis,28 Jul,28 Jul,0,Open,1
+415,9,318858,Socials revealed upon match,Spencer,28 Jul,28 Jul,0,Open,1
+416,9,318617,Seeing the number of people who like you is demoralizing,Steph,27 Jul,27 Jul,0,Open,1
+417,9,318480,Add not able to relocate to existing distance filter options,Riley Worthen,26 Jul,26 Jul,0,Open,1
+418,9,317987,Ad watching for premium filtersfeatures,Benjamin,23 Jul,23 Jul,0,Open,1
+419,9,317777,Change phone number,Luis Rivera,22 Jul,22 Jul,0,Open,1
+420,9,317244,Larger emojionly messages in chat,Pedro,19 Jul,19 Jul,0,Open,1
+421,9,317048,Add match prompt two truths and a lie lets play,Sarah,19 Jul,19 Jul,0,Open,1
+422,9,317026,More replies more views,K Anon,19 Jul,19 Jul,0,Open,1
+423,9,315777,Prioritize people who have liked you,Alaina,12 Jul,12 Jul,0,Open,1
+424,9,315703,You need a kidsno kids option in the filters,Yamaha,12 Jul,12 Jul,0,Open,1
+425,9,315530,A third option when sliding,Ery,12 Jul,12 Jul,0,Open,1
+426,9,315073,Automatic unmatch,K Anon,09 Jul,09 Jul,0,Open,1
+427,9,315072,Unlimited messaging reasonable price,K Anon,09 Jul,09 Jul,0,Released,1
+428,9,315071,Zip code level location,K Anon,09 Jul,09 Jul,0,Released,1
+429,9,315069,User agreement not allowed on mutual,K Anon,09 Jul,09 Jul,0,Closed,1
+430,9,315067,Reorder interest tags,K Anon,09 Jul,09 Jul,0,Open,1
+431,9,315065,Account set up without facebook,K Anon,09 Jul,09 Jul,0,Closed,1
+432,9,315063,Filter divorce final 1 year ago or more,K Anon,09 Jul,09 Jul,0,Open,1
+433,9,315061,Loyal customer perks,K Anon,09 Jul,09 Jul,0,Open,1
+434,9,315058,Filter number of marriages,K Anon,09 Jul,09 Jul,0,Open,1
+435,9,315052,Filter grandchildren,K Anon,09 Jul,09 Jul,0,Open,1
+436,9,314948,Limitedaccess bio details,Trent,09 Jul,09 Jul,0,Open,1
+437,9,314678,Option to highlight the face of the person for group photos,Nikaedynn,08 Jul,08 Jul,0,Open,1
+438,9,314671,Use your statistics to help people root out ncmos,Josh,08 Jul,08 Jul,0,Open,1
+439,9,314660,Explain why you swiped up,Scott,08 Jul,08 Jul,0,Closed,1
+440,9,314559,More than 5 pictures on main profile view,Nick,07 Jul,07 Jul,0,Open,1
+441,9,314507,Track penalize people who make false reports,Mateo,07 Jul,07 Jul,0,Closed,1
+442,9,314504,Professional profile feedback,Draw,07 Jul,11 Jul,0,Closed,1
+443,9,314474,Be able to see profiles of the same sex so we can make our own profiles stand ou,matthew,07 Jul,07 Jul,0,Closed,1
+444,9,314467,Advanced customization for location filter,Val Brewer,07 Jul,07 Jul,0,Open,1
+445,9,314463,Remove stale likes,Jon Woodward,07 Jul,07 Jul,0,Closed,1
+446,9,314455,Remove down swiped profiles from likes you tab,Jon Woodward,07 Jul,07 Jul,0,Closed,1
+447,9,314426,Incentivize swipe activity in algorithm,Logan,07 Jul,07 Jul,0,Closed,1
+448,9,314422,Bring back search option for previously spoken to matches,Rachelle,07 Jul,07 Jul,0,Open,1
+449,9,314421,Merge duplicate profiles,Jon Woodward,07 Jul,07 Jul,0,Open,1
+450,10,314408,Qr codes or profile name search,E,07 Jul,07 Jul,0,Closed,1
+451,10,314396,Require details besides images,Sara,07 Jul,07 Jul,0,Closed,1
+452,10,314394,Auto refresh likes section or whole app,B,07 Jul,07 Jul,0,Open,1
+453,10,314391,Conversation starter suggestions after matching,Jay,07 Jul,07 Jul,0,Open,1
+454,10,314387,Delete see who likes me concept,Mark,07 Jul,07 Jul,0,Closed,1
+455,10,314284,Group chat room for people with common interests,Experience,07 Jul,07 Jul,0,Open,1
+456,10,314271,Removed unverified profiles,Tenumah Laju,07 Jul,07 Jul,0,Closed,1
+457,10,314263,Remove stereotypes about countries from may we suggestion,Dan Hughes,07 Jul,07 Jul,0,Open,1
+458,10,314248,5 free notes a day,Murat,07 Jul,07 Jul,0,Closed,1
+459,10,313571,See profiles of people in the comments,Jonathan Hansen,05 Jul,05 Jul,0,Open,1
+460,10,312860,Like older men,Adan Canales,01 Jul,01 Jul,0,Closed,1
+461,10,310501,Pausing account,Jessie,23 Jun,23 Jun,0,Closed,1
+462,10,308178,Text size,Kami,14 Jun,14 Jun,0,Open,1
+463,10,308167,See new message while in mutual,Desiree,14 Jun,14 Jun,0,Closed,1
+464,10,296677,Adjustable independent profile picturethumbnail,James,01 May,01 May,0,Open,1
+465,10,285154,Change i am currently to be more specific,E,10 Mar,10 Mar,0,Open,1
+466,10,284146,Store all messages,JoAnn Brooks,05 Mar,05 Mar,0,Closed,1
+467,10,283958,Additional about me entry,Robert,04 Mar,04 Mar,0,Open,1
+468,10,233539,Unlimited chat history,Craig Rodgers,"19 Nov, 2021","19 Nov, '21",0,Closed,1
+469,10,212310,Double check feature before sending a note,Martin,"09 Sep, 2021","09 Sep, '21",0,Open,1
+470,10,204825,Lower the minimum distance,Jacob,"27 Aug, 2021","27 Aug, '21",0,Open,1
+471,10,200916,Only show people who have the same or higher ratio of likes to dislikes,Picky Swiper,"30 Jul, 2021","30 Jul, '21",0,Open,1
+472,10,200115,Set an age dealbreaker,Becca,"26 Jul, 2021","26 Jul, '21",0,Closed,1
+473,10,196186,Hacer un encuentro por ciudades,Belkis Mercedes,"06 Jul, 2021","06 Jul, '21",0,Closed,1
+474,10,194556,Enviar mensagem direta antes de macth mutuo vendo anuncio,Saulo Costa de Oliveira,"29 Jun, 2021","29 Jun, '21",0,Closed,1
+475,10,190199,Messages,G,"09 Jun, 2021","09 Jun, '21",0,Closed,1
+476,10,319357,Compatibility testquiz,Noel S,29 Jul,,0,Open,0
