@@ -68,4 +68,24 @@ data['date_created_month'] = data['date_created'].apply(
     if 'days' not in x
     else datetime.now().strftime('%h'))
 
-# -----------------------------------
+# ----------------------------------- scripts 1 -----------------------------------
+
+script_1 = '''
+url = 'https://feedback.mutual.app/?page=1&order=popular&filter=all#controls'
+response = requests.get(url)
+soup = BeautifulSoup(response.text, 'html.parser')
+info = soup.find_all('div',{'class':'sInfo'})
+for attribute in info:
+    row = {}
+    row['page'] = page
+    row['id'] = attribute.find('a')['href'].split('/')[2]
+    row['suggestion'] = attribute.find('a')['href'].split('/')[-1].replace('-',' ').capitalize()
+    row['author'] = attribute.find_all('strong')[0].get_text()
+    start = attribute.find_all('span')[0].get_text(strip=True).find('(')+1
+    end = attribute.find_all('span')[0].get_text(strip=True).find(')')
+    row['date_created'] = attribute.find_all('span')[0].get_text(strip=True)[start:end].replace('\'','20')
+    row['last_upvoted'] = attribute.find_all('span',{'class':'sLastComment'})[0].get_text(strip=True)[9:]
+    row['comments'] = attribute.find_all('span',{'class':'sLabel'})[0].get_text(strip=True)[10:]
+    row['status'] = attribute.find_all('div',{'class':'sLabels'})[0].get_text(strip=True).replace('Pinned','')
+    rows.append(row)
+'''
