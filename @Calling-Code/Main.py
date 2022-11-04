@@ -431,7 +431,11 @@ if projectOption[project] == 10:
    tab1, tab2, tab3 = st.tabs(["Analysis 🧐", "Script 🐍","Table 🥩"])
 
    with tab1:
-      st.write('KPI')
+      col1, col2, col3, col4 = st.columns(4)
+      col1.metric("Temperature", "70 °F", "1.2 °F")
+      col2.metric("Wind", "9 mph", "-8%")
+      col3.metric("Humidity", "86%", "4%")
+      col4.metric("Humidity", "86%", "4%")
    with tab2:
       st.code(scrpt_1)
    with tab3:
