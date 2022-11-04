@@ -53,5 +53,13 @@ rows_merged = []
 for idx, row in enumerate(rows):
     rows_merged.append({**row,**rows_votes[idx]})
 
+# build dataframe
 data = pd.DataFrame(rows_merged)
+
+# change dtype
+data = data.astype({'votes': 'float','comments': 'float'}, copy=True)
+# add column with months
+data['date_created_month'] = data['date_created'].apply(lambda x: x.split(' ')[1].replace(',',''))
+data['date_created_month'] = data['date_created_month'].replace({'Fe':'Feb','Ap':'Apr','Ma':'May'})
+
 # -----------------------------------
