@@ -428,11 +428,13 @@ if projectOption[project] == 10:
    </center>
    ''',unsafe_allow_html=True)
 
-   tab1, tab2 = st.tabs(["Analysis 🧐", "Script 🐍"])
+   tab1, tab2, tab3 = st.tabs(["Analysis 🧐", "Script 🐍","Table 🥩"])
 
    with tab1:
-      st.code(scrpt_1)
+      st.write('KPI')
    with tab2:
+      st.code(scrpt_1)
+   with tab3:
       st.dataframe(data)
 
 
