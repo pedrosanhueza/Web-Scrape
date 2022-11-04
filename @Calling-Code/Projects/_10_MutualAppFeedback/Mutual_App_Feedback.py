@@ -68,6 +68,8 @@ data['date_created_month'] = data['date_created'].apply(
     if 'days' not in x
     else datetime.now().strftime('%h'))
 
+logo = soup.find('link')['href']
+
 # ----------------------------------- scripts 1 -----------------------------------
 
 script_1 = '''

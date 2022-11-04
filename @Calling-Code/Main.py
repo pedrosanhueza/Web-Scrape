@@ -415,7 +415,10 @@ if projectOption[project] == 10:
    from Projects._10_MutualAppFeedback import Mutual_App_Feedback
    
    data = Mutual_App_Feedback.data
+   logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
+
+   st.write(logo)
 
    st.code(scrpt_1)
 
