@@ -419,7 +419,7 @@ if projectOption[project] == 10:
    scrpt_1 = Mutual_App_Feedback.script_1
 
    st.markdown(f'''
-   <img src="{logo}" alt="Logo" style="text-align:right;">
+   <img src="{logo}" alt="Logo" style="vertical-align:middle">
    ''',unsafe_allow_html=True)
 
    st.code(scrpt_1)
