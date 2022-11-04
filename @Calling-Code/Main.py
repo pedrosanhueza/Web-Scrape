@@ -432,7 +432,7 @@ if projectOption[project] == 10:
    ''',unsafe_allow_html=True)
 
    st.markdown(f'''
-   <img src="{logo}">
+   <img src="{logo}" alt="Logo style="width:500px;height:600px;">
    ''',unsafe_allow_html=True)
 
    st.code(scrpt_1)
