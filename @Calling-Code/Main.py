@@ -423,6 +423,7 @@ if projectOption[project] == 10:
       <br>
       <img src="{logo}">
       <br>
+      <br>
    </center>
    ''',unsafe_allow_html=True)
 
