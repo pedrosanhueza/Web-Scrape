@@ -420,7 +420,9 @@ if projectOption[project] == 10:
 
    st.markdown(f'''
    <center>
+      <br>
       <img src="{logo}">
+      <br>
    </center>
    ''',unsafe_allow_html=True)
 
