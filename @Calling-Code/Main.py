@@ -418,7 +418,10 @@ if projectOption[project] == 10:
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
 
-   st.write(logo)
+   st.markdown(f'''
+   <p style='background-image: url({logo});'>
+   </p>
+   ''',unsafe_allow_html=True)
 
    st.code(scrpt_1)
 
