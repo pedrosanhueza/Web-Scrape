@@ -33,6 +33,8 @@ while page:
             row['status'] = attribute.find_all('div',{'class':'sLabels'})[0].get_text(strip=True).replace('Pinned','')
         except:
             pass
+        link = info[0].find('a')['href']
+        row['suggestion_link'] = f'https://feedback.mutual.app{link}'
         rows.append(row)
 
     # List of dict: 'votes' attribute
