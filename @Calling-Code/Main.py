@@ -419,8 +419,9 @@ if projectOption[project] == 10:
    scrpt_1 = Mutual_App_Feedback.script_1
 
    st.markdown(f'''
-   <p style='background-image: url({logo});'>
-   </p>
+   <div style="background-image:url('{logo}');padding:5px;width:150px;height:200px;border:1px solid black;">
+   <p>See the background image?</p>
+   </div>
    ''',unsafe_allow_html=True)
 
    st.code(scrpt_1)
