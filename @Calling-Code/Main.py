@@ -437,7 +437,7 @@ if projectOption[project] == 10:
 
    st.markdown(f'''
    <a href="default.asp">
-  <img src="{logo}" alt="HTML tutorial" style="width:42px;height:42px;">
+      <img src="{logo}" alt="HTML tutorial" style="width:42px;height:42px;">
    </a>
    ''',unsafe_allow_html=True)
 
