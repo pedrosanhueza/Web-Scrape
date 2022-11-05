@@ -439,7 +439,7 @@ if projectOption[project] == 10:
    with tab2:
       st.markdown('''
          <center>
-            <h1 style="color:#214491;font-size: 30px;">
+            <h1 style="color:black;font-size: 30px;">
                Getting the date from one page
             </h1>
          </center>
@@ -448,7 +448,6 @@ if projectOption[project] == 10:
       st.code(scrpt_1)
    with tab3:
       st.dataframe(data)
-
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
