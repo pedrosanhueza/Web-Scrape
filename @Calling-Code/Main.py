@@ -440,7 +440,7 @@ if projectOption[project] == 10:
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
    
       hist_data = []
-      hist_data.append(data['comments'].to_list())
+      hist_data.append(data.date_created_month.value_counts().to_list())
       group_labels = ['Group 1']
       fig = ff.create_distplot(hist_data,group_labels)
       st.plotly_chart(fig, use_container_width=True)
