@@ -412,7 +412,7 @@ if projectOption[project] == 9:
    
 if projectOption[project] == 10:
    
-   import plotly.figure_factory as ff
+   import altair as alt
    from Projects._10_MutualAppFeedback import Mutual_App_Feedback
    
    data = Mutual_App_Feedback.data
@@ -439,11 +439,7 @@ if projectOption[project] == 10:
       col3.metric("New Features",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
    
-      hist_data = []
-      hist_data.append(data.date_created_month.value_counts().to_list())
-      group_labels = ['Group 1']
-      fig = ff.create_distplot(hist_data,group_labels)
-      st.plotly_chart(fig, use_container_width=True)
+
 
    with tab2:
       st.markdown('''
