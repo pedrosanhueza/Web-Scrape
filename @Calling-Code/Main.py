@@ -434,7 +434,7 @@ if projectOption[project] == 10:
       col1, col2, col3, col4 = st.columns(4)
       col1.metric("Suggestions", f"{data.id.count()}")
       col2.metric("New Features",f"{data.status.str.contains('Released').sum()}")
-      col3.metric("Close Status",f"{data.status.str.contains('Released').sum()}")
+      col3.metric("Close Status",f"{data.status.str.contains('Close').sum()}")
       col4.metric("Humidity", "86%", "4%")
    with tab2:
       st.code(scrpt_1)
