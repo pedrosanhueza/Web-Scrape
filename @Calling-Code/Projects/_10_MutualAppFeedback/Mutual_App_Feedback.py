@@ -97,7 +97,7 @@ fig = px.bar(
 
 fig.update_traces(textfont_size=15)
 
-fig_1 = fig.show()
+fig_1 = fig
 
 # ----------------------------------- scripts 1 -----------------------------------
 
