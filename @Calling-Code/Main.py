@@ -433,7 +433,7 @@ if projectOption[project] == 10:
    with tab1:
       col1, col2, col3, col4 = st.columns(4)
       col1.metric("Suggestions", f"{data.id.count()} °F", "1.2 °F")
-      col2.metric("New Features", "9 mph", "-8%")
+      col2.metric("New Features",f"{data.status.str.contains('Released').sum()}", "-8%")
       col3.metric("Close Status", "86%", "4%")
       col4.metric("Humidity", "86%", "4%")
    with tab2:
