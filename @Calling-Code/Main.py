@@ -417,6 +417,7 @@ if projectOption[project] == 10:
    data = Mutual_App_Feedback.data
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
+   fig1 = Mutual_App_Feedback.fig_1
 
    st.markdown(f'''
    <center>
@@ -436,10 +437,13 @@ if projectOption[project] == 10:
       col2.metric("Suggestions Completed",f"{data.status.str.contains('Close').sum()}")
       col3.metric("New Features",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
+   
+      st.plotly_chart(fig1)
+
    with tab2:
       st.markdown('''
          <center>
-            <h1 style="color:black;font-size: 30px;">
+            <h1 style="color:black; font-size:30px;">
                Getting the date from one page
             </h1>
          </center>

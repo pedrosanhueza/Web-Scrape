@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
+import plotly.express as px
 
 # ----------------------------------- 12 sec: Build Tabular Data ----------------------------------- #
 
@@ -74,6 +75,29 @@ url = 'https://blog.mutual.app/'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 logo = soup.find('img')['src']
+
+# ----------------------------------- scripts 1 -----------------------------------
+
+data_month = data['date_created_month'].value_counts().reset_index()
+order = {'index':['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']}
+
+fig = px.bar(
+    data_month,
+    x='index',
+    y='date_created_month',
+    color='date_created_month',
+    # color_continuous_scale=px.colors.sequential.Viridis,
+    color_continuous_scale=str(px.colors.named_colorscales()[15])+'_r',
+    category_orders=order,
+    width=1200,
+    height=400,
+    text_auto=True,
+    labels={"index":"Month","date_created_month":"Amount of Feedback"},
+    title="Feedback per Month")
+
+fig.update_traces(textfont_size=15)
+
+fig_1 = fig.show()
 
 # ----------------------------------- scripts 1 -----------------------------------
 
