@@ -452,10 +452,18 @@ if projectOption[project] == 11:
 
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 12:
-   from Projects._12_PoliticosChilenos import camara_diputados
-   st.write(camara_diputados.url_main)
-   data = camara_diputados.data
-   st.dataframe(data)
+   from Projects._12_PoliticosChilenos.camara_diputados import url_main
+   st.write(url_main)
+
+   from Projects._12_PoliticosChilenos.camara_diputados import data_simple   
+   data_1 = data_simple
+   st.dataframe(data_1)
+
+   if st.button('Run Complete table'):
+      from Projects._12_PoliticosChilenos.camara_diputados import data
+      data_2 = data
+      st.dataframe(data_2)
+
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 13:
