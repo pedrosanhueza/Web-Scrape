@@ -464,11 +464,18 @@ if projectOption[project] == 12:
    #    data_2 = data
    #    st.dataframe(data_2)
 
-# ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
+## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 13:
    from Projects._13_PoliticosEspanoles import DiputadosEspanoles
    st.write(DiputadosEspanoles.url_main)
    data = DiputadosEspanoles.data
+   st.dataframe(data)
+
+## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
+if projectOption[project] == 13:
+   from Projects._14_SINCAMMAGob import SINCAMMAGob
+   st.write(SINCAMMAGob.url)
+   data = SINCAMMAGob.data
    st.dataframe(data)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
