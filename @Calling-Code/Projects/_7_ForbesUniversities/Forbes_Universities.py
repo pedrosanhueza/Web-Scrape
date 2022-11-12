@@ -1,6 +1,8 @@
 import requests
 import pandas as pd
 
+url_main = 'https://www.forbes.com/top-colleges/'
+
 response = requests.get('https://www.forbes.com/forbesapi/org/top-colleges/2021/position/true.json?limit=1000&fields=organizationName,academics,state,financialAid,rank,medianBaseSalary,campusSetting,studentPopulation,organization,description')
 
 responseObject = response.json()

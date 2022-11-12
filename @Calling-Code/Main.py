@@ -50,7 +50,7 @@ projectOption = {
    'TEST':1,
    'BYU-Idaho Class Catalog':2,
    'Phone Country Code':3,
-   'foxsports.com/soccer/2022-fifa-world-cup/teams':4,
+   'Fifa Soccer 2022':4,
    'advfn.com/':5,
    'forbes.com/billionaires/':6,
    'forbes.com/top-colleges/':7,
@@ -180,6 +180,13 @@ if projectOption[project] == 6:
    from Projects._6_ForbesBillionaries import forbesBillionaires
    st.write(forbesBillionaires.url_main)
    data = forbesBillionaires.data
+   st.dataframe(data)
+
+## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+if projectOption[project] == 7:
+   from Projects._7_ForbesUniversities import Forbes_Universities
+   st.write(Forbes_Universities.url_main)
+   data = Forbes_Universities.data
    st.dataframe(data)
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
