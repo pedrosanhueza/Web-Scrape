@@ -529,10 +529,11 @@ if projectOption[project] == 15:
 if projectOption[project] == 16:
    st.write(project)
    from Projects._16_USHouseRepresentatives import representatives
-   data = representatives.rows
-   st.write(data)
-   x = representatives.df_state
-   st.write(x)
+
+   data = representatives.data
+   st.dataframe(data)
+   # x = representatives.df_state
+   # st.write(x)
 
 
 
