@@ -108,7 +108,7 @@ if projectOption[project] == 2:
    from Projects._2_BYUI_ClassCatalog import catalogBYUI
 
    st.write(catalogBYUI.url_display)
-
+   st.dataframe(catalogBYUI.data)
 #    url = catalogBYUI.url
 #    url_split = url.replace('https://','').split('/')[0]
 
