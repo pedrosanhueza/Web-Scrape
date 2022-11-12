@@ -192,167 +192,167 @@ if projectOption[project] == 7:
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 8:
    from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
-   st.write(irvinespectrumcenter.url)
+   st.write(irvinespectrumcenter.url_main)
    data = irvinespectrumcenter.data
    st.dataframe(data)
 
-
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
-if projectOption[project] == 9:
-   st.write(project)
+# if projectOption[project] == 9:
+   # from Projects._9_BYUI_JobBoard import BYUI_JobBoard
+#    st.write(project)
    
-   st.markdown('''
-   <p style="text-align:right;">
-      Author: Pedro Sanhueza
-   </p>
+#    st.markdown('''
+#    <p style="text-align:right;">
+#       Author: Pedro Sanhueza
+#    </p>
    
-   <center>
-      <h1 style="color:#214491;font-size: 90px;">
-         BYU-I
-         <br>
-         Job Board 
-      </h1>
-   </center>
+#    <center>
+#       <h1 style="color:#214491;font-size: 90px;">
+#          BYU-I
+#          <br>
+#          Job Board 
+#       </h1>
+#    </center>
    
-   <br>
-  ''',unsafe_allow_html=True)
+#    <br>
+#   ''',unsafe_allow_html=True)
 
-   data = BYUI_JobBoard.data
+#    data = BYUI_JobBoard.data
    
-   d = str(datetime.today().strftime("%Y-%m-%d"))
+#    d = str(datetime.today().strftime("%Y-%m-%d"))
 
-   KPI1_jobs = round(1-(400/data.shape[0]),2)
+#    KPI1_jobs = round(1-(400/data.shape[0]),2)
 
-   KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
+#    KPI1_1_max = round(1-(data.payRate.median()/data.payRate.max()),2)
 
-   today_data = data[data.dateUpdated >= currentTimeInRexburg]
+#    today_data = data[data.dateUpdated >= currentTimeInRexburg]
 
-   today = today_data.shape[0]
+#    today = today_data.shape[0]
 
-   yesterday_data = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")]
+#    yesterday_data = data[data.dateUpdated == (datetime.today() - timedelta(1)).strftime("%Y-%m-%d")]
 
-   yesterday = yesterday_data.shape[0]
+#    yesterday = yesterday_data.shape[0]
 
-   KPI1, KPI2, KPI3, KPI4 = st.columns(4)
+#    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
 
-   KPI1.metric('Jobs Published', f"{data.shape[0]}")
+#    KPI1.metric('Jobs Published', f"{data.shape[0]}")
 
-   KPI2.metric("Departments Recluting", f"{data.departmentName.nunique()}")
+#    KPI2.metric("Departments Recluting", f"{data.departmentName.nunique()}")
 
-   KPI3.metric("Jobs Posted Today",today)
+#    KPI3.metric("Jobs Posted Today",today)
 
-   KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+#    KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
-   st.markdown('''
-   <br>
-   <p style="font-size:40px;text-align:center;color:#4F9ACF;">
-      Highest Paid Jobs
-   </p>
-   <br>
-   ''',unsafe_allow_html=True)
+#    st.markdown('''
+#    <br>
+#    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+#       Highest Paid Jobs
+#    </p>
+#    <br>
+#    ''',unsafe_allow_html=True)
 
-   Njobs = st.slider('Select a range of jobs', 1, 10, 5)
+#    Njobs = st.slider('Select a range of jobs', 1, 10, 5)
 
-   data_topPayRate = data.sort_values('payRate', ascending=False).head(Njobs)[['title','payRate','departmentName','managerName','URL']]
+#    data_topPayRate = data.sort_values('payRate', ascending=False).head(Njobs)[['title','payRate','departmentName','managerName','URL']]
    
-   data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
+#    data_topPayRate.columns = ['Job Title','Hourly Wage','Department','Employer','Application Link']
 
-   st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
+#    st.dataframe(data_topPayRate.reset_index().drop('index',axis=1))
 
-   if today > 0:
+#    if today > 0:
 
-      st.markdown(f'''
-      <br>
-      <p style="font-size:40px;text-align:center;color:#4F9ACF;">
-         Jobs Posted Today
-      </p>
-      <p style="text-align:center;color:#4F9ACF;">
-         {currentTimeInRexburg}
-      </p>
-      <br>
-      ''',unsafe_allow_html=True)
+#       st.markdown(f'''
+#       <br>
+#       <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+#          Jobs Posted Today
+#       </p>
+#       <p style="text-align:center;color:#4F9ACF;">
+#          {currentTimeInRexburg}
+#       </p>
+#       <br>
+#       ''',unsafe_allow_html=True)
 
-      st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
-   elif yesterday > 0:
-      st.markdown(f'''
-      <br>
-      <p style="font-size:40px;text-align:center;color:#4F9ACF;">
-         Jobs Posted Yesterday
-      </p>
-      <p style="text-align:center;color:#4F9ACF;">
-         {YesterdayTimeInRexburg}
-      </p>
-      <br>
-      ''',unsafe_allow_html=True)
+#       st.dataframe(today_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
+#    elif yesterday > 0:
+#       st.markdown(f'''
+#       <br>
+#       <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+#          Jobs Posted Yesterday
+#       </p>
+#       <p style="text-align:center;color:#4F9ACF;">
+#          {YesterdayTimeInRexburg}
+#       </p>
+#       <br>
+#       ''',unsafe_allow_html=True)
 
-      st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
+#       st.dataframe(yesterday_data[['title','payRate','departmentName','managerName','URL']].sort_values('payRate',ascending=False))
 
-   st.markdown('''
-   <br>
-   <p style="font-size:40px;text-align:center;color:#4F9ACF;">
-      Pay Rate Distribution
-   </p>
-   <br>
-   ''',unsafe_allow_html=True)
+#    st.markdown('''
+#    <br>
+#    <p style="font-size:40px;text-align:center;color:#4F9ACF;">
+#       Pay Rate Distribution
+#    </p>
+#    <br>
+#    ''',unsafe_allow_html=True)
 
-   col1, col2 = st.columns([4,1])
+#    col1, col2 = st.columns([4,1])
 
-   with col2:
-      job_type = st.radio("Job Type", ('All','Online','On-Campus'))
+#    with col2:
+#       job_type = st.radio("Job Type", ('All','Online','On-Campus'))
       
-      if job_type == 'Online':
-         data_isOnline = data[data.isOnline == True]
-      elif job_type == 'On-Campus':
-         data_isOnline = data[data.isOnline == False]
-      else:
-         data_isOnline = data.copy()
+#       if job_type == 'Online':
+#          data_isOnline = data[data.isOnline == True]
+#       elif job_type == 'On-Campus':
+#          data_isOnline = data[data.isOnline == False]
+#       else:
+#          data_isOnline = data.copy()
 
-   with col1:   
-      sns.kdeplot(data_isOnline.payRate, shade=True, color="#214491", bw=0.8, alpha=0.5, cut=0)
-      fig1 = plt.show()
-      st.pyplot(fig1)
+#    with col1:   
+#       sns.kdeplot(data_isOnline.payRate, shade=True, color="#214491", bw=0.8, alpha=0.5, cut=0)
+#       fig1 = plt.show()
+#       st.pyplot(fig1)
 
-   tab1, tab2 = st.tabs(['Data','Code'])
+#    tab1, tab2 = st.tabs(['Data','Code'])
 
-   with tab1:
-      columns_ls = st.multiselect(
-      '',
-      data.columns,
-      ['title', 'payRate','managerName'])
+#    with tab1:
+#       columns_ls = st.multiselect(
+#       '',
+#       data.columns,
+#       ['title', 'payRate','managerName'])
 
-      st.dataframe(data[columns_ls])
+#       st.dataframe(data[columns_ls])
 
-      @st.cache
-      def convert_df(df):
-         # IMPORTANT: Cache the conversion to prevent computation on every rerun
-         return df.to_csv().encode('utf-8')
+#       @st.cache
+#       def convert_df(df):
+#          # IMPORTANT: Cache the conversion to prevent computation on every rerun
+#          return df.to_csv().encode('utf-8')
 
-      csv = convert_df(data)
+#       csv = convert_df(data)
 
-      file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
+#       file_name = 'BYUI_jobBoard_' + str(time.strftime("%Y-%m-%d"))
 
-      st.download_button(
-         label = "Download data as CSV",
-         data = csv,
-         file_name = file_name,
-         mime = 'text/csv')
+#       st.download_button(
+#          label = "Download data as CSV",
+#          data = csv,
+#          file_name = file_name,
+#          mime = 'text/csv')
 
-   with tab2:
+#    with tab2:
 
-      st.markdown(f'''
-      <br>
-      <p style="font-size:20px;text-align:center;color:#4F9ACF;">
-         🐍 Source Code
-      </p>
-      <a style="color:#4F9ACF; padding:7px 10px;"
-         target="_blank" 
-         href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
-         GitHub Repository
-      </a>
-      <br>
-      ''',unsafe_allow_html=True)
+#       st.markdown(f'''
+#       <br>
+#       <p style="font-size:20px;text-align:center;color:#4F9ACF;">
+#          🐍 Source Code
+#       </p>
+#       <a style="color:#4F9ACF; padding:7px 10px;"
+#          target="_blank" 
+#          href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
+#          GitHub Repository
+#       </a>
+#       <br>
+#       ''',unsafe_allow_html=True)
 
-      st.code(BYUI_JobBoard.script1, language='python')
+#       st.code(BYUI_JobBoard.script1, language='python')
    
    # with tab1:
    #    col1, col2, col3 = st.columns(3)
@@ -403,7 +403,6 @@ if projectOption[project] == 9:
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
    
 if projectOption[project] == 10:
-   
    import altair as alt
    from Projects._10_MutualAppFeedback import Mutual_App_Feedback
    
@@ -430,8 +429,6 @@ if projectOption[project] == 10:
       col2.metric("Suggestions Completed",f"{data.status.str.contains('Close').sum()}")
       col3.metric("New Features",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
-   
-
 
    with tab2:
       st.markdown('''
@@ -445,6 +442,20 @@ if projectOption[project] == 10:
       st.code(scrpt_1)
    with tab3:
       st.dataframe(data)
+
+## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+if projectOption[project] == 11:
+   from Projects._11_NewsCBS import cbsnews
+   st.write(cbsnews.url)
+   data = cbsnews.data
+   st.dataframe(data)
+
+## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+if projectOption[project] == 12:
+   from Projects._11_NewsCBS import cbsnews
+   st.write(cbsnews.url)
+   data = cbsnews.data
+   st.dataframe(data)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
