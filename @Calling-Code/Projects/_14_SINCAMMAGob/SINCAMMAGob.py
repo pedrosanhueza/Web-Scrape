@@ -2,6 +2,8 @@ import requests # to get the html markdown from the url
 from bs4 import BeautifulSoup # to make the html readable
 import pandas as pd # to save table in a csv
 
+url_main = 'https://sinca.mma.gob.cl/'
+
 # List of all IG urls
 url = 'https://sinca.mma.gob.cl/'
 html_data = requests.get(url)

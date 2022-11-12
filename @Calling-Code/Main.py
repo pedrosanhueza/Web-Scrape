@@ -472,16 +472,17 @@ if projectOption[project] == 13:
    st.dataframe(data)
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
-if projectOption[project] == 13:
+if projectOption[project] == 14:
    from Projects._14_SINCAMMAGob import SINCAMMAGob
-   st.write(SINCAMMAGob.url)
+   st.write(SINCAMMAGob.url_main)
    data = SINCAMMAGob.data
    st.dataframe(data)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
-   st.write(project)
+   from Projects._15_BYUI_SurplusStore import SurplusStore
 
+   st.write(SurplusStore.url)
 
    st.markdown('''
       <p style="text-align:right;">
