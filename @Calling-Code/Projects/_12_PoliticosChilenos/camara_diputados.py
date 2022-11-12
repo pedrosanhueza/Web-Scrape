@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd 
 
+url_main = 'https://www.camara.cl/diputados/diputados.aspx#mostrarDiputados'
+
 url = 'https://www.camara.cl/diputados/diputados.aspx#mostrarDiputados'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')

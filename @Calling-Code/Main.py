@@ -453,7 +453,7 @@ if projectOption[project] == 11:
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 12:
    from Projects._12_PoliticosChilenos import camara_diputados
-   st.write(camara_diputados.url)
+   st.write(camara_diputados.url_main)
    data = camara_diputados.data
    st.dataframe(data)
 
