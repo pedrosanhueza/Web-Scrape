@@ -48,7 +48,7 @@ st.markdown('''
 
 projectOption = {
    'TEST':1,
-   'byui.edu/catalog#/courses':2,
+   'BYU-Idaho Class Catalog':2,
    'countrycode.org/':3,
    'foxsports.com/soccer/2022-fifa-world-cup/teams':4,
    'advfn.com/':5,
