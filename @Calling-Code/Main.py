@@ -51,11 +51,11 @@ projectOption = {
    'BYU-Idaho Class Catalog':2,
    'Phone Country Code':3,
    'Fifa Soccer 2022':4,
-   'advfn.com/':5,
-   'Billionaires - Forbes/':6,
-   'Top Colleges - Forbes':7,
-   'irvinespectrumcenter.com/shopping/stores':8,
-   'web.byui.edu/studentemployment/':9,
+   'Stocks - ADVFN':5,
+   'Billionaires - Forbes':6,
+   'Universities - Forbes':7,
+   'Irvine Spectrum Center - Stores':8,
+   'BYU-Idaho Student Employment':9,
    'Mutual App Feedback':10,
    'News - CBS':11,
    'Politicos Chilenos':12,
@@ -188,6 +188,14 @@ if projectOption[project] == 7:
    st.write(Forbes_Universities.url_main)
    data = Forbes_Universities.data
    st.dataframe(data)
+
+## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+if projectOption[project] == 8:
+   from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
+   st.write(irvinespectrumcenter.url)
+   data = irvinespectrumcenter.data
+   st.dataframe(data)
+
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 9:

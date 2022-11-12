@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from datetime import datetime
 
+url_main = 'https://www.irvinespectrumcenter.com/shopping/stores'
+
 url = 'https://www.irvinespectrumcenter.com/shopping/stores?filter=all'
 
 response = requests.get(url)
