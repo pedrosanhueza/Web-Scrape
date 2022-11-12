@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 
+url_main = 'https://www.forbes.com/billionaires/'
+
 url = "https://www.forbes.com/billionaires/page-data/index/page-data.json"
 
 response = requests.get(url)

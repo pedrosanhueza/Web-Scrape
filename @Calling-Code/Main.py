@@ -99,10 +99,11 @@ if projectOption[project] == 3:
    st.dataframe(data)
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
-# elif projectOption[option] == 4:
-#    st.header(option)
-
-#    data = FIFAWorldCup.data
+if projectOption[project] == 4:
+   from Projects._4_FIFAWorldCup import FIFAWorldCup
+   st.write(FIFAWorldCup.url)
+   data = FIFAWorldCup.data
+   st.dataframe(data)
 
 #    data_main = data.copy()
    
@@ -166,6 +167,20 @@ if projectOption[project] == 3:
 #       st.code(FIFAWorldCup.script, language="python")
 #    with tab4:
 #       st.header(option)
+
+## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
+# if projectOption[project] == 5:
+#    # from Projects._5_Financial Data import 
+#    st.write(.url)
+#    data = .data
+#    st.dataframe(data)
+
+## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
+if projectOption[project] == 5:
+   from Projects._6_ForbesBillionaries import forbesBillionaires
+   st.write(forbesBillionaires.url_main)
+   data = forbesBillionaires.data
+   st.dataframe(data)
 
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 9:
