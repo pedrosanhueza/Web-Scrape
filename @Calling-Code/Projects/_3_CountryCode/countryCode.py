@@ -11,8 +11,7 @@ soup = BeautifulSoup(response.text, 'html.parser') # make html data readable for
 ls = [x.get_text() for x in soup.select('td')][:240*6] # collect all values of table into a list
 
 ### Build Data Table
-
-data = { # get the 6th item in list starting from 1, 2, 3, 4, 5, and 6th element
+json_list = { # get the 6th item in list starting from 1, 2, 3, 4, 5, and 6th element
 'Country' :ls[0::6],
 'Country_code' : ls[1::6],
 'ISO_codes' : ls[2::6],
@@ -20,5 +19,5 @@ data = { # get the 6th item in list starting from 1, 2, 3, 4, 5, and 6th element
 'Area_KM2' : ls[4::6],
 'GDP_USD' : ls[5::6]}
 
-data = pd.DataFrame(data) # build data frame
+data = pd.DataFrame(json_list) # build data frame
 
