@@ -184,3 +184,5 @@ data_main = data_main.loc[:, ~data_main.columns.duplicated()]
 drop_columns = ['organization','academics','financialAid','listImages','geoLocation','visible','relatedVisible','imageExists','socialNetworks','collegeMedia']
 
 data_main.drop(drop_columns, axis=1, inplace=True)
+
+data = data_main
