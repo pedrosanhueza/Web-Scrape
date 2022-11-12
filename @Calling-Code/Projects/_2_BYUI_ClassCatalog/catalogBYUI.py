@@ -3,6 +3,8 @@
 import requests
 import pandas as pd
 
+url_display = 'https://www.byui.edu/catalog#/courses'
+
 url = 'https://byui.kuali.co/api/v1/catalog/courses/6102e778ef84b869ba4eb375?q='
 
 response = requests.get(url)

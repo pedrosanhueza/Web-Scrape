@@ -105,7 +105,10 @@ if projectOption[project] == 1:
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
-   st.write(project)
+   from Projects._2_BYUI_ClassCatalog import catalogBYUI
+
+   st.write(catalogBYUI.url_display)
+
 #    url = catalogBYUI.url
 #    url_split = url.replace('https://','').split('/')[0]
 
