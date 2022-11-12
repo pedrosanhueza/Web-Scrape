@@ -531,7 +531,9 @@ if projectOption[project] == 16:
    from Projects._16_USHouseRepresentatives import representatives
    data = representatives.rows
    st.write(data)
-   st.dataframe(data)
+   x = representatives.df_state
+   st.write(x)
+
 
 
    # st.markdown('''
