@@ -483,6 +483,7 @@ if projectOption[project] == 15:
    from Projects._15_BYUI_SurplusStore import SurplusStore
 
    st.write(SurplusStore.url)
+   data = SurplusStore.data
 
    st.markdown('''
       <p style="text-align:right;">
