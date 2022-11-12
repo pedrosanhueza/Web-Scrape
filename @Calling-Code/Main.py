@@ -78,66 +78,25 @@ timeZoneMountain = datetime.now(IdahoTz)
 currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
 YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
-## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
+## ----------------------------------------- TEST ------------------------------------------------------------------------ ##
 if projectOption[project] == 1:
    st.write(project)
-
-   # data = BYUI_JobBoard.data
-
-   # def convert_date(x,y,z):   
-   #    orig_date = datetime(x,y,z)
-   #    orig_date = str(orig_date)
-   #    d = datetime.strptime(orig_date, '%Y-%m-%d %H:%M:%S')
-   #    d = d.strftime('%m-%d-%y')
-   #    return d
-
-   # start_dates = data.startDate.dropna().replace('T',' ',regex=True)
-
-   # start_dates_formatted = [x for x in ]
-
-   # start_dates_formatted = [datetime.strptime(d, "%Y-%m-%d %H:%M:%S") for d in start_dates]
-   # start_dates_formatted_1 = [d for d in start_dates_formatted if d > currentTimeInRexburg]
-   # rand_names = range(34)
-
-   # st.write(rand_names)
-
-
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
    from Projects._2_BYUI_ClassCatalog import catalogBYUI
 
    st.write(catalogBYUI.url_display)
-   st.dataframe(catalogBYUI.data)
-#    url = catalogBYUI.url
-#    url_split = url.replace('https://','').split('/')[0]
+   data = catalogBYUI.data
+   st.dataframe(data)
 
-#    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
-
-#    with tab1:
-#       st.header(option)
-#       col1, col2, col3 = st.columns(3)
-#       col1.metric("Classes", data.shape[0], "1.2 °F")
-#       col2.metric("Subjects", data.description.nunique(), "-8%")
-#       col3.metric("Humidity", "86%", "4%")
-
-#       st.image('@Calling-Code/Projects/CatalogBYUI/CatalogBYUI.png', caption='Website page')
-      
-#       # f"[{url_split}]({url}) website"
-#    with tab2:
-#       st.header(f"Data extracted from @@@")
-#       # st.header(f"Data extracted from {url_split}")
-#       st.dataframe(data)
-#    with tab3:
-#       st.header("Code")
-#    with tab4:
-#       st.header("Analysis")
-
-# ## ----------------------------------------- Billionaires ------------------------------------------------------------------------ ##
-# elif projectOption[option] == 3:
-#    data = countryCode.data
-#    url = countryCode.url
-#    url_split = url.replace('https://','').split('/')[0]
+# ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
+if projectOption[project] == 3:
+   from Projects._3_CountryCode import countryCode
+   
+   st.write(catalogBYUI.url)
+   data = countryCode.data
+   st.dataframe(data)
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 # elif projectOption[option] == 4:
