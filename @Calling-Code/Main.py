@@ -168,15 +168,15 @@ if projectOption[project] == 4:
 #    with tab4:
 #       st.header(option)
 
-## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
+## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 # if projectOption[project] == 5:
 #    # from Projects._5_Financial Data import 
 #    st.write(.url)
 #    data = .data
 #    st.dataframe(data)
 
-## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
-if projectOption[project] == 5:
+## ----------------------------------------- Forbes Billionaires ------------------------------------------------------------------------ ##
+if projectOption[project] == 6:
    from Projects._6_ForbesBillionaries import forbesBillionaires
    st.write(forbesBillionaires.url_main)
    data = forbesBillionaires.data
