@@ -26,7 +26,7 @@ import os
 # from Projects._13_PoliticosEspanoles import DiputadosEspanoles
 # from Projects._14_SINCAMMAGob import SINCAMMAGob
 # from Projects._15_BYUI_SurplusStore import SurplusStore
-from Projects._16_USHouseRepresentatives import representatives
+# from Projects._16_USHouseRepresentatives import representatives
 # from Projects.test import test
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
@@ -504,6 +504,7 @@ if projectOption[project] == 15:
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
+   from Projects._16_USHouseRepresentatives import representatives
    data = representatives.data
 
    st.markdown('''
