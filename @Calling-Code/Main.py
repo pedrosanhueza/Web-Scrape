@@ -459,17 +459,16 @@ if projectOption[project] == 12:
    data_1 = data_simple
    st.dataframe(data_1)
 
-   if st.button('Run Complete table'):
-      from Projects._12_PoliticosChilenos.camara_diputados import data
-      data_2 = data
-      st.dataframe(data_2)
+   # if st.button('Run Complete table'):
+   #    from Projects._12_PoliticosChilenos.camara_diputados import data
+   #    data_2 = data
+   #    st.dataframe(data_2)
 
-
-# ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
+# ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 13:
-   from Projects._4_FIFAWorldCup import FIFAWorldCup
-   st.write(FIFAWorldCup.url)
-   data = FIFAWorldCup.data
+   from Projects._13_PoliticosEspanoles import DiputadosEspanoles
+   st.write(DiputadosEspanoles.url_main)
+   data = DiputadosEspanoles.data
    st.dataframe(data)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
