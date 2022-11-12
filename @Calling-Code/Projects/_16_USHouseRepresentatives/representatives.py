@@ -18,8 +18,9 @@ for table in tables[:56]:
     row['Phone']                = [x.text.strip() for x in table.select('td')][4::6]
     row['Committee Assignment'] = [x.text.strip() for x in table.select('td')][5::6]
     row['State']                = table.select_one('caption').text.strip()
-    rows.append(pd.DataFrame(row))
-a = row
+    df_state = pd.DataFrame(row)
+    rows.append(df_state)
+
 # data = pd.concat(rows)
 
 # ---------------------------------------

@@ -529,10 +529,10 @@ if projectOption[project] == 15:
 if projectOption[project] == 16:
    st.write(project)
    from Projects._16_USHouseRepresentatives import representatives
-   rows = representatives.rows
-   st.write(rows)
-   data = representatives.a
-   st.DataFramewrite(data)
+   data = representatives.rows
+   st.write(data)
+   st.dataframe(data)
+
 
    # st.markdown('''
    #    <p style="text-align:right;">
