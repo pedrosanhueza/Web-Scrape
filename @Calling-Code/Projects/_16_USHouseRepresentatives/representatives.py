@@ -20,7 +20,7 @@ for table in tables[:56]:
     row['State']                = table.select_one('caption').text.strip()
     rows.append(pd.DataFrame(row))
 
-data = pd.concat(rows)
+# data = pd.concat(rows)
 
 # ---------------------------------------
 

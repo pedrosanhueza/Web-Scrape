@@ -529,8 +529,8 @@ if projectOption[project] == 15:
 if projectOption[project] == 16:
    st.write(project)
    from Projects._16_USHouseRepresentatives import representatives
-   data = representatives.data
-   st.dataframe(data)
+   rows = representatives.rows
+   st.write(rows)
 
    # st.markdown('''
    #    <p style="text-align:right;">
