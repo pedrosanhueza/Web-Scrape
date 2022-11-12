@@ -49,7 +49,7 @@ st.markdown('''
 projectOption = {
    'TEST':1,
    'BYU-Idaho Class Catalog':2,
-   'countrycode.org/':3,
+   'Phone Country Code':3,
    'foxsports.com/soccer/2022-fifa-world-cup/teams':4,
    'advfn.com/':5,
    'forbes.com/billionaires/':6,
@@ -94,7 +94,7 @@ if projectOption[project] == 2:
 if projectOption[project] == 3:
    from Projects._3_CountryCode import countryCode
    
-   st.write(catalogBYUI.url)
+   st.write(countryCode.url)
    data = countryCode.data
    st.dataframe(data)
 
