@@ -19,8 +19,7 @@ for table in tables[:56]:
     row['Committee Assignment'] = [x.text.strip() for x in table.select('td')][5::6]
     row['State']                = table.select_one('caption').text.strip()
     rows.append(pd.DataFrame(row))
-
-row = row
+a = row
 # data = pd.concat(rows)
 
 # ---------------------------------------
