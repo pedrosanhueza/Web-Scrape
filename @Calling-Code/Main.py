@@ -22,7 +22,7 @@ import os
 # from Projects._9_BYUI_JobBoard import BYUI_JobBoard
 # from Projects._10_MutualAppFeedback import Mutual_App_Feedback
 # from Projects._11_NewsCBS import cbsnews
-# # from Projects._12_PoliticosChilenos import 
+# from Projects._12_PoliticosChilenos import camara_diputados
 # from Projects._13_PoliticosEspanoles import DiputadosEspanoles
 # from Projects._14_SINCAMMAGob import SINCAMMAGob
 # from Projects._15_BYUI_SurplusStore import SurplusStore
@@ -189,7 +189,7 @@ if projectOption[project] == 7:
    data = Forbes_Universities.data
    st.dataframe(data)
 
-## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+## ----------------------------------------- Irvine Spectrum Center ------------------------------------------------------------------------ ##
 if projectOption[project] == 8:
    from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
    st.write(irvinespectrumcenter.url_main)
@@ -400,7 +400,7 @@ if projectOption[project] == 8:
    # if st.button("info"):
    #    st.info('This is a purely informational message', icon="ℹ️")
 
-## -----------------------------------------  ------------------------------------------------------------------------ ##
+## ----------------------------------------- Mutual App Feedback ------------------------------------------------------------------------ ##
    
 if projectOption[project] == 10:
    import altair as alt
@@ -443,18 +443,25 @@ if projectOption[project] == 10:
    with tab3:
       st.dataframe(data)
 
-## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+## ----------------------------------------- News CBS ------------------------------------------------------------------------ ##
 if projectOption[project] == 11:
    from Projects._11_NewsCBS import cbsnews
    st.write(cbsnews.url)
    data = cbsnews.data
    st.dataframe(data)
 
-## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
+## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 12:
-   from Projects._11_NewsCBS import cbsnews
-   st.write(cbsnews.url)
-   data = cbsnews.data
+   from Projects._12_PoliticosChilenos import camara_diputados
+   st.write(camara_diputados.url)
+   data = camara_diputados.data
+   st.dataframe(data)
+
+# ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
+if projectOption[project] == 13:
+   from Projects._4_FIFAWorldCup import FIFAWorldCup
+   st.write(FIFAWorldCup.url)
+   data = FIFAWorldCup.data
    st.dataframe(data)
 
 ## -----------------------------------------  ------------------------------------------------------------------------ ##
