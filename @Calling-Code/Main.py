@@ -764,7 +764,9 @@ if projectOption[project] == 17:
    data = BoatTrader.data
 
    st.markdown('''
-   <img src='https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png' alt="Logo" style="text-align:center;">
+   <center>
+      <img src='https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png' alt="Logo">
+   </center>
    ''',unsafe_allow_html=True)
 
    st.markdown('''
