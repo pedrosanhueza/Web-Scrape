@@ -764,6 +764,7 @@ if projectOption[project] == 17:
    
    url = BoatTrader.url_main # https://www.boattrader.com/boat-dealers/
    data = BoatTrader.data
+   script_1 = BoatTrader.script_1
    
    st.markdown('''
    <center>
@@ -784,6 +785,18 @@ if projectOption[project] == 17:
       Here is the result, code, and analysis:
    </p>
    ''',unsafe_allow_html=True)
-
    
-   st.dataframe(data)
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("See Website 👨🏻‍💻"):
+      components.iframe(f"{url}",width=1000, height=500, scrolling=True)
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'BoatTrader_dealers.csv',
+         mime      =    'text/csv',)
+      
+      st.dataframe(data)
