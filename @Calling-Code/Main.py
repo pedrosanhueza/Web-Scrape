@@ -58,7 +58,7 @@ st.markdown('''
 ''',unsafe_allow_html=True)
 
 st.markdown('''
-<img src="@Calling-Code/Pictures/Me_sticker.png">
+![Me Sticker](@Calling-Code/Pictures/Me_sticker.png)
 ''')
 
 st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker')
