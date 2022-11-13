@@ -37,13 +37,13 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
-   <img src="Pictures/Me_sticker.png'">
 </h1>
 <p style="font-size:20px;text-align:center;">
    I extract live data from various websites, then use it for analysis.
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
+<img src="Pictures/Me_sticker.png'">
 <p>
    Projects are listed in the frop down bar.
    Each project has:
