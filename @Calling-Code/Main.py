@@ -113,6 +113,33 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 if projectOption[project] == 1:
    st.write(project)
 
+   url1 = 'https://www.boattrader.com/boat-dealers/'
+   url2 = 'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams'
+   url3 = 'https://www.forbes.com/billionaires/'
+   url4 = 'https://www.forbes.com/top-colleges/'
+   url5 = 'https://www.irvinespectrumcenter.com/shopping/stores'
+   url6 = 'feedback.mutual.app'
+   url7 = 'https://www.cbsnews.com/world/'
+   url9 = 'https://www.camara.cl/diputados/diputados.aspx#mostrarDiputados'
+   url10= 'https://www.congreso.es/busqueda-de-diputados'
+   url11= 'https://web.byui.edu/SurplusList/'
+   url12= 'https://www.house.gov/representatives'
+
+
+   components.iframe(f"{url1}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url2}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url3}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url4}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url5}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url6}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url7}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url8}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url9}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url10}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url11}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url12}",width=1000, height=500, scrolling=True)
+   
+
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
    from Projects._2_BYUI_ClassCatalog import catalogBYUI
@@ -159,10 +186,7 @@ if projectOption[project] == 3:
    
    url = countryCode.url
    
-   st.write({url})
-
-   with st.expander("See Website 👨🏻‍💻"):
-      components.iframe(f"{url}",width=1000, height=500, scrolling=True)
+   st.write(url)
 
    data = countryCode.data
    st.dataframe(data)
