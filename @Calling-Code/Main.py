@@ -1,34 +1,19 @@
 ## ----------------------------------------- Import -------------------------------------------------------------------------------------- ##
 import streamlit as st
-import pandas as pd
+import streamlit.components.v1 as components # embed website
+import pandas as pd # panel data
+
 from datetime import datetime, timedelta
-import streamlit.components.v1 as components
 import time
+
 import pytz
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import plotly.express as px
 from plotly.figure_factory import create_distplot
-import os
 
-# from Projects._1_Billionaires import forbesBillionaires
-# from Projects._2_BYUI_ClassCatalog import catalogBYUI
-# from Projects._3_CountryCode import countryCode
-# from Projects._4_FIFAWorldCup import FIFAWorldCup
-# # from Projects._5_Financial Data import 
-# from Projects._6_ForbesBillionaries import forbesBillionaires
-# from Projects._7_ForbesUniversities import Forbes_Universities
-# from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
-# from Projects._9_BYUI_JobBoard import BYUI_JobBoard
-# from Projects._10_MutualAppFeedback import Mutual_App_Feedback
-# from Projects._11_NewsCBS import cbsnews
-# from Projects._12_PoliticosChilenos import camara_diputados
-# from Projects._13_PoliticosEspanoles import DiputadosEspanoles
-# from Projects._14_SINCAMMAGob import SINCAMMAGob
-# from Projects._15_BYUI_SurplusStore import SurplusStore
-# from Projects._16_USHouseRepresentatives import representatives
-# from Projects.test import test
+import os
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -55,7 +40,10 @@ with col3:
 
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
-   Projects are listed in the drop down bar. Each project has: (1) A code source, (2) an embedded website or the website hyperlink, and (3) a table with data extracted.
+   Projects are listed in the drop down bar. Each project has:
+   <sub> 1 </sub> A code source,
+   <sub> 2 </sub> an embedded website or the website hyperlink, and 
+   <sub> 3 </sub> a table with data extracted.
 </p>
 ''',unsafe_allow_html=True)
 
