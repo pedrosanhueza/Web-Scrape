@@ -764,11 +764,8 @@ if projectOption[project] == 17:
    data = BoatTrader.data
 
    st.markdown('''
-   <p style="font-size:20px;text-align:Center;color:black;">
-      Description:
-   </p>
-   
-   <p style="font-size:12px;text-align:left;">   
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:left;">
       I was asked to gather all 2400+ boat dealers and contact information for owner, sale manager, general manager and/or marketing manager listed on
          <a href="https://www.boattrader.com/boat-dealers/">
             boattrader.com
