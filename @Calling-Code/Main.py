@@ -84,40 +84,34 @@ if projectOption[project] == 1:
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
-   complete = True
-   while complete:
-      st.spinner('Wait for it...')
+   from Projects._2_BYUI_ClassCatalog import catalogBYUI
+   url = catalogBYUI.url_display
+   data = catalogBYUI.data
+   script_1 = catalogBYUI.script_1
 
-      from Projects._2_BYUI_ClassCatalog import catalogBYUI
-      url = catalogBYUI.url_display
-      data = catalogBYUI.data
-      script_1 = catalogBYUI.script_1
+   st.markdown(f'''
+   <br>
+   <p style="font-size:20px;text-align:left;color:black;">
+      Extracting data from: 
+      <a style="color:#4F9ACF; padding:7px 10px;"
+         target="_blank"
+         href = '{url}'>
+         Class Catalog - BYUI
+      </a>
+   </p>
+   <br>
+   ''',unsafe_allow_html=True)
 
-      st.markdown(f'''
-      <br>
-      <p style="font-size:20px;text-align:left;color:black;">
-         Extracting data from: 
-         <a style="color:#4F9ACF; padding:7px 10px;"
-            target="_blank"
-            href = '{url}'>
-            Class Catalog - BYUI
-         </a>
-      </p>
-      <br>
-      ''',unsafe_allow_html=True)
-
-      with st.expander("Code Used 🐍"):
-         st.code(script_1,language="python")
-      with st.expander("See Website 👨🏻‍💻"):
-         import streamlit.components.v1 as components
-         # embed streamlit docs in a streamlit app
-         components.iframe("https://www.byui.edu/catalog#/courses",width=800, height=500, scrolling=True)
-      with st.expander("Data Extracted 🕸"):
-         st.write("Table containing data extracted from website")
-         st.dataframe(data)
-
-         complete = False
-
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("See Website 👨🏻‍💻"):
+      import streamlit.components.v1 as components
+      # embed streamlit docs in a streamlit app
+      components.iframe("https://www.byui.edu/catalog#/courses",width=800, height=500, scrolling=True)
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.dataframe(data)
+s
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
