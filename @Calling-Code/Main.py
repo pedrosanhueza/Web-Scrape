@@ -55,9 +55,7 @@ with col3:
 
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
-   Projects are listed in the frop down bar.
-   <br>
-   Each project has: A Code Source, an embedded website or the website hyperlink, and a table with data extracted.
+   Projects are listed in the frop down bar. Each project has: (1) A code source, (2) an embedded website or the website hyperlink, (3) and a table with data extracted.
 </p>
 ''',unsafe_allow_html=True)
 
