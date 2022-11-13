@@ -57,10 +57,13 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-st.markdown('''
-![Me Sticker](@Calling-Code/Pictures/TEST.png)
-''')
-st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker')
+col1, col2, col3 = st.columns(3)
+with col1:
+    st.write(' ')
+with col2:
+   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
+with col3:
+    st.write(' ')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
