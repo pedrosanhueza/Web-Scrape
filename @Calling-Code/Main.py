@@ -64,7 +64,7 @@ with col2:
 with col3:
     st.write(' ')
    
-st.markdown('''<hr style="width:80%;text-align:center;>''',unsafe_allow_html=True)
+st.markdown('''<hr>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
