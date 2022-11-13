@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
+import streamlit.components.v1 as components
 import time
 import pytz
 import seaborn as sns
@@ -36,6 +37,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
+   <img src="Pictures/'Me! sticker.png'">
 </h1>
 <p style="font-size:20px;text-align:center;">
    I extract live data from various websites, then use it for analysis.
@@ -109,18 +111,15 @@ if projectOption[project] == 2:
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("See Website 👨🏻‍💻"):
-      import streamlit.components.v1 as components
-      # embed streamlit docs in a streamlit app
       components.iframe(f"{url}",width=1000, height=500, scrolling=True)
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       
-      if st.download_button(
+      st.download_button(
          label     =    "Download data as CSV",
          data      =    data.to_csv().encode('utf-8'),
          file_name =    'Class_Catalog_BYUI.csv',
-         mime      =    'text/csv',):
-            st.balloons()
+         mime      =    'text/csv',)
       
       st.dataframe(data)
    
