@@ -770,10 +770,10 @@ if projectOption[project] == 17:
          <a href="https://www.boattrader.com/boat-dealers/"> boattrader.com</a>. 
       They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
       and to enter it into an Excel or Google Sheet (whichever I prefer).
-      <br>
+      <br><br>
       I send a test list of 20 to ensure project is on the right track. It took me about 25 minutes to write the code, clean the data, and send the result.
-      <br>
-      Here is the result:
+      <br><br>
+      Here is the result, code, and analysis:
    </p>
    ''',unsafe_allow_html=True)
 
