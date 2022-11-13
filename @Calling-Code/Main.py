@@ -59,7 +59,7 @@ st.markdown('''
 
 st.markdown('''
 <img src="@Calling-Code/Pictures/Me_sticker.png">
-''',unsafe_allow_html=True)
+''')
 
 st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker')
 
