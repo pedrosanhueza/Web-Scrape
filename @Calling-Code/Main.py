@@ -58,8 +58,8 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-image = Image.open('@Calling-Code/Pictures/Me_sticker.png')
-st.image(image, caption='Profile Sticker')
+# image = Image.open('@Calling-Code/Pictures/Me_sticker.png')
+st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
