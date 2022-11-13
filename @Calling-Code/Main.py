@@ -58,7 +58,7 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-image = Image.open('Pictures/TEST.png')
+image = Image.open('@Calling-Code/Pictures/TEST.png')
 st.image(image, caption='Profile Sticker')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
