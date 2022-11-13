@@ -24,7 +24,8 @@ st.markdown('''
    Hi!
 </h1>
 <p style="font-size:20px;text-align:center;">
-   I extract live data from various websites, then use it for analysis.
+   Here is a list of projects where I extract (live) data from various websites, and share the scraping code.
+   With the data, I do a simple analysis.
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
