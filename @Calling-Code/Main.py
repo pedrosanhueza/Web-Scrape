@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import streamlit.components.v1 as components
-from PIL import Image
 import time
 import pytz
 import seaborn as sns
@@ -46,6 +45,7 @@ st.markdown('''
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
+<img src='@Calling-Code/Pictures/Me_sticker.png>
 <p>
    Projects are listed in the frop down bar.
    Each project has:
@@ -58,7 +58,6 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-# image = Image.open('@Calling-Code/Pictures/Me_sticker.png')
 st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
