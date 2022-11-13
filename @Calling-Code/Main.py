@@ -54,11 +54,20 @@ with col3:
     st.write(' ')
 
 st.markdown('''
+<ol>
+  <li>Code Source</li>
+  <li>Embedded website or website link</li>
+  <li>Table with data extracted</li>
+</ol>
+''',unsafe_allow_html=True)
+
+st.markdown('''
 <p style="font-size:20px;text-align:center;">
    Projects are listed in the frop down bar.
    Each project has:
       A. Code Source.
-      B. enbedded website or website link
+         Some projects extracted underlying data through requests, API, and/or Web Drivers.
+      B. Embedded website or website link
          Not all websites allows embedding
       C. Table with data extracted.
             Display extractiong underlying HTML and, with it, data stored in a database.
