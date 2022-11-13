@@ -36,14 +36,25 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
-   Hi! 👋🏼
+   Hi!
 </h1>
 <p style="font-size:20px;text-align:center;">
    I extract live data from various websites, then use it for analysis.
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
-<p>
+''',unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns([1,3,1])
+with col1:
+    st.write(' ')
+with col2:
+   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
+with col3:
+    st.write(' ')
+
+st.markdown('''
+<p style="font-size:20px;text-align:center;>
    Projects are listed in the frop down bar.
    Each project has:
       A. Code Source.
@@ -55,13 +66,6 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1,3,1])
-with col1:
-    st.write(' ')
-with col2:
-   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
-with col3:
-    st.write(' ')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
