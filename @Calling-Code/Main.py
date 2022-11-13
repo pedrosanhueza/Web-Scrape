@@ -35,6 +35,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
+stwrite(os.getcwd())
+
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
