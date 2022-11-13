@@ -126,16 +126,10 @@ if projectOption[project] == 1:
    url12= 'https://www.house.gov/representatives'
 
 
-   components.iframe(f"{url1}",width=350, height=500, scrolling=True)
-   components.iframe(f"{url5}",width=350, height=500, scrolling=True)
-   components.iframe(f"{url6}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url7}",width=1000, height=500, scrolling=True)
-   # components.iframe(f"{url8}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url9}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url10}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url11}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url12}",width=1000, height=500, scrolling=True)
-   
+   components.iframe(f"{url1}", width=350, height=500, scrolling=True)
+   components.iframe(f"{url5}", width=350, height=500, scrolling=True)
+   components.iframe(f"{url7}", width=350, height=500, scrolling=True)
+   components.iframe(f"{url11}",width=350, height=500, scrolling=True)
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
