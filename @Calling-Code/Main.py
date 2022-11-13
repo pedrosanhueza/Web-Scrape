@@ -37,7 +37,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
-   <img src="Pictures/'Me! sticker.png'">
+   <img src="Pictures/Me_sticker.png'">
 </h1>
 <p style="font-size:20px;text-align:center;">
    I extract live data from various websites, then use it for analysis.
