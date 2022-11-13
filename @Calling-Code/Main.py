@@ -55,7 +55,7 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-st.image('Pictures/Me_sticker', caption='Profile Sticker')
+st.image('Pictures/Me_sticker.png', caption='Profile Sticker')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
