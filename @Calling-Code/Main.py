@@ -101,7 +101,7 @@ if projectOption[project] == 2:
    <br>
    ''',unsafe_allow_html=True)
 
-   # st.dataframe(data)
+   st.dataframe(data)
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
