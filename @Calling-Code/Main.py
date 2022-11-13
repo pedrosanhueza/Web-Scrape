@@ -42,6 +42,16 @@ st.markdown('''
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
+<p>
+   Projects are listed in the frop down bar.
+   Each project has:
+      A. Code Source.
+      B. enbedded website or website link
+         Not all websites allows embedding
+      C. Table with data extracted.
+            Display extractiong underlying HTML and, with it, data stored in a database.
+         
+</p>
 ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
@@ -90,16 +100,10 @@ if projectOption[project] == 2:
    script_1 = catalogBYUI.script_1
 
    st.markdown(f'''
-   <br>
-   <p style="font-size:20px;text-align:left;color:black;">
+   <br><p style="font-size:20px;text-align:left;color:black;">
       Extracting data from: 
-      <a style="color:#4F9ACF; padding:7px 10px;"
-         target="_blank"
-         href = '{url}'>
-         Class Catalog - BYUI
-      </a>
-   </p>
-   <br>
+      <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Class Catalog - BYUI </a>
+   </p><br>
    ''',unsafe_allow_html=True)
 
    with st.expander("Code Used 🐍"):
@@ -110,7 +114,26 @@ if projectOption[project] == 2:
       components.iframe(f"{url}",width=1000, height=500, scrolling=True)
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
+      
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Class_Catalog_BYUI.csv',
+         mime      =    'text/csv',)
+      
       st.dataframe(data)
+   
+   st.markdown(f'''
+      <br>
+         <p style="font-size:20px;text-align:Center;color:black;"> Description: </p>
+         <p style="font-size:12px;text-align:Center;color:black;">
+            Simple
+         </p>
+      <br>
+   ''',unsafe_allow_html=True)
+
+   
+   st.balloons()
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
