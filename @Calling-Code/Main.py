@@ -759,7 +759,25 @@ if projectOption[project] == 16:
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 17:
    from Projects._17_BoatTrader import BoatTrader
+   
    st.write(BoatTrader.url_main)
-
    data = BoatTrader.data
+
+   st.markdown('''
+   <p style="font-size:20px;text-align:left;">
+   I was asked to gather all 2400+ boat dealers and contact information for owner, sale manager, general manager and/or marketing manager listed on https://www.boattrader.com/boat-dealers/
+   <br>
+   they wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed)
+   <br>
+   They also asked to enter it into an Excel or Google Sheet (whichever I prefer).
+   <br>
+   I send a test list of 20 to ensure project is on the right track.
+   <br>
+   It took me about 25 minutes to write the code, clean the data, and send the result.
+   <br>
+   Here is the result:
+   </p>
+   ''',unsafe_allow_html=True)
+
+   
    st.dataframe(data)
