@@ -111,7 +111,6 @@ if projectOption[project] == 2:
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       st.dataframe(data)
-s
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
