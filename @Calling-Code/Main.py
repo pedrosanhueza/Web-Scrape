@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime, timedelta
 import streamlit.components.v1 as components
+from PIL import Image
 import time
 import pytz
 import seaborn as sns
@@ -55,7 +56,8 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-st.image('Pictures/TEST.png', caption='Profile Sticker')
+image = Image.open('./images/favicon.png')
+st.image(image, caption='Profile Sticker')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
