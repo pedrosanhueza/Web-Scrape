@@ -763,6 +763,8 @@ if projectOption[project] == 17:
    st.write(BoatTrader.url_main)
    data = BoatTrader.data
 
+   st.image('https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png')
+
    st.markdown('''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
