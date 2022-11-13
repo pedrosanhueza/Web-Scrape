@@ -64,7 +64,7 @@ with col2:
 with col3:
     st.write(' ')
    
-st.markdown('''<hr>''',unsafe_allow_html=True)
+st.markdown('''<hr style="width:80%;text-align:center;>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
@@ -762,20 +762,21 @@ if projectOption[project] == 16:
 if projectOption[project] == 17:
    from Projects._17_BoatTrader import BoatTrader
    
-   st.write(BoatTrader.url_main)
+   url = BoatTrader.url_main
+   st.write(url)
    data = BoatTrader.data
-
+   # https://www.boattrader.com/boat-dealers/
    st.markdown('''
    <center>
       <img src='https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png' alt="Logo">
    </center>
    ''',unsafe_allow_html=True)
 
-   st.markdown('''
+   st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
       I was asked to gather all 2400+ boat dealers and contact information for owner, sale manager, general manager and/or marketing manager listed on
-         <a href="https://www.boattrader.com/boat-dealers/"> boattrader.com</a>. 
+         <a href="{url}"> boattrader.com</a>. 
       They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
       and to enter it into an Excel or Google Sheet (whichever I prefer).
       <br><br>
