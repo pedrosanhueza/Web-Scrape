@@ -102,22 +102,17 @@ if projectOption[project] == 1:
    st.write(project)
 
    url1 = 'https://www.boattrader.com/boat-dealers/'
-   url2 = 'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams'
-   url3 = 'https://www.forbes.com/billionaires/'
-   url4 = 'https://www.forbes.com/top-colleges/'
    url5 = 'https://www.irvinespectrumcenter.com/shopping/stores'
-   url6 = 'https://feedback.mutual.app'
    url7 = 'https://www.cbsnews.com/world/'
-   url9 = 'https://www.camara.cl/diputados/diputados.aspx#mostrarDiputados'
-   url10= 'https://www.congreso.es/busqueda-de-diputados'
    url11= 'https://web.byui.edu/SurplusList/'
-   url12= 'https://www.house.gov/representatives'
+   url12= 'https://www.byui.edu/catalog#/courses'
 
 
    components.iframe(f"{url1}", width=350, height=500, scrolling=True)
    components.iframe(f"{url5}", width=350, height=500, scrolling=True)
    components.iframe(f"{url7}", width=350, height=500, scrolling=True)
    components.iframe(f"{url11}",width=350, height=500, scrolling=True)
+   components.iframe(f"{url12}",width=350, height=500, scrolling=True)
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
