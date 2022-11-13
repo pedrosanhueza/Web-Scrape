@@ -85,9 +85,22 @@ if projectOption[project] == 1:
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
    from Projects._2_BYUI_ClassCatalog import catalogBYUI
-
-   st.write(catalogBYUI.url_display)
+   url = catalogBYUI.url_display
    data = catalogBYUI.data
+
+   st.markdown(f'''
+   <br>
+   <p style="font-size:20px;text-align:center;color:#4F9ACF;">
+      🐍 Source Code
+   </p>
+   <a style="color:#4F9ACF; padding:7px 10px;"
+      target="_blank" 
+      href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
+      GitHub Repository
+   </a>
+   <br>
+   ''',unsafe_allow_html=True)
+
    st.dataframe(data)
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
