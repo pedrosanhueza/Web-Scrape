@@ -133,7 +133,7 @@ if projectOption[project] == 1:
    components.iframe(f"{url5}",width=1000, height=500, scrolling=True)
    components.iframe(f"{url6}",width=1000, height=500, scrolling=True)
    components.iframe(f"{url7}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url8}",width=1000, height=500, scrolling=True)
+   # components.iframe(f"{url8}",width=1000, height=500, scrolling=True)
    components.iframe(f"{url9}",width=1000, height=500, scrolling=True)
    components.iframe(f"{url10}",width=1000, height=500, scrolling=True)
    components.iframe(f"{url11}",width=1000, height=500, scrolling=True)
