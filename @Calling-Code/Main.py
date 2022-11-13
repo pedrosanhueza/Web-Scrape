@@ -84,7 +84,7 @@ if projectOption[project] == 1:
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
-   complete = False
+   complete = True
    while complete:
       st.spinner('Wait for it...')
 
