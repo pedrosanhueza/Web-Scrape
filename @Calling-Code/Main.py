@@ -118,7 +118,7 @@ if projectOption[project] == 1:
    url3 = 'https://www.forbes.com/billionaires/'
    url4 = 'https://www.forbes.com/top-colleges/'
    url5 = 'https://www.irvinespectrumcenter.com/shopping/stores'
-   url6 = 'feedback.mutual.app'
+   url6 = 'https://feedback.mutual.app'
    url7 = 'https://www.cbsnews.com/world/'
    url9 = 'https://www.camara.cl/diputados/diputados.aspx#mostrarDiputados'
    url10= 'https://www.congreso.es/busqueda-de-diputados'
