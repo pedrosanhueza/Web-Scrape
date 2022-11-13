@@ -34,8 +34,6 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
-st.write(os.getcwd())
-
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
    Hi! 👋🏼
@@ -57,7 +55,7 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns([1,3,1])
 with col1:
     st.write(' ')
 with col2:
