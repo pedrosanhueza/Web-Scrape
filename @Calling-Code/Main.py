@@ -532,8 +532,8 @@ if projectOption[project] == 16:
 
    # data = representatives.rows
    # st.dataframe(data)
-   x = representatives.rows
-   st.write(x)
+   data = representatives.data
+   st.dataframe(data)
 
 
 
