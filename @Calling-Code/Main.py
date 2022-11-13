@@ -87,6 +87,7 @@ if projectOption[project] == 2:
    from Projects._2_BYUI_ClassCatalog import catalogBYUI
    url = catalogBYUI.url_display
    data = catalogBYUI.data
+   script_1 = catalogBYUI.script_1
 
    st.markdown(f'''
    <br>
@@ -101,12 +102,15 @@ if projectOption[project] == 2:
    <br>
    ''',unsafe_allow_html=True)
 
-   st.dataframe(data)
+   with st.expander("Code Used"):
+      st.code(script_1,language="python")
+   with st.expander("See Website"):
+      import streamlit.components.v1 as components
+      # embed streamlit docs in a streamlit app
+      components.iframe("https://www.byui.edu/catalog#/courses",width=800, height=1000, scrolling=True)
+   with st.expander("Data Extracted"):
+      st.dataframe(data)
 
-   import streamlit.components.v1 as components
-
-   # embed streamlit docs in a streamlit app
-   components.iframe("https://www.byui.edu/catalog#/courses",width=800, height=1000, scrolling=True)
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
