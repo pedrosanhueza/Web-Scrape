@@ -765,19 +765,16 @@ if projectOption[project] == 17:
 
    st.markdown('''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
-   <p style="font-size:20px;text-align:left;">
+   <p style="font-size:20px;text-align:center;">
       I was asked to gather all 2400+ boat dealers and contact information for owner, sale manager, general manager and/or marketing manager listed on
          <a href="https://www.boattrader.com/boat-dealers/">
             boattrader.com
          </a>
+      
+      They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
+      and to enter it into an Excel or Google Sheet (whichever I prefer).
       <br>
-      they wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed)
-      <br>
-      They also asked to enter it into an Excel or Google Sheet (whichever I prefer).
-      <br>
-      I send a test list of 20 to ensure project is on the right track.
-      <br>
-      It took me about 25 minutes to write the code, clean the data, and send the result.
+      I send a test list of 20 to ensure project is on the right track. It took me about 25 minutes to write the code, clean the data, and send the result.
       <br>
       Here is the result:
    </p>
