@@ -90,8 +90,8 @@ if projectOption[project] == 2:
 
    st.markdown(f'''
    <br>
-   <p style="font-size:20px;text-align:center;color:#4F9ACF;">
-      🐍 Source Code
+   <p style="font-size:20px;text-align:left;color:#4F9ACF;">
+      🐍 Extracting data from: 
    <a style="color:#4F9ACF; padding:7px 10px;"
       target="_blank"
       href = '{url}'>
