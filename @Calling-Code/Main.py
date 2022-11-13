@@ -120,7 +120,9 @@ if projectOption[project] == 2:
          data      =    data.to_csv().encode('utf-8'),
          file_name =    'Class_Catalog_BYUI.csv',
          mime      =    'text/csv',):
-            st.dataframe(data)
+            st.balloons()
+      
+      st.dataframe(data)
    
    st.markdown(f'''
       <br>
@@ -132,7 +134,6 @@ if projectOption[project] == 2:
    ''',unsafe_allow_html=True)
 
    
-   st.balloons()
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
