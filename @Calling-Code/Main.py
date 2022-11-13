@@ -46,6 +46,9 @@ st.markdown('''
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
 <p>
+   <img src="@Calling-Code/Pictures/Me_sticker.png" width="100" height="140">
+</p>
+<p>
    Projects are listed in the frop down bar.
    Each project has:
       A. Code Source.
