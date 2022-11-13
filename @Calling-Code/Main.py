@@ -115,13 +115,12 @@ if projectOption[project] == 2:
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       
-      st.download_button(
+      if st.download_button(
          label     =    "Download data as CSV",
          data      =    data.to_csv().encode('utf-8'),
          file_name =    'Class_Catalog_BYUI.csv',
-         mime      =    'text/csv',)
-      
-      st.dataframe(data)
+         mime      =    'text/csv',):
+            st.dataframe(data)
    
    st.markdown(f'''
       <br>
