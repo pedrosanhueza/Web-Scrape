@@ -49,20 +49,20 @@ col1, col2, col3 = st.columns([1,3,1])
 with col1:
     st.write(' ')
 with col2:
-   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
+   st.image('@Calling-Code/Pictures/Me_sticker.png') 
 with col3:
     st.write(' ')
 
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
-   Projects are listed in the frop down bar. Each project has: (1) A code source, (2) an embedded website or the website hyperlink, (3) and a table with data extracted.
+   Projects are listed in the drop down bar. Each project has: (1) A code source, (2) an embedded website or the website hyperlink, and (3) a table with data extracted.
 </p>
 ''',unsafe_allow_html=True)
 
 st.markdown('''
 <p style="font-size:12px;text-align:left;color:rgba(192,192,192,0.3);">
          (1) Some projects extracted underlying data through requests, API, and/or Web Drivers. <br>
-         (2) Not all websites allows embedding. <br>
+         (2) Not all websites allow embedding. <br>
          (3) Display extractiong underlying HTML and, with it, data stored in a database. <br>
 </p>
 ''',unsafe_allow_html=True)
