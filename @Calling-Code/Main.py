@@ -91,17 +91,22 @@ if projectOption[project] == 2:
    st.markdown(f'''
    <br>
    <p style="font-size:20px;text-align:left;color:black;">
-      🐍 Extracting data from: 
-   <a style="color:#4F9ACF; padding:7px 10px;"
-      target="_blank"
-      href = '{url}'>
-      Class Catalog - BYUI
-   </a>
+      Extracting data from: 
+      <a style="color:#4F9ACF; padding:7px 10px;"
+         target="_blank"
+         href = '{url}'>
+         Class Catalog - BYUI
+      </a>
    </p>
    <br>
    ''',unsafe_allow_html=True)
 
    st.dataframe(data)
+
+   import streamlit.components.v1 as components
+
+   # embed streamlit docs in a streamlit app
+   components.iframe("https://docs.streamlit.io/en/latest")
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
