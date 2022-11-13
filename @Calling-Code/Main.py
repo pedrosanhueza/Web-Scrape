@@ -54,7 +54,7 @@ with col3:
     st.write(' ')
 
 st.markdown('''
-<p style="font-size:20px;text-align:center;>
+<p style="font-size:20px;text-align:center;">
    Projects are listed in the frop down bar.
    Each project has:
       A. Code Source.
@@ -62,10 +62,8 @@ st.markdown('''
          Not all websites allows embedding
       C. Table with data extracted.
             Display extractiong underlying HTML and, with it, data stored in a database.
-         
 </p>
 ''',unsafe_allow_html=True)
-
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
