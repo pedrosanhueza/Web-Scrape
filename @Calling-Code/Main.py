@@ -54,7 +54,7 @@ with col3:
     st.write(' ')
 
 st.markdown('''
-<ol type="A" style="font-size:20px;text-align:center;">
+<ol type="A" style="font-size:20px;">
   <li>Code Source</li>
    <p> Some projects extracted underlying data through requests, API, and/or Web Drivers. </p>
   <li>Embedded website or website link</li>
