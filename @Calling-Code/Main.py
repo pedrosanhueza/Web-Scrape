@@ -126,11 +126,8 @@ if projectOption[project] == 1:
    url12= 'https://www.house.gov/representatives'
 
 
-   components.iframe(f"{url1}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url2}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url3}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url4}",width=1000, height=500, scrolling=True)
-   components.iframe(f"{url5}",width=1000, height=500, scrolling=True)
+   components.iframe(f"{url1}",width=800, height=500, scrolling=True)
+   components.iframe(f"{url5}",width=400, height=500, scrolling=True)
    components.iframe(f"{url6}",width=1000, height=500, scrolling=True)
    components.iframe(f"{url7}",width=1000, height=500, scrolling=True)
    # components.iframe(f"{url8}",width=1000, height=500, scrolling=True)
