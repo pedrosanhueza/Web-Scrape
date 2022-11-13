@@ -41,9 +41,9 @@ with col3:
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
    Projects are listed in the drop down bar. Each project has:
-   <sup> 1 </sup> A code source,
-   <sup> 2 </sup> an embedded website or the website hyperlink, and 
-   <sup> 3 </sup> a table with data extracted.
+   <sup> 1 </sup> A code source, an
+   <sup> 2 </sup> embedded website or the website hyperlink, and a
+   <sup> 3 </sup> table with data extracted.
 </p>
 ''',unsafe_allow_html=True)
 
