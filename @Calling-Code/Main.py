@@ -46,9 +46,6 @@ st.markdown('''
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
 <p>
-   <img src="@Calling-Code/Pictures/Me_sticker.png" width="100" height="140">
-</p>
-<p>
    Projects are listed in the frop down bar.
    Each project has:
       A. Code Source.
@@ -58,6 +55,10 @@ st.markdown('''
             Display extractiong underlying HTML and, with it, data stored in a database.
          
 </p>
+''',unsafe_allow_html=True)
+
+st.markdown('''
+<img src="@Calling-Code/Pictures/Me_sticker.png">
 ''',unsafe_allow_html=True)
 
 st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker')
