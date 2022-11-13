@@ -789,7 +789,7 @@ if projectOption[project] == 17:
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("See Website 👨🏻‍💻"):
-      components.iframe(f"{url}",width=1000, height=500, scrolling=True)
+      components.iframe(f"{url}", width=350, height=500, scrolling=True)
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       
