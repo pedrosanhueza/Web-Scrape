@@ -92,12 +92,12 @@ if projectOption[project] == 2:
    <br>
    <p style="font-size:20px;text-align:center;color:#4F9ACF;">
       🐍 Source Code
-   </p>
    <a style="color:#4F9ACF; padding:7px 10px;"
-      target="_blank" 
-      href = 'https://github.com/pedrosanhueza/Web_Scrape/blob/main/BYUI_JobBoard/Job_board-Code/API-call-JobBoard.ipynb'>
-      GitHub Repository
+      target="_blank"
+      href = '{url}'>
+      Class Catalog - BYUI
    </a>
+   </p>
    <br>
    ''',unsafe_allow_html=True)
 
