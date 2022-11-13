@@ -107,7 +107,7 @@ if projectOption[project] == 2:
    with st.expander("See Website 👨🏻‍💻"):
       import streamlit.components.v1 as components
       # embed streamlit docs in a streamlit app
-      components.iframe("https://www.byui.edu/catalog#/courses",width=800, height=500, scrolling=True)
+      components.iframe("https://www.byui.edu/catalog#/courses",width=1000, height=500, scrolling=True)
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       st.dataframe(data)
