@@ -83,7 +83,7 @@ projectOption = {
    'SINCA MMA Gob':14,
    'Surplus Store - BYUI':15,
    'Representatives - USA':16,
-   'test':17}
+   'Boat Trader':17}
 
 projects = tuple(projectOption.keys())
 
@@ -756,3 +756,10 @@ if projectOption[project] == 16:
 #    url = "EXAMPLE.ORG"
 #    url_split = url.replace('https://','').split('/')[0]
 
+## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
+if projectOption[project] == 17:
+   from Projects._17_BoatTrader import BoatTrader
+   st.write(BoatTrader.url_main)
+
+   data = BoatTrader.data
+   st.dataframe(data)
