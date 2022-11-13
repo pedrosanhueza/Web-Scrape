@@ -157,7 +157,13 @@ if projectOption[project] == 2:
 if projectOption[project] == 3:
    from Projects._3_CountryCode import countryCode
    
-   st.write(countryCode.url)
+   url = countryCode.url
+   
+   st.write({url})
+
+   with st.expander("See Website 👨🏻‍💻"):
+      components.iframe(f"{url}",width=1000, height=500, scrolling=True)
+
    data = countryCode.data
    st.dataframe(data)
 
