@@ -106,7 +106,7 @@ if projectOption[project] == 2:
    import streamlit.components.v1 as components
 
    # embed streamlit docs in a streamlit app
-   components.iframe("https://docs.streamlit.io/en/latest",width=100, height=400, scrolling=True)
+   components.iframe("https://docs.streamlit.io/en/latest",width=400, height=400, scrolling=True)
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
