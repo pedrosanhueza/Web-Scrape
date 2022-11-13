@@ -45,7 +45,7 @@ st.markdown('''
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
 </p>
-<img src='@Calling-Code/Pictures/Me_sticker.png>
+<img src="@Calling-Code/Pictures/Me_sticker.png">
 <p>
    Projects are listed in the frop down bar.
    Each project has:
