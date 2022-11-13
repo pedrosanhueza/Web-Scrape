@@ -54,12 +54,16 @@ with col3:
     st.write(' ')
 
 st.markdown('''
-<ol type="A" style="font-size:20px;">
+<p style="font-size:20px;text-align:center;">
+   Projects are listed in the frop down bar.
+   Each project has:
+<ol type="A" style="font-size:20px;text-align:left;">
   <li>Code Source</li>
    <p> Some projects extracted underlying data through requests, API, and/or Web Drivers. </p>
   <li>Embedded website or website link</li>
   <li>Table with data extracted</li>
 </ol>
+</p>
 ''',unsafe_allow_html=True)
 
 st.markdown('''
