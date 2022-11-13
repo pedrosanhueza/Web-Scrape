@@ -67,7 +67,7 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1,3,1])
+col1, col2, col3 = st.columns([1.5,3,1.5])
 with col1:
     st.write(' ')
 with col2:
