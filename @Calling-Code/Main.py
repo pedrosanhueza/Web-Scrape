@@ -63,6 +63,8 @@ with col2:
    st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Profile Sticker') 
 with col3:
     st.write(' ')
+   
+st.markdown('''<hr>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
