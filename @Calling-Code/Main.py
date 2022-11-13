@@ -60,12 +60,20 @@ st.markdown('''
 ''',unsafe_allow_html=True)
 
 st.markdown('''
-<p style="font-size:12px;text-align:left;background-color:rgba(255,0,0,0.3):">
-         (1) Some projects extracted underlying data through requests, API, and/or Web Drivers.
-         (2) Not all websites allows embedding.
-         (3) Display extractiong underlying HTML and, with it, data stored in a database.
+<p style="font-size:12px;text-align:left;color:rgba(255,0,0,0.3):">
+         (1) Some projects extracted underlying data through requests, API, and/or Web Drivers. <br>
+         (2) Not all websites allows embedding. <br>
+         (3) Display extractiong underlying HTML and, with it, data stored in a database. <br>
 </p>
 ''',unsafe_allow_html=True)
+
+col1, col2, col3 = st.columns([1,3,1])
+with col1:
+    st.write(' ')
+with col2:
+   st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Profile Sticker') 
+with col3:
+    st.write(' ')
 
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
