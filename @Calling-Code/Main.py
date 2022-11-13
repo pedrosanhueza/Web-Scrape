@@ -763,13 +763,9 @@ if projectOption[project] == 17:
    st.write(BoatTrader.url_main)
    data = BoatTrader.data
 
-   col1, col2, col3 = st.columns([1,3,1])
-   with col1:
-      st.write(' ')
-   with col2:
-      st.image('https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png', caption='Boat Trader Logo')
-   with col3:
-      st.write(' ')
+   st.markdown('''
+   <img src='https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png' alt="Logo">
+   ''',unsafe_allow_html=True)
 
    st.markdown('''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
