@@ -762,10 +762,9 @@ if projectOption[project] == 16:
 if projectOption[project] == 17:
    from Projects._17_BoatTrader import BoatTrader
    
-   url = BoatTrader.url_main
-   st.write(url)
+   url = BoatTrader.url_main # https://www.boattrader.com/boat-dealers/
    data = BoatTrader.data
-   # https://www.boattrader.com/boat-dealers/
+   
    st.markdown('''
    <center>
       <img src='https://boattrader.com/static/img/tol-design/btol/bt-inc-release/boattrader-logo.png' alt="Logo">
