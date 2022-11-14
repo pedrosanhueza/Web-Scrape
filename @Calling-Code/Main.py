@@ -35,7 +35,7 @@ col1, col2, col3 = st.columns([1,3,1])
 with col1:
     st.write(' ')
 with col2:
-   st.image('@Calling-Code/Pictures/Me_sticker.png') 
+   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
 with col3:
     st.write(' ')
 
@@ -60,7 +60,7 @@ col1, col2, col3 = st.columns([1.5,3,1.5])
 with col1:
     st.write(' ')
 with col2:
-   st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Profile Sticker') 
+   st.image('@Calling-Code/Pictures/API_call_3.gif') 
 with col3:
     st.write(' ')
    
@@ -799,6 +799,8 @@ if projectOption[project] == 17:
          st.write(' ')
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
+   with st.expander("Analysis 🧐"):
+      st.write(" ")
       
       st.download_button(
          label     =    "Download data as CSV",
@@ -807,3 +809,5 @@ if projectOption[project] == 17:
          mime      =    'text/csv',)
       
       st.dataframe(data)
+
+# ---------
