@@ -811,5 +811,10 @@ if projectOption[project] == 17:
       st.write('Boat dealers by state')
       plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
       st.bar_chart(plot_state, x='state', y='count')
+      KPI1, KPI2 = st.columns(2)
+      KPI1.metric('Number of dealers', f"{data.shape[0]}")
+      KPI2.metric("Number of duplicates", f"{data[data.name.duplicated()].shape[0]}") # based on dealership name
+      # KPI3.metric("",today)
+      # KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
 
 # ---------
