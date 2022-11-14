@@ -789,9 +789,10 @@ if projectOption[project] == 17:
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("See Website 👨🏻‍💻"):
+      st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
       col1, col2, col3 = st.columns([1,3,1])
       with col1:
-         st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
+         st.write(' ')
       with col2:
          components.iframe(f"{url}", width=350, height=500, scrolling=True)
       with col3:
