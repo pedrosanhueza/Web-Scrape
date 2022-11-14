@@ -531,13 +531,18 @@ if projectOption[project] == 12:
    data_1 = data_simple
    st.dataframe(data_1)
 
-   url_img = "https://www.camara.cl/img.aspx?prmID=GRCL1096"
+   col1,col2 = st.columns(2)
+   with col1:
+      url_img = "https://www.camara.cl/img.aspx?prmID=GRCL1096"
 
-   st.markdown(f'''
-   <center>
-   <img src="{url_img}">
-   </center>
-   ''',unsafe_allow_html=True)
+      st.markdown(f'''
+      <center>
+      <img src="{url_img}">
+      </center>
+      ''',unsafe_allow_html=True)
+   
+   with col2:
+      st.write(' ')
 
    # st.image(f'{url_img}')
 
