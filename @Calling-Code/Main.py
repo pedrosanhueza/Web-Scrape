@@ -801,18 +801,15 @@ if projectOption[project] == 17:
          st.write(' ')
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
-   with st.expander("Analysis 🧐"):
-      st.write(" ")
-      
       st.download_button(
          label     =    "Download data as CSV",
          data      =    data.to_csv().encode('utf-8'),
          file_name =    'BoatTrader_dealers.csv',
          mime      =    'text/csv',)
-      
       st.dataframe(data)
-
-   x = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
-   st.bar_chart(x, x='state', y='count')
+   with st.expander("Analysis 🧐"):   
+      st.write('Boat dealers by state')
+      plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
+      st.bar_chart(plot_state, x='state', y='count')
 
 # ---------
