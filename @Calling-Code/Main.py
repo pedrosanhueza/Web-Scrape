@@ -74,7 +74,7 @@ projectOption = {
    'TEST':1,
    'BYU-Idaho Class Catalog':2,
    'Phone Country Code':3,
-   'Fifa Soccer 2022':4,
+   'FIFA Soccer 2022':4,
    'Stocks - ADVFN':5,
    'Billionaires - Forbes':6,
    'Universities - Forbes':7,
@@ -260,6 +260,26 @@ if projectOption[project] == 7:
    st.write(Forbes_Universities.url_main)
    data = Forbes_Universities.data
    st.dataframe(data)
+
+   st.markdown('''
+   <center>
+      <img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo">
+   </center>
+   ''',unsafe_allow_html=True)
+
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      I was asked to build an America’s Top Colleges List with and contact information for owner, sale manager, general manager and/or marketing manager listed on
+         <a href="{url}"> boattrader.com</a>. 
+      They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
+      and to enter it into an Excel or Google Sheet (whichever I prefer).
+      <br><br>
+      I send a test list of 20 to ensure project is on the right track. It took me about 25 minutes to write the code, clean the data, and send the result.
+      <br><br>
+      Here is the code, website, table with data extracted, and analysis:
+   </p>
+   ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Irvine Spectrum Center ------------------------------------------------------------------------ ##
 if projectOption[project] == 8:
