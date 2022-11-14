@@ -68,7 +68,7 @@ st.markdown('''<hr>''',unsafe_allow_html=True)
 
 
 
-## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
+## ----------------------------------------- Begining Side Bar ----------------------------------------------------------------------------- ##
 
 projectOption = {
    'TEST':1,
@@ -530,6 +530,14 @@ if projectOption[project] == 12:
    from Projects._12_PoliticosChilenos.camara_diputados import data_simple   
    data_1 = data_simple
    st.dataframe(data_1)
+
+   url_img = 'https://www.camara.cl/img.aspx?prmID=GRCL1096'
+
+   st.markdown(f'''
+   <center>
+   <img href="{url_img}">
+   </center>
+   ''',unsafe_allow_html=True)
 
    # if st.button('Run Complete table'):
    #    from Projects._12_PoliticosChilenos.camara_diputados import data
