@@ -822,6 +822,6 @@ if projectOption[project] == 17:
       data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),2) 
 
       st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} across the United States,
-      it also has Y more boat dealer than the average state amount.""")
+      it also has {data_diff} more boat dealer than the average state amount.""")
 
 # ---------
