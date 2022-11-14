@@ -257,10 +257,9 @@ if projectOption[project] == 6:
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
    from Projects._7_ForbesUniversities import Forbes_Universities
+   
    url_main = Forbes_Universities.url_main
-   st.write(url_main)
    data = Forbes_Universities.data
-   st.dataframe(data)
 
    st.markdown('''
    <center>
@@ -271,8 +270,9 @@ if projectOption[project] == 7:
    st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
-      I was asked to build an America’s Top Colleges List with and contact information for owner, sale manager, general manager and/or marketing manager listed on
-         <a href="{url_main}"> boattrader.com</a>. 
+      I was asked to build a list of America's Top Colleges containing Rank, Name, Student Population, and Phone for each University.
+      A plus will be to have the Website, Latitude, Longitude, Social Media infomation.
+         <a href="{url_main}"> www.forbes.com/top-colleges </a>. 
       They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
       and to enter it into an Excel or Google Sheet (whichever I prefer).
       <br><br>
@@ -281,6 +281,8 @@ if projectOption[project] == 7:
       Here is the code, website, table with data extracted, and analysis:
    </p>
    ''',unsafe_allow_html=True)
+
+   st.dataframe(data)
 
 ## ----------------------------------------- Irvine Spectrum Center ------------------------------------------------------------------------ ##
 if projectOption[project] == 8:
