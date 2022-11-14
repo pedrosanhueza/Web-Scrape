@@ -539,7 +539,7 @@ if projectOption[project] == 12:
    </center>
    ''',unsafe_allow_html=True)
 
-   st.image(f'{url_img}')
+   # st.image(f'{url_img}')
 
    # if st.button('Run Complete table'):
    #    from Projects._12_PoliticosChilenos.camara_diputados import data
