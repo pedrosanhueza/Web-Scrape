@@ -532,12 +532,11 @@ if projectOption[project] == 12:
    st.dataframe(data_1)
 
    diputado_id = st.text_input('ID del Diputado', '803')
-
-   st.write(data_1[data_1.ID == diputado_id]['img'])
+   url_img = data_1[data_1.ID == diputado_id]['img'].iloc[0]
+   st.write(url_img)
 
    col1,col2 = st.columns(2)
    with col1:
-      url_img = "https://www.camara.cl/img.aspx?prmID=GRCL1096"
 
       st.markdown(f'''
       <br>
