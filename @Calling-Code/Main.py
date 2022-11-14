@@ -819,9 +819,9 @@ if projectOption[project] == 17:
       state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
       state_perc = data.state.value_counts().iloc[0]
       state_rank = data.groupby('state').aggregate('count').loc['FL']['id']
-      data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),2) 
+      data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),1) 
 
-      st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} across the United States,
-      it also has {data_diff}% more boat dealer than the average state amount.""")
+      st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
+      it also has {data_diff} times more boat dealer than the average state amount.""")
 
 # ---------
