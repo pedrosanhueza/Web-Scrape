@@ -539,7 +539,7 @@ if projectOption[project] == 12:
    </center>
    ''',unsafe_allow_html=True)
 
-   st.image({url_img}, output_format="PNG")
+   st.image('https://www.camara.cl/img.aspx?prmID=GRCL1096')
 
    # if st.button('Run Complete table'):
    #    from Projects._12_PoliticosChilenos.camara_diputados import data
