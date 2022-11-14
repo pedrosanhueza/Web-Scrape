@@ -17,6 +17,8 @@ organization = [ x['organization'] for x in responseData]
 
 data_main = pd.concat([data_main, pd.DataFrame(organization)], axis=1)
 
+data_main.squareImage = data_main.squareImage.apply(lambda x : 'https:'+x if (type(x) == str and x.startswith('/')) else x)
+
 #### Add single 'Primary_Key' column to main table
 
 # add naturalId column
@@ -182,6 +184,8 @@ data_main = data_main.merge(financialAid_unpacked)
 data_main = data_main.loc[:, ~data_main.columns.duplicated()]
 
 drop_columns = ['organization','academics','financialAid','listImages','geoLocation','visible','relatedVisible','imageExists','socialNetworks','collegeMedia']
+
+
 
 data_main.drop(drop_columns, axis=1, inplace=True)
 

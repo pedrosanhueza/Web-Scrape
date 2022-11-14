@@ -257,7 +257,8 @@ if projectOption[project] == 6:
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
    from Projects._7_ForbesUniversities import Forbes_Universities
-   st.write(Forbes_Universities.url_main)
+   url_main = Forbes_Universities.url_main
+   st.write(url_main)
    data = Forbes_Universities.data
    st.dataframe(data)
 
@@ -271,7 +272,7 @@ if projectOption[project] == 7:
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
       I was asked to build an America’s Top Colleges List with and contact information for owner, sale manager, general manager and/or marketing manager listed on
-         <a href="{url}"> boattrader.com</a>. 
+         <a href="{url_main}"> boattrader.com</a>. 
       They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
       and to enter it into an Excel or Google Sheet (whichever I prefer).
       <br><br>
