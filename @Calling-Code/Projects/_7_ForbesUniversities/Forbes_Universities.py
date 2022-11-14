@@ -188,7 +188,7 @@ data_main.drop(drop_columns, axis=1, inplace=True)
 columns_keep = [
 # 'description',
  'rank',
-#  'organizationName',
+ 'organizationName',
  'state',
  'studentPopulation',
 #  'campusSetting',
