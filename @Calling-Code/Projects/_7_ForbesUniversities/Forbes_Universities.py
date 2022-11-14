@@ -51,6 +51,10 @@ data_main = pd.concat([data_main, pd.DataFrame(rows)], axis=1)
 
 #### Adding 'Academics' to main table
 
+academics_df = pd.DataFrame(responseData)['academics'].apply(pd.Series)[['type','studentFacultyRatio','undergraduatePopulation']]
+
+data_main = data_main.merge(academics_df, left_on='studentPopulation',right_on='undergraduatePopulation')
+
 academics = [ # items in the 'academics' key to be unpacked
     'attendanceStatus',
     'firstToSecondYearRetention',
