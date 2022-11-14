@@ -813,6 +813,7 @@ if projectOption[project] == 17:
       st.dataframe(data)
 
    x = data.groupby('state').aggregate('count')[['id']].sort_values('id', ascending=False)
-   st.bar_chart(x)
+   x = data.groupby('state').aggregate('count').reset_index()[['state','id']]
+   st.bar_chart(x, x='state', y='id')
 
 # ---------
