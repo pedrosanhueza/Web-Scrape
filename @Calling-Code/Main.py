@@ -531,7 +531,7 @@ if projectOption[project] == 12:
    data_1 = data_simple
    st.dataframe(data_1)
 
-   url_img = 'https://www.camara.cl/img.aspx?prmID=GRCL1096'
+   url_img = "https://www.camara.cl/img.aspx?prmID=GRCL1096"
 
    st.markdown(f'''
    <center>
@@ -539,7 +539,7 @@ if projectOption[project] == 12:
    </center>
    ''',unsafe_allow_html=True)
 
-   st.image('https://www.camara.cl/img.aspx?prmID=GRCL1096')
+   st.image(f'{url_img}')
 
    # if st.button('Run Complete table'):
    #    from Projects._12_PoliticosChilenos.camara_diputados import data
