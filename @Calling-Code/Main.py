@@ -784,7 +784,7 @@ if projectOption[project] == 17:
       <br><br>
       I send a test list of 20 to ensure project is on the right track. It took me about 25 minutes to write the code, clean the data, and send the result.
       <br><br>
-      Here is the result, code, and analysis:
+      Here is the code, website, table with data extracted, and analysis:
    </p>
    ''',unsafe_allow_html=True)
    
