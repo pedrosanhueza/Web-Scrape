@@ -535,7 +535,7 @@ if projectOption[project] == 12:
 
    st.markdown(f'''
    <center>
-   <img source="{url_img}">
+   <img src="{url_img}">
    </center>
    ''',unsafe_allow_html=True)
 
