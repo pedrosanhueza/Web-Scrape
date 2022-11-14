@@ -793,6 +793,7 @@ if projectOption[project] == 17:
       with col1:
          st.write(' ')
       with col2:
+         st.write(url)
          components.iframe(f"{url}", width=350, height=500, scrolling=True)
       with col3:
          st.write(' ')
