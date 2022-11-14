@@ -816,5 +816,12 @@ if projectOption[project] == 17:
       st.write('Boat dealers by state')
       plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
       st.bar_chart(plot_state, x='state', y='count')
+      state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
+      state_perc = data.state.value_counts().iloc[0]
+      state_rank = data.groupby('state').aggregate('count').loc['FL']['id']
+      data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),2) 
+
+      st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} across the United States,
+      it also has Y more boat dealer than the average state amount.""")
 
 # ---------
