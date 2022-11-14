@@ -66,6 +66,8 @@ with col3:
    
 st.markdown('''<hr>''',unsafe_allow_html=True)
 
+
+
 ## ----------------------------------------- Beggin Side Bar ----------------------------------------------------------------------------- ##
 
 projectOption = {
@@ -809,5 +811,8 @@ if projectOption[project] == 17:
          mime      =    'text/csv',)
       
       st.dataframe(data)
+
+   x = data.groupby('state').aggregate('count')[['id']]
+   st.bar_chart(x)
 
 # ---------
