@@ -169,7 +169,7 @@ if projectOption[project] == 3:
 
    st.markdown('''
    <center>
-      <img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo">
+      <img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo" width="50%">
    </center>
    ''',unsafe_allow_html=True)
 
