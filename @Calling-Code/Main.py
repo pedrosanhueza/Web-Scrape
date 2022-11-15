@@ -129,11 +129,11 @@ if projectOption[project] == 2:
    <br><p style="font-size:20px;text-align:left;color:black;">
       Extracting data from: 
       <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Class Catalog - BYUI </a>
-   </p><br>
+   </p>
    ''',unsafe_allow_html=True)
    
    st.markdown(f'''
-      <br>
+      
          <p style="font-size:40px;text-align:Center;"> Description: </p>
          <p style="font-size:20px;text-align:Center;">
             The University's catalog has the list of all classes and their Course ID, Title, Activation Date, and Department.
