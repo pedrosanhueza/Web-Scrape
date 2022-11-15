@@ -23,7 +23,7 @@ def str_num(word):
             break
     return code
 
-df['course-id'] = df.catalogCourseId.apply(lambda x: str_num(x))
+df['course-id'] = df.__catalogCourseId.apply(lambda x: str_num(x))
 
 df.columns = [
     'catalogCourseId',
