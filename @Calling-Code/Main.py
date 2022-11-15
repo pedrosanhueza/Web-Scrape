@@ -164,11 +164,28 @@ if projectOption[project] == 3:
    from Projects._3_CountryCode import countryCode
    
    url = countryCode.url
-   
-   st.write(url)
-
    data = countryCode.data
-   st.dataframe(data)
+   script_1 = countryCode.script_1
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("See Website 👨🏻‍💻"):
+      st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
+      col1, col2, col3 = st.columns([1,3,1])
+      with col1:
+         st.write(' ')
+      with col2:
+         components.iframe(f"{url}", width=350, height=500, scrolling=True)
+      with col3:
+         st.write(' ')
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Country_Phone_Code.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
+
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
