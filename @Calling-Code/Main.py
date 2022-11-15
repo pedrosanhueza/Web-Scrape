@@ -75,7 +75,7 @@ st.markdown('''
 ''',unsafe_allow_html=True)
 
 projectOption = {
-   'TEST':1,
+   'Select a project':1,
    'BYU-Idaho Class Catalog':2,
    'Phone Country Code':3,
    'FIFA Soccer 2022':4,
@@ -117,11 +117,6 @@ if projectOption[project] == 1:
    url12= 'https://www.byui.edu/catalog#/courses'
 
 
-   components.iframe(f"{url1}", width=350, height=500, scrolling=True)
-   components.iframe(f"{url5}", width=350, height=500, scrolling=True)
-   components.iframe(f"{url7}", width=350, height=500, scrolling=True)
-   components.iframe(f"{url11}",width=350, height=500, scrolling=True)
-   components.iframe(f"{url12}",width=350, height=500, scrolling=True)
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
@@ -156,7 +151,8 @@ if projectOption[project] == 2:
       <br>
          <p style="font-size:20px;text-align:Center;color:black;"> Description: </p>
          <p style="font-size:12px;text-align:Center;color:black;">
-            Simple
+            The University's catalog has the list of all classes and their Course ID, Title, Activation Date, and Department.
+            There are about {data.shape[0]} courses and {data.shape[0]} descriptions for each course.
          </p>
       <br>
    ''',unsafe_allow_html=True)
