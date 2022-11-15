@@ -35,9 +35,9 @@ col1, col2, col3 = st.columns([1,3,1])
 with col1:
    st.write(' ')
 with col2:
-   st.write(' ')
+   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker', width=350) 
 with col3:
-   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker', width=150) 
+   st.write(' ')
 
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
@@ -65,10 +65,6 @@ st.markdown('''
 #     st.write(' ')
    
 st.markdown('''<hr>''',unsafe_allow_html=True)
-
-st.markdown('''
-<img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo" width=50 align='left' > Totally
-''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Begining Side Bar ----------------------------------------------------------------------------- ##
 
