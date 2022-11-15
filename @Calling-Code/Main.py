@@ -263,7 +263,7 @@ if projectOption[project] == 7:
 
    st.markdown('''
    <center>
-      <img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo">
+      <img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo" width="500" height="600">
    </center>
    ''',unsafe_allow_html=True)
 
