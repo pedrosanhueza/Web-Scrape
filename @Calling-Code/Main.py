@@ -131,6 +131,16 @@ if projectOption[project] == 2:
       <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Class Catalog - BYUI </a>
    </p><br>
    ''',unsafe_allow_html=True)
+   
+   st.markdown(f'''
+      <br>
+         <p style="font-size:40px;text-align:Center;"> Description: </p>
+         <p style="font-size:20px;text-align:Center;">
+            The University's catalog has the list of all classes and their Course ID, Title, Activation Date, and Department.
+            There are about {data.shape[0]} courses and {data.shape[1]} descriptions for each course.
+         </p>
+      <br>
+   ''',unsafe_allow_html=True)
 
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
@@ -146,16 +156,6 @@ if projectOption[project] == 2:
          mime      =    'text/csv',)
       
       st.dataframe(data)
-   
-   st.markdown(f'''
-      <br>
-         <p style="font-size:40px;text-align:Center;"> Description: </p>
-         <p style="font-size:20px;text-align:Center;">
-            The University's catalog has the list of all classes and their Course ID, Title, Activation Date, and Department.
-            There are about {data.shape[0]} courses and {data.shape[1]} descriptions for each course.
-         </p>
-      <br>
-   ''',unsafe_allow_html=True)
 
    
 
