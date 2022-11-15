@@ -67,7 +67,8 @@ st.markdown('''
 st.markdown('''<hr>''',unsafe_allow_html=True)
 
 st.markdown('''
-<img src='https://raw.githubusercontent.com/pedrosanhueza/Web_Scrape/main/%40Calling-Code/Pictures/Me_sticker.png align="left" > Totally
+<img src='https://raw.githubusercontent.com/pedrosanhueza/Web_Scrape/main/%40Calling-Code/Pictures/Me_sticker.png align="left" >
+<p> Totally </p>
 ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Begining Side Bar ----------------------------------------------------------------------------- ##
