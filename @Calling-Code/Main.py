@@ -149,8 +149,8 @@ if projectOption[project] == 2:
    
    st.markdown(f'''
       <br>
-         <p style="font-size:20px;text-align:Center;color:black;"> Description: </p>
-         <p style="font-size:12px;text-align:Center;color:black;">
+         <p style="font-size:40px;text-align:Center;color:black;"> Description: </p>
+         <p style="font-size:20px;text-align:Center;color:black;">
             The University's catalog has the list of all classes and their Course ID, Title, Activation Date, and Department.
             There are about {data.shape[0]} courses and {data.shape[0]} descriptions for each course.
          </p>
