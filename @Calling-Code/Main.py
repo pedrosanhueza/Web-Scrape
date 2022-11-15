@@ -67,7 +67,7 @@ st.markdown('''
 st.markdown('''<hr>''',unsafe_allow_html=True)
 
 st.markdown('''
-<img src='https://raw.githubusercontent.com/pedrosanhueza/Web_Scrape/main/%40Calling-Code/Pictures/Me_sticker.png >
+<img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo" width=50%>
 <p> Totally </p>
 ''',unsafe_allow_html=True)
 
