@@ -67,8 +67,7 @@ st.markdown('''
 st.markdown('''<hr>''',unsafe_allow_html=True)
 
 st.markdown('''
-<img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo" width=50%>
-<p> Totally </p>
+<img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo" width=50 align='left' > Totally
 ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Begining Side Bar ----------------------------------------------------------------------------- ##
