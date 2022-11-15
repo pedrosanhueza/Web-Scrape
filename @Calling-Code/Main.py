@@ -31,13 +31,13 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-# col1, col2, col3 = st.columns([1,3,1])
-# with col1:
-#     st.write(' ')
-# with col2:
-#    # st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
-# with col3:
-#     st.write(' ')
+col1, col2, col3 = st.columns([1,3,1])
+with col1:
+    st.write(' ')
+with col2:
+   # st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker') 
+with col3:
+    st.write(' ')
 
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
@@ -56,13 +56,13 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1.5,3,1.5])
-with col1:
-    st.write(' ')
-with col2:
-   st.image('@Calling-Code/Pictures/API_call_3.gif') 
-with col3:
-    st.write(' ')
+# col1, col2, col3 = st.columns([1.5,3,1.5])
+# with col1:
+#     st.write(' ')
+# with col2:
+#    st.image('@Calling-Code/Pictures/API_call_3.gif') 
+# with col3:
+#     st.write(' ')
    
 st.markdown('''<hr>''',unsafe_allow_html=True)
 
