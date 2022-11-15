@@ -284,7 +284,7 @@ if projectOption[project] == 7:
       st.code(script_1, language="python")
 
    with st.expander("Data Extracted 🕸"):
-      st.write("Table containing data extracted from website")
+      # st.write("Table containing data extracted from website")
       st.download_button(
          label     =    "Download data as CSV",
          data      =    data.to_csv().encode('utf-8'),
