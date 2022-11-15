@@ -15,6 +15,16 @@ df = pd.DataFrame(responseObject)
 
 df = pd.concat([df, df.subjectCode.apply(pd.Series)], axis=1).drop(['subjectCode','__passedCatalogQuery','_score'], axis=1)
 
+def str_num(word):
+    for letter in word:
+        if letter.isdigit():
+            idx = word.index(letter)
+            code = word[idx:]
+            break
+    return code
+
+df['course-id'] = df.catalogCourseId.apply(lambda x: str_num(x))
+
 df.columns = [
     'catalogCourseId',
     'dateStart',
@@ -25,7 +35,8 @@ df.columns = [
     'name',
     'description',
     'subjectCode-id',
-    'linkedGroup'
+    'linkedGroup',
+    'course-id'
 ]
 
 data = df
