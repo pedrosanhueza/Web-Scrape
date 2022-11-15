@@ -176,7 +176,7 @@ if projectOption[project] == 3:
    st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
-      {url}
+      <a href={url}>{url}</a>
       <br><br>
       Here is the code, data extracted into a table, and analysis:
    </p>
@@ -184,8 +184,6 @@ if projectOption[project] == 3:
 
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
-   with st.expander("See Website 👨🏻‍💻"):
-      st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       st.download_button(
