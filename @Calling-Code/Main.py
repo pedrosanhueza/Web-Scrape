@@ -280,7 +280,7 @@ if projectOption[project] == 7:
    </p>
    ''',unsafe_allow_html=True)
 
-   with st.expander("Code 🐍"):
+   with st.expander("Code -- Python 🐍"):
       st.code(script_1, language="python")
 
    with st.expander("Data Extracted 🕸"):
