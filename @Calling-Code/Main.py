@@ -282,8 +282,14 @@ if projectOption[project] == 7:
 
    with st.expander("Code 🐍"):
       st.code(script_1, language="python")
-      
+
    with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'America_Top_Colleges.csv',
+         mime      =    'text/csv',)
       st.dataframe(data)
 
 ## ----------------------------------------- Irvine Spectrum Center ------------------------------------------------------------------------ ##
