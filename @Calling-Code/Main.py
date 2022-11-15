@@ -21,10 +21,10 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;">
-   Hi!
+   Hi there!
 </h1>
 <p style="font-size:20px;text-align:center;">
-   Here is a list of projects where I extract (live) data from various websites, and share the scraping code.
+   Here is a list of projects where I extract live data from various websites, and share the scraping code.
    With the data, I do a simple analysis.
    <br>
    Regression models, predictory ML/AI, EDA, and more ...
