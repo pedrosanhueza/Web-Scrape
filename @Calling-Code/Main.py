@@ -270,13 +270,13 @@ if projectOption[project] == 7:
    st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
-      I was asked to build a list of America's Top Colleges containing Rank, Name, Student Population, and Phone for each University.
-      A plus will be to have the Website, Latitude, Longitude, Social Media infomation.
-         <a href="{url_main}"> www.forbes.com/top-colleges </a>. 
-      They wanted me to extract the Enter Name, Title, Email, Mailing Address and Phone for each dealer and position at dealership (not all applied, not all are listed),
-      and to enter it into an Excel or Google Sheet (whichever I prefer).
-      <br><br>
-      I send a test list of 20 to ensure project is on the right track. It took me about 25 minutes to write the code, clean the data, and send the result.
+      Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
+      It is best known for its lists, which rank billionaires, top 30 individuals under 30, colleges, and entertainers, to name a few.
+   <br><br>
+      In this project, I extract the data from
+      <a href="{url_main}">
+      America's Top Colleges List
+      </a>
       <br><br>
       Here is the code, website, table with data extracted, and analysis:
    </p>
