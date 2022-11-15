@@ -259,6 +259,7 @@ if projectOption[project] == 7:
    from Projects._7_ForbesUniversities import Forbes_Universities
    url_main = Forbes_Universities.url_main
    data = Forbes_Universities.data
+   script_1 = Forbes_Universities.script_1
 
    st.markdown('''
    <center>
@@ -273,13 +274,17 @@ if projectOption[project] == 7:
       It is best known for its lists, which rank billionaires, top 30 individuals under 30, colleges, and entertainers, to name a few.
    <br><br>
       In this project, I extract the data from <a href="{url_main}"> America's Top Colleges List </a> along with their key attributes such as 
-      Student Population, Median Base Salary, Contact Information, Web Site, Social Media, and Private or Public type.
+      Student Population, Median Base Salary, Contact Information, Web Site, Social Media, and University Type (private or public).
       <br><br>
       Here is the web scraping code, table with data extracted, and analysis:
    </p>
    ''',unsafe_allow_html=True)
 
-   st.dataframe(data)
+   with st.expander("Code 🐍"):
+      st.code(script_1, language="python")
+      
+   with st.expander("Data Extracted 🕸"):
+      st.dataframe(data)
 
 ## ----------------------------------------- Irvine Spectrum Center ------------------------------------------------------------------------ ##
 if projectOption[project] == 8:
