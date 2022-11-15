@@ -41,8 +41,7 @@ st.markdown('''
 ''',unsafe_allow_html=True)
 
 st.markdown('''
-<img src="@Calling-Code/Pictures/Me_sticker.png" align="left" />
-   Projects are listed in the drop down bar. Each project has:
+<img src="@Calling-Code/Pictures/Me_sticker.png" align="left" >
    <sup> 1 </sup> A code source, an
    <sup> 2 </sup> embedded website or the website hyperlink, and a
    <sup> 3 </sup> table with data extracted.
