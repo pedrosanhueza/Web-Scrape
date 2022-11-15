@@ -257,7 +257,6 @@ if projectOption[project] == 6:
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
    from Projects._7_ForbesUniversities import Forbes_Universities
-   
    url_main = Forbes_Universities.url_main
    data = Forbes_Universities.data
 
@@ -273,12 +272,10 @@ if projectOption[project] == 7:
       Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
       It is best known for its lists, which rank billionaires, top 30 individuals under 30, colleges, and entertainers, to name a few.
    <br><br>
-      In this project, I extract the data from
-      <a href="{url_main}">
-      America's Top Colleges List
-      </a>
+      In this project, I extract the data from <a href="{url_main}"> America's Top Colleges List </a> along with their key attributes such as 
+      Student Population, Median Base Salary, Contact Information, Web Site, Social Media, and Private or Public type.
       <br><br>
-      Here is the code, website, table with data extracted, and analysis:
+      Here is the web scraping code, table with data extracted, and analysis:
    </p>
    ''',unsafe_allow_html=True)
 
