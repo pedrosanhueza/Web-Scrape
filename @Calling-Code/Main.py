@@ -166,17 +166,26 @@ if projectOption[project] == 3:
    url = countryCode.url
    data = countryCode.data
    script_1 = countryCode.script_1
+
+   st.markdown('''
+   <center>
+      <img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo">
+   </center>
+   ''',unsafe_allow_html=True)
+
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      {url}
+      <br><br>
+      Here is the code, data extracted into a table, and analysis:
+   </p>
+   ''',unsafe_allow_html=True)
+
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("See Website 👨🏻‍💻"):
       st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
-      col1, col2, col3 = st.columns([1,3,1])
-      with col1:
-         st.write(' ')
-      with col2:
-         components.iframe(f"{url}", width=350, height=500, scrolling=True)
-      with col3:
-         st.write(' ')
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       st.download_button(
