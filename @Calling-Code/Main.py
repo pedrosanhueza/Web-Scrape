@@ -210,9 +210,6 @@ if projectOption[project] == 4:
    data = FIFAWorldCup.data
    st.dataframe(data)
 
-   # st.write(type(countryCode.soup))
-   st.write("Tom")
-
 #    data_main = data.copy()
    
 #    countries = ('All Countries',) + tuple(data.Country.unique())

@@ -8,7 +8,7 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text)
 country_name = [x.text for x in soup.find_all('h3')]
 countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-container image-logo'})]
-test_ls = soup.find_all('h3')
+
 
 # ---------------------------------------- running time: 1m 20s ---------------------------------------- #
 
@@ -37,7 +37,7 @@ test_ls = soup.find_all('h3')
 # data = pd.DataFrame(rows)
 
 
-data = pd.DataFrame(test_ls)
+data = pd.DataFrame(countries)
 
 # data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
