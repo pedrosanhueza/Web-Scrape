@@ -185,6 +185,8 @@ if projectOption[project] == 3:
       <a href='{url}' style="color:#4F9ACF;" > Country Code </a>
       is a complete guide to call anywhere in the world.
       The calling chart has dialing codes to make long distance phone calls around the globe.
+      <br><br>
+      The following python code extracts the table from the website and stores it into a local CSV file.
    </p>
    ''',unsafe_allow_html=True)
 

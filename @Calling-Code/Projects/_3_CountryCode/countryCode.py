@@ -45,4 +45,6 @@ json_list = { # get the 6th item in list starting from 1, 2, 3, 4, 5, and 6th el
 'GDP_USD' : ls[5::6]}
 
 data = pd.DataFrame(json_list) # build data frame
+
+data.to_csv('Country_Codes.csv', index=False)
 '''
