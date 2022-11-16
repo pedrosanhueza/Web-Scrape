@@ -162,7 +162,7 @@ if projectOption[project] == 2:
       
       st.dataframe(data)
 
-   
+   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
