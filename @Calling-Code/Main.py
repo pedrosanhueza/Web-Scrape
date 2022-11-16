@@ -201,7 +201,8 @@ if projectOption[project] == 3:
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
-   from Projects._4_FIFAWorldCup import FIFAWorldCup
+   with st.spinner('Wait for it...'):
+      from Projects._4_FIFAWorldCup import FIFAWorldCup
    st.write(FIFAWorldCup.url)
    data = FIFAWorldCup.data
    st.dataframe(data)
