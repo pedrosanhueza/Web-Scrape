@@ -116,6 +116,8 @@ if projectOption[project] == 1:
    url11= 'https://web.byui.edu/SurplusList/'
    url12= 'https://www.byui.edu/catalog#/courses'
 
+   st.markdown(f'''<br><br><br><br><br><br><br><br>''',unsafe_allow_html=True)
+
 
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
