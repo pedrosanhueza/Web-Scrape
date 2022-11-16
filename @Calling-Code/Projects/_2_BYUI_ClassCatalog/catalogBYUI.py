@@ -68,4 +68,6 @@ df.columns = [
 ]
 
 data = df
+
+data.to_csv('BYUI_catalog.csv', index=False)
 '''
