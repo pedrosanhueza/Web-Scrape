@@ -35,6 +35,8 @@ test_ls = soup.find_all('h3')
 #             rows.append(row)
 
 # data = pd.DataFrame(rows)
+
+
 data = pd.DataFrame(test_ls)
 
 # data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
