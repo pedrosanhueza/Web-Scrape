@@ -173,6 +173,7 @@ if projectOption[project] == 3:
    data = countryCode.data
    script_1 = countryCode.script_1
    # st.write(type(countryCode.soup))
+   st.write(" ")
 
    st.markdown('''
    <center>
