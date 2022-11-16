@@ -128,7 +128,7 @@ if projectOption[project] == 2:
    script_1 = catalogBYUI.script_1
 
    st.markdown(f'''
-   <br><p style="font-size:20px;text-align:left;color:black;">
+   <br><p style="font-size:20px;text-align:left;">
       Extracting data from: 
       <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Class Catalog - BYUI </a>
    </p>
