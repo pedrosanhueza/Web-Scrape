@@ -5,7 +5,7 @@ from datetime import datetime
 
 url = 'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams'
 response = requests.get(url)
-soup = BeautifulSoup(response.text, 'html.parser')
+soup = BeautifulSoup(response.text)
 country_name = [x.text for x in soup.find_all('h3')]
 countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-container image-logo'})]
 test_ls = soup.find_all('h3')
