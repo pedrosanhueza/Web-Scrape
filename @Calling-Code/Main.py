@@ -49,7 +49,7 @@ st.markdown('''
 ''',unsafe_allow_html=True)
 
 st.markdown('''
-<p style="font-size:12px;text-align:left;color:rgba(192,192,192,0.3);">
+<p style="font-size:12px;text-align:right;color:rgba(192,192,192,0.3);">
          (1) Some projects extracted underlying data through requests, API, and/or Web Drivers. <br>
          (2) Not all websites allow embedding. <br>
          (3) Display extractiong underlying HTML and, with it, data stored in a database. <br>
