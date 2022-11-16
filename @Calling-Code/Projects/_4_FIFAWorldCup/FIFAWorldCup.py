@@ -35,6 +35,7 @@ countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-cont
 #             rows.append(row)
 
 # data = pd.DataFrame(rows)
+data = pd.DataFrame(countries)
 
 # data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
