@@ -166,8 +166,8 @@ if projectOption[project] == 2:
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
 if projectOption[project] == 3:
-   from Projects._3_CountryCode import countryCode
-   
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._3_CountryCode import countryCode
    url = countryCode.url
    data = countryCode.data
    script_1 = countryCode.script_1
@@ -201,7 +201,7 @@ if projectOption[project] == 3:
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
-   with st.spinner('Wait for it...'):
+   with st.spinner('Web scraping data from website ...'):
       from Projects._4_FIFAWorldCup import FIFAWorldCup
    st.write(FIFAWorldCup.url)
    data = FIFAWorldCup.data
@@ -279,14 +279,16 @@ if projectOption[project] == 4:
 
 ## ----------------------------------------- Forbes Billionaires ------------------------------------------------------------------------ ##
 if projectOption[project] == 6:
-   from Projects._6_ForbesBillionaries import forbesBillionaires
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._6_ForbesBillionaries import forbesBillionaires
    st.write(forbesBillionaires.url_main)
    data = forbesBillionaires.data
    st.dataframe(data)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
-   from Projects._7_ForbesUniversities import Forbes_Universities
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._7_ForbesUniversities import Forbes_Universities
    url_main = Forbes_Universities.url_main
    data = Forbes_Universities.data
    script_1 = Forbes_Universities.script_1
@@ -324,7 +326,8 @@ if projectOption[project] == 7:
 
 ## ----------------------------------------- Irvine Spectrum Center ------------------------------------------------------------------------ ##
 if projectOption[project] == 8:
-   from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
    st.write(irvinespectrumcenter.url_main)
    data = irvinespectrumcenter.data
    st.dataframe(data)
