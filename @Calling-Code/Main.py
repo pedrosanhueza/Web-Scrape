@@ -182,7 +182,7 @@ if projectOption[project] == 3:
    st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
-      <a href='{url}' style="color:#4F9ACF;" >{url}</a>
+      <a href='{url}' style="color:#4F9ACF;" > Country Code </a>
       is a complete guide to call anywhere in the world.
       The calling chart has dialing codes to make long distance phone calls around the globe.
    </p>
