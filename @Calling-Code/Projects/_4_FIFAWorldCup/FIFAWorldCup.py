@@ -12,32 +12,32 @@ countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-cont
 
 # ---------------------------------------- running time: 1m 20s ---------------------------------------- #
 
-# rows=[]
+rows=[]
 
-# for idx,country in enumerate(countries):
+for idx,country in enumerate(countries):
 
-#     url_root = f'https://www.foxsports.com{country}-roster'
-#     soup = BeautifulSoup(requests.get(url_root).text, 'html.parser')
+    url_root = f'https://www.foxsports.com{country}-roster'
+    soup = BeautifulSoup(requests.get(url_root).text, 'html.parser')
 
-#     table = soup.find('div',{'view':'team'})
-#     title = [x.text.strip() for x in table.find('tr')]
+    table = soup.find('div',{'view':'team'})
+    title = [x.text.strip() for x in table.find('tr')]
     
-#     for group in table.find_all('tbody')[:-1]:
-#         for player in group:
-#             row={}
-#             row['Country'] = country_name[idx].capitalize()
-#             row['Name'] = player.find('h3').text
-#             row[title[1]] = player.find('td',{'data-index':'1'}).text.strip()
-#             row[title[2]] = player.find('td',{'data-index':'2'}).text.strip()
-#             row[title[3]] = player.find('td',{'data-index':'3'}).text.strip()
-#             row[title[4]] = player.find('td',{'data-index':'4'}).text.strip()
-#             row['Country_logo'] = soup.find('source')['srcset']
-#             rows.append(row)
+    for group in table.find_all('tbody')[:-1]:
+        for player in group:
+            row={}
+            row['Country'] = country_name[idx].capitalize()
+            row['Name'] = player.find('h3').text
+            row[title[1]] = player.find('td',{'data-index':'1'}).text.strip()
+            row[title[2]] = player.find('td',{'data-index':'2'}).text.strip()
+            row[title[3]] = player.find('td',{'data-index':'3'}).text.strip()
+            row[title[4]] = player.find('td',{'data-index':'4'}).text.strip()
+            row['Country_logo'] = soup.find('source')['srcset']
+            rows.append(row)
+            break
+        break
+    break
 
-# data = pd.DataFrame(rows)
-
-
-data = pd.DataFrame(countries)
+data = pd.DataFrame(rows)
 
 # data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
