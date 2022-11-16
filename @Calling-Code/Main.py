@@ -184,7 +184,8 @@ if projectOption[project] == 3:
    <p style="font-size:20px;text-align:center;">
       <a href={url}>{url}</a>
       <br><br>
-      Here is the code, data extracted into a table, and analysis:
+      CountryCode.org is a complete guide to call anywhere in the world.
+      The calling chart has dialing codes to make long distance phone calls around the globe.
    </p>
    ''',unsafe_allow_html=True)
 
