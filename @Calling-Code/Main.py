@@ -172,8 +172,6 @@ if projectOption[project] == 3:
    url = countryCode.url
    data = countryCode.data
    script_1 = countryCode.script_1
-   # st.write(type(countryCode.soup))
-   st.write("Tom")
 
    st.markdown('''
    <center>
@@ -211,6 +209,9 @@ if projectOption[project] == 4:
    st.write(FIFAWorldCup.url)
    data = FIFAWorldCup.data
    st.dataframe(data)
+
+   # st.write(type(countryCode.soup))
+   st.write("Tom")
 
 #    data_main = data.copy()
    
