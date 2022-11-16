@@ -35,7 +35,7 @@ for idx,country in enumerate(countries):
             rows.append(row)
             break
         break
-    break
+    # break
 
 data = pd.DataFrame(rows)
 
