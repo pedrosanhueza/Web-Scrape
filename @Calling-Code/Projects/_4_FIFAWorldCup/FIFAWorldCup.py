@@ -48,7 +48,7 @@ title = ['GOALKEEPER', 'POS', 'AGE', 'HT', 'WT']
 
 data.replace({title[1]: POS_mapped}, inplace=True) # "POS" is hard coded. Check when debugging
 
-data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
+# data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
 
 data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54) # inches to centimeters
 
