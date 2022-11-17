@@ -21,7 +21,7 @@ for idx,country in enumerate(countries):
     soup = BeautifulSoup(requests.get(url_root).text, 'html.parser')
 
     table = soup.find('div',{'view':'team'})
-    title = [x.text.strip() for x in table.find('tr')]
+    # title = [x.text.strip() for x in table.find('tr')]
     # title = [x.text.strip() for x in table.find_all('tr')[0]]
     try:
         for group in table.find_all('tbody')[:-1]:
