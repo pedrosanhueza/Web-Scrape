@@ -5,7 +5,7 @@ from datetime import datetime
 
 url = 'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams'
 response = requests.get(url)
-soup = BeautifulSoup(response.text)
+soup = BeautifulSoup(response.text, features="html.parser")
 country_name = [x.text for x in soup.find_all('h3')]
 countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-container image-logo'})]
 
@@ -112,23 +112,16 @@ data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
 POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forward'}
 
-title = ['GOALKEEPER', 'POS', 'AGE', 'HT', 'WT']
-
 data.replace({title[1]: POS_mapped}, inplace=True) # "POS" is hard coded. Check when debugging
 
-# data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
+# age column to number
+data[title[2]] = pd.to_numeric(data[title[2]])
 
-try:
-    # inches to centimeters
-    data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54)
-except:
-    pass
+# inches to centimeters
+data[title[3]] = data[title[3]].apply(lambda x: (int(x.split('\'')[0])*12 + int(x.split('\'')[1].replace('\"',''))) * 2.54)
 
-try:
-    # weight column to number
-    data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
-except:
-    pass
+# weight column to number
+data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
 
 # add BMI column
 data['BMI'] = data.apply(lambda x: round(x.WT / (x.HT/100)**2,1) , axis=1)
