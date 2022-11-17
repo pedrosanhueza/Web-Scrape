@@ -240,6 +240,7 @@ if projectOption[project] == 4:
          file_name =    'Soccer_Teams_2022.csv',
          mime      =    'text/csv',)
       st.dataframe(data)
+      st.info("www.FoxSports.com is a highly protected websited, contact me if you're not able to see the complete table", icon="ℹ️")
 
 #    data_main = data.copy()
    
