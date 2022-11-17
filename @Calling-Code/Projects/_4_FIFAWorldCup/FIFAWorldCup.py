@@ -11,6 +11,8 @@ countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-cont
 
 # ---------------------------------------- running time: 1m 20s ---------------------------------------- #
 
+title = ['GOALKEEPER', 'POS', 'AGE', 'HT', 'WT']
+
 rows=[]
 
 for idx,country in enumerate(countries):
@@ -19,8 +21,8 @@ for idx,country in enumerate(countries):
     soup = BeautifulSoup(requests.get(url_root).text, 'html.parser')
 
     table = soup.find('div',{'view':'team'})
-    # title = [x.text.strip() for x in table.find('tr')]
-    title = [x.text.strip() for x in table.find_all('tr')[0]]
+    title = [x.text.strip() for x in table.find('tr')]
+    # title = [x.text.strip() for x in table.find_all('tr')[0]]
     try:
         for group in table.find_all('tbody')[:-1]:
             for player in group:
