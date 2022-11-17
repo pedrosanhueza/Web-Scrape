@@ -206,9 +206,40 @@ if projectOption[project] == 3:
 if projectOption[project] == 4:
    with st.spinner('Web scraping data from website ...'):
       from Projects._4_FIFAWorldCup import FIFAWorldCup
-   st.write(FIFAWorldCup.url)
+   url = FIFAWorldCup.url
    data = FIFAWorldCup.data
-   st.dataframe(data)
+   script_1 = FIFAWorldCup.script_1
+
+   logo_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
+
+   st.markdown(f'''
+   <center>
+      <img src={logo_url} alt="Logo" width="100%">
+   </center>
+   ''',unsafe_allow_html=True)
+
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      <a href='{url}' style="color:#4F9ACF;" > Country Code </a>
+      is a complete guide to call anywhere in the world.
+      The calling chart has dialing codes to make long distance phone calls around the globe.
+      <br><br>
+      The following python code extracts the table from the website and stores it into a local CSV file.
+   </p>
+   ''',unsafe_allow_html=True)
+
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Soccer_Teams_2022.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
 
 #    data_main = data.copy()
    
@@ -232,7 +263,6 @@ if projectOption[project] == 4:
 #    if (country_selected == 'All Countries') and (position_selected != 'All Positions'):
 #       data_main = data[data.POS == position_selected]
    
-#    url_pic = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
    
 #    st.image(f"{url_pic}",width=400)
 
