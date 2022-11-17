@@ -56,9 +56,11 @@ try:
 except:
     pass
 
-# weight column to number
-data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
-
+try:
+    # weight column to number
+    data[title[4]] = data[title[4]].apply(lambda x: round(int(x.split(' ')[0]) / 2.205,1)) # lbs to kg
+except:
+    pass
 # add BMI column
 data['BMI'] = data.apply(lambda x: round(x.WT / (x.HT/100)**2,1) , axis=1)
 
