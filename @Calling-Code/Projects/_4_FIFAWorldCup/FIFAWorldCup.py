@@ -44,7 +44,7 @@ data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
 POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forward'}
 
-title = ['GOALKEEPER', 'POS', 'AGE', 'HT', 'WT']
+# title = ['GOALKEEPER', 'POS', 'AGE', 'HT', 'WT']
 
 data.replace({title[1]: POS_mapped}, inplace=True) # "POS" is hard coded. Check when debugging
 
