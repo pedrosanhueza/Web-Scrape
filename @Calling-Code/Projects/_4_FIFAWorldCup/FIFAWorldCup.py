@@ -42,6 +42,8 @@ data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
 
 POS_mapped = {'G': 'Goalkeeper', 'D': 'Defender', 'M': 'Midfielder', 'F': 'Forward'}
 
+title = [x.text.strip() for x in table.find_all('tr')[0]]
+
 data.replace({title[1]: POS_mapped}, inplace=True)
 
 data[title[2]] = pd.to_numeric(data[title[2]]) # age column to number
