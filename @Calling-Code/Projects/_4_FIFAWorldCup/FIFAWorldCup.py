@@ -9,7 +9,6 @@ soup = BeautifulSoup(response.text)
 country_name = [x.text for x in soup.find_all('h3')]
 countries = [x['href'] for x in soup.find_all('a',{'class':'entity-list-row-container image-logo'})]
 
-
 # ---------------------------------------- running time: 1m 20s ---------------------------------------- #
 
 rows=[]
