@@ -222,8 +222,8 @@ if projectOption[project] == 4:
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
       <a href='{url}' style="color:#4F9ACF;" > Fox Sports </a>
-      has a roll list of all teams and its players playing in the soccer FIFA WORLD CUP 2022.
-      This scraping code structure the data from various pages and puts them all into one organized big dataset.
+      has a roll list of all teams and players of the FIFA WORLD CUP 2022.
+      This python code organizes the data from various pages within this website and merges them all together into one big dataset.
       <br><br>
       
    </p>
