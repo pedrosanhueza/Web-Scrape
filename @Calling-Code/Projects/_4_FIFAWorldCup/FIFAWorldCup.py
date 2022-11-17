@@ -34,6 +34,8 @@ for idx,country in enumerate(countries):
             row['Country_logo'] = soup.find('source')['srcset']
             rows.append(row)
 
+    break # testing purposes
+
 data = pd.DataFrame(rows)
 
 # data = data[~data.isin(['-']).any(axis=1)] # drop rows with missing data
