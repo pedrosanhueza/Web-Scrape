@@ -221,11 +221,11 @@ if projectOption[project] == 4:
    st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
-      <a href='{url}' style="color:#4F9ACF;" > Country Code </a>
-      is a complete guide to call anywhere in the world.
-      The calling chart has dialing codes to make long distance phone calls around the globe.
+      <a href='{url}' style="color:#4F9ACF;" > Fox Sports </a>
+      has a roll list of all teams and its players playing in the soccer FIFA WORLD CUP 2022.
+      This scraping code structure the data from various pages and puts them all into one organized big dataset.
       <br><br>
-      The following python code extracts the table from the website and stores it into a local CSV file.
+      
    </p>
    ''',unsafe_allow_html=True)
 
