@@ -20,7 +20,7 @@ for idx,country in enumerate(countries):
 
     table = soup.find('div',{'view':'team'})
     # title = [x.text.strip() for x in table.find('tr')]
-    title = ['GOALKEEPER', 'POS', 'AGE', 'HT', 'WT']
+    title = [x.text.strip() for x in table.find_all('tr')[0]]
     try:
         for group in table.find_all('tbody')[:-1]:
             for player in group:
