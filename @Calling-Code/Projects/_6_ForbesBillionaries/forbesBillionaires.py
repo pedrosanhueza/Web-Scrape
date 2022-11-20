@@ -70,7 +70,7 @@ data['firstName'].fillna('Not Specified', inplace=True)
 
 # --------------------------------------------------------------------
 
-script_1 = """
+script_2 = """
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup

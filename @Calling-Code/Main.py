@@ -301,8 +301,9 @@ if projectOption[project] == 6:
    with st.spinner('Web scraping data from website ...'):
       from Projects._6_ForbesBillionaries import forbesBillionaires
    st.write(forbesBillionaires.url_main)
+   script_1 = forbesBillionaires.script_1
    data = forbesBillionaires.data
-   
+
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("Data Extracted 🕸"):
