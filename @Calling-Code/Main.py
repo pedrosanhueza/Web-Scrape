@@ -41,7 +41,7 @@ st.markdown('''
 </p>
 
 <a href="https://www.linkedin.com/in/pedro-sanhueza/">
-<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' alt="Logo" width="100%"></img>
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' alt="Logo" width="50%"></img>
 </a>
 ''',unsafe_allow_html=True)
 
