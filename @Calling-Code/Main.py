@@ -37,12 +37,11 @@ st.markdown('''
 <p style="font-size:20px;text-align:center;">
    Please select a project from the drop-down bar.
    <br>
-   Feel free to contact me about any error/question!
+   Feel free to connect with me through 
+   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
+   !
 </p>
 
-<a href="https://www.linkedin.com/in/pedro-sanhueza/">
-<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' alt="Logo" width="10%"></img>
-</a>
 ''',unsafe_allow_html=True)
 
 # col1, col2, col3 = st.columns([1.5,3,1.5])
