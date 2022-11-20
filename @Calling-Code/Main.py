@@ -302,7 +302,18 @@ if projectOption[project] == 6:
       from Projects._6_ForbesBillionaries import forbesBillionaires
    st.write(forbesBillionaires.url_main)
    data = forbesBillionaires.data
-   st.dataframe(data)
+   
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Forbes_Billionaires_list.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
+   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
@@ -311,6 +322,7 @@ if projectOption[project] == 7:
    url_main = Forbes_Universities.url_main
    data = Forbes_Universities.data
    script_1 = Forbes_Universities.script_1
+
 
    st.markdown('''
    <center>
