@@ -20,7 +20,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
 st.markdown('''
-<h1 style="font-size:40px;text-align:center;"> Hi there </h1>
+<h1 style="font-size:40px;text-align:center;"> Hi there! </h1>
 ''',unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([2,3,1])
@@ -33,15 +33,10 @@ with col3:
 
 st.markdown('''
 <p style="font-size:20px;text-align:center;">
-   Here is a list of projects where I extract live data from various websites, and share the scraping code.
-   With the data, I do a simple analysis.
+   Please select one of projects drop-down bar.
    <br>
-   Regression models, predictory ML/AI, EDA, and more ...
-   <br>
-   Projects are listed in the drop down bar. Each project has:
-   <sup> 1 </sup> A code source, an
-   <sup> 2 </sup> embedded website or the website hyperlink, and a
-   <sup> 3 </sup> table with data extracted.
+   Feel free to contact me about any error/question!
+   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In </a>
 </p>
 ''',unsafe_allow_html=True)
 
