@@ -37,8 +37,8 @@ st.markdown('''
    <br>
    Feel free to contact me about any error/question!
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In </a>
-   <link rel="icon" type="Pictures/TEST.png" href="https://www.linkedin.com/in/pedro-sanhueza/">
 </p>
+<link rel="icon" type="Pictures/TEST.png" href="https://www.linkedin.com/in/pedro-sanhueza/">
 ''',unsafe_allow_html=True)
 
 url = "https://www.streamlit.io"
