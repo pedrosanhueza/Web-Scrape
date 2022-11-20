@@ -18,19 +18,6 @@ import os
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
-
-st.markdown('''
-<h1 style="font-size:40px;text-align:center;">
-   Hi there!
-</h1>
-<p style="font-size:20px;text-align:center;">
-   Here is a list of projects where I extract live data from various websites, and share the scraping code.
-   With the data, I do a simple analysis.
-   <br>
-   Regression models, predictory ML/AI, EDA, and more ...
-</p>
-''',unsafe_allow_html=True)
-
 col1, col2, col3 = st.columns([1,3,1])
 with col1:
    st.write(' ')
@@ -40,7 +27,13 @@ with col3:
    st.write(' ')
 
 st.markdown('''
+<h1 style="font-size:40px;text-align:center;"> Hi there </h1>
 <p style="font-size:20px;text-align:center;">
+   Here is a list of projects where I extract live data from various websites, and share the scraping code.
+   With the data, I do a simple analysis.
+   <br>
+   Regression models, predictory ML/AI, EDA, and more ...
+   <br>
    Projects are listed in the drop down bar. Each project has:
    <sup> 1 </sup> A code source, an
    <sup> 2 </sup> embedded website or the website hyperlink, and a
