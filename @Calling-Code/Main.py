@@ -120,8 +120,7 @@ if projectOption[project] == 2:
    ''',unsafe_allow_html=True)
    
    st.markdown(f'''
-      
-         <p style="font-size:40px;text-align:Center;"> Description: </p>
+         <h1 style="font-size:40px;text-align:center;"> Description: </h1>
          <p style="font-size:20px;text-align:Center;">
             The
                <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
