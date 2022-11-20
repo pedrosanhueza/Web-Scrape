@@ -66,9 +66,7 @@ st.markdown('''<hr>''',unsafe_allow_html=True)
 ## ----------------------------------------- Begining Side Bar ----------------------------------------------------------------------------- ##
 
 st.markdown('''
-<h1 style="font-size:40px;text-align:center;">
-   Select a project name from the Drop-down list
-</h1>
+<h1 style="font-size:40px;text-align:center;"> Web Scraping Projects </h1> 
 ''',unsafe_allow_html=True)
 
 projectOption = {
