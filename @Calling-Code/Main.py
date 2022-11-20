@@ -323,7 +323,7 @@ if projectOption[project] == 7:
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
       Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
-      It is best known for its lists, which rank billionaires, top 30 individuals under 30, colleges, and entertainers, to name a few.
+      It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
    <br><br>
       In this project, I extract the data from <a href="{url_main}"> America's Top Colleges List </a> along with their key attributes such as 
       Student Population, Median Base Salary, Contact Information, Web Site, Social Media, and University Type (private or public).
