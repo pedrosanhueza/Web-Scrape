@@ -40,11 +40,12 @@ st.markdown('''
    Feel free to contact me about any error/question!
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In </a>
 </p>
-<img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo" width="100%">
-      <a href="https://www.facebook.com/EnUnChasquido/">
-         <i style="padding:15px;padding-bottom: 15px;padding-top:15px;"></i>
-      </a>
-</img>
+
+<a href="https://www.facebook.com/EnUnChasquido/">
+<img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo" width="100%"></img>
+<i style="padding:15px;padding-bottom: 15px;padding-top:15px;"></i>
+</a>
+
 ''',unsafe_allow_html=True)
 
 url = "https://www.streamlit.io"
