@@ -43,10 +43,10 @@ st.markdown('''
 
 <a href="https://www.facebook.com/EnUnChasquido/">
 <img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo" width="100%"></img>
-<i style="padding:15px;padding-bottom: 15px;padding-top:15px;"></i>
 </a>
 
 ''',unsafe_allow_html=True)
+# <i style="padding:15px;padding-bottom: 15px;padding-top:15px;"></i>
 
 url = "https://www.streamlit.io"
 st.write("check out this [link](%s)" % url)
