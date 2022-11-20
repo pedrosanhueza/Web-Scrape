@@ -35,7 +35,7 @@ st.markdown('''
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <p style="font-size:20px;text-align:center;">
-   Please select one of projects drop-down bar.
+   Please select a project from the drop-down bar.
    <br>
    Feel free to contact me about any error/question!
 </p>
@@ -44,9 +44,6 @@ st.markdown('''
 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' alt="Logo" width="10%"></img>
 </a>
 ''',unsafe_allow_html=True)
-
-url = "https://www.streamlit.io"
-st.write("check out this [link](%s)" % url)
 
 # col1, col2, col3 = st.columns([1.5,3,1.5])
 # with col1:
