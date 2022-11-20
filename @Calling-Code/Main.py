@@ -35,9 +35,9 @@ st.markdown('''
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <p style="font-size:20px;text-align:center;">
-   Please select a project from the drop-down bar.
+   Select a project from the drop-down bar.
    <br>
-   Connect with me on 
+   Feel free to connect with me on 
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
 </p>
 
