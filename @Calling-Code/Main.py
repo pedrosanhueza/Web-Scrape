@@ -40,13 +40,9 @@ st.markdown('''
 </p>
 ''',unsafe_allow_html=True)
 
-st.markdown('''
-<p style="font-size:12px;text-align:right;color:rgba(192,192,192,0.3);">
-         (1) Some projects extracted underlying data through requests, API, and/or Web Drivers. <br>
-         (2) Not all websites allow embedding. <br>
-         (3) Display extractiong underlying HTML and, with it, data stored in a database.
-</p>
-''',unsafe_allow_html=True)
+url = "https://www.streamlit.io"
+st.write("check out this [link](%s)" % url)
+st.markdown("check out this [link](%s)" % url)
 
 # col1, col2, col3 = st.columns([1.5,3,1.5])
 # with col1:
