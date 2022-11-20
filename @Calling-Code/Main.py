@@ -23,11 +23,11 @@ st.markdown('''
 <h1 style="font-size:40px;text-align:center;"> Hi there </h1>
 ''',unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1,3,1])
+col1, col2, col3 = st.columns([2,3,1])
 with col1:
    st.write(' ')
 with col2:
-   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker', width=350) 
+   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker', width=300) 
 with col3:
    st.write(' ')
 
