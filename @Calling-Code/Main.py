@@ -32,13 +32,19 @@ with col3:
    st.write(' ')
 
 st.markdown('''
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <p style="font-size:20px;text-align:center;">
    Please select one of projects drop-down bar.
    <br>
    Feel free to contact me about any error/question!
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In </a>
 </p>
-<link rel="icon" type="Pictures/TEST.png" href="https://www.linkedin.com/in/pedro-sanhueza/">
+<li>
+      <a href="https://www.facebook.com/EnUnChasquido/">
+         <i style="padding:15px;padding-bottom: 15px;padding-top:15px;"></i>
+      </a>
+</li>
 ''',unsafe_allow_html=True)
 
 url = "https://www.streamlit.io"
