@@ -38,15 +38,12 @@ st.markdown('''
    Please select one of projects drop-down bar.
    <br>
    Feel free to contact me about any error/question!
-   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In </a>
 </p>
 
-<a href="https://www.facebook.com/EnUnChasquido/">
-<img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo" width="100%"></img>
+<a href="https://www.linkedin.com/in/pedro-sanhueza/">
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png' alt="Logo" width="100%"></img>
 </a>
-
 ''',unsafe_allow_html=True)
-# <i style="padding:15px;padding-bottom: 15px;padding-top:15px;"></i>
 
 url = "https://www.streamlit.io"
 st.write("check out this [link](%s)" % url)
