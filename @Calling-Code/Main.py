@@ -22,12 +22,15 @@ col1, col2, col3 = st.columns([1,3,1])
 with col1:
    st.write(' ')
 with col2:
-   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker', width=300) 
+   st.image('@Calling-Code/Pictures/Me_sticker.png', caption='Profile Sticker', width=350) 
 with col3:
    st.write(' ')
 
 st.markdown('''
 <h1 style="font-size:40px;text-align:center;"> Hi there </h1>
+''',unsafe_allow_html=True)
+
+st.markdown('''
 <p style="font-size:20px;text-align:center;">
    Here is a list of projects where I extract live data from various websites, and share the scraping code.
    With the data, I do a simple analysis.
