@@ -37,12 +37,12 @@ st.markdown('''
    <br>
    Feel free to contact me about any error/question!
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In </a>
+   <link rel="icon" type="Pictures/TEST.png" href="https://www.linkedin.com/in/pedro-sanhueza/">
 </p>
 ''',unsafe_allow_html=True)
 
 url = "https://www.streamlit.io"
 st.write("check out this [link](%s)" % url)
-st.markdown("check out this [link](%s)" % url)
 
 # col1, col2, col3 = st.columns([1.5,3,1.5])
 # with col1:
