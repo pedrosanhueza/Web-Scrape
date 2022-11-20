@@ -38,7 +38,7 @@ st.markdown('''
    Please select a project from the drop-down bar.
    <br>
    Connect with me on 
-   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>!
+   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
 </p>
 
 ''',unsafe_allow_html=True)
