@@ -115,7 +115,7 @@ if projectOption[project] == 1:
    </p>
    ''',unsafe_allow_html=True)
 
-   st.image('@Calling-Code/Pictures/API_call_1.gif', caption='Scraping Process', width=300) 
+   st.image('@Calling-Code/Pictures/API_call_1.gif', caption='Scraping Process') 
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
