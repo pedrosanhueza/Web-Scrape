@@ -115,12 +115,7 @@ if projectOption[project] == 1:
    </p>
    ''',unsafe_allow_html=True)
 
-   st.markdown('''
-   <center>
-      <img src='
-      pictures/API_call_1.gif' alt="Logo" width="100%">
-   </center>
-   ''',unsafe_allow_html=True)
+   st.markdown("![Alt Text](Pictures/APIcall_1.gif)")
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
