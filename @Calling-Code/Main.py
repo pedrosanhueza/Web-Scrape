@@ -942,8 +942,8 @@ if projectOption[project] == 17:
       KPI1, KPI2, KPI3, KPI4 = st.columns(4)
       KPI1.metric('Number of dealers', f"{data.shape[0]}")
       KPI2.metric("Number of duplicates", f"{data[data.name.duplicated()].shape[0]}") # based on dealership name
-      KPI3.metric("Number of dealers without phone", data[data.phone.isna()].shape[0])
-      KPI4.metric("Number of dealers with website", data[(~data.website.isna()) & (data.name.duplicated() == False)].shape[0])
+      KPI3.metric("Dealers w/out phone number", data[data.phone.isna()].shape[0])
+      KPI4.metric("Dealers with website", data[(~data.website.isna()) & (data.name.duplicated() == False)].shape[0])
       st.write('Boat dealers by state')
       plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
       st.bar_chart(plot_state, x='state', y='count')
