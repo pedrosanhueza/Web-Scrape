@@ -102,8 +102,11 @@ if projectOption[project] == 1:
    url12= 'https://www.byui.edu/catalog#/courses'
    
    st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> What is Web Scraping? </h1>
+   <p>
    Web scraping is an automatic method to obtain large amounts of data from websites.
    It is a form of copying specific data gathered from the web, most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database for later retrieval or analysis.
+   </p>
    ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
@@ -124,7 +127,7 @@ if projectOption[project] == 2:
          <h1 style="font-size:40px;text-align:center;"> Description: </h1>
          <p style="font-size:20px;text-align:Center;">
             The
-               <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
+            <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
             website has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
             There are about {data.shape[0]} courses and {data.shape[1]} descriptions for each course.
             <br>
