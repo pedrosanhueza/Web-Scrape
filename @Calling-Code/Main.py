@@ -100,10 +100,11 @@ if projectOption[project] == 1:
    url7 = 'https://www.cbsnews.com/world/'
    url11= 'https://web.byui.edu/SurplusList/'
    url12= 'https://www.byui.edu/catalog#/courses'
-
-   st.markdown(f'''<br><br><br><br><br><br><br><br>''',unsafe_allow_html=True)
-
-
+   
+   st.markdown(f'''
+   Web scraping is an automatic method to obtain large amounts of data from websites.
+   It is a form of copying specific data gathered from the web, most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database for later retrieval or analysis.
+   ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
