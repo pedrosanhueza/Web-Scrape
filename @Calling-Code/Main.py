@@ -102,12 +102,12 @@ if projectOption[project] == 1:
    url12= 'https://www.byui.edu/catalog#/courses'
    
    st.markdown(f'''
-   <h1 style="font-size:3s0px;text-align:center;"> What is Web Scraping? </h1>
+   <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
    <p>
       Web scraping is an automatic method to obtain large amounts of data from websites.
       It is a form of copying specific data gathered from the web, most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database for later retrieval or analysis.
    </p>
-   <h1 style="font-size:3s0px;text-align:center;"> How  Web Scrapers Work? </h1>
+   <h1 style="font-size:30px;text-align:center;"> How  Web Scrapers Work? </h1>
    <p>
       When a web scraper needs to scrape a site, first the URLs are provided. Then it loads all the HTML code for those sites and a more advanced scraper might even extract all the CSS and Javascript elements as well.
       Then the scraper obtains the required data from this HTML code and outputs this data in the format specified by the user.
