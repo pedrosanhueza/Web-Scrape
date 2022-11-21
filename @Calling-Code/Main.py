@@ -111,7 +111,7 @@ if projectOption[project] == 1:
    <p>
       A web scraper first needs the URLs to scrape a site. Then it loads all the HTML code for those sites
       Then the scraper obtains the required data from this HTML code and outputs this data in the format specified by the client.
-      Mostly, this is in the form of an Excel spreadsheet or a CSV file, but the data can also be saved in other formats.
+      Mostly, this is in the form of an Excel spreadsheet or a CSV file.
    </p>
    ''',unsafe_allow_html=True)
 
