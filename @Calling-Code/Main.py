@@ -115,8 +115,8 @@ if projectOption[project] == 1:
    </p>
    ''',unsafe_allow_html=True)
 
-   st.markdown("![Alt Text](Pictures/API_call_1.gif)")
-
+   st.markdown("API_call_1.gif",unsafe_allow_html=True)
+   
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
    from Projects._2_BYUI_ClassCatalog import catalogBYUI
