@@ -348,7 +348,7 @@ if projectOption[project] == 6:
 
    st.markdown('''
    <center>
-      <img src='https://www.forbes.com/assets/billionaires/Billionaires-headline-with-logo.svg' alt="Logo" width=50%>
+      <img src='https://thumbor.forbes.com/thumbor/746x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Famericas-richest-16x9.gif' alt="Logo" width=50%>
    </center>
    ''',unsafe_allow_html=True)
 
