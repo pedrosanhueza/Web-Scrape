@@ -212,7 +212,7 @@ if projectOption[project] == 3:
       'encoding': {
          'x': {'field': 'Area_KM2', 'type': 'quantitative'},
          'y': {'field': 'Population', 'type': 'quantitative'},
-         'size': {'field': 'Country', 'type': 'qualitative'},
+         # 'size': {'field': 'Area_KM2', 'type': 'quantitative'},
          'color': {'field': 'Area_KM2', 'type': 'quantitative'},
       },
       })
