@@ -387,7 +387,6 @@ if projectOption[project] == 7:
    data = Forbes_Universities.data
    script_1 = Forbes_Universities.script_1
 
-
    st.markdown('''
    <center>
       <img src='https://www.forbes.com/dam/imageserve/630e5f2f3d58f237d14c94f4/x.jpg' alt="Logo" width=50%>
@@ -427,7 +426,24 @@ if projectOption[project] == 8:
    data = irvinespectrumcenter.data
    script_1 = irvinespectrumcenter.script_1
 
-   st.write(url_main)
+   st.markdown('''
+   <center>
+      <img src='https://www.irvinespectrumcenter.com/media/1363/spectrum-logo-text.svg' alt="Logo" width=50%>
+   </center>
+   ''',unsafe_allow_html=True)
+
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      The Irvine Spectrum Center is an outdoor shopping center developed by the Irvine Company, located in the Irvine Spectrum district on the southeast edge of Irvine, California.
+      The mall features Nordstrom and Target department stores, a ferris wheel, and a Regal Cinemas 21-screen movie theater.
+   <br><br>
+      In this project, I extract the store's information from <a href="{url_main}"> Irvine Spectrum Center </a> along with their key attributes such as 
+      the store name, Phone, location in the mall, category type (dining or shopping), and if the store has deals or not.
+      <br><br>
+      Here is the web scraping code, and table with data extracted:
+   </p>
+   ''',unsafe_allow_html=True)
 
    with st.expander("Code -- Python 🐍"):
       st.code(script_1, language="python")
