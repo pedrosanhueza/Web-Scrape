@@ -342,14 +342,29 @@ if projectOption[project] == 5:
 if projectOption[project] == 6:
    with st.spinner('Web scraping data from website ...'):
       from Projects._6_ForbesBillionaries import forbesBillionaires
-   st.write(forbesBillionaires.url_main)
+   url_main = forbesBillionaires.url_main 
    script_1 = forbesBillionaires.script_1
    data = forbesBillionaires.data
+   
+   st.write(url_main)
 
    st.markdown('''
    <center>
       <img src='https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Flanding-1500px.gif' alt="Logo" width=50%>
    </center>
+   ''',unsafe_allow_html=True)
+
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
+      It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
+   <br><br>
+      In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
+      Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
+      <br><br>
+      Here is the web scraping code, table with data extracted, and analysis:
+   </p>
    ''',unsafe_allow_html=True)
 
    with st.expander("Code Used 🐍"):
