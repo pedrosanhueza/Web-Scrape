@@ -39,6 +39,10 @@ df1 = data[(data['GDP_USD'] != "No Value Found")].sort_values(by=['GDP_USD'] )[-
 data['Population'] = [ int(x) for x in data.Population.replace(',','', regex=True)] # change from strings to integers
 df2 = data.sort_values(by=['Population'], ascending=False)[:10].copy() # get the top 10 in order
 
+# ------------------------------ THIRD PLOT ------------------------------
+
+data['Area_KM2'] = [int(x) for x in data.Area_KM2.replace(',','', regex=True)] # change from strings to integers
+
 # --------------------------------------------
 script_1 = '''
 import requests # to download html source from url
