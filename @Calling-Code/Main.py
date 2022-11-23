@@ -428,7 +428,7 @@ if projectOption[project] == 8:
 
    st.markdown('''
    <center>
-      <img src='https://www.irvinespectrumcenter.com/media/1363/spectrum-logo-text.svg' alt="Logo" width=50%>
+      <img src='https://www.irvinespectrumcenter.com/media/2158/isc-general-holiday-tablet-1550x924.jpg?' alt="Logo" width=50%>
    </center>
    ''',unsafe_allow_html=True)
 
