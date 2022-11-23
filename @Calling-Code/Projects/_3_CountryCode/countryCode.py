@@ -42,7 +42,7 @@ df2 = data.sort_values(by=['Population'], ascending=False)[:10].copy() # get the
 # ------------------------------ THIRD PLOT ------------------------------
 
 data['Area_KM2'] = [int(x) for x in data.Area_KM2.replace(',','', regex=True)] # change from strings to integers
-
+data['Population'] = [int(x) for x in data.Population.replace(',','', regex=True)]
 # --------------------------------------------
 script_1 = '''
 import requests # to download html source from url

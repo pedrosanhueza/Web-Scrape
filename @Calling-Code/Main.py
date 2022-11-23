@@ -214,9 +214,11 @@ if projectOption[project] == 3:
          'y': {'field': 'Population', 'type': 'quantitative'},
          # 'size': {'field': 'c', 'type': 'quantitative'},
          'color': {'field': 'Area_KM2', 'type': 'quantitative'},
-      },
-      })
-
+      },})
+      KPI1, KPI2, KPI3 = st.columns(3)
+      KPI1.metric('Countries', data.Country.nunique())
+      KPI2.metric('Highest GDP', data_1.sort_values('GDP_USD').tail(1)['Country'].iloc[0])
+      KPI3.metric('Highest Population', data.sort_values('Population').tail(1)['Country'].iloc[0])
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
