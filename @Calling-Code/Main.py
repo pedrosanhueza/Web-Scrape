@@ -423,10 +423,23 @@ if projectOption[project] == 7:
 if projectOption[project] == 8:
    with st.spinner('Web scraping data from website ...'):
       from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
-   st.write(irvinespectrumcenter.url_main)
+   url_main = irvinespectrumcenter.url_main
    data = irvinespectrumcenter.data
-   st.dataframe(data)
+   script_1 = irvinespectrumcenter.script_1
 
+   st.write(url_main)
+
+   with st.expander("Code -- Python 🐍"):
+      st.code(script_1, language="python")
+   
+   with st.expander("Data Extracted 🕸"):
+      # st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'irvinespectrumcenter_stores.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
 # ## ----------------------------------------- Job Board - BYUI ------------------------------------------------------------------------ ##
 # if projectOption[project] == 9:
    # from Projects._9_BYUI_JobBoard import BYUI_JobBoard
