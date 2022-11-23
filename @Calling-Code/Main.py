@@ -172,8 +172,8 @@ if projectOption[project] == 3:
    with st.spinner('Web scraping data from website ...'):
       from Projects._3_CountryCode import countryCode
    url = countryCode.url
-   data = countryCode.data
    script_1 = countryCode.script_1
+   data = countryCode.data
    data_1 = countryCode.df1
    data_2 = countryCode.df2
 
@@ -207,7 +207,15 @@ if projectOption[project] == 3:
    with st.expander("Analysis 🧐"):
       st.bar_chart(data=data_1, x='Country', y='GDP_USD')
       st.bar_chart(data=data_2, x='Country', y='Population')
-
+      st.vega_lite_chart(data, {
+      'mark': {'type': 'circle', 'tooltip': True},
+      'encoding': {
+         'x': {'field': 'Area_KM2', 'type': 'quantitative'},
+         'y': {'field': 'Population', 'type': 'quantitative'},
+         # 'size': {'field': 'c', 'type': 'quantitative'},
+         'color': {'field': 'Area_KM2', 'type': 'quantitative'},
+      },
+      })
 
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
