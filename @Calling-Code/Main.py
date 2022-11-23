@@ -346,6 +346,12 @@ if projectOption[project] == 6:
    script_1 = forbesBillionaires.script_1
    data = forbesBillionaires.data
 
+   st.markdown('''
+   <center>
+      <img src='https://www.forbes.com/assets/billionaires/Billionaires-headline-with-logo.svg' alt="Logo" width=50%>
+   </center>
+   ''',unsafe_allow_html=True)
+
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("Data Extracted 🕸"):
