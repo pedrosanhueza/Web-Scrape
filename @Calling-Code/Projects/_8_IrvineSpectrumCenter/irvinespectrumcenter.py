@@ -2,9 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import pandas as pd
 
-url_main = 'https://www.irvinespectrumcenter.com/shopping/stores'
+url_main = 'https://www.irvinespectrumcenter.com'
 
-url_main_1 = 'https://www.irvinespectrumcenter.com'
+url_main_1 = 'https://www.irvinespectrumcenter.com/shopping/stores'
 
 url = 'https://www.irvinespectrumcenter.com/shopping/stores?filter=all'
 
