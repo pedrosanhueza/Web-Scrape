@@ -699,17 +699,8 @@ if projectOption[project] == 10:
       col2.metric("Suggestions Completed",f"{data.status.str.contains('Close').sum()}")
       col3.metric("New Features",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
-
    with tab2:
-      st.markdown('''
-         <center>
-            <h1 style="color:black; font-size:30px;">
-               Getting the date from one page
-            </h1>
-         </center>
-         <br>
-      ''',unsafe_allow_html=True)
-      st.code(scrpt_1)
+      st.code(scrpt_1, language='python')
    with tab3:
       st.dataframe(data)
 
