@@ -21,9 +21,9 @@ json_list = { # get the 6th item in list starting from 1, 2, 3, 4, 5, and 6th el
 
 data = pd.DataFrame(json_list) # build data frame
 
-# FIRST PLOT ------- Change 'GDP_USD' column integers
+# ------------------------------ FIRST PLOT ------------------------------
 
-def gdp_value(x): # from str to int
+def gdp_value(x): # from str to int -- Change 'GDP_USD' column integers
     try:
         y = str(x).split(' ') # divide string in two
         z  = float(y[0]) * float(y[1]) # multiply the original value with the replacement amount
@@ -33,6 +33,11 @@ def gdp_value(x): # from str to int
 replacements = {'Billion':'1000000000', 'Million':'1000000', 'Trillion': '1000000000000'} # key items to be replaced
 data['GDP_USD'] = [ gdp_value(x) for x in data.GDP_USD.replace(replacements, regex=True)] # change from strings to integers
 df1 = data[(data['GDP_USD'] != "No Value Found")].sort_values(by=['GDP_USD'] )[-10:].copy() # get the top 10 in order
+
+# ------------------------------ SECOND PLOT ------------------------------
+
+data['Population'] = [ int(x) for x in data.Population.replace(',','', regex=True)] # change from strings to integers
+df2 = data.sort_values(by=['Population'], ascending=False)[:10].copy() # get the top 10 in order
 
 # --------------------------------------------
 script_1 = '''

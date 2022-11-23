@@ -175,6 +175,7 @@ if projectOption[project] == 3:
    data = countryCode.data
    script_1 = countryCode.script_1
    data_1 = countryCode.df1
+   data_2 = countryCode.df2
 
    st.markdown('''
    <center>
@@ -205,6 +206,8 @@ if projectOption[project] == 3:
       st.dataframe(data)
    with st.expander("Analysis 🧐"):
       st.bar_chart(data=data_1, x='Country', y='GDP_USD')
+      st.bar_chart(data=data_2, x='Country', y='Population')
+
 
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
