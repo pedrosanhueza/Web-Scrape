@@ -217,7 +217,6 @@ if projectOption[project] == 3:
       },
       })
 
-
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
    with st.spinner('Web scraping data from website ...'):
