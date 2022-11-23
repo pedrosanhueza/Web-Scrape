@@ -363,7 +363,7 @@ if projectOption[project] == 6:
       In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
       Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
       <br><br>
-      Here is the web scraping code, table with data extracted, and analysis:
+      Here is the web scraping code, and table with data extracted:
    </p>
    ''',unsafe_allow_html=True)
 
