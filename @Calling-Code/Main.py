@@ -324,11 +324,19 @@ if projectOption[project] == 4:
 #       st.header(option)
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
-# if projectOption[project] == 5:
-#    # from Projects._5_Financial Data import 
-#    st.write(.url)
-#    data = .data
-#    st.dataframe(data)
+if projectOption[project] == 5:
+   # from Projects._5_Financial Data import 
+   # st.write(.url)
+   # data = .data
+   # st.dataframe(data)
+   col1, col2, col3 = st.columns([2,3,1])
+   with col1:
+      st.write(' ')
+   with col2:
+      st.image('@Calling-Code/Pictures/under-construction.gif', caption='Profile Sticker', width=300) 
+   with col3:
+      st.write(' ')
+
 
 ## ----------------------------------------- Forbes Billionaires ------------------------------------------------------------------------ ##
 if projectOption[project] == 6:
