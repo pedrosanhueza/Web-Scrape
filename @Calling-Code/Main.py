@@ -423,6 +423,7 @@ if projectOption[project] == 8:
    with st.spinner('Web scraping data from website ...'):
       from Projects._8_IrvineSpectrumCenter import irvinespectrumcenter
    url_main = irvinespectrumcenter.url_main
+   url_main_1 = irvinespectrumcenter.url_main_1
    data = irvinespectrumcenter.data
    script_1 = irvinespectrumcenter.script_1
 
@@ -438,8 +439,9 @@ if projectOption[project] == 8:
       The Irvine Spectrum Center is an outdoor shopping center developed by the Irvine Company, located in the Irvine Spectrum district on the southeast edge of Irvine, California.
       The mall features Nordstrom and Target department stores, a ferris wheel, and a Regal Cinemas 21-screen movie theater.
    <br><br>
-      In this project, I extract the store's information from <a href="{url_main}"> Irvine Spectrum Center </a> along with their key attributes such as 
-      the store name, Phone, location in the mall, category type (dining or shopping), and if the store has deals or not.
+      In this project, I extract the store's information from <a href="{url_main}"> Irvine Spectrum Center </a>,
+      particularly the <a href="{url_main_1}"> stores list </a>
+      extracting key attributes such as the store name, Phone, location in the mall, category type (dining or shopping), and if the store has deals or not.
       <br><br>
       Here is the web scraping code, and table with data extracted:
    </p>
