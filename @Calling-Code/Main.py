@@ -174,6 +174,7 @@ if projectOption[project] == 3:
    url = countryCode.url
    data = countryCode.data
    script_1 = countryCode.script_1
+   data_1 = countryCode.df1
 
    st.markdown('''
    <center>
@@ -202,6 +203,8 @@ if projectOption[project] == 3:
          file_name =    'Country_Phone_Code.csv',
          mime      =    'text/csv',)
       st.dataframe(data)
+   with st.expander("Analysis 🧐"):
+      st.bar_chart(data=data_1, x='Country', y='GDP_USD')
 
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
