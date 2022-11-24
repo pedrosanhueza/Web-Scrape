@@ -686,12 +686,20 @@ if projectOption[project] == 10:
    with tab1:
       col1, col2, col3, col4 = st.columns(4)
       col1.metric("Total Suggestions", f"{data.id.count()}")
-      col2.metric("Suggestions Completed",f"{data.status.str.contains('Close').sum()}")
-      col3.metric("New Features",f"{data.status.str.contains('Released').sum()}")
+      col2.metric("Suggestions Rejected",f"{data.status.str.contains('Close').sum()}")
+      col3.metric("Suggestions Addded",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
+
+      st.bar_chart(data=data_2, x='index', y='date_created_month',)
+
    with tab2:
       st.code(scrpt_1, language='python')
    with tab3:
+      st.download_button(
+      label     =    "Download data as CSV",
+      data      =    data.to_csv().encode('utf-8'),
+      file_name =    'Mutual_App_Feedback.csv',
+      mime      =    'text/csv',)
       st.dataframe(data)
 
 ## ----------------------------------------- News CBS ------------------------------------------------------------------------ ##
