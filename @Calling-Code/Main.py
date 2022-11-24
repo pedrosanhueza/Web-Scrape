@@ -741,6 +741,7 @@ if projectOption[project] == 12:
    from Projects._12_PoliticosChilenos.camara_diputados import url_main
    from Projects._12_PoliticosChilenos.camara_diputados import data_simple
    from Projects._12_PoliticosChilenos.camara_diputados import ID_options
+   from Projects._12_PoliticosChilenos.camara_diputados import script_1
 
    data_1 = data_simple
 
