@@ -816,6 +816,7 @@ if projectOption[project] == 15:
    st.dataframe(data)
    
    st.bar_chart(data_1, y='Condition', x='index')
+   st.bar_chart(data, y='Condition', x='index')
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
