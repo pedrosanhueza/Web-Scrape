@@ -673,7 +673,6 @@ if projectOption[project] == 9:
 ## ----------------------------------------- Mutual App Feedback ------------------------------------------------------------------------ ##
    
 if projectOption[project] == 10:
-   import altair as alt
    from Projects._10_MutualAppFeedback import Mutual_App_Feedback
    
    data = Mutual_App_Feedback.data
@@ -681,18 +680,9 @@ if projectOption[project] == 10:
    scrpt_1 = Mutual_App_Feedback.script_1
    fig1 = Mutual_App_Feedback.fig_1
 
-   st.markdown(f'''
-   <center>
-      <br>
-      <img src="{logo}">
-      <br>
-      <br>
-      <br>
-   </center>
-   ''',unsafe_allow_html=True)
+   st.markdown(f''' <center> <br> <img src="{logo}"> <br><br><br> </center> ''',unsafe_allow_html=True)
 
    tab1, tab2, tab3 = st.tabs(["Analysis 🧐", "Script 🐍","Table 🥩"])
-
    with tab1:
       col1, col2, col3, col4 = st.columns(4)
       col1.metric("Total Suggestions", f"{data.id.count()}")
