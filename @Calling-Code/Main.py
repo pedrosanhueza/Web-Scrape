@@ -821,7 +821,7 @@ if projectOption[project] == 15:
    st.bar_chart(data_2, x='Description', y='Price')
    st.table(data_2)
    condition_option = st.select_slider('Select a color of the rainbow', options = data.Condition.unique())
-   data_3 = data_2[data_2.Condition == condition_option]
+   data_3 = data[data.Condition == condition_option]
    st.table(data_3)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
