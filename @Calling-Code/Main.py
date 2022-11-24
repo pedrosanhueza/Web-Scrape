@@ -677,6 +677,7 @@ if projectOption[project] == 10:
    
    data = Mutual_App_Feedback.data
    data_1 = Mutual_App_Feedback.data_1
+   table_1 = Mutual_App_Feedback.table_1
    data_2 = Mutual_App_Feedback.data_2
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
@@ -693,8 +694,11 @@ if projectOption[project] == 10:
 
       st.bar_chart(data=data_1, x='index', y='date_created_month')
       
-      # Top 10 votes features not done:
-      st.table(data[data.status!='Done'].sort_values('votes', ascending=False)[:10])
+         
+      st.markdown(f'''
+      <h1 style="font-size:40px;text-align:center;"> Top 10 votes features not done: </h1>
+      ''',unsafe_allow_html=True)
+      st.table(table_1)
       
       st.bar_chart(data=data_2, x='index', y='status')
 

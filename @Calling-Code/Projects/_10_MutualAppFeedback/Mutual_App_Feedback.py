@@ -81,12 +81,16 @@ logo = soup.find('img')['src']
 data_1 = data['date_created_month'].value_counts().reset_index()
 order = {'index':['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']}
 
+# ------------------- TABLE 1
+
+# Top 10 votes features not done:
+table_1 = data[data.status!='Done'].sort_values('votes', ascending=False)[:10].iloc[:,1:]
+
 # ------------------- PLOT 2
 
 data_2 = data['status'].value_counts().reset_index()
 x_axis = data_2['index']
 
-# ------------------- PLOT 3
 
 
 # ----------------------------------- scripts 1 -----------------------------------
