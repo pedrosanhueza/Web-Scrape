@@ -765,7 +765,7 @@ if projectOption[project] == 12:
       st.write(' ')
    color = st.select_slider(
     'Select a color of the rainbow',
-    options=[1,2,3,4,5])
+    options = ID_options)
    st.write('My favorite color is', color)
 
    # st.image(f'{url_img}')
