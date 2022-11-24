@@ -748,6 +748,7 @@ if projectOption[project] == 12:
    st.dataframe(data_1)
 
    diputado_id = st.text_input('ID del Diputado', 803)
+   diputado_id = int(diputado_id)
    url_img = data_1[data_1.ID == diputado_id]['img'].iloc[0]
    st.write(url_img)
    # st.write(ID_options)
