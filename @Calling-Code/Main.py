@@ -807,21 +807,13 @@ if projectOption[project] == 15:
    ''',unsafe_allow_html=True)
 
    highest_price = '$' + str( round(data.Price.max(),2))
-      
    price_mean = '$' + str( round(data.Price.mean(),2) )
-
    excellent_items = str(data[data.Condition == 'Excellent'].shape[0]) + ' Items'
-
    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
-  
    KPI1.metric('Items in Store', f"{data.shape[0]}")
-
    KPI2.metric('Higher Price Item', f"{highest_price}")
-
    KPI3.metric('Average Price', f"{price_mean}")
-
    KPI4.metric('Excellent Condition', f"{excellent_items}")
-
    st.dataframe(data)
 
    # names = data['Condition'].value_counts().reset_index()['index']
