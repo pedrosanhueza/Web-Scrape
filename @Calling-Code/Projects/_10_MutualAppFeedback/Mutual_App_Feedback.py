@@ -9,7 +9,7 @@ import plotly.express as px
 page = 1
 rows = []
 rows_votes = []
-url_base = 'feedback.mutual.app'
+url_base = 'https://feedback.mutual.app/'
 
 while page:
     url = f'https://{url_base}/?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
