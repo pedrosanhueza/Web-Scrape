@@ -747,11 +747,10 @@ if projectOption[project] == 12:
    st.write(url_main)
    st.dataframe(data_1)
 
-   diputado_id = st.text_input('ID del Diputado', 803)
-   diputado_id = int(diputado_id)
-   url_img = data_1[data_1.ID == diputado_id]['img'].iloc[0]
-
    ID_option = st.select_slider('Select a color of the rainbow', options = ID_options)
+
+   url_img = data_1[data_1.ID == ID_option]['img'].iloc[0]
+
    st.markdown(f'''
       <br>
       <center>
