@@ -33,10 +33,11 @@ data['Item Number'] = pd.to_numeric(data['Item Number'])
 # data.Qty = pd.to_numeric(data.Qty)
 data.Qty = data.Qty.apply(lambda x: int(x))
 data.Condition = data.Condition.str.capitalize()
-# a = data.copy()
+a = data.copy()
 
-# repeat rows based on quantity
-# data = data.reindex(data.index.repeat(data.Qty)).reset_index().drop(['index','Qty'], axis=1)
+# -------------------------- PLOT 1
+data_1 = data.reindex(data.index.repeat(data.Qty)).reset_index().drop(['index','Qty'], axis=1) # repeat rows based on quantity
+data_1_names = data_1['Condition'].value_counts().reset_index()['index']
+data_1_values = data_1['Condition'].value_counts().reset_index()['Condition']
 
-# ------------- plots -------------
 

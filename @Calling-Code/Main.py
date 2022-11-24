@@ -789,6 +789,9 @@ if projectOption[project] == 15:
 
    st.write(SurplusStore.url)
    data = SurplusStore.data
+   data_1 = SurplusStore.data_1
+   data_1_names = SurplusStore.data_1_names
+   data_1_values = SurplusStore.data_1_values
 
    st.markdown('''
       <p style="text-align:right;">
@@ -815,12 +818,8 @@ if projectOption[project] == 15:
    KPI3.metric('Average Price', f"{price_mean}")
    KPI4.metric('Excellent Condition', f"{excellent_items}")
    st.dataframe(data)
-
-   # names = data['Condition'].value_counts().reset_index()['index']
-
-   # values = data['Condition'].value_counts().reset_index()['Condition']
    
-   st.line_chart(data[['Condition']])
+   st.bar_chart(data, x=data_1_names, y=data_1_values)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
