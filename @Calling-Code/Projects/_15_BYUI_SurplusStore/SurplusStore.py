@@ -39,4 +39,8 @@ a = data.copy()
 data_1 = data.reindex(data.index.repeat(data.Qty)).reset_index().drop(['index','Qty'], axis=1) # repeat rows based on quantity
 data_1 = data_1['Condition'].value_counts().reset_index()[['index','Condition']]
 
+# -------------------------- PLOT 2
+data_2 = data.sort_values('Price',ascending=False).head(10)[['Description','Price','Condition']].reset_index().drop('index',axis=1)
+
+
 

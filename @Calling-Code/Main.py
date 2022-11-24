@@ -786,6 +786,7 @@ if projectOption[project] == 15:
    st.write(SurplusStore.url)
    data = SurplusStore.data
    data_1 = SurplusStore.data_1
+   data_2 = SurplusStore.data_2
    # data_1_names = SurplusStore.data_1_names
    # data_1_values = SurplusStore.data_1_values
 
@@ -818,7 +819,7 @@ if projectOption[project] == 15:
    st.bar_chart(data_1, y='Condition', x='index')
    st.table(data_1)
 
-   st.bar_chart(a, x='Condition')
+   st.bar_chart(data_2, y='Description', x='Price')
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
