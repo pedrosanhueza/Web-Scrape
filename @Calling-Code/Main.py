@@ -679,7 +679,6 @@ if projectOption[project] == 10:
    data_1 = Mutual_App_Feedback.data_1
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
-   fig1 = Mutual_App_Feedback.fig_1
 
    st.markdown(f''' <center> <br> <img src="{logo}"> <br><br><br> </center> ''',unsafe_allow_html=True)
 
