@@ -677,6 +677,7 @@ if projectOption[project] == 10:
    
    data = Mutual_App_Feedback.data
    data_1 = Mutual_App_Feedback.data_1
+   data_2 = Mutual_App_Feedback.data_2
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
 
