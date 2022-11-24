@@ -6,7 +6,7 @@ url_main = 'https://www.cbsnews.com/world/'
 
 response = requests.get(url_main)
 
-soup = BeautifulSoup(response.text)
+soup = BeautifulSoup(response.text, features="html.parser")
 
 rows = [] # list of information for each article
 
