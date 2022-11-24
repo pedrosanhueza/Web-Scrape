@@ -84,7 +84,7 @@ order = {'index':['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','N
 # ------------------- PLOT 1
 
 fig = px.bar(
-    data_month,
+    data_1,
     x='index',
     y='date_created_month',
     color='date_created_month',
