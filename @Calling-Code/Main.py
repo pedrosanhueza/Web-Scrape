@@ -677,10 +677,10 @@ if projectOption[project] == 10:
    st.info('''
    feedback.mutual.app allows a few data requests per hour ...
    If you run into a TCP port 443 error, is the default port used by HTTPS.
-   This means that the port is blocked on any server or device from your browser to the website: https://feedback.mutual.app/''')
+   This means that the port is blocked on any server or device from your browser to the website: https://feedback.mutual.app/''', icon="ℹ️")
 
    from Projects._10_MutualAppFeedback import Mutual_App_Feedback
-   
+
    data = Mutual_App_Feedback.data
    data_1 = Mutual_App_Feedback.data_1
    table_1 = Mutual_App_Feedback.table_1
