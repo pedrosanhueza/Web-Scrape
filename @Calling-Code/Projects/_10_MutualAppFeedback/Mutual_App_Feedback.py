@@ -81,30 +81,10 @@ logo = soup.find('img')['src']
 data_1 = data['date_created_month'].value_counts().reset_index()
 order = {'index':['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']}
 
-# ------------------- PLOT 1
-
-fig = px.bar(
-    data_1,
-    x='index',
-    y='date_created_month',
-    color='date_created_month',
-    # color_continuous_scale=px.colors.sequential.Viridis,
-    color_continuous_scale=str(px.colors.named_colorscales()[15])+'_r',
-    category_orders=order,
-    width=1200,
-    height=400,
-    text_auto=True,
-    labels={"index":"Month","date_created_month":"Amount of Feedback"},
-    title="Feedback per Month")
-
-fig.update_traces(textfont_size=15)
-
-fig_1 = fig
-
-# ------------------- PLOT 1
-
 # ------------------- PLOT 2
 
+data_2 = data['status'].value_counts().reset_index()
+x_axis = data_2['index']
 
 # ------------------- PLOT 3
 

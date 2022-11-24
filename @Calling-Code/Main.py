@@ -691,7 +691,8 @@ if projectOption[project] == 10:
       col3.metric("Suggestions Addded",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
 
-      st.bar_chart(data=data_1, x='index', y='date_created_month',)
+      st.bar_chart(data=data_1, x='index', y='date_created_month')
+      st.bar_chart(data=data_2, x='index', y='status')
 
    with tab2:
       st.code(scrpt_1, language='python')
