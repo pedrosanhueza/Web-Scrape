@@ -681,6 +681,7 @@ if projectOption[project] == 10:
    data_2 = Mutual_App_Feedback.data_2
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
+   url_base = Mutual_App_Feedback.url_base
 
    st.markdown(f''' <center> <br> <img src="{logo}"> <br><br><br> </center> ''',unsafe_allow_html=True)
 
@@ -700,8 +701,10 @@ if projectOption[project] == 10:
       st.bar_chart(data=data_2, x='index', y='status')
 
    with tab2:
+      st.write(url_base)
       st.code(scrpt_1, language='python')
    with tab3:
+      st.write(url_base)
       st.download_button(
       label     =    "Download data as CSV",
       data      =    data.to_csv().encode('utf-8'),
