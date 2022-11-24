@@ -701,10 +701,10 @@ if projectOption[project] == 10:
       st.bar_chart(data=data_2, x='index', y='status')
 
    with tab2:
-      st.write(url_base)
+      st.markdown(f'''<a href="{url_base}"> feedback.mutual.app </a>''',unsafe_allow_html=True)
       st.code(scrpt_1, language='python')
    with tab3:
-      st.write(url_base)
+      st.markdown(f'''<a href="{url_base}"> feedback.mutual.app </a>''',unsafe_allow_html=True)
       st.download_button(
       label     =    "Download data as CSV",
       data      =    data.to_csv().encode('utf-8'),
