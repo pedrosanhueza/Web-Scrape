@@ -676,6 +676,7 @@ if projectOption[project] == 10:
    from Projects._10_MutualAppFeedback import Mutual_App_Feedback
    
    data = Mutual_App_Feedback.data
+   data_1 = Mutual_App_Feedback.data_1
    logo = Mutual_App_Feedback.logo
    scrpt_1 = Mutual_App_Feedback.script_1
    fig1 = Mutual_App_Feedback.fig_1
@@ -690,7 +691,7 @@ if projectOption[project] == 10:
       col3.metric("Suggestions Addded",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
 
-      st.bar_chart(data=data, x='index', y='date_created_month',)
+      st.bar_chart(data=data_1, x='index', y='date_created_month',)
 
    with tab2:
       st.code(scrpt_1, language='python')
