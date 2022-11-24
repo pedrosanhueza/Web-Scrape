@@ -819,7 +819,7 @@ if projectOption[project] == 15:
    st.bar_chart(data_1, y='Condition', x='index')
    st.table(data_1)
 
-   st.bar_chart(data_2, y='Description', x='Price')
+   st.bar_chart(data_2, x='Description', y='Price')
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
