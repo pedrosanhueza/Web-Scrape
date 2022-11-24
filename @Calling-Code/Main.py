@@ -787,6 +787,7 @@ if projectOption[project] == 15:
    data = SurplusStore.data
    data_1 = SurplusStore.data_1
    data_2 = SurplusStore.data_2
+   table_3 = SurplusStore.table_3
    # data_1_names = SurplusStore.data_1_names
    # data_1_values = SurplusStore.data_1_values
 
@@ -821,7 +822,7 @@ if projectOption[project] == 15:
    st.bar_chart(data_2, x='Description', y='Price')
    st.table(data_2)
    condition_option = st.select_slider('Select a color of the rainbow', options = data.Condition.unique())
-   data_3 = data[data.Condition == condition_option]
+   data_3 = table_3[table_3.Condition == condition_option]
    st.table(data_3)
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##

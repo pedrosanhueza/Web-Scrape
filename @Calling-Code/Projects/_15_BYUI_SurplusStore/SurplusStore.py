@@ -42,5 +42,7 @@ data_1 = data_1['Condition'].value_counts().reset_index()[['index','Condition']]
 # -------------------------- PLOT 2
 data_2 = data.sort_values('Price',ascending=False).head(10)[['Description','Price','Condition']].reset_index().drop('index',axis=1)
 
+# -------------------------- TABLE 3
+table_3 = data.drop_duplicates(subset='Description')
 
 
