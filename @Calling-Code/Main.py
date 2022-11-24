@@ -692,11 +692,11 @@ if projectOption[project] == 10:
       col3.metric("Suggestions Addded",f"{data.status.str.contains('Released').sum()}")
       col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
 
-      st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> Votes per Month: </h1>''',unsafe_allow_html=True)
+      st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Votes per Month: </h1>''',unsafe_allow_html=True)
       st.bar_chart(data=data_1, x='index', y='date_created_month')
-      st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> Top 10 votes features not done: </h1>''',unsafe_allow_html=True)
+      st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Top 10 votes features not done: </h1>''',unsafe_allow_html=True)
       st.table(table_1)
-      st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> Feedbacks per Status </h1>''',unsafe_allow_html=True)
+      st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Feedbacks per Status </h1>''',unsafe_allow_html=True)
       st.bar_chart(data=data_2, x='index', y='status')
 
    with tab2:
