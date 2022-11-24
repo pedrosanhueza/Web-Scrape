@@ -228,7 +228,7 @@ if projectOption[project] == 4:
    data = FIFAWorldCup.data
    script_1 = FIFAWorldCup.script_1
 
-   logo_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Easports_fifa_logo.svg/800px-Easports_fifa_logo.svg.png'
+   logo_url = 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png'
 
    st.markdown(f'''
    <center>
