@@ -58,7 +58,7 @@ response = requests.get(url)
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # ------------ SIMPLE TABLE ------------
-# running time: 3 min 2s
+# running time: 17s
 diputados = []
 for diputado in soup.find_all('article',{'class':'grid-2'}):
     row = {}
