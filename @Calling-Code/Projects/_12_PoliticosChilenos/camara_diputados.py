@@ -14,7 +14,7 @@ diputados = []
 for diputado in soup.find_all('article',{'class':'grid-2'}):
     row = {}
     row['ID'] = diputado.find('a')['href'].split('=')[-1]
-    row['Name'] = diputado.find('h4').text
+    row['Nombre'] = diputado.find('h4').text
     row['Distrito'] = diputado.find('p').text
     row['Partido'] = diputado.find_all('p')[-1].text
     row['website'] = 'https://www.camara.cl/diputados/' + diputado.find('a')['href']
