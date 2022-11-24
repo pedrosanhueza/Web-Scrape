@@ -21,6 +21,8 @@ for diputado in soup.find_all('article',{'class':'grid-2'}):
     row['img'] = 'https://www.camara.cl' + diputado.find('img')['src']
     diputados.append(row)
 data_simple = pd.DataFrame(diputados)
+data_simple.ID = data_simple.ID.apply(lambda x: int(x))
+ID_options = data_simple.ID.sort_values().to_list()
 
 # ------------ COMPLETE TABLE ------------
 # running time: 3 min 2s

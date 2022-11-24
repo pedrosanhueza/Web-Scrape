@@ -739,10 +739,12 @@ if projectOption[project] == 11:
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 12:
    from Projects._12_PoliticosChilenos.camara_diputados import url_main
-   st.write(url_main)
+   from Projects._12_PoliticosChilenos.camara_diputados import data_simple
+   from Projects._12_PoliticosChilenos.camara_diputados import ID_options
 
-   from Projects._12_PoliticosChilenos.camara_diputados import data_simple   
    data_1 = data_simple
+
+   st.write(url_main)
    st.dataframe(data_1)
 
    diputado_id = st.text_input('ID del Diputado', '803')
@@ -751,16 +753,18 @@ if projectOption[project] == 12:
 
    col1,col2 = st.columns(2)
    with col1:
-
       st.markdown(f'''
       <br>
       <center>
       <img src="{url_img}">
       </center>
       ''',unsafe_allow_html=True)
-   
    with col2:
       st.write(' ')
+   color = st.select_slider(
+    'Select a color of the rainbow',
+    options=ID_options)
+   st.write('My favorite color is', color)
 
    # st.image(f'{url_img}')
 
@@ -779,11 +783,10 @@ if projectOption[project] == 13:
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 14:
    from Projects._14_SINCAMMAGob import SINCAMMAGob
-   st.write(SINCAMMAGob.url_main)
    data = SINCAMMAGob.data
-   st.dataframe(data)
+   url_main = SINCAMMAGob.url_main
 
-## -----------------------------------------  ------------------------------------------------------------------------ ##
+## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
    from Projects._15_BYUI_SurplusStore import SurplusStore
 
