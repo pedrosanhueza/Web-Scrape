@@ -762,10 +762,10 @@ if projectOption[project] == 12:
       ''',unsafe_allow_html=True)
    with col2:
       st.write(' ')
-   color = st.select_slider(
-    'Select a color of the rainbow',
-    options=[1,2,3,4,5])
-   st.write('My favorite color is', color)
+   # color = st.select_slider(
+   #  'Select a color of the rainbow',
+   #  options=[1,2,3,4,5])
+   # st.write('My favorite color is', color)
 
    # st.image(f'{url_img}')
 
