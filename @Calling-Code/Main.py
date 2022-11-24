@@ -761,7 +761,7 @@ if projectOption[project] == 12:
       ''',unsafe_allow_html=True)
    
    st.write(url_profile)
-   st.table(data_simple[data_simple.ID == 1067].iloc[:,:-2])
+   st.table(data_simple[data_simple.ID == ID_option].iloc[:,:-2])
    st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> Scraping Code: </h1>''',unsafe_allow_html=True)
    st.code(script_1,language="python")
 
