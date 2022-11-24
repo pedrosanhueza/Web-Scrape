@@ -750,6 +750,7 @@ if projectOption[project] == 12:
    ID_option = st.select_slider('Select a color of the rainbow', options = ID_options)
 
    url_img = data_1[data_1.ID == ID_option]['img'].iloc[0]
+   url_profile = data_1[data_1.ID == ID_option]['website'].iloc[0]
 
    st.markdown(f'''
       <br>
@@ -758,6 +759,8 @@ if projectOption[project] == 12:
       </center>
       ''',unsafe_allow_html=True)
 
+   st.write(url_profile)
+   
    # st.image(f'{url_img}')
 
    # if st.button('Run Complete table'):
