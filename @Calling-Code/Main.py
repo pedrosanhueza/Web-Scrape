@@ -758,15 +758,9 @@ if projectOption[project] == 12:
       <img src="{url_img}">
       </center>
       ''',unsafe_allow_html=True)
-
-   st.write(url_profile)
    
-   # st.image(f'{url_img}')
-
-   # if st.button('Run Complete table'):
-   #    from Projects._12_PoliticosChilenos.camara_diputados import data
-   #    data_2 = data
-   #    st.dataframe(data_2)
+   st.write(url_profile)
+   st.code(script_1,language="python")
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 13:
