@@ -691,32 +691,32 @@ if projectOption[project] == 10:
 
    st.markdown(f''' <center> <br> <img src="{logo}"> <br><br><br> </center> ''',unsafe_allow_html=True)
 
-   tab1, tab2, tab3 = st.tabs(["Analysis 🧐", "Script 🐍","Table 🥩"])
-   with tab1:
-      col1, col2, col3, col4 = st.columns(4)
-      col1.metric("Total Suggestions", f"{data.id.count()}")
-      col2.metric("Suggestions Rejected",f"{data.status.str.contains('Close').sum()}")
-      col3.metric("Suggestions Addded",f"{data.status.str.contains('Released').sum()}")
-      col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
+   # tab1, tab2, tab3 = st.tabs(["Analysis 🧐", "Script 🐍","Table 🥩"])
+   # with tab1:
+   #    col1, col2, col3, col4 = st.columns(4)
+   #    col1.metric("Total Suggestions", f"{data.id.count()}")
+   #    col2.metric("Suggestions Rejected",f"{data.status.str.contains('Close').sum()}")
+   #    col3.metric("Suggestions Addded",f"{data.status.str.contains('Released').sum()}")
+   #    col4.metric("Highest Interact Month", f"{data.date_created_month.value_counts().index[0]}")
 
-      st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Votes per Month: </h1>''',unsafe_allow_html=True)
-      st.bar_chart(data=data_1, x='index', y='date_created_month')
-      st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Top 10 votes features not done: </h1>''',unsafe_allow_html=True)
-      st.table(table_1)
-      st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Feedbacks per Status </h1>''',unsafe_allow_html=True)
-      st.bar_chart(data=data_2, x='index', y='status')
+   #    st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Votes per Month: </h1>''',unsafe_allow_html=True)
+   #    st.bar_chart(data=data_1, x='index', y='date_created_month')
+   #    st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Top 10 votes features not done: </h1>''',unsafe_allow_html=True)
+   #    st.table(table_1)
+   #    st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Feedbacks per Status </h1>''',unsafe_allow_html=True)
+   #    st.bar_chart(data=data_2, x='index', y='status')
 
-   with tab2:
-      st.markdown(f'''<a href="{url_base}"> feedback.mutual.app </a>''',unsafe_allow_html=True)
-      st.code(scrpt_1, language='python')
-   with tab3:
-      st.markdown(f'''<a href="{url_base}"> feedback.mutual.app </a>''',unsafe_allow_html=True)
-      st.download_button(
-      label     =    "Download data as CSV",
-      data      =    data.to_csv().encode('utf-8'),
-      file_name =    'Mutual_App_Feedback.csv',
-      mime      =    'text/csv',)
-      st.dataframe(data)
+   # with tab2:
+   #    st.markdown(f'''<a href="{url_base}"> feedback.mutual.app </a>''',unsafe_allow_html=True)
+   #    st.code(scrpt_1, language='python')
+   # with tab3:
+   #    st.markdown(f'''<a href="{url_base}"> feedback.mutual.app </a>''',unsafe_allow_html=True)
+   #    st.download_button(
+   #    label     =    "Download data as CSV",
+   #    data      =    data.to_csv().encode('utf-8'),
+   #    file_name =    'Mutual_App_Feedback.csv',
+   #    mime      =    'text/csv',)
+   #    st.dataframe(data)
 
 ## ----------------------------------------- News CBS ------------------------------------------------------------------------ ##
 if projectOption[project] == 11:
