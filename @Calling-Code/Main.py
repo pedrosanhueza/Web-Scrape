@@ -1070,7 +1070,8 @@ if projectOption[project] == 18:
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
    Sigma Phi Epsilon (SigEp) is one of the largest fraternities in the country.
-   Around 11,000 SigEp undergraduates are on nearly 200 college campuses. More than 345,000 members who have joined since 1901.
+   On nearly 200 college campuses and a round 11,000 SigEp undergraduates.
+   More than 345,000 members who have joined since 1901.
    <br><br>
    I was asked to collect email addresses from a fraternity contact.
    <br>
