@@ -1,0 +1,2001 @@
+rank,organizationName,country,revenue,assets,marketValue
+1.,Berkshire Hathaway,United States,$276.09 B,$958.78 B,$741.48 B
+2.,ICBC,China,$208.13 B,"$5,518.51 B",$214.43 B
+3.,Saudi Arabian Oil Company (Saudi Aramco),Saudi Arabia,$400.38 B,$576.04 B,"$2,292.08 B"
+4.,JPMorgan Chase,United States,$124.54 B,"$3,954.69 B",$374.45 B
+5.,China Construction Bank,China,$202.07 B,"$4,746.95 B",$181.32 B
+6.,Amazon,United States,$469.82 B,$420.55 B,"$1,468.4 B"
+7.,Apple,United States,$378.7 B,$381.19 B,"$2,640.32 B"
+8.,Agricultural Bank of China,China,$181.42 B,"$4,561.05 B",$133.38 B
+9.,Bank of America,United States,$96.83 B,"$3,238.22 B",$303.1 B
+10.,Toyota Motor,Japan,$281.75 B,$552.46 B,$237.73 B
+11.,Alphabet,United States,$257.49 B,$359.27 B,"$1,581.72 B"
+12.,Microsoft,United States,$184.9 B,$340.39 B,"$2,054.37 B"
+13.,Bank of China,China,$152.43 B,"$4,192.84 B",$117.83 B
+14.,Samsung Group,South Korea,$244.16 B,$358.88 B,$367.26 B
+15.,ExxonMobil,United States,$280.51 B,$338.92 B,$359.73 B
+16.,Shell,United Kingdom,$261.76 B,$404.38 B,$211.1 B
+17.,Ping An Insurance Group,China,$181.37 B,"$1,587.11 B",$121.69 B
+18.,Wells Fargo,United States,$84.12 B,"$1,939.71 B",$176.77 B
+19.,Verizon Communications,United States,$134.35 B,$366.6 B,$218.02 B
+20.,AT&T,United States,$163.03 B,$551.62 B,$141.79 B
+21.,PetroChina,China,$380.31 B,$392.6 B,$142.3 B
+22.,UnitedHealth Group,United States,$297.55 B,$221.24 B,$490.15 B
+23.,Walmart,United States,$572.75 B,$244.86 B,$431.64 B
+24.,China Merchants Bank,China,$71.07 B,"$1,451.2 B",$167.32 B
+25.,Volkswagen Group,Germany,$295.73 B,$638.26 B,$82.4 B
+26.,Chevron,United States,$156.29 B,$239.53 B,$316.23 B
+27.,Citigroup,United States,$79.94 B,"$2,394.11 B",$101.48 B
+28.,Tencent Holdings,China,$86.86 B,$252.99 B,$414.28 B
+29.,Total,France,$185.12 B,$293.46 B,$127.32 B
+30.,Postal Savings Bank Of China (PSBC),China,$77.61 B,"$1,975.08 B",$125.53 B
+31.,China Mobile,Hong Kong,$131.49 B,$283.37 B,$147.05 B
+32.,Comcast,United States,$116.39 B,$275.9 B,$205.72 B
+33.,Alibaba Group,China,$129.76 B,$276.25 B,$237.78 B
+34.,Meta Platforms,United States,$117.93 B,$165.99 B,$499.86 B
+35.,Allianz,Germany,$138.62 B,"$1,324.62 B",$96.42 B
+36.,Morgan Stanley,United States,$60.22 B,"$1,222.23 B",$150.95 B
+37.,Goldman Sachs Group,United States,$62.81 B,"$1,589 B",$109.32 B
+38.,HSBC Holdings,United Kingdom,$59.33 B,"$2,957.94 B",$135.3 B
+39.,BNP Paribas,France,$127.42 B,"$2,995.89 B",$68.76 B
+40.,Johnson & Johnson,United States,$94.88 B,$182.02 B,$477.38 B
+41.,Mercedes-Benz Group,Germany,$178.94 B,$295.48 B,$74.62 B
+42.,CVS Health,United States,$291.98 B,$240.5 B,$133.53 B
+43.,Pfizer,United States,$81.49 B,$181.48 B,$271.83 B
+44.,Softbank,Japan,$96.86 B,$418.94 B,$71.69 B
+45.,Sinopec,China,$384.82 B,$292.05 B,$80.81 B
+46.,RBC,Canada,$45.24 B,"$1,377.94 B",$147.92 B
+47.,Nestlé,Switzerland,$95.25 B,$152.71 B,$360.01 B
+48.,AXA Group,France,$145.19 B,$839.85 B,$65.75 B
+49.,Gazprom,Russia,$117.3 B,$360.47 B,$63.56 B
+50.,BP,United Kingdom,$158.01 B,$287.27 B,$98.38 B
+51.,Intel,United States,$79.02 B,$168.41 B,$190.29 B
+52.,TD Bank Group,Canada,$38.51 B,"$1,398.48 B",$132.99 B
+53.,Nippon Telegraph & Tel,Japan,$110.39 B,$204.46 B,$103.98 B
+54.,Reliance Industries,India,$86.85 B,$192.59 B,$228.63 B
+55.,Industrial Bank ,China,$60.53 B,"$1,350.32 B",$68.59 B
+56.,Sony,Japan,$89.9 B,$260.48 B,$108.84 B
+57.,Santander,Spain,$78.22 B,"$1,814.78 B",$58.21 B
+58.,Mitsubishi UFJ Financial,Japan,$48.28 B,"$3,176.37 B",$75.75 B
+58.,Taiwan Semiconductor,Taiwan,$61.47 B,$139.35 B,$494.6 B
+60.,Ford Motor,Canada,$136.34 B,$257.04 B,$60.8 B
+61.,LVMH Moët Hennessy Louis Vuitton,France,$75.9 B,$142.5 B,$346.8 B
+62.,Bank of Communications,China,$76 B,"$1,830.4 B",$52.82 B
+63.,Procter & Gamble,United States,$79.62 B,$120.22 B,$386.53 B
+64.,BMW Group,Germany,$131.48 B,$277.28 B,$55.98 B
+65.,Petrobras,Brazil,$83.89 B,$174.68 B,$83.98 B
+66.,Deutsche Telekom,Germany,$128.59 B,$340.56 B,$91.72 B
+67.,AbbVie,United States,$56.2 B,$146.53 B,$273.76 B
+68.,Novartis,Switzerland,$51.63 B,$135.88 B,$200.73 B
+69.,General Motors,United States,$127 B,$244.72 B,$57.89 B
+70.,Equinor,Norway,$88.37 B,$147.12 B,$117.87 B
+71.,China Life Insurance,China,$130.5 B,$769.88 B,$43.02 B
+72.,Roche Holding,Switzerland,$68.69 B,$101.32 B,$308.14 B
+73.,AIA Group,Hong Kong,$45.16 B,$334.88 B,$120.19 B
+74.,MetLife,United States,$71.08 B,$759.71 B,$57.39 B
+75.,BHP Group,Australia,$65.55 B,$105.72 B,$178.07 B
+76.,The Home Depot,Canada,$151.16 B,$71.88 B,$310.13 B
+77.,American Express,United States,$46.29 B,$196 B,$136.72 B
+77.,Siemens,Germany,$76.46 B,$164.22 B,$102.23 B
+79.,Stellantis,Netherlands,$176.61 B,$195.33 B,$44.26 B
+79.,Zurich Insurance Group,Switzerland,$69.58 B,$410.15 B,$69.22 B
+81.,Rosneft,Russia,$111.4 B,$219.41 B,$48.79 B
+82.,Rio Tinto,United Kingdom,$63.46 B,$102.9 B,$117.78 B
+83.,Brookfield Asset Management,Canada,$78.82 B,$391 B,$80.94 B
+84.,Cigna,United States,$174.27 B,$151.02 B,$81.2 B
+85.,Prudential Financial,United States,$70.93 B,$937.58 B,$43.6 B
+86.,PepsiCo,United States,$79.47 B,$92.38 B,$238.13 B
+87.,Merck & Co.,United States,$50.37 B,$105.69 B,$213.83 B
+88.,Elevance Health,United States,$144.35 B,$100.49 B,$121.25 B
+89.,Bank of Nova Scotia,Canada,$30.35 B,$979.3 B,$80.58 B
+90.,American International Group,United States,$52.06 B,$521.83 B,$48.73 B
+91.,Glencore International,Switzerland,$203.41 B,$127.51 B,$79.9 B
+92.,Cisco Systems,United States,$51.55 B,$94.26 B,$213.36 B
+93.,Anheuser-Busch InBev,Belgium,$54.33 B,$219.37 B,$118.52 B
+94.,Walt Disney,United States,$72.98 B,$203.31 B,$215.33 B
+95.,Chubb,Switzerland,$40.95 B,$181.75 B,$87.31 B
+95.,CITIC,Hong Kong,$91.21 B,"$1,370.59 B",$31.96 B
+95.,Lloyds Banking Group,United Kingdom,$58.48 B,"$1,200.75 B",$41.34 B
+98.,IBM,United States,$67.25 B,$133.28 B,$124.33 B
+99.,Sanofi ,France,$44.63 B,$136.74 B,$136.86 B
+100.,United Parcel Service,United States,$97.2 B,$69.41 B,$163.03 B
+101.,British American Tobacco,United Kingdom,$35.32 B,$186.05 B,$97.49 B
+101.,UBS,Switzerland,$35.22 B,"$1,117.18 B",$56.17 B
+103.,Honda Motor,Japan,$130.16 B,$193.22 B,$44.99 B
+104.,Mitsubishi,Japan,$146.94 B,$178.13 B,$50.87 B
+105.,China State Construction Engineering,China,$205.79 B,$374.72 B,$36.91 B
+105.,State Bank of India,India,$54.42 B,$696.51 B,$58.39 B
+107.,Commonwealth Bank,Australia,$21.85 B,$835.97 B,$130.34 B
+108.,Shanghai Pudong Development,China,$54.77 B,"$1,247.94 B",$36.6 B
+109.,Raytheon Technologies,United States,$64.36 B,$161.4 B,$149.76 B
+110.,Enel,Italy,$99.41 B,$235.33 B,$65.84 B
+111.,Eni,Italy,$90.5 B,$156.99 B,$52.28 B
+112.,Capital One,United States,$32.12 B,$432.38 B,$54.88 B
+113.,Bristol Myers Squibb,United States,$46.38 B,$109.31 B,$160.98 B
+114.,Coca-Cola,United States,$38.73 B,$94.35 B,$282.86 B
+115.,Oracle,United States,$41.83 B,$108.64 B,$203.34 B
+116.,Sberbank,Russia,$57.37 B,$548.83 B,$33.98 B
+117.,Bank of Montreal,Canada,$26.53 B,$804.51 B,$72.74 B
+118.,Vale,Brazil,$54.4 B,$89.61 B,$82.03 B
+119.,EDF ,France,$99.83 B,$410.49 B,$35.09 B
+120.,Thermo Fisher Scientific,United States,$39.21 B,$95.12 B,$219.71 B
+121.,Credit Agricole,France,$73.61 B,"$2,358.5 B",$31.42 B
+122.,AIRBUS,Netherlands,$61.64 B,$129.16 B,$88.6 B
+123.,Costco Wholesale,United States,$210.22 B,$63.08 B,$253.39 B
+124.,Hon Hai Precision ,Taiwan,$214.6 B,$141.28 B,$49.04 B
+125.,Unilever,United Kingdom,$62 B,$85.4 B,$116.16 B
+126.,Charter Communications,United States,$51.68 B,$143.39 B,$97.92 B
+127.,Sumitomo Mitsui Financial,Japan,$35.5 B,"$2,176.62 B",$42.33 B
+128.,ConocoPhillips,United States,$46.06 B,$90.66 B,$124.43 B
+129.,GlaxoSmithKline,United Kingdom,$46.92 B,$107.14 B,$112.09 B
+130.,Intesa Sanpaolo,Italy,$47.84 B,"$1,215.67 B",$41.42 B
+131.,Manulife,Canada,$47.17 B,$691.18 B,$39.76 B
+132.,US Bancorp,United States,$23.12 B,$586.52 B,$75.48 B
+133.,BASF,Germany,$92.9 B,$102.41 B,$51.78 B
+134.,CNOOC,Hong Kong,$37.77 B,$123.42 B,$62.6 B
+135.,Abbott Laboratories,United States,$44.51 B,$75.2 B,$210.98 B
+136.,Iberdrola,Spain,$46.23 B,$161.2 B,$70.26 B
+137.,China Shenhua Energy,China,$52.02 B,$95.81 B,$62.81 B
+138.,Itaú Unibanco Holding,Brazil,$35.96 B,$372.3 B,$52.89 B
+139.,Caterpillar,United States,$50.98 B,$82.79 B,$115.91 B
+140.,Mitsui,Japan,$108.31 B,$119.73 B,$40.83 B
+141.,Itochu,Japan,$107.99 B,$102.18 B,$45.95 B
+142.,Charles Schwab,United States,$18.98 B,$681 B,$127.6 B
+143.,Truist Financial,United States,$23.19 B,$544.34 B,$67.64 B
+144.,Enbridge,Canada,$37.55 B,$133.69 B,$90.92 B
+145.,Hitachi,Japan,$91.9 B,$116.57 B,$45.78 B
+146.,KDDI,Japan,$49.17 B,$94.14 B,$74.12 B
+147.,Hyundai Motor,South Korea,$102.7 B,$196.8 B,$37.61 B
+148.,China Citic Bank,China,$56.99 B,"$1,261.96 B",$25.26 B
+148.,Visa,United States,$25.48 B,$81.93 B,$436.49 B
+150.,Target,United States,$106 B,$53.81 B,$111.76 B
+151.,BBVA-Banco Bilbao Vizcaya,Spain,$41.98 B,$753.83 B,$35.28 B
+151.,tesla,United States,$53.82 B,$62.13 B,"$1,038.73 B"
+153.,Deere & Company,United States,$44.45 B,$79.61 B,$123.81 B
+154.,HDFC Bank,India,$22.51 B,$280.16 B,$98.28 B
+155.,Barclays,United Kingdom,$30.17 B,"$1,874.94 B",$31.55 B
+156.,Munich Re,Germany,$84.88 B,$358.97 B,$35.48 B
+157.,Japan Post Holdings,Japan,$103.58 B,"$2,614.33 B",$26.56 B
+158.,Walgreens,United States,$135.95 B,$92.68 B,$39.34 B
+159.,Danaher,United States,$30.28 B,$83.39 B,$189.4 B
+160.,Generali Group,Italy,$102.13 B,$664.52 B,$31.36 B
+161.,Møller-Maersk,Denmark,$61.95 B,$72.27 B,$51.41 B
+162.,Lowe's,United States,$96.25 B,$46.33 B,$130.37 B
+163.,FedEx,United States,$91.55 B,$84.11 B,$53.19 B
+164.,Deutsche Post,Germany,$96.62 B,$75.14 B,$55.04 B
+165.,PNC Financial Services,United States,$19.93 B,$541.25 B,$71.9 B
+166.,Broadcom,United States,$28.5 B,$73.22 B,$239.64 B
+167.,LukOil,Russia,$125.11 B,$92.49 B,$32.17 B
+167.,Medtronic,Ireland,$31.79 B,$91.8 B,$144.62 B
+169.,SAP,Germany,$33.18 B,$80.93 B,$124.02 B
+170.,SK Hynix,South Korea,$37.55 B,$81.08 B,$61.31 B
+171.,ENGIE ,France,$68.4 B,$256.25 B,$31.5 B
+172.,Lockheed Martin,United States,$65.75 B,$51.51 B,$118.82 B
+173.,BlackRock,United States,$20.3 B,$152.65 B,$100.8 B
+174.,Westpac Banking Group,Australia,$20.46 B,$677.03 B,$61.42 B
+175.,Duke Energy,United States,$25.1 B,$174.18 B,$87.98 B
+176.,Dell Technologies,United States,$106.84 B,$92.73 B,$35.64 B
+177.,VINCI,France,$59.08 B,$113.75 B,$56.87 B
+178.,Tokio Marine Holdings,Japan,$50.57 B,$234.91 B,$35.19 B
+179.,América Móvil,Mexico,$48.37 B,$82.45 B,$67.84 B
+180.,E.ON,Germany,$91.44 B,$151.17 B,$28.52 B
+181.,Anglo American,United Kingdom,$41.52 B,$65.98 B,$59.44 B
+182.,Banco Bradesco,Brazil,$28.33 B,$296.89 B,$43.16 B
+183.,ING Group,Netherlands,$21.49 B,"$1,081.81 B",$39.03 B
+184.,Accenture,Ireland,$56.7 B,$44.32 B,$196.86 B
+185.,Honeywell International,United States,$34.39 B,$64.47 B,$130.67 B
+186.,Mizuho Financial,Japan,$26.76 B,"$1,957.58 B",$31.38 B
+187.,Linde,United Kingdom,$30.79 B,$81.61 B,$157.26 B
+188.,ArcelorMittal,Luxembourg,$76.65 B,$90.51 B,$28.98 B
+189.,Canadian Imperial Bank,Canada,$18.66 B,$677.51 B,$51.21 B
+190.,Poly Developments & Holdings Group,China,$42.94 B,$219.65 B,$32.81 B
+191.,Micron Technology,United States,$31.17 B,$63.7 B,$77.51 B
+192.,ANZ,Australia,$18.38 B,$707.08 B,$56.23 B
+193.,Fubon Financial,Taiwan,$33.23 B,$378.81 B,$30.63 B
+194.,China Telecom,China,$68.15 B,$121.1 B,$35.23 B
+195.,HCA Healthcare,United States,$59.72 B,$52.21 B,$63.62 B
+196.,Dow,United States,$58.35 B,$63.34 B,$50.35 B
+196.,Telefónica,Spain,$46.42 B,$124.2 B,$29.44 B
+198.,China Vanke,China,$71.42 B,$304.19 B,$27.92 B
+199.,NAB - National Australia Bank,Australia,$15.76 B,$669.03 B,$77.24 B
+200.,Cathay Financial,Taiwan,$34.46 B,$418.7 B,$28.9 B
+201.,Qualcomm,United States,$36.04 B,$42.82 B,$149.68 B
+202.,L'Oréal,France,$38.16 B,$48.91 B,$195.52 B
+203.,Allstate,Canada,$50.59 B,$90.66 B,$36.45 B
+204.,SAIC Motor,China,$121.42 B,$133.97 B,$28.87 B
+205.,ICICI Bank,India,$21.89 B,$226.39 B,$67.9 B
+206.,China Everbright Bank,China,$42.38 B,$926.05 B,$20.11 B
+207.,Gilead Sciences,United States,$27.37 B,$67.95 B,$78.17 B
+208.,China Pacific Insurance,China,$68.07 B,$300.52 B,$22.69 B
+209.,NVIDIA,United States,$26.91 B,$44.19 B,$489.83 B
+210.,Amgen,United States,$25.99 B,$61.16 B,$133.63 B
+211.,Union Pacific,United States,$22.66 B,$64.05 B,$147.23 B
+212.,Dai-ichi Life Insurance,Japan,$66.73 B,$571.45 B,$19.9 B
+212.,Nike,Canada,$46.89 B,$38.58 B,$203.13 B
+214.,Takeda Pharmaceutical,Japan,$31.55 B,$110.27 B,$45.32 B
+215.,Philip Morris International,United States,$31.51 B,$41.73 B,$159.18 B
+216.,PayPal,United States,$25.56 B,$75.8 B,$100.22 B
+217.,China Resources Land,Hong Kong,$33.61 B,$149.03 B,$32.45 B
+218.,Oversea-Chinese Banking,Singapore,$22.89 B,$402.17 B,$39.71 B
+219.,Midea Group,China,$50.6 B,$58.24 B,$60.55 B
+220.,Travelers,United States,$35.31 B,$108.59 B,$41.54 B
+221.,Eli Lilly,United States,$28.32 B,$48.81 B,$265.45 B
+222.,Mondelez International,United States,$28.72 B,$67.09 B,$89.98 B
+223.,McDonald's,United States,$23.22 B,$53.85 B,$185.03 B
+224.,General Electric,Canada,$74.08 B,$198.87 B,$98.13 B
+225.,Société Générale,France,$35.57 B,"$1,665.37 B",$19.37 B
+226.,Schneider Electric,France,$34.16 B,$62.03 B,$85.36 B
+227.,3M,United States,$35.35 B,$47.07 B,$84.9 B
+228.,Aflac,United States,$22.11 B,$164.55 B,$41.15 B
+229.,Oil & Natural Gas,India,$66.28 B,$75.51 B,$28.62 B
+230.,Southern Company,United States,$23.23 B,$127.53 B,$80.48 B
+231.,Deutsche Bank,Germany,$36.7 B,"$1,505.64 B",$24.54 B
+232.,PTT ,Thailand,$70.55 B,$92.14 B,$31.34 B
+233.,CK Hutchison,Hong Kong,$36.13 B,$155.65 B,$27.91 B
+234.,Canadian Natural Resources,Canada,$23.97 B,$60.69 B,$74.27 B
+235.,Sun Life Financial,Canada,$29.82 B,$270.5 B,$30.71 B
+236.,Northrop Grumman,United States,$35.67 B,$42.58 B,$69.84 B
+237.,Archer Daniels Midland,United States,$85.26 B,$56.14 B,$51.85 B
+238.,Marathon Petroleum,United States,$119.78 B,$85.37 B,$48.64 B
+239.,China Minsheng Bank,China,$50.08 B,"$1,090.92 B",$16.74 B
+240.,Legal & General Group,United Kingdom,$62.51 B,$779.43 B,$19.63 B
+241.,Netflix,United States,$30.4 B,$45.33 B,$95.68 B
+242.,Progressive,United States,$48.07 B,$68.91 B,$63.37 B
+243.,Longfor Group Holdings,China,$34.8 B,$137.39 B,$30.05 B
+244.,DBS,Singapore,$12.4 B,$509.07 B,$63.03 B
+245.,Cosco Shipping,China,$51.77 B,$64.91 B,$25.8 B
+246.,China Communications Construction,China,$108.41 B,$222.7 B,$19.1 B
+247.,NatWest Group,United Kingdom,$17.86 B,"$1,059.17 B",$30.22 B
+248.,Exelon,United States,$39.27 B,$133.01 B,$47.68 B
+248.,Humana,United States,$84.09 B,$44.75 B,$56.34 B
+250.,General Dynamics,United States,$38.47 B,$50.07 B,$66.42 B
+251.,Power Corp of Canada,Canada,$57.93 B,$507.06 B,$20.47 B
+252.,Qatar National Bank,Qatar,$14.2 B,$304.38 B,$59.09 B
+253.,Bayer ,Germany,$52.1 B,$144.17 B,$70.06 B
+253.,KKR,United States,$19.02 B,$264.29 B,$30.6 B
+255.,Country Garden Holdings,China,$81.13 B,$305.7 B,$15.65 B
+256.,NextEra Energy,United States,$23.74 B,$144.94 B,$145.27 B
+257.,KB Financial Group,South Korea,$33.86 B,$560.38 B,$19.29 B
+258.,China Railway Group,China,$166.46 B,$213.64 B,$15.36 B
+259.,HP,United States,$64.98 B,$38.91 B,$38.75 B
+260.,Nordea Bank,Finland,$13.56 B,$648.83 B,$40.26 B
+261.,Seven & I Holdings,Japan,$78.47 B,$75.88 B,$39.19 B
+262.,Suncor Energy,Canada,$31.21 B,$66.29 B,$46.27 B
+263.,Salesforce.com,United States,$26.49 B,$99.18 B,$169.72 B
+264.,Air Liquide,France,$27.58 B,$53.2 B,$81.85 B
+265.,Denso,Japan,$49.49 B,$61.51 B,$45.14 B
+266.,Bank of New York Mellon,United States,$16.09 B,$473.81 B,$35.68 B
+267.,Mastercard,United States,$18.88 B,$37.67 B,$343.27 B
+268.,Banco do Brasil,Brazil,$29.54 B,$362.53 B,$20.7 B
+269.,Centene,United States,$125.98 B,$79.76 B,$49.2 B
+269.,HDFC,India,$18.48 B,$118.61 B,$52.3 B
+271.,Freeport-McMoRan,United States,$24.31 B,$48.83 B,$60.97 B
+272.,"Merck KGaA, Darmstadt, Germany and its affiliates",Germany,$23.27 B,$52.13 B,$82.53 B
+273.,CaixaBank,Spain,$14.64 B,$773.34 B,$26.82 B
+274.,ABB,Switzerland,$28.93 B,$42.27 B,$61.35 B
+274.,Volvo Group,Sweden,$43.36 B,$57.79 B,$34.7 B
+276.,Occidental Petroleum,United States,$25.96 B,$78.47 B,$53.05 B
+277.,National Grid,United Kingdom,$20.77 B,$119.92 B,$54.88 B
+278.,McKesson,United States,$257.01 B,$63.71 B,$47.66 B
+279.,Shinhan Financial Group,South Korea,$29.27 B,$545.24 B,$18.17 B
+280.,ASML Holding,Netherlands,$20.65 B,$33.64 B,$247.8 B
+281.,Nutrien,Canada,$27.63 B,$49.95 B,$57.39 B
+282.,Investor AB,Sweden,$12.81 B,$77.86 B,$63.51 B
+283.,KIA,South Korea,$61.01 B,$56.24 B,$25.82 B
+283.,Saint-Gobain,France,$52.2 B,$58.66 B,$31.17 B
+285.,Novo Nordisk,Denmark,$22.38 B,$29.74 B,$252.91 B
+285.,Posco,South Korea,$66.66 B,$76.95 B,$18.03 B
+287.,Diageo,United Kingdom,$19 B,$44.91 B,$116.05 B
+288.,Royal Ahold Delhaize N.V.,Netherlands,$89.36 B,$51.98 B,$30.57 B
+289.,PICC,China,$90.1 B,$209.72 B,$14.37 B
+290.,Dominion Energy,United States,$13.96 B,$99.59 B,$68.82 B
+291.,Kroger,United States,$137.89 B,$51.83 B,$41.23 B
+292.,Baoshan Iron & Steel,China,$55.52 B,$62.17 B,$23.35 B
+293.,Kweichow Moutai,China,$14.6 B,$40.04 B,$343.32 B
+293.,Xiaomi  ,China,$50.91 B,$45.96 B,$37.03 B
+295.,Bank of Ningbo,China,$13.71 B,$316.26 B,$37.67 B
+296.,Ecopetrol,Colombia,$23.43 B,$60.01 B,$36.07 B
+297.,LyondellBasell Industries,United Kingdom,$46.15 B,$36.74 B,$34.94 B
+298.,Contemporary Amperex Technology,China,$20.14 B,$48.27 B,$148.42 B
+299.,UniCredit,Italy,$27.79 B,"$1,042.44 B",$21.62 B
+300.,AmerisourceBergen,United States,$221.1 B,$57.58 B,$33.25 B
+301.,EssilorLuxottica,France,$23.43 B,$67.58 B,$79.45 B
+302.,Inditex,Spain,$32.57 B,$32.45 B,$68.15 B
+303.,Starbucks,United States,$30.36 B,$28.83 B,$89.63 B
+304.,Nucor,United States,$39.96 B,$28.63 B,$43.29 B
+305.,IntercontinentalExchange,United States,$10.15 B,$193.5 B,$65.71 B
+305.,TJX Cos,United States,$48.55 B,$28.46 B,$73.7 B
+307.,KBC Group,Belgium,$14.81 B,$387.04 B,$29.5 B
+307.,Tesco,United Kingdom,$84.17 B,$66.22 B,$25.89 B
+309.,BOE Technology Group,China,$33.78 B,$70.56 B,$23.25 B
+310.,Blackstone,United States,$15.47 B,$43.34 B,$132.17 B
+311.,American Electric,United States,$16.62 B,$90.95 B,$50.58 B
+312.,Macquarie Group,Australia,$11.21 B,$251.79 B,$55.44 B
+313.,Marubeni,Japan,$72.32 B,$63.99 B,$19.7 B
+314.,Swiss Re ,Switzerland,$46 B,$175.09 B,$24.7 B
+315.,EOG Resources,United States,$19.78 B,$38.24 B,$67.97 B
+316.,CNP Assurances,France,$51.78 B,$525.34 B,$16.12 B
+317.,Automatic Data Processing,United States,$15.7 B,$59.1 B,$93.89 B
+318.,Phillips 66,United States,$111.7 B,$55.59 B,$40.23 B
+319.,Tyson Foods,United States,$49.52 B,$36.82 B,$33.74 B
+320.,Repsol ,Spain,$58.8 B,$63.97 B,$20.8 B
+321.,Sumitomo,Japan,$48.22 B,$77.8 B,$20.28 B
+322.,Holcim,Switzerland,$29.35 B,$65.72 B,$30.19 B
+323.,Altria Group,United States,$21.11 B,$39.52 B,$100.66 B
+324.,Applied Materials,United States,$24.15 B,$25.43 B,$99.65 B
+325.,Daimler Truck Holding,Germany,$47 B,$62.32 B,$22.61 B
+326.,Zijin Mining Group,China,$37.21 B,$36.82 B,$41.33 B
+327.,The Saudi National Bank,Saudi Arabia,$8.63 B,$243.49 B,$86.46 B
+328.,Richemont,Switzerland,$19.81 B,$42.58 B,$69.46 B
+329.,Kering,France,$20.86 B,$35.33 B,$70.75 B
+329.,Saudi Electricity,Saudi Arabia,$18.49 B,$127.39 B,$29.83 B
+331.,Danone,France,$28.65 B,$51.65 B,$37.97 B
+332.,Nippon Steel ,Japan,$57.54 B,$74.59 B,$14.92 B
+333.,LG Chem,South Korea,$37.26 B,$43.02 B,$30.55 B
+334.,Discover Financial Services,United States,$12.8 B,$110.61 B,$31.69 B
+335.,Couche Tard,Canada,$58.66 B,$28.83 B,$46.65 B
+336.,Huaxia Bank,China,$26.38 B,$549.24 B,$13.28 B
+337.,NN Group,Netherlands,$22.38 B,$285.02 B,$15.72 B
+338.,Fannie Mae,United States,$100.33 B,"$4,229.9 B",$880 M
+339.,Fresenius,Germany,$44.26 B,$81.83 B,$20.43 B
+340.,Marsh & McLennan,United States,$20.33 B,$33.69 B,$85.88 B
+341.,Ameriprise Financial,United States,$13.89 B,$175.98 B,$30.97 B
+341.,Becton Dickinson,United States,$19.93 B,$53.36 B,$72.63 B
+343.,Panasonic,Japan,$65.97 B,$64.06 B,$20.98 B
+344.,MS&AD Insurance,Japan,$41.89 B,$216.84 B,$16.51 B
+345.,Orix,Japan,$22.73 B,$122.37 B,$21.71 B
+346.,Citic Securities,China,$11.74 B,$200.63 B,$32.19 B
+347.,First Abu Dhabi Bank,United Arab Emirates,$8.25 B,$272.35 B,$69.08 B
+348.,BCE,Canada,$18.7 B,$52.85 B,$51.83 B
+349.,Schlumberger,United States,$23.67 B,$41.97 B,$58.86 B
+350.,Texas Instruments,United States,$18.34 B,$24.68 B,$159.94 B
+351.,Bank Rakyat Indonesia (BRI),Indonesia,$12.77 B,$117.74 B,$50.14 B
+352.,Standard Chartered,United Kingdom,$18.88 B,$827.82 B,$19.69 B
+353.,CRH,Ireland,$31 B,$44.67 B,$31.77 B
+354.,Bank of Beijing,China,$19.38 B,$473.06 B,$15.09 B
+355.,Paramount,United States,$28.59 B,$58.62 B,$20.13 B
+356.,Bank Of Jiangsu,China,$17.9 B,$399.65 B,$17.05 B
+357.,DuPont de Nemours,United States,$16.65 B,$45.71 B,$34.51 B
+358.,Gree Electric Appliances,China,$27.88 B,$44.27 B,$27.82 B
+359.,Indian Oil,India,$72.2 B,$51.73 B,$16.53 B
+360.,Dollar General,United States,$34.22 B,$29.06 B,$56.92 B
+361.,Kraft Heinz Company,United States,$26.04 B,$93.39 B,$52.89 B
+362.,Wilmar International,Singapore,$65.84 B,$58.72 B,$20.86 B
+363.,Freddie Mac,United States,$62.24 B,"$3,025.59 B",$488 M
+364.,Hewlett Packard Enterprise,United States,$27.86 B,$57.87 B,$20.48 B
+365.,Japan Tobacco,Japan,$21.16 B,$50.14 B,$30.53 B
+366.,Poste Italiane,Italy,$37.48 B,$323.79 B,$13.6 B
+367.,United Overseas Bank,Singapore,$8.89 B,$340.71 B,$37.99 B
+368.,China Unicom,Hong Kong,$50.83 B,$92.74 B,$15.05 B
+369.,Valero Energy,United States,$114 B,$58.54 B,$42.19 B
+370.,CSX,United States,$13.12 B,$40.45 B,$75.34 B
+371.,Danske Bank,Denmark,$24.8 B,$601.79 B,$14.7 B
+371.,Fortescue Metals Group,Australia,$20.93 B,$25.18 B,$47.37 B
+373.,China Railway Construction,China,$157.66 B,$212.29 B,$8.69 B
+374.,Moderna,United States,$18.4 B,$24.87 B,$56.56 B
+374.,Woolworths,Australia,$38.84 B,$23.86 B,$34.61 B
+376.,Anhui Conch Cement,China,$26.05 B,$36.17 B,$26.78 B
+377.,Adobe,United States,$16.13 B,$25.98 B,$193.1 B
+378.,Hartford Financial Services,United States,$22.39 B,$70.83 B,$23.65 B
+379.,State Street,United States,$11.54 B,$322.35 B,$26.04 B
+380.,Al Rajhi Bank,Saudi Arabia,$6.74 B,$166.12 B,$119.85 B
+381.,Power Construction Corporation of China,China,$70.28 B,$156.4 B,$16.34 B
+382.,Shin-Etsu Chemical,Japan,$17.2 B,$32.64 B,$57.46 B
+383.,Fiserv,United States,$16.23 B,$76.25 B,$63.16 B
+383.,Regeneron Pharmaceuticals,United States,$16.07 B,$25.43 B,$74.68 B
+385.,ENEOS Holdings,Japan,$90.31 B,$79.99 B,$11.38 B
+386.,Tata Consultancy Services,India,$25.73 B,$18.68 B,$172.79 B
+387.,Sompo,Japan,$35.67 B,$119.93 B,$13.91 B
+388.,OMV Group,Austria,$42.02 B,$64.55 B,$16.24 B
+388.,Swiss Life Holding,Switzerland,$23.54 B,$264.11 B,$19.73 B
+390.,Bank Of Shanghai,China,$15.94 B,$410.39 B,$14.76 B
+391.,American Tower,United States,$9.36 B,$69.89 B,$119.49 B
+392.,Pioneer Natural Resources,United States,$17.87 B,$38.77 B,$57.38 B
+393.,Sun Hung Kai Properties,Hong Kong,$10.26 B,$103.68 B,$34.81 B
+394.,Wanhua Chemical Group,China,$22.43 B,$29.86 B,$38.63 B
+395.,Sampo,Finland,$15.9 B,$66.86 B,$27.29 B
+396.,China Merchants Shekou Industrial Zone Holdings,China,$23.41 B,$134.34 B,$19.42 B
+396.,Haier Smart Home,China,$35.16 B,$34.12 B,$33.26 B
+398.,Eaton,Ireland,$19.63 B,$34.03 B,$58.35 B
+399.,SK,South Korea,$85.9 B,$139.12 B,$11.99 B
+400.,Johnson Controls International,Ireland,$24.19 B,$42.22 B,$44.22 B
+401.,JBS,Brazil,$64.99 B,$37.18 B,$17.48 B
+402.,Saudi Telecom,Saudi Arabia,$16.91 B,$31.8 B,$60.71 B
+403.,Jardine Matheson,Bermuda,$35.86 B,$91.49 B,$15.89 B
+404.,Canadian National Railway,Canada,$11.55 B,$38.84 B,$86.33 B
+405.,Stryker,United States,$17.11 B,$34.63 B,$93.79 B
+406.,Nokia,Finland,$26.24 B,$45.54 B,$29.66 B
+407.,Mitsubishi Electric,Japan,$40.34 B,$41.12 B,$22.76 B
+408.,Nissan Motor,Japan,$79.17 B,$136.86 B,$16.36 B
+409.,Tata Steel,India,$31.07 B,$34.62 B,$20.42 B
+410.,Heineken,Netherlands,$25.93 B,$56.66 B,$23.41 B
+411.,BAE Systems,United Kingdom,$26.85 B,$36.75 B,$30.15 B
+412.,Etisalat,United Arab Emirates,$14.52 B,$34.9 B,$83.82 B
+413.,BT Group,United Kingdom,$28.84 B,$69.55 B,$23.74 B
+414.,CTBC Financial,Taiwan,$14.93 B,$256.03 B,$19.63 B
+414.,Novatek,Russia,$15.4 B,$32.77 B,$38.07 B
+416.,Greenland Holdings Group,China,$84.53 B,$215.77 B,$9.36 B
+417.,RWE Group,Germany,$28.99 B,$203.56 B,$28.86 B
+418.,Daikin Industries,Japan,$26.88 B,$30.45 B,$46.78 B
+419.,Aegon,Netherlands,$26.33 B,$509.34 B,$11.76 B
+420.,Baidu,China,$19.31 B,$59.63 B,$32.49 B
+421.,Ericsson,Sweden,$26.95 B,$34.76 B,$28.6 B
+422.,Canon,Japan,$31.98 B,$41.26 B,$24.66 B
+423.,Lennar,United States,$28.42 B,$32.63 B,$22.75 B
+424.,Bank of Nanjing,China,$12.17 B,$296.8 B,$18.84 B
+425.,Philips,Netherlands,$20.28 B,$35.45 B,$26.39 B
+426.,Keurig Dr Pepper,United States,$12.68 B,$50.6 B,$52.47 B
+427.,China Yangtze Power,China,$8.52 B,$51.5 B,$83.05 B
+428.,DNB Bank,Norway,$7.79 B,$331.04 B,$34.31 B
+429.,Emerson Electric,United States,$18.55 B,$26.96 B,$55.6 B
+430.,Imperial Brands,United Kingdom,$22.66 B,$39.22 B,$20.62 B
+431.,Boeing,Canada,$62.29 B,$138.55 B,$104.45 B
+432.,General Mills,United States,$18.63 B,$31.14 B,$43.66 B
+433.,Axis Bank,India,$11.41 B,$152.12 B,$31.32 B
+434.,National Bank of Canada,Canada,$9 B,$288.48 B,$24.82 B
+435.,The Estée Lauder Companies,United States,$17.77 B,$22.08 B,$94.7 B
+436.,CNH Industrial,United Kingdom,$33.43 B,$49.42 B,$20.19 B
+437.,Fairfax Financial,Canada,$23.57 B,$74.56 B,$13.28 B
+438.,Adidas,Germany,$25.1 B,$25.17 B,$41.08 B
+438.,Michelin Group,France,$28.13 B,$38.16 B,$22.85 B
+440.,Norfolk Southern,United States,$11.14 B,$38.89 B,$67.06 B
+441.,Principal Financial Group,United States,$14.26 B,$304.66 B,$18.25 B
+442.,Sempra,United States,$13.06 B,$72.05 B,$53.11 B
+443.,Fortum,Finland,$132.85 B,$170.19 B,$15.64 B
+444.,Grupo Mexico,Mexico,$14.77 B,$32.32 B,$37.88 B
+445.,D.R. Horton,United States,$28.89 B,$25 B,$25.28 B
+445.,L3Harris Technologies,United States,$17.81 B,$34.71 B,$47.86 B
+447.,Naspers,South Africa,$7.01 B,$70.81 B,$40.31 B
+448.,Standard Bank Group,South Africa,$15.9 B,$170.79 B,$18.06 B
+449.,TC Energy,Canada,$10.48 B,$82.51 B,$55.95 B
+450.,Norilsk Nickel,Russia,$17.81 B,$23.43 B,$37.75 B
+451.,Naturgy Energy Group,Spain,$26.17 B,$43.5 B,$29.75 B
+452.,Waste Management,Canada,$17.93 B,$29.61 B,$65.39 B
+453.,Henkel,Germany,$23.72 B,$37.8 B,$28.33 B
+454.,MediaTek,Taiwan,$17.66 B,$23.89 B,$46.45 B
+455.,Recruit Holdings ,Japan,$24.8 B,$20.94 B,$62.03 B
+456.,Hengli Petrochemical,China,$30.17 B,$33 B,$21.93 B
+457.,Xcel Energy,United States,$13.37 B,$60.67 B,$40.44 B
+458.,Corteva,United States,$15.65 B,$42.34 B,$41.92 B
+459.,Synchrony Financial,United States,$11.37 B,$95.27 B,$19.23 B
+460.,Toyota Tsusho,Japan,$69.53 B,$50.05 B,$13.04 B
+461.,Toyota Industries,Japan,$23.32 B,$64.33 B,$18.92 B
+462.,AstraZeneca,United Kingdom,$38.68 B,$105.36 B,$204.56 B
+463.,Sunac China Holdings,China,$38.49 B,$186.56 B,$3.18 B
+464.,China Evergrande Group,China,$70.4 B,$367.96 B,$2.78 B
+465.,Bridgestone,Japan,$29.54 B,$39.73 B,$25.7 B
+466.,Emirates NBD,United Arab Emirates,$8.6 B,$188.95 B,$26.14 B
+467.,Daiwa House Industry,Japan,$38.86 B,$47.86 B,$15.82 B
+468.,JD.com,China,$147.63 B,$77.9 B,$68.56 B
+468.,Kinder Morgan,United States,$16.61 B,$69.14 B,$43.42 B
+470.,China National Building,China,$42.58 B,$72.57 B,$10.55 B
+471.,Fifth Third Bank,United States,$8.27 B,$211.12 B,$26.35 B
+472.,FirstRand,South Africa,$10.18 B,$124.82 B,$24.98 B
+473.,Carrefour,France,$87.81 B,$54.21 B,$15.77 B
+474.,Fujitsu,Japan,$32.83 B,$27.06 B,$29.14 B
+475.,SEB AB,Sweden,$7.55 B,$364.95 B,$24.72 B
+476.,Surgutneftegas,Russia,$19.26 B,$83.54 B,$10.48 B
+477.,New China Life Insurance,China,$34.44 B,$176.36 B,$8.91 B
+478.,Barrick Gold,Canada,$11.94 B,$46.89 B,$42.24 B
+479.,DSV Panalpina,Denmark,$28.97 B,$24.68 B,$38.65 B
+480.,Talanx,Germany,$51.73 B,$218.26 B,$11.01 B
+481.,Vodafone,United Kingdom,$53.63 B,$178.59 B,$46.36 B
+482.,Nintendo,Japan,$15.24 B,$21.77 B,$58.01 B
+483.,Hana Financial Group,South Korea,$13.75 B,$422.67 B,$11.47 B
+484.,Hyundai Mobis,South Korea,$36.42 B,$43.31 B,$15.65 B
+485.,NTPC,India,$17 B,$55 B,$20.32 B
+486.,Maybank,Malaysia,$9.17 B,$213.19 B,$24.74 B
+487.,CME Group,United States,$4.69 B,$196.96 B,$80.12 B
+488.,TAQA,United Arab Emirates,$12.44 B,$49.06 B,$42.24 B
+489.,Pernod Ricard,France,$11.58 B,$38.74 B,$54.16 B
+490.,Bank Mandiri,Indonesia,$9.53 B,$121.09 B,$26.88 B
+491.,Femsa,Mexico,$27.38 B,$36.04 B,$27.29 B
+492.,Paccar,United States,$23.54 B,$29.3 B,$29.79 B
+493.,Consolidated Edison,United States,$13.67 B,$63.12 B,$34.18 B
+494.,Mitsui Fudosan,Japan,$18.26 B,$71.09 B,$20.04 B
+495.,Evergreen Marine Corp. (Taiwan),Taiwan,$17.52 B,$22.09 B,$26.68 B
+496.,Komatsu,Japan,$24.51 B,$34.97 B,$22.06 B
+497.,Shaanxi Coal Industry,China,$22.28 B,$26.6 B,$24.76 B
+498.,Lenovo Group,Hong Kong,$70.56 B,$45.65 B,$11.89 B
+499.,Fast Retailing,Japan,$19.27 B,$22.93 B,$51.27 B
+500.,London Stock Exchange,United Kingdom,$9.27 B,"$1,066.1 B",$52.66 B
+501.,Vonovia,Germany,$6.55 B,$120.91 B,$32.71 B
+502.,Aviva,United Kingdom,$45.13 B,$465.18 B,$21.03 B
+503.,Sherwin-Williams,United States,$19.95 B,$20.67 B,$64.22 B
+504.,Fujifilm Holdings,Japan,$22.57 B,$32.36 B,$22.93 B
+505.,Intuit,United States,$11.41 B,$26.3 B,$125.37 B
+506.,Lam Research,United States,$16.72 B,$16.59 B,$64.61 B
+507.,Erste Group Bank,Austria,$11.43 B,$350.46 B,$13.97 B
+508.,Lincoln National,United States,$19.18 B,$371.28 B,$11.2 B
+509.,Carrier Global,United States,$20.61 B,$26.17 B,$35.55 B
+510.,DISH Network,United States,$17.88 B,$48.47 B,$16.2 B
+511.,China Coal Energy,China,$35.86 B,$50.42 B,$11.14 B
+512.,Continental,Germany,$39.91 B,$42.46 B,$14.14 B
+513.,VTB Bank,Russia,$21.3 B,$278.1 B,$3.15 B
+514.,Murata Manufacturing,Japan,$16.28 B,$23.07 B,$38.94 B
+515.,Larsen & Toubro,India,$20.53 B,$40.82 B,$31.13 B
+516.,Ally Financial,United States,$10.84 B,$184.3 B,$13.79 B
+517.,NetEase,China,$13.59 B,$24.11 B,$52.53 B
+518.,Bank Central Asia,Indonesia,$6.1 B,$87.69 B,$67.62 B
+519.,Volvo Car,Sweden,$32.85 B,$31.35 B,$21.5 B
+520.,Intact Financial,Canada,$14.63 B,$48.08 B,$24.88 B
+521.,Orsted,Denmark,$10.99 B,$41.34 B,$49.11 B
+522.,Cummins,United States,$24.02 B,$23.71 B,$28.3 B
+523.,Williams,United States,$10.57 B,$49.76 B,$42.73 B
+524.,Capgemini,France,$21.46 B,$27.33 B,$35.59 B
+525.,Prologis,United States,$4.83 B,$59.78 B,$126.34 B
+526.,Thales,France,$19.14 B,$37.35 B,$28.56 B
+527.,Bouygues,France,$44.43 B,$50.77 B,$13.13 B
+528.,Banorte,Mexico,$10.61 B,$90.85 B,$21.04 B
+529.,CK Asset Holdings,Hong Kong,$8.32 B,$71.41 B,$25.13 B
+529.,Orange,France,$50.26 B,$126.59 B,$31.81 B
+531.,Kuehne & Nagel International,Switzerland,$35.88 B,$16.08 B,$34.84 B
+532.,Bunge,United States,$59.15 B,$23.82 B,$16.83 B
+533.,Samsung Life Insurance,South Korea,$25.44 B,$287.06 B,$9.59 B
+533.,VMware,United States,$12.85 B,$28.68 B,$45.55 B
+535.,Albertsons,United States,$71.89 B,$28.12 B,$15.57 B
+536.,CRRC,China,$34.8 B,$67.03 B,$10.5 B
+537.,CBRE Group,United States,$27.75 B,$22.07 B,$27.96 B
+537.,Toshiba,Japan,$30.13 B,$30.76 B,$18.19 B
+539.,Samsung C&T,South Korea,$30.09 B,$46.47 B,$14.64 B
+540.,Infosys,India,$16.33 B,$15.56 B,$87.21 B
+541.,Prudential,United Kingdom,$26.52 B,$189.35 B,$36.7 B
+542.,Yankuang Energy Group,China,$16.86 B,$47.38 B,$14.32 B
+543.,Canadian Pacific Railway,Canada,$6.38 B,$54.11 B,$69.42 B
+544.,Loews,United States,$14.67 B,$76.16 B,$15.94 B
+545.,Tokyo Electron,Japan,$17.09 B,$14.97 B,$67.25 B
+546.,LG Electronics,South Korea,$66.12 B,$44.99 B,$17.87 B
+547.,CSL,Australia,$10.59 B,$23.44 B,$94.67 B
+547.,Magna International,Canada,$36.25 B,$29.09 B,$18.14 B
+549.,Analog Devices,United States,$8.44 B,$51.22 B,$81.25 B
+550.,Kubota,Japan,$19.99 B,$32.77 B,$21.19 B
+551.,Air Products & Chemicals,United States,$10.94 B,$27.13 B,$53.86 B
+551.,Newmont Mining,United States,$12.25 B,$39.91 B,$59.06 B
+551.,TE Connectivity,Switzerland,$15.22 B,$21.41 B,$40.01 B
+554.,Aon,Ireland,$12.19 B,$31.92 B,$68.81 B
+555.,TELUS,Canada,$13.43 B,$37.99 B,$36.05 B
+556.,Dollar Tree,United States,$26.32 B,$21.72 B,$37.7 B
+557.,KeyCorp,United States,$7.45 B,$181.22 B,$19.06 B
+558.,WTW,United Kingdom,$9.58 B,$34.97 B,$26.88 B
+559.,China Zheshang Bank,China,$15.99 B,$358.9 B,$9 B
+559.,Wesfarmers,Australia,$25.35 B,$18.34 B,$40.57 B
+561.,Suzuki Motor,Japan,$32.56 B,$34.68 B,$15.39 B
+562.,Best Buy,United States,$51.76 B,$17.5 B,$20.56 B
+562.,SVB Financial Group,United States,$6.08 B,$220.35 B,$31.82 B
+564.,Advanced Micro Devices,United States,$16.43 B,$12.42 B,$142.8 B
+565.,Markel,United States,$12.84 B,$39.36 B,$19.89 B
+566.,Muyuan Foodstuff,China,$11.27 B,$26.18 B,$44.12 B
+567.,Kimberly-Clark,United States,$19.79 B,$18.67 B,$46.67 B
+568.,Swedbank,Sweden,$6.75 B,$303.81 B,$18.56 B
+569.,Cognizant,United States,$18.51 B,$17.85 B,$43.62 B
+570.,Corning,United States,$14.07 B,$30.15 B,$28.58 B
+571.,Infineon Technologies,Germany,$13.7 B,$27.29 B,$39.15 B
+572.,Citizens Financial Group,United States,$6.88 B,$192.1 B,$20.76 B
+573.,Devon Energy,United States,$13.69 B,$21.02 B,$38.57 B
+574.,Asahi Group Holdings,Japan,$20.35 B,$39.49 B,$17.94 B
+575.,JSW Steel,India,$17.1 B,$23.01 B,$22.87 B
+575.,Lumen Technologies,United States,$19.69 B,$57.99 B,$11.16 B
+577.,Regions Financial,United States,$6.63 B,$162.94 B,$20.03 B
+578.,Svenska Handelsbanken,Sweden,$6.34 B,$369.65 B,$19.52 B
+579.,Raymond James Financial,United States,$10.43 B,$68.46 B,$21.49 B
+580.,BYD,China,$32.78 B,$46.55 B,$84.46 B
+581.,Illinois Tool Works,United States,$14.46 B,$16.08 B,$63.42 B
+582.,Pinduoduo,China,$14.57 B,$28.43 B,$43.53 B
+583.,Activision Blizzard,United States,$8.8 B,$25.06 B,$61.39 B
+584.,Liberty Global,United Kingdom,$10.54 B,$46.92 B,$12.59 B
+585.,Colgate-Palmolive,United States,$17.42 B,$15.04 B,$68.17 B
+585.,SSE,United Kingdom,$10.33 B,$31.56 B,$24.88 B
+587.,Nan Ya Plastics,Taiwan,$14.74 B,$24.17 B,$23.75 B
+587.,Vivendi,France,$11.31 B,$37.95 B,$12.95 B
+589.,Baxter International,United States,$12.78 B,$33.52 B,$36.77 B
+590.,Fosun International,China,$25.02 B,$126.52 B,$8.48 B
+591.,Weichai Power,China,$31.4 B,$43.47 B,$12.04 B
+592.,Fidelity National Financial,United States,$15.63 B,$58.13 B,$11.58 B
+592.,Parker-Hannifin,United States,$15.29 B,$22.39 B,$35.6 B
+594.,Vedanta Limited,India,$16.38 B,$25.3 B,$20.21 B
+595.,Woori Financial Group,South Korea,$11.47 B,$376.18 B,$9.51 B
+596.,Sysco,United States,$60.74 B,$21.43 B,$45.06 B
+597.,Telstra,Australia,$15.82 B,$31.16 B,$34.21 B
+598.,Credit Suisse Group,Switzerland,$30.07 B,$829.54 B,$18.68 B
+598.,Rogers Communications,Canada,$11.79 B,$44.07 B,$29.24 B
+600.,M&T Bank,United States,$5.89 B,$149.86 B,$31.03 B
+601.,Boston Scientific,United States,$11.89 B,$32.23 B,$62.63 B
+602.,Edison International,United States,$14.9 B,$74.75 B,$27.27 B
+602.,Financiere de l'Odet,France,$23.37 B,$69.03 B,$5.07 B
+602.,Sumitomo Mitsui Trust,Japan,$10.67 B,$553.78 B,$11.81 B
+605.,Entergy,United States,$11.71 B,$59.45 B,$25.1 B
+605.,Swisscom,Switzerland,$12.23 B,$27.22 B,$30.25 B
+607.,EnBW-Energie Baden,Germany,$38 B,$98.41 B,$25.8 B
+608.,Hikvision,China,$12.99 B,$16.46 B,$59.33 B
+609.,Nippon Yusen,Japan,$19.46 B,$23.65 B,$12.82 B
+610.,Stanley Black & Decker,United States,$16.83 B,$28.18 B,$21.35 B
+611.,Oneok,United States,$17.27 B,$23.62 B,$30.94 B
+612.,Marriott International,United States,$13.86 B,$25.55 B,$58.74 B
+613.,Warner Bros. Discovery,United States,$12.18 B,$34.43 B,$49.91 B
+614.,S.F. Holding,China,$32.05 B,$32.93 B,$36.66 B
+615.,Delta Air Lines,United States,$35.1 B,$73.75 B,$28.01 B
+616.,Bharat Petroleum,India,$43.2 B,$25.18 B,$11.16 B
+617.,Halliburton,United States,$16.13 B,$22.07 B,$33.94 B
+618.,Metallurgical Corp of China,China,$77.3 B,$85.27 B,$5.15 B
+619.,Northern Trust,United States,$6.57 B,$183.89 B,$22.08 B
+620.,HeidelbergCement,Germany,$22.13 B,$39.31 B,$10.91 B
+621.,China Steel,Taiwan,$16.77 B,$24.87 B,$19.81 B
+621.,Eversource Energy,United States,$9.86 B,$48.49 B,$31.72 B
+623.,Sany Heavy Industry,China,$17.59 B,$21.14 B,$21.93 B
+624.,Hermès International,France,$10.62 B,$15.75 B,$138.97 B
+625.,International Paper,United States,$21.78 B,$25.24 B,$17.89 B
+626.,Koç Holding,Turkey,$38.84 B,$76.85 B,$6.79 B
+627.,Nidec,Japan,$17.07 B,$22.16 B,$40.47 B
+628.,Meituan ,China,$27.79 B,$37.76 B,$111.43 B
+629.,Kotak Mahindra Bank,India,$7.92 B,$41.57 B,$44.83 B
+630.,Teck Resources,Canada,$10.75 B,$37.5 B,$19.97 B
+631.,Southwest Airlines,United States,$15.79 B,$38.17 B,$27.77 B
+632.,Deutsche Boerse,Germany,$5.26 B,$253.75 B,$32.23 B
+633.,Labcorp,United States,$16.12 B,$20.39 B,$25.02 B
+634.,China Tower Corp.,China,$13.43 B,$50.21 B,$20.28 B
+635.,Inpex,Japan,$11.32 B,$44.79 B,$17.11 B
+636.,Coca-Cola European Partners,United Kingdom,$16.24 B,$33.08 B,$23.43 B
+637.,Wuliangye Yibin,China,$8.48 B,$18.3 B,$98.98 B
+638.,Shimao Property Holdings,Hong Kong,$21.82 B,$96.97 B,$2.14 B
+639.,Idemitsu Kosan,Japan,$54.54 B,$38.99 B,$7.97 B
+640.,Formosa Petrochemical,Taiwan,$22.2 B,$16.58 B,$29.96 B
+641.,Crown Castle International,United States,$6.6 B,$39.07 B,$84.07 B
+642.,FirstEnergy,United States,$11.41 B,$44.62 B,$26.27 B
+643.,Rongsheng Petrochemical,China,$27.22 B,$52.18 B,$21.52 B
+644.,Hindalco Industries,India,$24.33 B,$27.45 B,$15.11 B
+645.,Bank Of Hangzhou,China,$8.7 B,$218.42 B,$13.96 B
+645.,Renault,France,$54.62 B,$129.34 B,$7.28 B
+647.,International Holding Company,United Arab Emirates,$7.75 B,$24.23 B,$108.6 B
+648.,Cincinnati Financial,United States,$9.63 B,$31.02 B,$21.93 B
+649.,Mitsubishi Estate,Japan,$12.14 B,$55.32 B,$19.04 B
+650.,Cleveland-Cliffs,United States,$22.35 B,$19.77 B,$15.18 B
+651.,Grupo ACS,Spain,$32.9 B,$41.06 B,$7.03 B
+652.,CGN Power,China,$12.47 B,$63.56 B,$13.58 B
+653.,ASE Technology Holding,Taiwan,$21.31 B,$24.32 B,$14.5 B
+654.,JFE Holdings,Japan,$36.46 B,$45.34 B,$7.25 B
+655.,DTE Energy,United States,$15.46 B,$39.72 B,$26.51 B
+656.,China Hongqiao Group,China,$17.76 B,$29.56 B,$12.76 B
+657.,NXP Semiconductors,Netherlands,$11.06 B,$21.25 B,$44.83 B
+658.,Western Digital,United States,$18.94 B,$26.02 B,$15.48 B
+659.,Booking Holdings,United States,$10.96 B,$23.64 B,$90.52 B
+660.,Aeon,Japan,$78.17 B,$101 B,$16.11 B
+661.,First Republic Bank,United States,$5.53 B,$187.12 B,$28.21 B
+662.,Lufax Holding,China,$9.67 B,$56.55 B,$13.52 B
+663.,Atlas Copco,Sweden,$12.92 B,$15.1 B,$61.42 B
+664.,Fidelity National Information (FIS),United States,$13.88 B,$82.93 B,$61.05 B
+665.,Mitsubishi Chemical,Japan,$34.61 B,$47.4 B,$8.74 B
+666.,Edp-energias De Portugal,Portugal,$17.86 B,$57.99 B,$19.63 B
+666.,Kyocera,Japan,$16.22 B,$31.04 B,$19.16 B
+668.,Xiamen C&D,China,$109.61 B,$94.53 B,$6.02 B
+669.,AutoZone,United States,$15.6 B,$14.08 B,$42.88 B
+670.,China Taiping Insurance,Hong Kong,$40.91 B,$174.92 B,$4.36 B
+671.,Cenovus Energy,Canada,$36.98 B,$43.43 B,$34.25 B
+671.,Neste,Finland,$17.91 B,$14.19 B,$36.31 B
+673.,Porsche Automobil Holding,Germany,$151 M,$47.83 B,$27.21 B
+674.,H&M - Hennes & Mauritz,Sweden,$23.85 B,$19.63 B,$22.04 B
+675.,RELX,United Kingdom,$9.96 B,$18.77 B,$59.18 B
+676.,PG&E,United States,$20.64 B,$111.75 B,$24.11 B
+677.,Republic Services,United States,$11.3 B,$24.95 B,$41.81 B
+678.,Ross Stores,United States,$18.92 B,$14.62 B,$36.35 B
+679.,WEC Energy Group,United States,$8.32 B,$39.87 B,$32.8 B
+680.,Cardinal Health,United States,$171.29 B,$43.68 B,$17.06 B
+681.,CarMax,United States,$31.9 B,$26.67 B,$14.61 B
+681.,China Development Financial,Taiwan,$12.76 B,$125.01 B,$10.52 B
+683.,Riyad Bank,Saudi Arabia,$3.23 B,$86.76 B,$31.76 B
+684.,Thomson Reuters,United States,$6.35 B,$22.15 B,$49.81 B
+684.,Transneft,Russia,$14.11 B,$46.08 B,$10.13 B
+686.,Ferguson,United Kingdom,$22.74 B,$14.1 B,$29.61 B
+686.,IQVIA,United States,$13.87 B,$24.69 B,$43.56 B
+688.,Hong Kong Exchanges,Hong Kong,$2.69 B,$51.22 B,$54.13 B
+689.,PPG ,United States,$17.23 B,$21.89 B,$31.37 B
+690.,Legend Holding,China,$75.97 B,$106.8 B,$2.81 B
+691.,Ecolab,United States,$12.73 B,$21.21 B,$50.16 B
+691.,Sinopharm Group,China,$80.8 B,$52.63 B,$6.77 B
+693.,Luxshare Precision Industry,China,$23.87 B,$18.25 B,$31.7 B
+694.,Seazen Group,China,$26.4 B,$85.06 B,$2.86 B
+695.,Global Payments,United States,$8.52 B,$45.28 B,$37.87 B
+696.,China Energy Engineering,China,$49.75 B,$82.98 B,$4.17 B
+697.,Safran,France,$17.89 B,$47.44 B,$52.26 B
+698.,S&P Global,United States,$8.3 B,$15.03 B,$131.75 B
+699.,Huntington Bank,United States,$6.42 B,$176.86 B,$19.88 B
+700.,Arch Capital Group,Bermuda,$8.88 B,$37.49 B,$17.86 B
+701.,Jackson Financial,United States,$8.85 B,$375.48 B,$3.93 B
+702.,Bank Leumi,Israel,$5.82 B,$210.92 B,$15.87 B
+703.,Trane Technologies,Ireland,$14.14 B,$18.06 B,$34.77 B
+703.,Veolia Environnement,France,$33.7 B,$60.36 B,$21.2 B
+705.,O'Reilly Automotive,United States,$13.33 B,$12.39 B,$46.92 B
+706.,Biogen,United States,$10.35 B,$23.88 B,$30.86 B
+707.,Publicis Groupe,France,$13.87 B,$37.35 B,$15.81 B
+708.,Hanwha,South Korea,$46.14 B,$170.24 B,$1.7 B
+709.,The Mosaic Company,United States,$12.36 B,$22.04 B,$24.17 B
+710.,Bharti Airtel,India,$14.98 B,$48.72 B,$56.8 B
+711.,Daqin Railway,China,$11.83 B,$29.96 B,$16.04 B
+712.,Uber,United States,$17.45 B,$38.77 B,$60.27 B
+713.,STMicroelectronics,Switzerland,$12.78 B,$15.54 B,$34.46 B
+714.,Gemdale,China,$14.32 B,$71.52 B,$9.58 B
+715.,Ageas,Belgium,$14.42 B,$125.48 B,$9.71 B
+716.,Quanta Computer,Taiwan,$40.44 B,$25.94 B,$11.13 B
+717.,George Weston,Canada,$43.37 B,$37.27 B,$18.04 B
+717.,Weyerhaeuser,United States,$10.2 B,$17.65 B,$31.02 B
+719.,Korea Electric Power,South Korea,$52.9 B,$177.59 B,$11.11 B
+720.,Fox,United States,$13.59 B,$22.88 B,$21.51 B
+721.,Mitsubishi Heavy Industries,Japan,$34.06 B,$44.43 B,$11.58 B
+722.,Steel Dynamics,United States,$20.43 B,$13.06 B,$16.98 B
+723.,Keyence,Japan,$6.43 B,$19.06 B,$100.89 B
+724.,Longi Green Energy Technology,China,$11.76 B,$16.05 B,$51.73 B
+725.,Reckitt Benckiser Group,United Kingdom,$18.2 B,$36.5 B,$56.35 B
+726.,Coal India,India,$14.03 B,$22.3 B,$16.3 B
+727.,Aisin Seiki,Japan,$35.4 B,$34.91 B,$8.21 B
+727.,Digital Realty Trust,United States,$4.77 B,$36.37 B,$42.6 B
+729.,Tata Motors,India,$39.04 B,$42.32 B,$22.12 B
+730.,Resona Holdings,Japan,$7.46 B,$662.22 B,$10.54 B
+730.,Simon Property Group,United States,$5.12 B,$33.78 B,$41.33 B
+732.,Industrial Bank of Korea,South Korea,$9.44 B,$334.87 B,$6.97 B
+733.,CLP Holdings,Hong Kong,$10.8 B,$30.76 B,$24.76 B
+733.,National Bank of Kuwait ,Kuwait,$3.82 B,$110.92 B,$25.78 B
+735.,SingTel,Singapore,$11.84 B,$34.99 B,$32.06 B
+736.,Coinbase,United States,$7.84 B,$21.27 B,$28.64 B
+737.,CenterPoint Energy,United States,$8.35 B,$38.48 B,$20.04 B
+738.,Saudi Arabian Mining,Saudi Arabia,$7.14 B,$27.52 B,$44.95 B
+739.,China Cinda Asset Management,China,$10.29 B,$245.44 B,$6.47 B
+740.,Asahi Kasei,Japan,$21.79 B,$28.14 B,$11.72 B
+741.,NEC,Japan,$27.72 B,$30.64 B,$10.9 B
+742.,United Airlines Holdings,United States,$28.98 B,$69.04 B,$16.81 B
+743.,MGM Resorts,United States,$9.68 B,$44.09 B,$17.88 B
+744.,DSM,Netherlands,$10.88 B,$18.21 B,$28.7 B
+745.,Telkom Indonesia,Indonesia,$10.02 B,$19.45 B,$31.88 B
+746.,PKN Orlen,Poland,$34.07 B,$26.24 B,$7.55 B
+747.,Guotai Junan Securities,China,$6.7 B,$113.57 B,$11.51 B
+748.,Norsk Hydro,Norway,$16.89 B,$19.79 B,$19.14 B
+749.,Formosa Plastics,Taiwan,$9.79 B,$19.65 B,$23.28 B
+750.,NRG Energy,United States,$26.9 B,$23.18 B,$9.18 B
+751.,Public Bank,Malaysia,$4.51 B,$111.08 B,$21.18 B
+752.,TCL ,China,$25.27 B,$48.59 B,$9.67 B
+753.,Huatai Securities,China,$6.04 B,$126.57 B,$12.74 B
+754.,Kellogg,United States,$14.18 B,$18.18 B,$23.53 B
+755.,Inner Mongolia Yili ,China,$16.52 B,$12.94 B,$37.83 B
+756.,WPP,United Kingdom,$17.61 B,$38.05 B,$14.8 B
+757.,Omnicom Group,United States,$14.27 B,$26.15 B,$16.35 B
+758.,Sekisui House,Japan,$23.39 B,$24.31 B,$11.78 B
+759.,Cheniere Energy,United States,$17.64 B,$43.11 B,$34.52 B
+760.,Sandvik,Sweden,$11.61 B,$17.86 B,$26.55 B
+761.,Siam Cement,Thailand,$16.56 B,$25.78 B,$12.8 B
+762.,East Japan Railway,Japan,$17.67 B,$78.23 B,$20.31 B
+763.,Abu Dhabi Commercial Bank,United Arab Emirates,$4.23 B,$119.87 B,$19.45 B
+764.,Huishang Bank,China,$10.26 B,$217.18 B,$4.43 B
+765.,Great Wall Motor ,China,$20.52 B,$27.52 B,$13.08 B
+766.,Haitong Securities,China,$7.8 B,$116.88 B,$9.56 B
+767.,Dongfeng Motor Group,China,$17.5 B,$50.17 B,$6.23 B
+768.,China Reinsurance Group,China,$25.39 B,$75.22 B,$3.9 B
+769.,Henderson Land,Hong Kong,$3.07 B,$70.58 B,$20.39 B
+770.,Samsung SDI,South Korea,$11.84 B,$21.73 B,$32.16 B
+771.,Fortis (Canada),Canada,$7.54 B,$46.72 B,$24.04 B
+772.,SK Telecom,South Korea,$14.63 B,$26 B,$10.82 B
+773.,HAL Trust,Netherlands,$8.68 B,$25.73 B,$12.8 B
+774.,Banco Btg Pactual,Brazil,$2.71 B,$68.31 B,$56.14 B
+775.,Baker Hughes Company,United States,$20.59 B,$34.99 B,$31.15 B
+775.,Gallagher,United States,$8.05 B,$33.34 B,$37.32 B
+777.,Everest Re Group,Bermuda,$11.87 B,$35.62 B,$12.67 B
+778.,Amphenol,United States,$10.88 B,$14.68 B,$41.49 B
+779.,American Airlines Group,United States,$34.77 B,$67.4 B,$13.1 B
+780.,KLA,United States,$8.16 B,$11.68 B,$48.87 B
+781.,Astellas Pharma,Japan,$11.84 B,$20.46 B,$29.26 B
+782.,Otsuka Holding,Japan,$13.64 B,$24.5 B,$17.87 B
+783.,China Bohai Bank,China,$10.56 B,$248.5 B,$3.01 B
+784.,Kasikornbank,Thailand,$8.14 B,$124.31 B,$10.82 B
+785.,Bank Hapoalim,Israel,$5.64 B,$205.24 B,$12.88 B
+786.,Woodside Petroleum,Australia,$7.01 B,$26.47 B,$22.85 B
+787.,MTR,Hong Kong,$6.07 B,$37.46 B,$33.32 B
+788.,Tatneft,Russia,$17.39 B,$20.03 B,$10.46 B
+789.,Power Finance,India,$10.15 B,$106.71 B,$4.1 B
+790.,Zoetis,United States,$7.78 B,$13.9 B,$85.74 B
+791.,Lonza Group,Switzerland,$5.92 B,$18.32 B,$48.01 B
+792.,Eiffage,France,$22.69 B,$38.41 B,$9.86 B
+792.,Sumitomo Chemical,Japan,$24.41 B,$36.73 B,$7.08 B
+794.,Vertex Pharmaceuticals,United States,$7.6 B,$13.43 B,$68.84 B
+795.,Constellation Energy,United States,$19.65 B,$48.09 B,$20.39 B
+796.,CIFI Holdings Group,China,$16.77 B,$67.9 B,$4.19 B
+797.,Raiffeisen Bank International,Austria,$9.05 B,$218.46 B,$3.98 B
+798.,Whirlpool,United States,$21.98 B,$20.29 B,$10.16 B
+799.,Siemens Energy,Germany,$32.51 B,$51.25 B,$14.43 B
+800.,WestRock,United States,$19.3 B,$29.08 B,$13.27 B
+801.,Samsung Fire & Marine,South Korea,$18.34 B,$78.89 B,$7.36 B
+802.,US Steel,United States,$20.45 B,$17.82 B,$8.75 B
+803.,UPM-Kymmene,Finland,$11.6 B,$20.44 B,$18.74 B
+804.,Formosa Chemicals,Taiwan,$13.1 B,$21.63 B,$16.21 B
+804.,SK Innovation ,South Korea,$40.91 B,$41.69 B,$14.96 B
+806.,Telia,Sweden,$10.29 B,$26.8 B,$16.49 B
+807.,T&D Holdings,Japan,$20.27 B,$158.47 B,$7.85 B
+808.,Mapfre,Spain,$23.48 B,$65.7 B,$6.24 B
+809.,HCL Technologies,India,$11.19 B,$11.57 B,$39.09 B
+810.,Sumitomo Realty,Japan,$8.42 B,$49.53 B,$12.58 B
+811.,Westlake Chemical,United States,$11.78 B,$18.46 B,$16.34 B
+812.,Apollo Global Management,United States,$4.83 B,$30.5 B,$30.79 B
+813.,United Rentals,United States,$9.72 B,$20.85 B,$22.72 B
+814.,Diamondback Energy,United States,$6.8 B,$22.9 B,$23.08 B
+815.,Otis Worldwide,United States,$14.3 B,$12.28 B,$31.04 B
+816.,Chongqing Rural Bank,China,$8.68 B,$198.67 B,$4.46 B
+817.,Ball,United States,$13.93 B,$19.71 B,$27.77 B
+818.,Stora Enso,Finland,$12.01 B,$21.64 B,$15.68 B
+819.,Yang Ming Marine Transport,Taiwan,$11.95 B,$13.89 B,$15.1 B
+820.,Phoenix Group Holdings,United Kingdom,$33.53 B,$440.48 B,$7.93 B
+821.,Wipro,India,$10.07 B,$13.69 B,$38.44 B
+822.,Power Grid of India,India,$5.61 B,$34.56 B,$20.57 B
+823.,Absa Group,South Africa,$9.04 B,$102.81 B,$8.83 B
+823.,Novolipetsk Steel,Russia,$16.18 B,$12.16 B,$12.07 B
+823.,Sumitomo Electric,Japan,$29.99 B,$31.92 B,$8.61 B
+826.,St. James's Place,United Kingdom,$24.42 B,$210.82 B,$9.31 B
+827.,Grasim Industries,India,$12.35 B,$36.94 B,$14.77 B
+827.,Segro,United Kingdom,$751 M,$24.09 B,$21.23 B
+829.,Mega Financial Holding,Taiwan,$2.62 B,$150.66 B,$19.32 B
+830.,Zhongsheng Group Holdings,China,$27.15 B,$13.41 B,$16.05 B
+831.,Shin Kong Financial,Taiwan,$15.59 B,$169.34 B,$4.88 B
+832.,CMS Energy,United States,$7.4 B,$28.75 B,$20.82 B
+833.,Quinenco,Chile,$8.46 B,$72.47 B,$4.84 B
+834.,Evonik Industries,Germany,$18.69 B,$26.67 B,$12.57 B
+835.,East Money Information  ,China,$2.13 B,$29.03 B,$41.33 B
+836.,QBE Insurance Group,Australia,$13.95 B,$43.37 B,$13.04 B
+837.,Tenaga Nasional,Malaysia,$12.7 B,$43.83 B,$11.85 B
+838.,Naver,South Korea,$6.14 B,$28.34 B,$36.14 B
+839.,TDK,Japan,$16.26 B,$24.42 B,$12.01 B
+840.,Nomura,Japan,$12.89 B,$392.65 B,$12.09 B
+841.,Jinke Property Group,China,$15.58 B,$61.03 B,$3.73 B
+842.,Tokyo Electric Power,Japan,$47.93 B,$109.05 B,$5.79 B
+843.,CDW,United States,$20.82 B,$13.2 B,$22.9 B
+844.,The Hershey Company,United States,$8.97 B,$10.41 B,$46.07 B
+845.,ITC,India,$7.91 B,$10.04 B,$42.06 B
+845.,Pgnig Group,Poland,$18.29 B,$25.2 B,$8.57 B
+847.,MTN Group,South Africa,$12.28 B,$22.92 B,$19.98 B
+848.,Compass Group,United Kingdom,$24.5 B,$20.05 B,$39.01 B
+849.,WR Berkley,United States,$9.46 B,$28.49 B,$18.02 B
+850.,Moody's,United States,$6.22 B,$14.68 B,$59.77 B
+851.,Genuine Parts,United States,$19.7 B,$16.27 B,$18.97 B
+852.,Beijing-Shanghai High-Speed Railway,China,$4.75 B,$46.43 B,$37.02 B
+853.,Aluminum Corp of China,China,$41.84 B,$30.18 B,$9.13 B
+853.,Kansai Electric Power,Japan,$26.01 B,$72.67 B,$8.41 B
+855.,Public Storage,United States,$3.42 B,$17.38 B,$70.56 B
+856.,China International Travel Service,China,$10.37 B,$8.68 B,$53.27 B
+857.,Sika,Switzerland,$10.12 B,$11.95 B,$49.37 B
+858.,Signature Bank,United States,$2.48 B,$121.85 B,$14.95 B
+859.,T Rowe Price,United States,$7.67 B,$12.51 B,$30.58 B
+860.,International Flavors & Fragrances,United States,$11.66 B,$39.66 B,$31.74 B
+861.,Atlantia,Italy,$6.21 B,$97.97 B,$20.11 B
+862.,Roper Technologies,United States,$6.09 B,$23.71 B,$47.95 B
+863.,Shanghai International Port,China,$5.18 B,$26.8 B,$21.72 B
+864.,Daiichi Sankyo,Japan,$9.42 B,$18.79 B,$43.87 B
+865.,Rakuten,Japan,$15.31 B,$146.16 B,$11.45 B
+866.,Franklin Resources,United States,$8.72 B,$25 B,$13.25 B
+867.,Bank of Ireland,Ireland,$8.37 B,$176.57 B,$7.83 B
+868.,Mitsui OSK Lines,Japan,$10.81 B,$22.2 B,$8.9 B
+868.,Saudi British Bank,Saudi Arabia,$2.38 B,$72.55 B,$24.3 B
+870.,Ameren,United States,$6.39 B,$35.73 B,$25 B
+871.,Chunghwa Telecom,Taiwan,$7.54 B,$18.54 B,$34.87 B
+872.,Assa Abloy,Sweden,$11.07 B,$14.36 B,$29.86 B
+873.,ZTE,China,$17.64 B,$26.64 B,$9.76 B
+874.,Asr Nederland,Netherlands,$11.72 B,$84.86 B,$6.61 B
+875.,Conagra Brands,United States,$11.37 B,$22.5 B,$17.33 B
+876.,Commerzbank,Germany,$14.84 B,$537.95 B,$9.18 B
+877.,Bajaj Finserv ,India,$8.64 B,$41.54 B,$32.15 B
+878.,Hyundai Steel,South Korea,$19.95 B,$31.16 B,$4.73 B
+879.,LG Display,South Korea,$26.09 B,$32.1 B,$5.38 B
+880.,KT ,South Korea,$21.74 B,$31.26 B,$6.89 B
+880.,Logan Property Holdings,China,$12.2 B,$44.87 B,$1.7 B
+880.,Public Service Enterprise Group,United States,$8.73 B,$49 B,$37.09 B
+883.,EN+ Group International ,Russia,$14.12 B,$25.84 B,$4.47 B
+884.,Isbank,Turkey,$12.25 B,$95.42 B,$3.2 B
+885.,Expeditors International,United States,$16.68 B,$7.61 B,$16.64 B
+886.,Ternium,Luxembourg,$15.98 B,$17.1 B,$8.59 B
+887.,CEZ Group,Czech Republic,$10.9 B,$54.13 B,$23.39 B
+888.,Isuzu Motors,Japan,$21.7 B,$23.6 B,$9.3 B
+888.,Renesas Electronics,Japan,$9.05 B,$20.9 B,$20.81 B
+890.,Universal Music Group,Netherlands,$10.05 B,$13.89 B,$46.2 B
+891.,Unipol Gruppo,Italy,$16.89 B,$90.33 B,$4.08 B
+892.,SBI Holdings,Japan,$5.58 B,$152.48 B,$5.49 B
+893.,Techtronic Industries,Hong Kong,$13.2 B,$13.01 B,$26.31 B
+894.,Ferrovial,Spain,$8.01 B,$28.31 B,$19.21 B
+895.,CIMB Group Holdings,Malaysia,$5.66 B,$149.28 B,$12.22 B
+896.,Kone,Finland,$12.43 B,$11.05 B,$25.87 B
+897.,E-mart ,South Korea,$21.77 B,$26.28 B,$3.08 B
+898.,GF Securities,China,$5.85 B,$84.08 B,$9.87 B
+899.,China Merchants Securities,China,$5.7 B,$93.71 B,$9.86 B
+900.,Annaly Capital Management,United States,$731 M,$76.76 B,$9.53 B
+901.,Coles Group,Australia,$29.38 B,$15.2 B,$18.25 B
+902.,Central Japan Railway,Japan,$8.25 B,$81.51 B,$24.77 B
+902.,Sabanci Holding,Turkey,$10.51 B,$61.73 B,$2.79 B
+904.,Yuanta Financial Holding,Taiwan,$5.77 B,$109.26 B,$11.06 B
+905.,AntarChile,Chile,$24.9 B,$25.87 B,$3.49 B
+906.,HMM,South Korea,$12.05 B,$15.04 B,$10.81 B
+906.,Seagate Technology,Ireland,$11.97 B,$9.38 B,$18.04 B
+908.,Alleghany,United States,$12 B,$30.13 B,$11.24 B
+909.,Guosen Securities,China,$3.76 B,$56.27 B,$15.04 B
+910.,Avis Budget Group,United States,$9.31 B,$22.6 B,$16.03 B
+911.,Jiangxi Copper,China,$68.46 B,$25.27 B,$5.72 B
+911.,Mitsubishi UFJ Lease,Japan,$14.05 B,$86.11 B,$6.49 B
+913.,Sumitomo Metal Mining,Japan,$10.71 B,$17.89 B,$13.03 B
+914.,Asustek Computer,Taiwan,$19.16 B,$18.22 B,$9.22 B
+915.,Associated British Foods,United Kingdom,$18.99 B,$22.78 B,$16.58 B
+915.,China National Nuclear Power,China,$9.6 B,$64.27 B,$22 B
+917.,China International Capital,China,$3.61 B,$101.95 B,$10.03 B
+918.,China Molybdenum,China,$26.77 B,$21.57 B,$11.4 B
+919.,Equitable Holdings,United States,$11.04 B,$292.26 B,$11.77 B
+920.,Covestro,Germany,$18.8 B,$18.03 B,$8.65 B
+920.,M&G,United Kingdom,$23.38 B,$294.55 B,$6.99 B
+922.,Shopify,Canada,$4.61 B,$13.34 B,$57.93 B
+923.,Shanghai Construction ,China,$43.4 B,$55.51 B,$4.22 B
+924.,Essity,Sweden,$14.59 B,$19.33 B,$19.43 B
+925.,WW Grainger,United States,$13.02 B,$6.59 B,$25.52 B
+926.,Canara Bank,India,$12.68 B,$164.71 B,$5.53 B
+927.,Viatris,United States,$17.86 B,$54.84 B,$12.43 B
+928.,American Water Works,United States,$3.93 B,$27.01 B,$29.84 B
+929.,United Microelectronics,Taiwan,$7.63 B,$16.79 B,$20.33 B
+930.,VF,United States,$11.62 B,$13.54 B,$21.23 B
+931.,Intuitive Surgical,United States,$5.91 B,$13.68 B,$90.64 B
+932.,Snam,Italy,$3.9 B,$30.55 B,$18.32 B
+933.,Vestas Wind Systems,Denmark,$18.42 B,$22.42 B,$28.23 B
+934.,Subaru,Japan,$25.15 B,$29.47 B,$11.61 B
+935.,Jiangsu Zhongnan Construction Group,China,$14 B,$54.31 B,$2.46 B
+936.,Carlsberg,Denmark,$10.59 B,$19.32 B,$17.76 B
+937.,Builders FirstSource,United States,$19.89 B,$10.71 B,$10.86 B
+937.,Semiconductor Manufacturing International,China,$5.51 B,$36.08 B,$16.03 B
+939.,PKO Bank Polski,Poland,$4.45 B,$103.73 B,$10.9 B
+940.,ENN Energy Holdings,China,$14.44 B,$15.69 B,$14.99 B
+941.,WH Group ,Hong Kong,$27.29 B,$19.41 B,$8.86 B
+942.,Amcor,United Kingdom,$13.59 B,$17.14 B,$17.53 B
+943.,Korea Gas,South Korea,$24.03 B,$36.74 B,$2.81 B
+944.,Jefferies Financial ,United States,$8.64 B,$60.04 B,$7.68 B
+945.,Severstal,Russia,$11.63 B,$8.75 B,$11.5 B
+946.,Alexandria Real Estate Equities,United States,$2.11 B,$30.22 B,$31.95 B
+946.,Julius Baer Group,Switzerland,$4.95 B,$127.65 B,$10.34 B
+946.,Sanlam,South Africa,$14.42 B,$64.88 B,$9.09 B
+949.,Emaar Properties,United Arab Emirates,$7.86 B,$33.17 B,$14.07 B
+950.,Joint Stock Commercial Bank for Foreign Trade of Vietnam,Vietnam,$3.91 B,$62.07 B,$16.94 B
+951.,Motorola Solutions,United States,$8.17 B,$12.19 B,$37.7 B
+951.,Shanghai Rural Commercial Bank,China,$5.77 B,$164.28 B,$9.28 B
+953.,Braskem,Brazil,$19.57 B,$16.62 B,$6.76 B
+954.,Bank of Baroda,India,$12.06 B,$167.76 B,$7.54 B
+955.,S-Oil,South Korea,$23.98 B,$15.81 B,$9.91 B
+956.,Tractor Supply,United States,$12.96 B,$7.69 B,$23.18 B
+957.,Suncorp Group,Australia,$9.88 B,$72.31 B,$10.27 B
+958.,MOL Hungarian Oil,Hungary,$19.64 B,$20.04 B,$7.08 B
+959.,Aptiv,Ireland,$15.62 B,$18.01 B,$28.85 B
+960.,Voya Financial,United States,$4.23 B,$158.53 B,$7.04 B
+961.,GS Holdings,South Korea,$17.67 B,$26.24 B,$3.37 B
+962.,Gerdau (Cosigua),Brazil,$14.52 B,$13.25 B,$10.16 B
+963.,Equity Residential,United States,$2.43 B,$21.17 B,$34.27 B
+964.,Qatar Islamic Bank,Qatar,$1.82 B,$52.86 B,$16.4 B
+965.,Hormel Foods,United States,$11.97 B,$12.83 B,$29.2 B
+966.,Shenwan Hongyuan Group,China,$6.81 B,$94.3 B,$5.46 B
+967.,Reinsurance Group of America,United States,$16.65 B,$89.59 B,$7.59 B
+968.,Quest Diagnostics,United States,$10.68 B,$13.44 B,$16.16 B
+969.,Solvay,Belgium,$13.52 B,$22.8 B,$10.12 B
+970.,Pembina Pipeline,Canada,$6.95 B,$24.9 B,$21.29 B
+971.,Banque Saudi Fransi,Saudi Arabia,$2.19 B,$57.48 B,$17.6 B
+972.,SMC,Japan,$6.4 B,$14.77 B,$33.91 B
+973.,Sasol,South Africa,$15.54 B,$24.7 B,$15.28 B
+974.,Molson Coors Brewing,United States,$10.28 B,$27.62 B,$11.66 B
+975.,Macy's,United States,$25.29 B,$18.85 B,$6.91 B
+976.,Bancolombia,Colombia,$6.08 B,$71.22 B,$10.89 B
+976.,Cintas,United States,$7.62 B,$8.17 B,$41.75 B
+978.,China International Marine,China,$25.3 B,$24.21 B,$5.48 B
+979.,Huaneng Power International,China,$31.47 B,$78.57 B,$7.46 B
+979.,Restaurant Brands International,Canada,$5.74 B,$23.25 B,$27.23 B
+981.,Grupa PZU,Poland,$10.1 B,$99.32 B,$6.44 B
+982.,Kao ,Japan,$12.91 B,$14.8 B,$19.19 B
+983.,Agile Group Holdings,China,$11.52 B,$49.67 B,$1.85 B
+984.,Arrow Electronics,United States,$34.48 B,$19.54 B,$7.57 B
+985.,Shenzhen Overseas,China,$14.88 B,$75.32 B,$8.54 B
+985.,Tenet Healthcare,United States,$19.45 B,$26.65 B,$7.98 B
+987.,Grupo Aval,Colombia,$10.27 B,$90.15 B,$4.78 B
+988.,CP All,Thailand,$17.65 B,$27.9 B,$17.53 B
+989.,Geely Automobile Holdings,Hong Kong,$15.76 B,$21.08 B,$14.82 B
+990.,Centrica,United Kingdom,$20.28 B,$36.69 B,$5.96 B
+990.,Dubai Islamic Bank,United Arab Emirates,$3.16 B,$75.98 B,$12.38 B
+992.,Suzano Papel e Celulose,Brazil,$7.59 B,$21.36 B,$14.66 B
+993.,Link REIT,Hong Kong,$1.47 B,$27.99 B,$18.28 B
+994.,Yum! Brands,Canada,$6.58 B,$5.97 B,$35.28 B
+995.,First Quantum Minerals,Canada,$8.29 B,$25.27 B,$19.43 B
+996.,AerCap Holdings,Ireland,$4.52 B,$74.57 B,$12.59 B
+997.,First Horizon,United States,$3.15 B,$88.66 B,$12.21 B
+998.,Dentsu,Japan,$9.88 B,$32.31 B,$10.34 B
+998.,Molina Healthcare,United States,$27.77 B,$12.22 B,$19.08 B
+1000.,Union Bank of India,India,$11.28 B,$148.94 B,$3.62 B
+1001.,Toray Industries,Japan,$19.72 B,$25.73 B,$7.77 B
+1002.,Block,United States,$17.66 B,$13.93 B,$59.55 B
+1002.,Eletrobrás,Brazil,$6.97 B,$33.42 B,$13.42 B
+1004.,China Mengniu Dairy,Hong Kong,$13.66 B,$15.39 B,$21.62 B
+1005.,Db Insurance,South Korea,$14.99 B,$53.62 B,$3.39 B
+1006.,E.Sun Financial,Taiwan,$3.05 B,$116.78 B,$15.06 B
+1007.,OTP Bank,Hungary,$5.8 B,$85.02 B,$8.49 B
+1008.,SM Investments,Philippines,$8.14 B,$26.31 B,$20.01 B
+1009.,eBay,United States,$10.9 B,$26.63 B,$31.24 B
+1010.,Edwards Lifesciences,United States,$5.23 B,$8.5 B,$73.55 B
+1011.,Taiwan Cooperative Financial,Taiwan,$2.67 B,$160.26 B,$13.41 B
+1012.,Constellation Brands,United States,$8.82 B,$25.86 B,$46.99 B
+1013.,China Jinmao,Hong Kong,$14.01 B,$64.64 B,$4.04 B
+1014.,Fanuc,Japan,$6.52 B,$14.79 B,$31.36 B
+1015.,Yango Group,China,$12.63 B,$57.93 B,$1.66 B
+1016.,Legrand,France,$8.27 B,$15.95 B,$24.35 B
+1017.,Shanghai Pharmaceuticals,China,$33.36 B,$25.64 B,$6.02 B
+1018.,AGC,Japan,$15.45 B,$23.15 B,$8.47 B
+1019.,Shaanxi Construction Engineering Group,China,$23.76 B,$34.62 B,$2.8 B
+1020.,Hunan Valin Steel,China,$25.84 B,$16.55 B,$6.29 B
+1021.,Goodman Group,Australia,$1.27 B,$13.93 B,$32.02 B
+1022.,iA Financial Corporation,Canada,$13.28 B,$73.19 B,$6.13 B
+1023.,Unum,United States,$12.01 B,$59.53 B,$6.75 B
+1024.,Anta Sports Products,China,$7.65 B,$9.83 B,$31.9 B
+1025.,Continental Resources,United States,$5.82 B,$19 B,$21.35 B
+1026.,Bâloise Group,Switzerland,$11.06 B,$97.85 B,$8.19 B
+1027.,Pegatron,Taiwan,$45.24 B,$24.46 B,$6.56 B
+1028.,Jones Lang LaSalle,United States,$19.49 B,$15.51 B,$11.12 B
+1029.,American Financial Group,United States,$6.21 B,$24.89 B,$12.28 B
+1029.,Daiwa Securities,Japan,$5.82 B,$229.39 B,$7.59 B
+1031.,Deutsche Lufthansa,Germany,$19.87 B,$49.46 B,$9.3 B
+1031.,Invesco,United States,$7.01 B,$32.69 B,$9.38 B
+1031.,NASDAQ,United States,$5.77 B,$20.82 B,$27.43 B
+1034.,Schindler Holding,Switzerland,$12.29 B,$13.14 B,$21.51 B
+1035.,Comerica,United States,$2.95 B,$89.17 B,$10.61 B
+1036.,Mizrahi Tefahot Bank,Israel,$4.34 B,$126.03 B,$9.75 B
+1037.,Bio-Rad Laboratories,United States,$2.92 B,$17.78 B,$15.99 B
+1038.,Industries Qatar,Qatar,$4.24 B,$11.62 B,$33.56 B
+1039.,Kakao,South Korea,$5.36 B,$19.16 B,$32.23 B
+1040.,Ashtead Group,United Kingdom,$7.65 B,$14.78 B,$26.45 B
+1041.,Punjab National Bank,India,$12.1 B,$178.94 B,$5.1 B
+1042.,Delta Electronics,Taiwan,$11.27 B,$13.2 B,$21.84 B
+1043.,Alcon,Switzerland,$8.29 B,$28 B,$38.47 B
+1043.,TD SYNNEX,United States,$42.15 B,$28.72 B,$9.61 B
+1045.,Antofagasta,United Kingdom,$7.47 B,$17.28 B,$18.92 B
+1045.,PulteGroup,United States,$13.93 B,$13.35 B,$10.12 B
+1045.,Wan Hai Lines,Taiwan,$8.16 B,$9.31 B,$13.01 B
+1048.,Equinix,United States,$6.64 B,$27.92 B,$67.84 B
+1048.,Reliance Steel,United States,$14.09 B,$9.54 B,$11.93 B
+1050.,PTT Global Chemical,Thailand,$14.65 B,$22.57 B,$6.58 B
+1051.,Bankinter,Spain,$2.76 B,$123.28 B,$5.39 B
+1052.,Teva Pharmaceutical,Israel,$15.85 B,$47.67 B,$10.63 B
+1053.,C.H. Robinson,United States,$23.1 B,$7.03 B,$13.14 B
+1054.,Verbund,Austria,$5.65 B,$19.46 B,$35.6 B
+1055.,Zions Bancorp,United States,$2.96 B,$93.2 B,$9.23 B
+1056.,Bank Of Chengdu,China,$4.69 B,$115.52 B,$9.08 B
+1057.,3i Group,United Kingdom,$331 M,$16.62 B,$16.82 B
+1057.,Alinma Bank,Saudi Arabia,$1.91 B,$46.21 B,$21.53 B
+1059.,JDE Peet's,Netherlands,$8.28 B,$25 B,$15.03 B
+1060.,Cosmo Energy Holdings,Japan,$21.95 B,$16.9 B,$2.11 B
+1061.,RiseSun Real Estate Development,China,$10.88 B,$44.93 B,$2.55 B
+1061.,Uni-President,Taiwan,$16.95 B,$18.58 B,$13.09 B
+1063.,Mahindra & Mahindra,India,$11.59 B,$22.36 B,$14.96 B
+1064.,Telenor,Norway,$12.98 B,$25.6 B,$20.41 B
+1065.,UCB,Belgium,$6.83 B,$16.16 B,$22.35 B
+1066.,Interpublic Group,United States,$10.24 B,$19.91 B,$13.81 B
+1067.,Akzo Nobel,Netherlands,$11.44 B,$17.41 B,$15.61 B
+1067.,Celanese,United States,$8.54 B,$11.97 B,$15.42 B
+1069.,AvalonBay Communities,United States,$2.33 B,$19.9 B,$35.58 B
+1069.,Randstad N.V.,Netherlands,$29.12 B,$12.76 B,$10.41 B
+1071.,Sibanye Stillwater,South Africa,$11.64 B,$9.59 B,$10.27 B
+1072.,First Financial Holding,Taiwan,$2.94 B,$135.16 B,$12.38 B
+1073.,Microchip Technology,United States,$6.44 B,$16.05 B,$36.73 B
+1074.,Flex,Singapore,$25.46 B,$18.18 B,$7.78 B
+1074.,Liberty Media Corporation Series A Liberty Formula One,United States,$11.4 B,$44.35 B,$14.14 B
+1076.,Agilent Technologies,United States,$6.45 B,$10.33 B,$36.41 B
+1077.,Guangzhou Automobile Group,China,$11.74 B,$24.2 B,$8.59 B
+1078.,Rosseti,Russia,$14.5 B,$38.88 B,$1.62 B
+1079.,Beijing Shougang,China,$20.56 B,$23.05 B,$6.46 B
+1080.,CGI,Canada,$9.73 B,$11.64 B,$19.36 B
+1081.,Csc Financial,China,$6.06 B,$71.04 B,$7.39 B
+1081.,ThyssenKrupp Group,Germany,$42.22 B,$40.95 B,$4.88 B
+1083.,Shenzhen Mindray Bio-Medical Electronics,China,$4.07 B,$6.04 B,$56.3 B
+1084.,Hoya,Japan,$5.86 B,$8.36 B,$36.8 B
+1085.,Tongwei,China,$9.07 B,$12.9 B,$25.56 B
+1086.,Kuwait Finance House,Kuwait,$3.48 B,$72.95 B,$29.56 B
+1087.,Grupo Bimbo,Mexico,$17.18 B,$16.5 B,$12.33 B
+1087.,LKQ,United States,$13.09 B,$12.61 B,$14.07 B
+1089.,Chubu Electric Power,Japan,$24.12 B,$52.96 B,$7.71 B
+1090.,Lithia Motors,United States,$25.19 B,$12.08 B,$8.53 B
+1091.,Swire Pacific,Hong Kong,$11.68 B,$55.96 B,$8.52 B
+1092.,Unicaja Banco,Spain,$1.69 B,$131.4 B,$2.69 B
+1093.,Mazda Motor,Japan,$28.08 B,$26.09 B,$4.53 B
+1094.,Telecom Italia,Italy,$18.18 B,$78.68 B,$6.56 B
+1095.,China Galaxy Securities,China,$4.98 B,$87.89 B,$5.85 B
+1096.,CNPC Capital,China,$5.33 B,$155.42 B,$9.49 B
+1097.,China Southern Airlines,China,$15.76 B,$50.71 B,$9.46 B
+1097.,Dassault Systemes,France,$5.75 B,$16.17 B,$56.73 B
+1099.,GD Power Development,China,$23.2 B,$59.02 B,$7.53 B
+1100.,Paychex,United States,$4.5 B,$10.28 B,$47.42 B
+1101.,Genworth Financial,United States,$7.83 B,$83.2 B,$1.95 B
+1101.,Monster Beverage,United States,$5.54 B,$7.86 B,$45.34 B
+1103.,China Longyuan Power,China,$5.72 B,$29.7 B,$16.82 B
+1104.,Ovintiv,United States,$10.54 B,$14.05 B,$13.01 B
+1105.,BDO Unibank,Philippines,$4.28 B,$69.48 B,$11.32 B
+1106.,AutoNation,United States,$26.69 B,$9.36 B,$6.53 B
+1106.,China Aoyuan Group,China,$10.86 B,$48.93 B,$446 M
+1108.,Chesapeake Energy,United States,$7.32 B,$11.01 B,$11.08 B
+1109.,J.B. Hunt Transport Services,United States,$13.04 B,$7.03 B,$17.76 B
+1110.,Mediobanca,Italy,$3.68 B,$101.32 B,$8.46 B
+1111.,Credicorp,Peru,$4.89 B,$61.35 B,$11.7 B
+1112.,Realty Income,United States,$2.08 B,$43.14 B,$43.97 B
+1113.,Beijing Enterprises,Hong Kong,$10.35 B,$28.58 B,$4.33 B
+1114.,Coterra Energy ,United States,$3.67 B,$20.27 B,$23.49 B
+1115.,Siam Commercial Bank,Thailand,$5.43 B,$101.37 B,$8.34 B
+1116.,Nongfu Spring,China,$4.6 B,$5.16 B,$60.71 B
+1117.,Finatis,France,$36.13 B,$38.39 B,$171 M
+1118.,Greentown China Holdings,China,$15.73 B,$81.75 B,$4.45 B
+1119.,Meritz Financial Group,South Korea,$10.97 B,$68.62 B,$3.77 B
+1120.,TBEA,China,$9.39 B,$19.83 B,$11.1 B
+1121.,Rockwell Automation,United States,$7.29 B,$10.74 B,$30.27 B
+1122.,West Fraser Timber Co.,Canada,$10.49 B,$10.43 B,$9.23 B
+1123.,Helvetia Holding,Switzerland,$13.77 B,$76.84 B,$7.14 B
+1124.,Chow Tai Fook Jewellery,Hong Kong,$11.55 B,$10.18 B,$16.65 B
+1125.,Givaudan,Switzerland,$7.31 B,$12.53 B,$36.93 B
+1126.,Polyus,Russia,$4.96 B,$7.93 B,$23.38 B
+1127.,Lululemon Athletica,United States,$6.26 B,$4.94 B,$46.52 B
+1128.,Bath & Body Works,United States,$11.05 B,$6.03 B,$12.74 B
+1128.,Jabil Circuit,United States,$30.74 B,$17.43 B,$8.11 B
+1130.,Innolux,Taiwan,$12.53 B,$16.9 B,$5.52 B
+1131.,Partners Group Holding,Switzerland,$3.2 B,$5.3 B,$31.4 B
+1132.,Luzhou Lao Jiao,China,$2.92 B,$6.78 B,$45.69 B
+1132.,Scor,France,$17.23 B,$53.88 B,$5.24 B
+1134.,Dover,United States,$8.09 B,$10.5 B,$20.61 B
+1135.,East West Bancorp,United States,$1.91 B,$62.24 B,$11.02 B
+1136.,J Sainsbury,United Kingdom,$40.82 B,$34.62 B,$7.17 B
+1137.,Kaisa Group Holdings,China,$9.55 B,$49.39 B,$751 M
+1138.,China Huarong Asset Management,China,$11.24 B,$246.09 B,$3.89 B
+1139.,AU Optronics,Taiwan,$13.27 B,$15.35 B,$6.04 B
+1139.,Ulta Beauty,United States,$8.63 B,$5.34 B,$21.23 B
+1141.,Korea Investment Holdings,South Korea,$3.06 B,$69.01 B,$3.51 B
+1142.,Itaúsa,Brazil,$1.51 B,$15.44 B,$18.42 B
+1143.,BAIC Motor,China,$27.27 B,$28.38 B,$2.48 B
+1144.,Cellnex Telecom,Spain,$2.99 B,$47.53 B,$32.98 B
+1145.,AES,United States,$11.14 B,$32.96 B,$15.01 B
+1145.,Evraz Group,United Kingdom,$13.49 B,$9.85 B,$1.52 B
+1145.,Leonardo,Italy,$16.71 B,$32.27 B,$6.26 B
+1148.,Impala Platinum Holdings,South Africa,$8.59 B,$8.89 B,$11.04 B
+1149.,Lotte Chemical,South Korea,$15.82 B,$19.24 B,$5.41 B
+1150.,Foshan Haitian Flavouring and Food,China,$3.84 B,$5.23 B,$58.05 B
+1151.,Rolls-Royce Holdings,United Kingdom,$15.43 B,$38.84 B,$9.84 B
+1152.,Sodexo,France,$22.33 B,$22.07 B,$11.33 B
+1153.,Altice USA,United States,$10.09 B,$34.05 B,$5.13 B
+1153.,Bank Negara Indonesia,Indonesia,$4.82 B,$67.7 B,$12.13 B
+1155.,DaVita,United States,$11.62 B,$17.87 B,$10.73 B
+1156.,Old Mutual,South Africa,$16.75 B,$65.19 B,$3.74 B
+1156.,Yum China Holdings,China,$9.85 B,$13.22 B,$17.41 B
+1158.,Penske Automotive,United States,$25.55 B,$14.16 B,$7.44 B
+1158.,Yamaha Motor,Japan,$16.5 B,$15.92 B,$7.4 B
+1160.,Kingfisher,United Kingdom,$18.12 B,$16.57 B,$6.77 B
+1161.,Storebrand,Norway,$13.77 B,$87.86 B,$4.54 B
+1162.,Darden Restaurants,United States,$9.31 B,$10.21 B,$16.72 B
+1163.,Hess,United States,$7.72 B,$20.52 B,$32.97 B
+1164.,CJ Corporation,South Korea,$30.11 B,$35.29 B,$2.39 B
+1165.,Falabella,Chile,$15.1 B,$25.16 B,$7.27 B
+1166.,Coupang,South Korea,$18.41 B,$8.64 B,$24.7 B
+1167.,CapitaLand Investment,Singapore,$1.83 B,$27.92 B,$15.2 B
+1167.,Fastighets Balder,Sweden,$1.04 B,$25.43 B,$9.99 B
+1169.,Welltower,United States,$4.73 B,$34.91 B,$43.1 B
+1170.,Kajima,Japan,$18.21 B,$19.62 B,$5.64 B
+1171.,Steel Authority of India,India,$12.98 B,$15.87 B,$5.48 B
+1172.,Caesars Entertainment,United States,$9.48 B,$38.03 B,$14.26 B
+1173.,New World Development,Hong Kong,$8.85 B,$82.05 B,$9.96 B
+1174.,Textron,United States,$12.38 B,$15.83 B,$14.69 B
+1175.,Cemex,Mexico,$14.65 B,$26.65 B,$6.69 B
+1176.,Hexagon ,Sweden,$5.13 B,$16.03 B,$36.39 B
+1177.,ZIM Integrated Shipping Services,Israel,$10.73 B,$9.84 B,$6.53 B
+1178.,China National Chemical,China,$20.54 B,$25.21 B,$8.52 B
+1179.,Fastenal,United States,$6.3 B,$4.47 B,$32.78 B
+1180.,Chongqing Zhifei Biological Products,China,$4.74 B,$4.71 B,$25.21 B
+1180.,Secom,Japan,$9.55 B,$16.25 B,$15.21 B
+1182.,Angang Steel,China,$21.02 B,$15.3 B,$4.35 B
+1182.,STO Express,China,$39.15 B,$29.45 B,$1.92 B
+1184.,Zoom Video Communications,United States,$4.1 B,$7.55 B,$29.96 B
+1185.,Magnitogorsk Iron & Steel,Russia,$11.86 B,$9.77 B,$6.07 B
+1186.,NVR,United States,$8.74 B,$5.83 B,$14.39 B
+1187.,Evergy,United States,$5.59 B,$28.52 B,$16.36 B
+1188.,Alpha Dhabi Holding,United Arab Emirates,$5.13 B,$12.89 B,$74.92 B
+1188.,Kirin Holdings,Japan,$16.58 B,$21.47 B,$11.79 B
+1190.,Bank of Changsha,China,$5.66 B,$121.72 B,$4.83 B
+1190.,Voestalpine,Austria,$16.77 B,$17.85 B,$4.85 B
+1192.,China Resources Pharmaceutical Group,Hong Kong,$30.47 B,$31.88 B,$3.19 B
+1193.,Kuaishou Technology,China,$12.58 B,$14.52 B,$32.25 B
+1194.,BBMG,China,$18.91 B,$44.93 B,$1.73 B
+1195.,Suning.com,China,$28.6 B,$32.44 B,$4.71 B
+1196.,National Bank of Greece,Greece,$2.65 B,$95.48 B,$4 B
+1197.,Targa Resources,United States,$17.44 B,$16.41 B,$17.39 B
+1198.,Olympus,Japan,$7.71 B,$11.23 B,$23.96 B
+1198.,Umicore,Belgium,$28.43 B,$10.45 B,$9.69 B
+1200.,Expedia Group,United States,$8.6 B,$21.55 B,$28.29 B
+1200.,Hua Nan Financial,Taiwan,$2.54 B,$125.09 B,$10.67 B
+1202.,Jiangsu Yanghe Brewery,China,$3.06 B,$8.71 B,$32.79 B
+1202.,Kerry Group,Ireland,$8.69 B,$12.96 B,$19.39 B
+1204.,Beiersdorf,Germany,$9.02 B,$13 B,$23.47 B
+1205.,Leidos,United States,$13.74 B,$13.26 B,$14.76 B
+1206.,Eastman,United States,$10.48 B,$15.52 B,$13.72 B
+1207.,Vistra Energy,United States,$13.28 B,$30.45 B,$11.18 B
+1208.,Tohoku Electric Power,Japan,$19.52 B,$40.14 B,$2.83 B
+1209.,Banca Mediolanum,Italy,$6.44 B,$83.53 B,$5.7 B
+1210.,PGE Polska Grupa Energetyczna,Poland,$11.99 B,$21.65 B,$3.94 B
+1211.,TransDigm Group,United States,$4.88 B,$19.24 B,$34.61 B
+1212.,Experian,Ireland,$5.94 B,$10.39 B,$32.22 B
+1212.,Mirae Asset Financial Group,South Korea,$3.5 B,$91.39 B,$3.98 B
+1214.,EQT AB,Sweden,$1.8 B,$4.43 B,$35.06 B
+1215.,GAIL India,India,$10.98 B,$12.03 B,$9.52 B
+1216.,Inner Mongolia Baotou Steel,China,$13.21 B,$23.22 B,$14.12 B
+1217.,Towngas,Hong Kong,$6.89 B,$21.56 B,$21.31 B
+1218.,ON Semiconductor Corp.,United States,$6.74 B,$9.63 B,$22.49 B
+1218.,Terna,Italy,$3.08 B,$23.81 B,$16.92 B
+1220.,Carnival Corporation,United States,$3.51 B,$53.28 B,$21.45 B
+1221.,VICI Properties,United States,$1.51 B,$17.6 B,$22.21 B
+1222.,Chipotle Mexican Grill,United States,$7.55 B,$7.64 B,$41.49 B
+1223.,Toppan Printing,Japan,$13.82 B,$20.32 B,$5.57 B
+1224.,Shanghai Electric Group,China,$19.89 B,$31.74 B,$8.21 B
+1224.,Turkish Airlines,Turkey,$10.91 B,$26.64 B,$3.72 B
+1226.,Ferrari,Italy,$5.05 B,$7.8 B,$39.04 B
+1227.,Old Republic International,United States,$9.34 B,$20.38 B,$7.33 B
+1228.,Jeronimo Martins,Portugal,$24.69 B,$11.79 B,$13.7 B
+1229.,Zimmer Biomet,United States,$7.84 B,$23.46 B,$26.31 B
+1230.,Alcoa,United States,$12.82 B,$15.99 B,$12.42 B
+1231.,Santos,Australia,$4.82 B,$31.12 B,$19.97 B
+1232.,Alstom,France,$15.19 B,$35.15 B,$8.76 B
+1233.,Kyushu Electric Power,Japan,$16.22 B,$45.89 B,$3.06 B
+1234.,Goodyear,United States,$17.48 B,$21.4 B,$3.73 B
+1234.,Tenaris,Luxembourg,$6.54 B,$14.45 B,$18.55 B
+1236.,Bluescope Steel,Australia,$12.37 B,$10.76 B,$7.74 B
+1236.,Petronas Chemicals,Malaysia,$5.55 B,$11.52 B,$19.05 B
+1238.,Illumina,United States,$4.53 B,$15.22 B,$50.69 B
+1238.,Synopsys,United States,$4.5 B,$8.9 B,$43.63 B
+1240.,Datang International Power,China,$15.84 B,$46.46 B,$3.02 B
+1241.,Top Frontier Investment Holdings,Philippines,$17.34 B,$41.25 B,$745 M
+1242.,Arkema,France,$11.25 B,$13.99 B,$8.62 B
+1243.,Nippon Paint,Japan,$9.23 B,$16.98 B,$19.29 B
+1244.,Kobe Steel,Japan,$18.01 B,$23.19 B,$1.76 B
+1245.,Bank of Greece,Greece,$1.12 B,$224.16 B,$385 M
+1246.,Bank Of Guiyang,China,$4.72 B,$92.4 B,$3.56 B
+1246.,HD HYUNDAI,South Korea,$24.86 B,$30.13 B,$3.35 B
+1248.,Royal Mail,United Kingdom,$17.84 B,$13.71 B,$4.45 B
+1249.,Eurofins Scientific Societe Europeenne,Luxembourg,$7.94 B,$10.61 B,$18.47 B
+1250.,Lundbergs,Sweden,$3.43 B,$22.37 B,$12.1 B
+1251.,Guangzhou R&F,China,$12.41 B,$63.68 B,$1.4 B
+1252.,China Gas Holdings,Hong Kong,$10.53 B,$19.88 B,$6.41 B
+1252.,Shanxi Xinghuacun Fen Wine Factory,China,$2.62 B,$4.07 B,$48.91 B
+1254.,Hologic,United States,$5.49 B,$9.29 B,$18.58 B
+1255.,Western Alliance Bancorp.,United States,$2.27 B,$60.58 B,$8.35 B
+1256.,Wuchan Zhongda Group,China,$87.29 B,$20.38 B,$3.94 B
+1257.,Metro,Canada,$14.61 B,$10.78 B,$13.23 B
+1258.,Raizen,Brazil,$30.14 B,$18.86 B,$1.36 B
+1259.,Old Dominion Freight Line,United States,$5.26 B,$4.82 B,$30.9 B
+1260.,Israel Discount Bank,Israel,$3.86 B,$107.66 B,$7.54 B
+1261.,Bangkok Bank,Thailand,$5.42 B,$130.65 B,$7.45 B
+1262.,Akbank,Turkey,$5.97 B,$61.91 B,$3.22 B
+1263.,Mitsui Chemicals,Japan,$13.83 B,$16.12 B,$4.41 B
+1264.,Midea Real Estate Holding,China,$11.54 B,$45.27 B,$2.39 B
+1265.,Sharp,Japan,$22.78 B,$17.09 B,$5.29 B
+1266.,KPN,Netherlands,$6.23 B,$14.48 B,$14.33 B
+1267.,Kohl's,United States,$19.43 B,$15.05 B,$7.38 B
+1268.,Chongqing Changan Auto,China,$15.96 B,$20.41 B,$12.15 B
+1269.,Canadian Tire,Canada,$12.99 B,$17.26 B,$8.57 B
+1269.,Vienna Insurance Group,Austria,$12.62 B,$58.03 B,$6.52 B
+1271.,New Hope Liuhe,China,$19.87 B,$20.33 B,$10.38 B
+1272.,Sichuan Road & Bridge,China,$13.12 B,$21.5 B,$6.87 B
+1273.,Copart,United States,$3.16 B,$5.14 B,$27.59 B
+1273.,Dick's Sporting Goods,United States,$12.29 B,$9.04 B,$7.96 B
+1275.,Jiangsu Hengrui Medicine,China,$4.35 B,$6.03 B,$32.32 B
+1276.,Universal Health Services,United States,$12.64 B,$13.09 B,$9.9 B
+1277.,Grupo Inbursa,Mexico,$3.45 B,$27.9 B,$11.28 B
+1278.,Dongguan Rural Commercial Bank,China,$3.81 B,$93.12 B,$6.72 B
+1279.,Dassault Aviation,France,$8.56 B,$18.44 B,$14.16 B
+1280.,Yara International,Norway,$16.65 B,$17.27 B,$13.5 B
+1281.,Banco de Sabadell,Spain,$7.02 B,$286.51 B,$4.7 B
+1281.,Olam Group,Singapore,$34.98 B,$23.78 B,$4.75 B
+1283.,Wuxi Apptec,China,$3.55 B,$8.65 B,$49.71 B
+1284.,Popular,United States,$2.76 B,$75.1 B,$6.08 B
+1285.,Hydro One,Canada,$5.76 B,$24.05 B,$16.79 B
+1285.,SG Holdings,Japan,$13.62 B,$8.05 B,$11.02 B
+1285.,Sojitz,Japan,$18.13 B,$21.79 B,$3.62 B
+1288.,Goertek,China,$12.09 B,$9.58 B,$15.78 B
+1289.,Frontier Communications Parent,United States,$6.41 B,$17.14 B,$6.71 B
+1290.,Samhallsbyggnadsbolaget I Norden,Sweden,$692 M,$21.48 B,$8.48 B
+1290.,Schaeffler,Germany,$16.37 B,$16.95 B,$3.84 B
+1292.,Migdal Insurance,Israel,$11.35 B,$65.16 B,$2 B
+1293.,Inter Rao,Russia,$15.08 B,$12.99 B,$2.31 B
+1293.,Nedbank,South Africa,$6.14 B,$76.51 B,$6.96 B
+1295.,Hopson Development Holdings,Hong Kong,$3.95 B,$44.41 B,$4.56 B
+1296.,Ametek,United States,$5.55 B,$11.9 B,$29.4 B
+1297.,LG ,South Korea,$4.29 B,$21.59 B,$9.54 B
+1297.,Skanska,Sweden,$16.76 B,$15.36 B,$8.54 B
+1299.,HBIS,China,$15.51 B,$39.2 B,$3.87 B
+1300.,Banco BPM,Italy,$5.39 B,$228 B,$5 B
+1301.,China Fortune Land Development,China,$10.44 B,$72.07 B,$1.88 B
+1302.,Adyen,Netherlands,$7.09 B,$6.57 B,$54.81 B
+1303.,Air France-KLM,France,$16.92 B,$34.89 B,$2.85 B
+1304.,Jacobs Engineering,United States,$14.07 B,$14.8 B,$18.38 B
+1305.,China Resources Power,Hong Kong,$11.55 B,$36.86 B,$8.96 B
+1305.,PPL,United States,$5.78 B,$33.22 B,$21.99 B
+1307.,AIB Group,Ireland,$3.33 B,$145.42 B,$6.09 B
+1308.,Transurban Group,Australia,$2.08 B,$28.09 B,$31.17 B
+1309.,Tourmaline Oil,Canada,$3.81 B,$12.79 B,$16.46 B
+1310.,Arab National Bank,Saudi Arabia,$1.65 B,$51.27 B,$12.8 B
+1311.,Marvell Technology,United States,$4.46 B,$22.11 B,$49.55 B
+1312.,Skyworks Solutions,United States,$5.11 B,$8.62 B,$18.61 B
+1313.,Arista Networks,United States,$2.95 B,$5.73 B,$36.22 B
+1314.,China Three Gorges Renewables (Group),China,$1.64 B,$30.41 B,$24.53 B
+1315.,Electronic Arts,United States,$6.56 B,$13.93 B,$36.02 B
+1316.,Flutter Entertainment,Ireland,$8.3 B,$22.72 B,$18.66 B
+1317.,Brighthouse Financial,United States,$7.14 B,$261.3 B,$4.1 B
+1317.,International Airlines,United Kingdom,$9.95 B,$39.13 B,$9.52 B
+1319.,Boliden,Sweden,$8 B,$8.94 B,$13.29 B
+1320.,CF Industries Holdings,United States,$6.54 B,$12.57 B,$20.1 B
+1320.,Krung Thai Bank,Thailand,$4.43 B,$107.71 B,$5.89 B
+1322.,DiDi Global,China,$26.95 B,$24.01 B,$7.49 B
+1323.,Hyundai Marine & Fire,South Korea,$13.13 B,$43.42 B,$2.12 B
+1324.,CSN,Brazil,$8.88 B,$14.25 B,$6.22 B
+1325.,APA,United States,$7.99 B,$13.3 B,$14.12 B
+1326.,SSAB AB,Sweden,$11.17 B,$12.37 B,$6.82 B
+1326.,Teleperformance,France,$8.41 B,$9.45 B,$21.55 B
+1328.,Campbell Soup,United States,$8.3 B,$11.99 B,$14.16 B
+1329.,Sofina,Belgium,$118 M,$13.74 B,$11.34 B
+1330.,Bunzl,United Kingdom,$14.14 B,$9.75 B,$13.28 B
+1331.,CJ Cheiljedang,South Korea,$22.96 B,$22.59 B,$5.33 B
+1332.,Magnit,Russia,$25.18 B,$16.44 B,$5.49 B
+1333.,Huadian Power International,China,$15.5 B,$34.89 B,$3.27 B
+1334.,NARI Technology Development,China,$6.36 B,$10.69 B,$22.89 B
+1335.,Marathon Oil,United States,$5.6 B,$16.99 B,$17.96 B
+1336.,Eurazeo,France,$7.41 B,$18.33 B,$6.48 B
+1337.,Tokyo Gas,Japan,$17.47 B,$27.3 B,$7.93 B
+1338.,Guangzhou Rural Commercial Bank,China,$7.24 B,$182.26 B,$3.53 B
+1339.,Heimstaden AB Pref. Shs,Sweden,$1.13 B,$39.29 B,$615 M
+1340.,Keysight Technologies,United States,$5.01 B,$7.73 B,$26.44 B
+1341.,Schroders,United Kingdom,$4.16 B,$32.97 B,$10.6 B
+1341.,StoneX Group,United States,$47.63 B,$19.23 B,$1.39 B
+1343.,Aurubis,Germany,$20.38 B,$8.03 B,$5.21 B
+1344.,Garmin,Switzerland,$4.98 B,$7.85 B,$21.3 B
+1345.,Compal Electronics,Taiwan,$44.24 B,$19.41 B,$3.4 B
+1345.,ENN Natural Gas,China,$17.89 B,$20.07 B,$7.04 B
+1347.,Phoenix Holdings,Israel,$8.7 B,$45.23 B,$3.3 B
+1348.,McCormick,United States,$6.36 B,$12.94 B,$27.42 B
+1349.,Indian Bank,India,$6.17 B,$86.96 B,$2.63 B
+1350.,IDEXX Laboratories,United States,$3.21 B,$2.44 B,$39.89 B
+1350.,Smurfit Kappa Group,Ireland,$11.94 B,$13.59 B,$11.01 B
+1352.,Xinjiang Daqo New Energy,China,$2.68 B,$4.53 B,$16.01 B
+1353.,Halkbank,Turkey,$7.66 B,$93.67 B,$1.97 B
+1354.,Waste Connections,Canada,$6.15 B,$14.84 B,$35.26 B
+1355.,Swatch Group,Switzerland,$8 B,$15.01 B,$13.86 B
+1356.,South32,Australia,$6.58 B,$13.98 B,$16.27 B
+1357.,China Overseas Grand Oceans Group,Hong Kong,$8.42 B,$31.19 B,$1.99 B
+1358.,Tokyo Century,Japan,$11.32 B,$49.19 B,$3.88 B
+1359.,Japan Exchange Group,Japan,$1.25 B,$539.07 B,$8.62 B
+1360.,Terumo,Japan,$6.27 B,$12.17 B,$22.93 B
+1361.,LEG Immobilien AG,Germany,$1.15 B,$23.46 B,$7.78 B
+1362.,Sun Pharma Industries,India,$5.1 B,$9.3 B,$28.97 B
+1363.,Brown-Forman,United States,$3.74 B,$6.23 B,$32.09 B
+1364.,Assurant,United States,$10.19 B,$27.73 B,$10.77 B
+1365.,Ajinomoto,Japan,$10.29 B,$12.13 B,$13.89 B
+1366.,Indorama Ventures,Thailand,$14.62 B,$16.22 B,$7.77 B
+1367.,Taishin Financial Holdings,Taiwan,$2.6 B,$90.81 B,$7.55 B
+1367.,Zoomlion Heavy Industry,China,$10.4 B,$19.14 B,$5.35 B
+1369.,XCMG Construction Machinery,China,$13.03 B,$17.26 B,$6.23 B
+1370.,Powerlong Real Estate ,China,$6.2 B,$38.45 B,$1.34 B
+1370.,Yuexiu Property ,Hong Kong,$8.9 B,$49.27 B,$3.33 B
+1372.,Sonic Healthcare,Australia,$7.08 B,$9.06 B,$12.68 B
+1373.,NetApp,United States,$6.19 B,$9.5 B,$16.91 B
+1373.,Wolters Kluwer,Netherlands,$5.64 B,$10.44 B,$26.81 B
+1375.,Galp Energia,Portugal,$19.04 B,$16.96 B,$10.12 B
+1376.,NEXON,Japan,$2.5 B,$8.57 B,$20.32 B
+1376.,Royal Caribbean Group,United States,$1.53 B,$32.26 B,$20.82 B
+1378.,Extra Space Storage,United States,$1.61 B,$10.47 B,$28.54 B
+1378.,Shengjing Bank,China,$6.91 B,$157.96 B,$6.73 B
+1380.,X5 Retail Group,Russia,$29.93 B,$16.21 B,$144 M
+1381.,Cadence Design,United States,$2.99 B,$4.39 B,$41.22 B
+1381.,VakifBank,Turkey,$7.66 B,$85.49 B,$2.22 B
+1383.,AGCO,United States,$11.14 B,$9.18 B,$10.05 B
+1383.,Shanxi Taigang Stainless,China,$15.67 B,$10.61 B,$5.87 B
+1385.,Grupo Elektra,Mexico,$7.2 B,$20.71 B,$14.11 B
+1385.,SDIC Power Holdings,China,$6.3 B,$37.31 B,$11.24 B
+1387.,Zhongliang Holdings ,China,$11.81 B,$41.92 B,$968 M
+1388.,Wuestenrot & Wuerttembergische,Germany,$8.1 B,$85.06 B,$1.84 B
+1389.,MSCI,United States,$2.04 B,$5.51 B,$37.06 B
+1390.,BPER Banca,Italy,$4.49 B,$155.06 B,$2.46 B
+1391.,Obayashi,Japan,$16.98 B,$20.83 B,$5.09 B
+1392.,BNK Financial Group,South Korea,$4.23 B,$107.92 B,$2.1 B
+1392.,Oji Holdings,Japan,$13.11 B,$17.84 B,$4.8 B
+1394.,Spotify Technology,Luxembourg,$11.42 B,$8.15 B,$20.85 B
+1395.,Coloplast,Denmark,$3.16 B,$2.48 B,$31.59 B
+1396.,Brenntag,Germany,$17 B,$11.78 B,$12.46 B
+1397.,Wens Foodstuff Group,China,$10.06 B,$15.19 B,$20.41 B
+1398.,First American Financial,United States,$9.22 B,$16.45 B,$6.54 B
+1399.,Euronext,Netherlands,$1.56 B,$165.88 B,$9.15 B
+1400.,Masraf Al Rayan,Qatar,$1.14 B,$47.8 B,$14.68 B
+1401.,MercadoLibre,Uruguay,$7.07 B,$10.1 B,$49.4 B
+1401.,Packaging Corp of America,United States,$7.73 B,$8.02 B,$15.1 B
+1403.,Mitsubishi Materials,Japan,$15.65 B,$18.33 B,$2.09 B
+1404.,Wharf Real Estate Investment,Hong Kong,$2.06 B,$34.92 B,$14.69 B
+1405.,Berry Global Group,United States,$14.29 B,$17.34 B,$7.78 B
+1405.,Maanshan Iron & Steel,China,$17.55 B,$14.34 B,$3.16 B
+1407.,PerkinElmer,United States,$5.07 B,$15 B,$19.25 B
+1408.,Navient,United States,$3.49 B,$80.61 B,$2.5 B
+1408.,RTL Group,Luxembourg,$7.84 B,$12.17 B,$8.85 B
+1410.,Kesko,Finland,$13.36 B,$7.92 B,$10.53 B
+1411.,Samsung Securities,South Korea,$2.09 B,$55.27 B,$2.88 B
+1412.,Quanta Services,United States,$12.98 B,$12.86 B,$17.2 B
+1413.,Beijing Capital Development,China,$10.05 B,$49.32 B,$2.31 B
+1413.,Far East Horizon,Hong Kong,$5.49 B,$52.7 B,$3.67 B
+1415.,Faurecia,France,$18.46 B,$24.65 B,$3.75 B
+1416.,Indian Railway Finance,India,$2.55 B,$58.03 B,$3.83 B
+1417.,Liberty Broadband,United States,$988 M,$17.19 B,$20.82 B
+1418.,Xiamen International Trade Group,China,$72.02 B,$15.34 B,$2.54 B
+1419.,AirBnB,United States,$5.99 B,$13.71 B,$98.91 B
+1419.,China Grand Automotive Services,China,$26.26 B,$20.1 B,$2.79 B
+1421.,China Eastern Airlines,China,$10.41 B,$45.31 B,$6.3 B
+1422.,Adecco,Switzerland,$24.77 B,$13.49 B,$6.83 B
+1422.,AGNC Investment,United States,$1.97 B,$68.15 B,$6.06 B
+1424.,Westinghouse Air Brake Technologies,United States,$7.82 B,$18.45 B,$16.52 B
+1425.,Kawasaki Kisen Kaisha,Japan,$6.49 B,$11.72 B,$5.3 B
+1426.,Empire,Canada,$23.34 B,$12.92 B,$8.72 B
+1426.,Guangdong Haid Group,China,$14.04 B,$6.58 B,$15.44 B
+1426.,Shimano,Japan,$4.97 B,$6.13 B,$18 B
+1429.,Attijariwafa Bank,Morocco,$4.71 B,$64.44 B,$9.59 B
+1429.,Chailease Holding,Taiwan,$2.58 B,$25.78 B,$12.02 B
+1431.,Henry Schein,United States,$12.4 B,$8.48 B,$12.05 B
+1432.,Epiroc,Sweden,$4.62 B,$5.37 B,$26.07 B
+1432.,Suntory Beverage & Food,Japan,$11.55 B,$14.56 B,$11.91 B
+1434.,Mettler-Toledo International,United States,$3.72 B,$3.33 B,$29.21 B
+1435.,Wendel,France,$8.87 B,$16.13 B,$4.51 B
+1436.,Osaka Gas,Japan,$13.15 B,$22.27 B,$6.91 B
+1437.,Thor Industries,United States,$14.88 B,$7.67 B,$4.25 B
+1438.,Williams-Sonoma,United States,$8.25 B,$4.63 B,$9.68 B
+1439.,Xiamen Xiangyu,China,$71.65 B,$15.04 B,$2.93 B
+1440.,Rivian,United States,$55 M,$22.29 B,$30.27 B
+1441.,KION Group,Germany,$12.17 B,$19.17 B,$8.19 B
+1441.,Sino-Ocean Group Holding,China,$10.33 B,$44.13 B,$1.52 B
+1443.,Olin,United States,$8.91 B,$8.52 B,$8.46 B
+1444.,Kimco Realty,United States,$1.36 B,$18.46 B,$15.72 B
+1445.,Bank of Chongqing,China,$3.92 B,$94.82 B,$2.04 B
+1445.,Fortinet,United States,$3.34 B,$5.92 B,$48.93 B
+1447.,Church & Dwight,United States,$5.19 B,$8 B,$24.95 B
+1448.,Wistron,Taiwan,$30.86 B,$17.97 B,$2.83 B
+1449.,ServiceNow,United States,$5.89 B,$10.8 B,$94.28 B
+1450.,Align Technology,United States,$3.95 B,$5.94 B,$28.41 B
+1451.,Mohawk Industries,United States,$11.2 B,$14.22 B,$7.88 B
+1452.,SS&C Technologies,United States,$5.05 B,$17.33 B,$17.52 B
+1453.,Adani Enterprises,India,$7.86 B,$11.09 B,$32.7 B
+1454.,Advance Auto Parts,United States,$11 B,$12.19 B,$13.34 B
+1455.,West Japan Railway,Japan,$8.95 B,$32.35 B,$9.42 B
+1456.,Franco-Nevada,Canada,$1.3 B,$6.21 B,$30.37 B
+1457.,Unicharm,Japan,$7.12 B,$8.58 B,$20.27 B
+1458.,XP,Brazil,$2.31 B,$25.02 B,$14.29 B
+1459.,Duke Realty,United States,$1.11 B,$10.45 B,$22.92 B
+1460.,Valeo,France,$20.4 B,$21.42 B,$4.49 B
+1461.,AVIC Capita,China,$3.42 B,$71.69 B,$5.46 B
+1462.,Ahli United Bank,Bahrain,$1.56 B,$41.91 B,$11.43 B
+1462.,UGI,United States,$8.71 B,$16.8 B,$7.68 B
+1464.,Teradyne,United States,$3.7 B,$3.81 B,$17.65 B
+1465.,Avery Dennison,United States,$8.41 B,$7.97 B,$13.79 B
+1466.,SGS,Switzerland,$7.01 B,$7.69 B,$19.87 B
+1467.,Covivio,France,$1.25 B,$32.19 B,$7.42 B
+1468.,First Citizens Bank (NC),United States,$1.96 B,$58.31 B,$10.05 B
+1468.,Ningxia Baofeng Energy Group,China,$3.81 B,$7.38 B,$16.05 B
+1470.,Metalurgica Gerdau,Brazil,$14.52 B,$13.39 B,$2.6 B
+1471.,Charoen Pokphand Foods,Thailand,$16.01 B,$25.23 B,$5.92 B
+1472.,IndusInd Bank,India,$5.09 B,$51.26 B,$9.72 B
+1473.,Orient Securities,China,$3.25 B,$51.24 B,$4.1 B
+1474.,Brookfield Renewable,United States,$3.37 B,$41.99 B,$6.4 B
+1474.,Verisk Analytics,United States,$3 B,$7.81 B,$33.43 B
+1476.,Ventas,United States,$3.83 B,$24.72 B,$23.37 B
+1477.,Cooper Companies,United States,$3.03 B,$11.66 B,$19.27 B
+1478.,Erdemir,Turkey,$7.64 B,$9.52 B,$8.04 B
+1479.,Gartner,United States,$4.73 B,$7.42 B,$24.14 B
+1480.,SLM,United States,$2.34 B,$29.22 B,$4.67 B
+1481.,Atmos Energy,United States,$3.51 B,$20.55 B,$16.08 B
+1482.,BCI-Banco Credito,Chile,$3.55 B,$79.32 B,$5.07 B
+1483.,Lotte Shopping,South Korea,$13.6 B,$28.12 B,$2.23 B
+1484.,China CSSC Holdings,China,$8.46 B,$25.04 B,$11.6 B
+1485.,Synovus,United States,$2.11 B,$56.42 B,$6.45 B
+1486.,Iida Group Holdings,Japan,$12.62 B,$13.68 B,$4.74 B
+1487.,Thai Beverage,Thailand,$7.71 B,$14.01 B,$13.02 B
+1488.,Equifax,United States,$5.07 B,$11.39 B,$25.02 B
+1488.,Kingspan Group PLC,Ireland,$7.68 B,$7.26 B,$17.53 B
+1490.,Newcrest Mining,Australia,$4.1 B,$14.45 B,$18.29 B
+1491.,Kerry Properties,Hong Kong,$2.07 B,$25.66 B,$3.88 B
+1492.,Globe Life,United States,$5.16 B,$29.77 B,$10.26 B
+1493.,Bank of Jinzhou,China,$6.16 B,$133.31 B,$2.05 B
+1494.,Bank of East Asia,Hong Kong,$3.07 B,$116.4 B,$4.04 B
+1495.,Marfrig Global Foods,Brazil,$15.82 B,$8.62 B,$2.62 B
+1496.,Vipshop Holdings,China,$18.16 B,$9.77 B,$4.25 B
+1497.,Acciona,Spain,$9.58 B,$22.29 B,$11.12 B
+1498.,Hilton,United States,$5.81 B,$15.44 B,$42.82 B
+1498.,Sinotruk Hong Kong,China,$14.45 B,$16.79 B,$3.29 B
+1500.,BorgWarner,United States,$14.84 B,$16.57 B,$9.09 B
+1501.,Nu Holdings,Cayman Islands,$1.4 B,$19.86 B,$30.79 B
+1502.,Adient,United States,$13.31 B,$10.72 B,$3.21 B
+1503.,Unibail-Rodamco,France,$2.98 B,$62.45 B,$10.45 B
+1504.,Zebra Technologies,United States,$5.62 B,$6.21 B,$20.06 B
+1505.,VeriSign,United States,$1.33 B,$1.98 B,$22.59 B
+1506.,KakaoBank,South Korea,$929 M,$30.32 B,$16.75 B
+1507.,Hyundai Glovis,South Korea,$19.02 B,$10.24 B,$5.99 B
+1508.,A2A,Italy,$13.42 B,$20.48 B,$5.33 B
+1509.,JM Smucker,United States,$7.88 B,$15.97 B,$15.43 B
+1510.,Incyte,United States,$2.99 B,$4.97 B,$16.95 B
+1511.,Geberit,Switzerland,$3.79 B,$4.14 B,$20.48 B
+1511.,Zhongyuan Bank,China,$5.43 B,$120.54 B,$2.07 B
+1513.,Performance Food Group,United States,$39.73 B,$12.22 B,$8.13 B
+1514.,Advanced Info Service,Thailand,$5.66 B,$10.68 B,$19.09 B
+1515.,Martin Marietta Materials,United States,$5.41 B,$14.74 B,$22.14 B
+1516.,Boston Properties,United States,$2.89 B,$22.36 B,$21.77 B
+1516.,KGHM Polska Miedz,Poland,$8.02 B,$11.62 B,$6.99 B
+1518.,Agility,Kuwait,$2.86 B,$9.61 B,$8.5 B
+1518.,Fukuoka Financial Group,Japan,$2.53 B,$251.69 B,$3.63 B
+1520.,Wharf (Holdings),Hong Kong,$2.88 B,$32.54 B,$8.8 B
+1521.,Amerco,United States,$5.6 B,$16.59 B,$10.73 B
+1522.,Gecina,France,$901 M,$23.24 B,$8.82 B
+1522.,Mondi,United Kingdom,$9.13 B,$10.53 B,$9.39 B
+1524.,Halyk Bank,Kazakhstan,$2.93 B,$27.81 B,$2.97 B
+1525.,Bank of India,India,$6.26 B,$98.51 B,$2.66 B
+1525.,RHB Bank,Malaysia,$2.57 B,$69.5 B,$5.72 B
+1527.,Commercial Bank of Qatar ,Qatar,$2.18 B,$47.08 B,$8.34 B
+1528.,Virgin Money UK,United Kingdom,$2.82 B,$120.14 B,$3.24 B
+1529.,Las Vegas Sands,United States,$4.23 B,$20.06 B,$27.81 B
+1529.,US Foods,United States,$29.49 B,$12.52 B,$8.52 B
+1531.,FleetCor Technologies ,United States,$2.83 B,$13.4 B,$19.51 B
+1531.,Nitori Holdings,Japan,$7.28 B,$8.54 B,$12.05 B
+1531.,Sonova Holding,Switzerland,$3.45 B,$6.15 B,$23.16 B
+1534.,Keppel,Singapore,$6.42 B,$23.98 B,$9.04 B
+1535.,Crown Holdings,United States,$11.93 B,$13.86 B,$14.75 B
+1535.,Rexel,France,$17.36 B,$13.14 B,$6.73 B
+1537.,Alliant Energy,United States,$3.67 B,$19.25 B,$15.83 B
+1538.,SinoPac Financial,Taiwan,$2.11 B,$86.12 B,$7.17 B
+1539.,B3,Brazil,$1.71 B,$9.63 B,$18.37 B
+1540.,Shiseido,Japan,$9.42 B,$10.24 B,$19.14 B
+1541.,China Nuclear Engineering Corporation,China,$12.85 B,$26.26 B,$3.42 B
+1542.,Ingersoll Rand,United States,$5.39 B,$15.15 B,$18.74 B
+1542.,Mebuki Financial Group,Japan,$2.04 B,$207.85 B,$2.03 B
+1544.,Concordia Financial Group,Japan,$2.66 B,$203.71 B,$4.54 B
+1545.,WEG,Brazil,$4.37 B,$4.3 B,$27.68 B
+1546.,Wheaton Precious Metals,Canada,$1.2 B,$6.3 B,$21.71 B
+1547.,Aroundtown ,Luxembourg,$1.56 B,$44.79 B,$5.89 B
+1548.,Medipal Holdings,Japan,$29.85 B,$15.44 B,$3.35 B
+1549.,Phosagro,Russia,$4.71 B,$5.62 B,$11.72 B
+1550.,Huafa Industrial,China,$7.42 B,$55.71 B,$2.34 B
+1550.,Tongkun Group,China,$9.71 B,$10.05 B,$5.69 B
+1552.,Scentre Group,Australia,$1.71 B,$26.67 B,$11.02 B
+1553.,NIPPON EXPRESS HOLDINGS,Japan,$20.64 B,$14.24 B,$5.39 B
+1553.,Taisei,Japan,$13.75 B,$15.51 B,$5.47 B
+1555.,Kumho Petrochemical,South Korea,$7.39 B,$6.83 B,$3.45 B
+1556.,Globalfoundries,United States,$6.58 B,$15.03 B,$27.13 B
+1557.,Atlassian,Australia,$2.43 B,$2.76 B,$62.18 B
+1558.,All Nippon Airways,Japan,$8.55 B,$28.13 B,$9.13 B
+1559.,Chiba Bank,Japan,$1.94 B,$160.78 B,$4.46 B
+1560.,Vietin Bank,Vietnam,$4.41 B,$67.2 B,$6.15 B
+1561.,EQT,United States,$6.84 B,$21.61 B,$14.96 B
+1562.,West Pharmaceutical Services,United States,$2.83 B,$3.31 B,$25.98 B
+1563.,China Everbright International,Hong Kong,$6.42 B,$25.68 B,$3.65 B
+1563.,Hoa Phat Group,Vietnam,$6.53 B,$7.82 B,$8.53 B
+1565.,Nine Dragons Paper Holdings,Hong Kong,$10.19 B,$15.12 B,$4.12 B
+1566.,Adani Ports & Special Economic Zone,India,$2.1 B,$11.36 B,$24.12 B
+1566.,Bank of Guizhou,China,$3.64 B,$79.06 B,$4.74 B
+1568.,New Residential Investment,United States,$3.01 B,$39.96 B,$4.84 B
+1569.,Kingdom Holding,Saudi Arabia,$477 M,$13.54 B,$9.56 B
+1570.,Adani Green Energy,India,$419 M,$3.93 B,$59.06 B
+1571.,Fortive,United States,$5.25 B,$16.47 B,$20.75 B
+1571.,Rocket Companies,United States,$10 B,$32.77 B,$1.05 B
+1573.,Banca MPS,Italy,$3.86 B,$156.78 B,$892 M
+1573.,Knorr-Bremse,Germany,$7.93 B,$8.47 B,$12.12 B
+1575.,HNA Technology,China,$41.81 B,$1.62 B,$1.21 B
+1575.,Oriental Land,Japan,$2.04 B,$9.48 B,$57.49 B
+1577.,News Corp,United States,$10.05 B,$16.52 B,$12.29 B
+1578.,China Resources Gas Group,Hong Kong,$10.06 B,$13.61 B,$8.79 B
+1579.,Momentum Metropolitan Holdings,South Africa,$9.04 B,$36.53 B,$1.54 B
+1579.,Royalty Pharma,United States,$2.29 B,$17.52 B,$18.48 B
+1581.,Avantor,United States,$7.39 B,$13.9 B,$18.32 B
+1581.,OneMain Holdings,United States,$4.97 B,$22.08 B,$6 B
+1583.,Vulcan Materials,United States,$5.55 B,$13.92 B,$22.74 B
+1584.,Hokuhoku Financial Group,Japan,$1.61 B,$150.22 B,$877 M
+1585.,Kiwoom Securities,South Korea,$2 B,$38.11 B,$2 B
+1586.,Palo Alto Networks,United States,$4.86 B,$10.4 B,$56.29 B
+1587.,Chugoku Electric Power,Japan,$10.3 B,$30.79 B,$2.44 B
+1588.,DXC Technology,United States,$16.64 B,$19.95 B,$7.2 B
+1588.,Metro Group,Germany,$30.77 B,$14.48 B,$3.27 B
+1588.,Shionogi,Japan,$2.66 B,$9.02 B,$16.32 B
+1591.,Snowflake,United States,$1.22 B,$6.65 B,$54.68 B
+1592.,Owens Corning,United States,$8.5 B,$10.02 B,$8.46 B
+1593.,Harel Insurance Investments & Financial Services,Israel,$8.48 B,$38.77 B,$2.74 B
+1593.,Inner Mongolia Yitai Coal,China,$7.49 B,$14.51 B,$4.17 B
+1593.,NH Investment & Securities,South Korea,$5.11 B,$49.25 B,$3.08 B
+1596.,Quilter,United Kingdom,$6.45 B,$68.72 B,$2.72 B
+1597.,HF Sinclair,United States,$18.41 B,$13.17 B,$8.47 B
+1597.,Korea Shipbuilding & Offshore Engineering,South Korea,$13.54 B,$22.96 B,$5.5 B
+1599.,Samsung Electro-Mechanics,South Korea,$8.45 B,$8.36 B,$10.21 B
+1600.,Invitation Homes,United States,$1.85 B,$18.54 B,$26.2 B
+1601.,ZTO Express (Cayman),China,$4.72 B,$9.85 B,$20.05 B
+1602.,Tingyi Holding,China,$11.49 B,$9.46 B,$10.57 B
+1603.,Workday,United States,$5.15 B,$10.5 B,$51.74 B
+1604.,Shizuoka Bank,Japan,$2.01 B,$127.33 B,$3.8 B
+1605.,Check Point Software,Israel,$2.17 B,$5.94 B,$17.59 B
+1606.,Commercial Bank For Investment & Development Of Vietnam,Vietnam,$5.37 B,$77.3 B,$8.48 B
+1606.,Qorvo,United States,$4.55 B,$7.63 B,$12.11 B
+1608.,Kaspi.kz JSC,Kazakhstan,$2.19 B,$8.3 B,$13.11 B
+1608.,Stifel Financial,United States,$4.79 B,$34.31 B,$6.88 B
+1608.,YPF ,Argentina,$13.02 B,$23.27 B,$3.31 B
+1611.,Bank Albilad,Saudi Arabia,$1.19 B,$31.04 B,$13.63 B
+1612.,Evolution Gaming Group AB,Sweden,$1.26 B,$4.44 B,$20.52 B
+1613.,"LG Innotek Co.,",South Korea,$13.05 B,$6.51 B,$7.44 B
+1614.,NiSource,United States,$4.9 B,$25.26 B,$12.51 B
+1615.,AB Sagax,Sweden,$377 M,$6.94 B,$11.84 B
+1615.,SDIC Capital,China,$3.15 B,$38.67 B,$6.76 B
+1617.,Hachijuni Bank,Japan,$1.28 B,$120.9 B,$1.6 B
+1617.,"Sumitomo Forestry Co.,",Japan,$12.61 B,$11.41 B,$3.21 B
+1619.,Kyushu Financial Group,Japan,$1.63 B,$120.65 B,$1.36 B
+1619.,Trip.com Group,China,$3.1 B,$30.1 B,$13.89 B
+1621.,China Northern Rare Earth High-Tech,China,$4.68 B,$5.45 B,$17.54 B
+1622.,Snap,United States,$4.41 B,$8.95 B,$48.34 B
+1623.,K+S,Germany,$3.8 B,$10.36 B,$6.54 B
+1624.,Bank of Tianjin,China,$5.5 B,$112.95 B,$1.55 B
+1624.,Investec,United Kingdom,$3.91 B,$72.08 B,$5.66 B
+1626.,Nishi-nippon Financial Holdings,Japan,$1.25 B,$118.56 B,$917 M
+1627.,Commercial International Bank,Egypt,$3.23 B,$31.71 B,$4.48 B
+1627.,NortonLifeLock,United States,$2.75 B,$6.87 B,$14.85 B
+1629.,CrowdStrike,United States,$1.45 B,$3.62 B,$47.45 B
+1630.,Japan Securities,Japan,$274 M,$116.82 B,$655 M
+1631.,Clal Insurance Enterprises ,Israel,$7.96 B,$39.91 B,$1.73 B
+1632.,Xinyu Iron & Steel,China,$16.23 B,$9.14 B,$2.83 B
+1633.,Interactive Brokers Group,United States,$2.74 B,$114.42 B,$6 B
+1633.,Sino Biopharmaceutical,Hong Kong,$3.84 B,$8.7 B,$9.58 B
+1635.,LG Household & Health Care,South Korea,$7.07 B,$6.36 B,$12.57 B
+1636.,Dai Nippon Printing,Japan,$12.28 B,$16.55 B,$5.63 B
+1636.,North Pacific Bank,Japan,$1.13 B,$112.65 B,$744 M
+1638.,Aena,Spain,$2.74 B,$18.57 B,$24.06 B
+1639.,Nitto Denko,Japan,$7.66 B,$9.01 B,$10.1 B
+1640.,World Fuel Services,United States,$31.3 B,$5.94 B,$1.72 B
+1641.,Akelius Residential Property,Sweden,$429 M,$14.18 B,$6.3 B
+1641.,Hong Leong Financial,Malaysia,$1.93 B,$66.71 B,$5.14 B
+1643.,Bank of Kyoto,Japan,$1.16 B,$109.08 B,$3.12 B
+1644.,Meritz Securities,South Korea,$2.4 B,$45.52 B,$3.02 B
+1644.,Shinsei Bank,Japan,$2.64 B,$91.69 B,$3.83 B
+1646.,China Development Bank Financial Leasing,China,$3.51 B,$53.63 B,$1.84 B
+1647.,BOK Financial,United States,$2.01 B,$50.25 B,$6.01 B
+1647.,Yamaguchi Financial,Japan,$1.55 B,$107.32 B,$1.35 B
+1649.,China Communications Services,China,$20.78 B,$15.7 B,$2.97 B
+1649.,Ganfeng Lithium,China,$1.71 B,$6.13 B,$16.45 B
+1649.,Usiminas,Brazil,$6.47 B,$8.23 B,$3.1 B
+1652.,Banco Comercial Portugues,Portugal,$3.22 B,$106.19 B,$2.7 B
+1652.,New York Community Bancorp,United States,$1.75 B,$59.64 B,$4.7 B
+1654.,Castellum,Sweden,$738 M,$19.62 B,$6.95 B
+1655.,Wacker Chemie,Germany,$7.34 B,$9.3 B,$9.26 B
+1656.,Rajesh Exports,India,$30 B,$2.7 B,$2.5 B
+1657.,Bawag Group,Austria,$2.04 B,$64.05 B,$4.52 B
+1657.,Sinotrans Ltd.,China,$19.24 B,$11.66 B,$2.27 B
+1659.,Will Semiconductor,China,$3.73 B,$5.03 B,$20.03 B
+1660.,DexCom,United States,$2.45 B,$4.86 B,$42.91 B
+1661.,CPI Property Group,Luxembourg,$792 M,$16.34 B,$8 B
+1661.,Harbin Bank,China,$4.43 B,$101.25 B,$967 M
+1661.,Kingboard Holdings,Hong Kong,$7.3 B,$13.32 B,$5.11 B
+1664.,Autodesk,United States,$4.4 B,$8.61 B,$40.7 B
+1664.,China Shipbuilding Industry,China,$5.34 B,$28.6 B,$13.46 B
+1666.,Ceconomy,Germany,$24.53 B,$14.6 B,$1.24 B
+1666.,Hirogin Holdings,Japan,$1.22 B,$100.28 B,$1.56 B
+1668.,Twitter,United States,$5.08 B,$14.06 B,$39.17 B
+1669.,Jyske Bank,Denmark,$2.08 B,$98.94 B,$3.84 B
+1670.,Hengyi Petrochemical ,China,$18.69 B,$16.36 B,$4.45 B
+1671.,Cerner,United States,$5.76 B,$7.43 B,$27.55 B
+1672.,Gunma Bank,Japan,$1.3 B,$96.17 B,$1.21 B
+1672.,Sahara International Petrochemical,Saudi Arabia,$2.76 B,$6.53 B,$11.14 B
+1674.,Bank of Zhengzhou,China,$4.43 B,$90.22 B,$1.63 B
+1675.,China Merchants Port Holdings,Hong Kong,$1.52 B,$22.92 B,$6.59 B
+1676.,WPG Holdings,Taiwan,$27.87 B,$10.4 B,$3.22 B
+1677.,Sunny Optical Technology Group,China,$5.81 B,$6.08 B,$15.15 B
+1678.,Zheshang Development Group,China,$27.79 B,$5.54 B,$974 M
+1679.,Bank Pekao,Poland,$2.42 B,$62.17 B,$6.62 B
+1679.,Singapore Airlines,Singapore,$3.73 B,$32.68 B,$11.96 B
+1679.,United Natural Foods,United States,$27.77 B,$7.8 B,$2.62 B
+1682.,Uniqa,Austria,$8.19 B,$35.43 B,$2.46 B
+1683.,Next,United Kingdom,$6.36 B,$5.34 B,$10.6 B
+1684.,China Resources Beer (Holdings),Hong Kong,$5.17 B,$8.01 B,$18.75 B
+1685.,STRABAG,Austria,$17.84 B,$13.85 B,$3.8 B
+1686.,Asian Paints,India,$3.77 B,$2.84 B,$39.69 B
+1686.,Chang Hwa Bank,Taiwan,$1.3 B,$92.21 B,$6.7 B
+1686.,Huntsman,United States,$8.45 B,$9.39 B,$7.33 B
+1689.,Doosan,South Korea,$12.6 B,$21.88 B,$1.31 B
+1689.,SBA Communications,United States,$2.31 B,$9.8 B,$39.57 B
+1691.,Datadog,United States,$1.03 B,$2.38 B,$39.38 B
+1691.,LG Uplus,South Korea,$12.1 B,$16.3 B,$5.1 B
+1691.,Organon,United States,$6.47 B,$10.68 B,$8.18 B
+1691.,PBF Energy,United States,$27.25 B,$12.69 B,$3.21 B
+1695.,Iveco Group,Italy,$14.95 B,$18.83 B,$1.72 B
+1696.,Arca Continental,Mexico,$9.04 B,$12.61 B,$11.28 B
+1696.,Shanghai Commercial & Savings Bank,Taiwan,$1.72 B,$77.33 B,$7.59 B
+1698.,Piraeus Financial Holdings,Greece,$3.33 B,$90.74 B,$1.99 B
+1699.,Daishi Hokuetsu Financial Group,Japan,$1.2 B,$90.37 B,$893 M
+1699.,ResMed,United States,$3.44 B,$4.74 B,$33.26 B
+1701.,BJ's Wholesale Club,United States,$16.67 B,$5.67 B,$9.09 B
+1701.,PVH,United States,$9.15 B,$12.4 B,$5.12 B
+1703.,77 Bank,Japan,$967 M,$90.27 B,$921 M
+1704.,Petro Rabigh,Saudi Arabia,$12.17 B,$19.39 B,$6.87 B
+1705.,Adani Transmission,India,$1.49 B,$6.11 B,$38.15 B
+1706.,Zalando,Germany,$12.24 B,$8.13 B,$11.31 B
+1707.,Eurobank Ergasias,Greece,$2.88 B,$88.53 B,$4.28 B
+1707.,Pool,United States,$5.65 B,$3.88 B,$16.68 B
+1709.,Chugoku Bank,Japan,$1.05 B,$88.26 B,$1.38 B
+1709.,M3,Japan,$1.82 B,$2.82 B,$22.54 B
+1711.,Sumec Corporation,China,$26.14 B,$8.57 B,$1.21 B
+1712.,Aramark,United States,$13.3 B,$14.47 B,$9.82 B
+1712.,China Industrial Securities,China,$3.25 B,$34.12 B,$7 B
+1712.,Focus Media Information Technology,China,$2.35 B,$4.15 B,$12.45 B
+1715.,Ramsay Health Care,Australia,$9.75 B,$12.47 B,$13.94 B
+1716.,Cullen/Frost Bankers,United States,$1.39 B,$50.88 B,$8.86 B
+1717.,Live Nation Entertainment,United States,$6.27 B,$14.4 B,$23.79 B
+1718.,Emera,Canada,$4.71 B,$27.11 B,$13.13 B
+1719.,Hoshine Silicon Industry,China,$2.52 B,$4.1 B,$13.76 B
+1720.,Qinghai Salt Lake Industry,China,$2.14 B,$4.05 B,$23.19 B
+1721.,Starwood Property Trust,United States,$1.19 B,$83.85 B,$7.31 B
+1722.,Nexi S.p.A.,Italy,$3.58 B,$27.71 B,$12.8 B
+1723.,AECOM Technology,United States,$13.29 B,$11.44 B,$10.26 B
+1723.,Alpha Bank,Greece,$398 M,$83.42 B,$2.98 B
+1723.,BayWa,Germany,$23.45 B,$14.07 B,$1.76 B
+1726.,SQM,Chile,$2.91 B,$7.26 B,$22.11 B
+1727.,FMC,United States,$5.04 B,$10.58 B,$16.7 B
+1728.,Shaw Communications,Canada,$4.39 B,$12.37 B,$15.12 B
+1729.,Bausch Health Companies,Canada,$8.43 B,$29.2 B,$7.79 B
+1729.,Tech Mahindra,India,$5.72 B,$5.51 B,$16.61 B
+1731.,Var Energi ASA,Norway,$6.04 B,$19.88 B,$11.13 B
+1732.,Bank of Qingdao,China,$3.4 B,$81.94 B,$2.52 B
+1732.,Mitsubishi Motors,Japan,$17.46 B,$16.17 B,$3.69 B
+1734.,Moscow Exchange,Russia,$761 M,$81.91 B,$2.65 B
+1735.,Rite Aid,United States,$24.57 B,$8.53 B,$414 M
+1736.,Waters,United States,$2.79 B,$3.1 B,$17.94 B
+1737.,Li Ning,China,$3.5 B,$4.75 B,$20.67 B
+1738.,Abu Dhabi Islamic Bank,United Arab Emirates,$1.69 B,$37.26 B,$8.76 B
+1739.,Jiangxi Bank,China,$3.47 B,$79.8 B,$1.23 B
+1739.,Mercuries & Associates,Taiwan,$6.3 B,$51.56 B,$628 M
+1741.,BeiGene,China,$1.18 B,$8.65 B,$35.18 B
+1742.,Pan Pacific International Holdings,Japan,$16.14 B,$12.34 B,$8.89 B
+1743.,EXOR,Netherlands,$1.76 B,$14.4 B,$17.14 B
+1744.,Daito Trust Construction,Japan,$14.15 B,$8.13 B,$6.6 B
+1744.,Synnex Technology Intl,Taiwan,$14.64 B,$7.29 B,$4.47 B
+1746.,Adani Total Gas,India,$353 M,$502 M,$34.74 B
+1746.,WuXi Biologics,China,$1.6 B,$6.91 B,$30.22 B
+1748.,Johnson Matthey,United Kingdom,$23.64 B,$10.13 B,$4.49 B
+1749.,Bayan Resources,Indonesia,$2.85 B,$2.43 B,$9.82 B
+1750.,Burlington Stores,United States,$9.32 B,$7.09 B,$13.82 B
+1750.,Credito Emiliano,Italy,$2.57 B,$76.85 B,$2.24 B
+1752.,Alfresa Holdings,Japan,$23.51 B,$12.09 B,$2.77 B
+1752.,Bandai Namco Holdings,Japan,$7.52 B,$6.85 B,$15.24 B
+1752.,FAW Jiefang Group,China,$15.26 B,$10.95 B,$5.91 B
+1755.,Constellation Software,Canada,$5.11 B,$5.77 B,$34.22 B
+1756.,Bajaj Auto,India,$4.54 B,$4.51 B,$13.79 B
+1756.,Chewy,United States,$8.89 B,$2.25 B,$14.56 B
+1758.,Shandong Hualu-Hengsheng Chemical,China,$4.11 B,$4.5 B,$10.18 B
+1759.,Avenue Supermarts,India,$4 B,$1.93 B,$34.12 B
+1760.,Lindt & Sprungli,Switzerland,$5.01 B,$9.96 B,$27.88 B
+1761.,SKF Group,Sweden,$9.52 B,$11.21 B,$7.59 B
+1762.,Iyo Bank,Japan,$1.17 B,$75.19 B,$1.57 B
+1763.,Juroku  Financial Group,Japan,$1.04 B,$74.5 B,$626 M
+1764.,Akamai Technologies,United States,$3.46 B,$8.14 B,$18.85 B
+1764.,EMS-Chemie Holding,Switzerland,$2.46 B,$2.55 B,$21.09 B
+1766.,Medical Properties Trust,United States,$1.54 B,$20.52 B,$11.25 B
+1767.,Taiwan Business Bank,Taiwan,$1.12 B,$73.06 B,$3.48 B
+1768.,Zhejiang Chint Electrics,China,$5.91 B,$13.34 B,$10.5 B
+1769.,Newell Brands,United States,$10.59 B,$14.18 B,$9.45 B
+1770.,First Pacific,Hong Kong,$9.1 B,$26.57 B,$1.78 B
+1771.,Bank of Jiujiang,Hong Kong,$3.29 B,$72.41 B,$3.25 B
+1772.,DGB Financial Group,South Korea,$3.19 B,$72.32 B,$1.26 B
+1772.,Power Assets Holdings,Hong Kong,$164 M,$12.1 B,$14.38 B
+1774.,Xinyi Glass Holdings,Hong Kong,$3.92 B,$7.25 B,$8.55 B
+1775.,Toll Brothers,United States,$9.02 B,$11.28 B,$5.35 B
+1776.,PIK Group,Russia,$5.77 B,$11.08 B,$4.7 B
+1777.,Foot Locker,United States,$8.96 B,$8.13 B,$2.79 B
+1778.,Bank of Suzhou,China,$3.13 B,$71.08 B,$3.85 B
+1779.,Hyundai Engineering,South Korea,$15.47 B,$16.52 B,$4 B
+1780.,American Equity Investment,United States,$4.05 B,$70.99 B,$3.77 B
+1781.,Advantest,Japan,$3.56 B,$4.01 B,$12.75 B
+1782.,Avnet,United States,$21.59 B,$9.58 B,$3.87 B
+1783.,Hyakugo Bank,Japan,$863 M,$70.08 B,$677 M
+1784.,Lucid Motors,United States,$27 M,$7.88 B,$31.59 B
+1785.,CSPC Pharmaceutical Group,Hong Kong,$4.32 B,$5.45 B,$12.5 B
+1786.,ATOS,France,$12.81 B,$19.13 B,$2.71 B
+1786.,Manpower,United States,$20.94 B,$9.72 B,$4.94 B
+1788.,Hotai Motor,Taiwan,$8.73 B,$12.64 B,$11 B
+1788.,Smoore International Holdings,China,$2.13 B,$3.59 B,$13.28 B
+1790.,Clorox,United States,$7.08 B,$6.19 B,$18.54 B
+1790.,DCC,Ireland,$20.52 B,$10.94 B,$7.58 B
+1790.,Gjensidige Forsikring,Norway,$3.69 B,$14.6 B,$12.08 B
+1793.,Ford Otosan,Turkey,$7.96 B,$3.23 B,$7.17 B
+1794.,Bank of Queensland,Australia,$1.58 B,$68.86 B,$3.7 B
+1795.,Fortune Brands Home & Security,United States,$7.66 B,$7.94 B,$9.33 B
+1795.,Lear,United States,$19.26 B,$13.35 B,$7.75 B
+1795.,Service Corp Intl,United States,$4.14 B,$15.69 B,$11.32 B
+1798.,Korea Zinc,South Korea,$8.71 B,$8.38 B,$8.86 B
+1798.,Qingdao Rural Commercial Bank,China,$2.94 B,$66.41 B,$3.01 B
+1800.,Tosoh,Japan,$8.06 B,$9.29 B,$4.4 B
+1801.,DoorDash,United States,$4.89 B,$6.81 B,$31.01 B
+1802.,Cloudflare,United States,$656 M,$2.37 B,$30.99 B
+1803.,Jointown Pharmaceutical Group,China,$18.8 B,$13.43 B,$3.67 B
+1803.,Showa Denko,Japan,$12.92 B,$18.6 B,$3.43 B
+1805.,Kawasaki Heavy Industries,Japan,$13.6 B,$17.77 B,$3.08 B
+1806.,Deutsche Pfandbriefbank,Germany,$1.88 B,$66.42 B,$1.75 B
+1807.,NIO,China,$5.61 B,$13.01 B,$29.66 B
+1807.,Ultrapar Participacoes,Brazil,$20.34 B,$6.99 B,$3.26 B
+1809.,American National Group,United States,$4.35 B,$30.99 B,$5.09 B
+1810.,Ogaki Kyoritsu Bank,Japan,$701 M,$66.19 B,$622 M
+1811.,Bendigo & Adelaide Bank,Australia,$1.52 B,$66 B,$4.35 B
+1812.,Tongling Nonferrous Metals,China,$20.25 B,$7.98 B,$6.07 B
+1813.,Electric Power Development,Japan,$9.21 B,$25.16 B,$2.54 B
+1814.,Salzgitter,Germany,$11.54 B,$11.66 B,$2.46 B
+1814.,Suzuken,Japan,$20.07 B,$11.18 B,$2.61 B
+1816.,Shiga Bank,Japan,$875 M,$65.14 B,$916 M
+1817.,Sartorius,Germany,$4.28 B,$6.6 B,$27.54 B
+1818.,Tsim Sha Tsui Properties,Hong Kong,$4.01 B,$23.14 B,$5.73 B
+1819.,Qilu Bank,China,$2.14 B,$64.47 B,$4.18 B
+1820.,Horizon Therapeutics Public Limited Company,Ireland,$3.23 B,$8.68 B,$24.25 B
+1821.,Prysmian,Italy,$15.05 B,$13.66 B,$8.62 B
+1822.,Crescent Point Energy,Canada,$2.26 B,$7.26 B,$4.03 B
+1823.,Info Edge India,India,$190 M,$2.99 B,$7.84 B
+1824.,FinecoBank,Italy,$1.46 B,$38.52 B,$9.11 B
+1825.,Hubei Biocause Pharmaceutical,China,$6.52 B,$39.13 B,$2.41 B
+1825.,ICON (Ireland),Ireland,$5.48 B,$17.39 B,$19.08 B
+1827.,Yunnan Copper Co. Ltd.,China,$19.63 B,$6.14 B,$2.94 B
+1828.,Booz Allen Hamilton Holding,United States,$8.11 B,$5.94 B,$11.73 B
+1829.,Red Eléctrica,Spain,$2.31 B,$15.9 B,$10.78 B
+1830.,Senshu Ikeda Holdings,Japan,$630 M,$63.1 B,$391 M
+1831.,Banca Popolare di Sondrio,Italy,$1.42 B,$62.56 B,$1.87 B
+1831.,Zhejiang Expressway Co. Ltd.,China,$2.52 B,$27.66 B,$3.71 B
+1833.,WSP,Canada,$8.2 B,$8.91 B,$14.47 B
+1834.,LPL Financial Holdings,United States,$7.72 B,$8.25 B,$15.66 B
+1834.,Mid-america Apartment Communities,United States,$1.78 B,$11.29 B,$23.88 B
+1834.,Titan (India),India,$3.85 B,$2.46 B,$29.16 B
+1837.,Beijing Oriental Yuhong Waterproof Technology,China,$4.92 B,$7.8 B,$16.72 B
+1837.,Sistema,Russia,$10.89 B,$21.02 B,$1.51 B
+1839.,Wayfair,United States,$13.71 B,$4.57 B,$8.94 B
+1839.,Zscaler,United States,$860 M,$2.42 B,$29.13 B
+1841.,Dangote Cement,Nigeria,$3.38 B,$5.78 B,$11.68 B
+1841.,Ricoh,Japan,$16.07 B,$15.29 B,$4.66 B
+1843.,Trade Desk,United States,$1.2 B,$3.58 B,$28.89 B
+1844.,Chr. Hansen Holding,Denmark,$1.34 B,$3.53 B,$10.18 B
+1845.,JD Sports Fashion,United Kingdom,$10.18 B,$8.97 B,$9.59 B
+1846.,Aeroports de Paris,France,$3.28 B,$20.88 B,$15.07 B
+1846.,Banque Cantonale Vaudoise,Switzerland,$1.21 B,$61.41 B,$7.44 B
+1848.,Amadeus IT Group ,Spain,$3.16 B,$12.89 B,$28.66 B
+1849.,Bank of Lanzhou,China,$2.46 B,$61.33 B,$4.76 B
+1850.,Digital China Group,China,$18.96 B,$6.12 B,$1.42 B
+1850.,Korean Air,South Korea,$7.87 B,$22.44 B,$8.81 B
+1850.,San-In Godo Bank,Japan,$806 M,$60.81 B,$793 M
+1853.,CPFL Energia,Brazil,$7.27 B,$11.87 B,$8.47 B
+1854.,Airports of Thailand,Thailand,$226 M,$5.55 B,$28.51 B
+1855.,Nanto Bank,Japan,$667 M,$60.19 B,$509 M
+1856.,Toho Bank,Japan,$525 M,$60.11 B,$398 M
+1856.,Veeva Systems,United States,$1.85 B,$3.82 B,$28.4 B
+1858.,Aier Eye Hospital Group,China,$2.29 B,$3.38 B,$28.38 B
+1859.,Keiyo Bank,Japan,$583 M,$59.85 B,$493 M
+1860.,Abrdn,United Kingdom,$2.56 B,$15.46 B,$6.38 B
+1860.,Kyndryl Holdings,United States,$18.66 B,$13.21 B,$2.65 B
+1860.,Qurate Retail Group,United States,$14.04 B,$16.25 B,$1.58 B
+1863.,Cosco Shipping Development,China,$5.42 B,$20.81 B,$2.69 B
+1863.,Huaibei Mining Holdings,China,$9.98 B,$11.53 B,$5.66 B
+1863.,Inventec,Taiwan,$18.61 B,$8.95 B,$3.08 B
+1866.,Hanwa,Japan,$18.58 B,$9.63 B,$995 M
+1866.,PT Saratoga Investama Sedaya,Indonesia,$123 M,$4.29 B,$3.38 B
+1866.,Saputo,Canada,$11.58 B,$10.82 B,$10.04 B
+1866.,Shimizu,Japan,$13.01 B,$17.17 B,$4.2 B
+1870.,E-L Financial,Canada,$1.31 B,$21.21 B,$2.57 B
+1871.,Basler Kantonalbank,Switzerland,$726 M,$58.68 B,$353 M
+1872.,Snap-on,United States,$4.67 B,$6.89 B,$11.88 B
+1873.,Luzerner Kantonalbank,Switzerland,$696 M,$58.54 B,$3.66 B
+1874.,Zhangzhou Pientzehuang Pharmaceutical,China,$1.23 B,$1.96 B,$27.54 B
+1875.,Kinnevik,Sweden,$198 M,$8.68 B,$5.41 B
+1875.,Vietnam Technological & Commercial Joint Stock Bank,Vietnam,$2.07 B,$24.95 B,$6.74 B
+1877.,FIBI Holdings,Israel,$1.63 B,$57.99 B,$1.71 B
+1878.,WESCO International,United States,$18.22 B,$12.62 B,$6.37 B
+1878.,Yunnan Yuntianhua,China,$10.03 B,$9.34 B,$6.76 B
+1880.,SITC International Holdings,Hong Kong,$3.01 B,$2.72 B,$8.87 B
+1881.,Anhui Water Resources Development,China,$11.02 B,$19.91 B,$1.39 B
+1881.,Tokyo Kiraboshi Financial Group,Japan,$830 M,$56.78 B,$418 M
+1883.,Tenneco,United States,$18.04 B,$11.62 B,$1.47 B
+1884.,PacWest Bancorp,United States,$1.35 B,$39.25 B,$4.05 B
+1885.,Bank Of Gansu,China,$2.34 B,$56.25 B,$1.98 B
+1886.,Barry Callebaut,Switzerland,$8.44 B,$8.1 B,$12.88 B
+1886.,Grupa LOTOS,Poland,$8.58 B,$6.44 B,$2.99 B
+1888.,Yunnan Energy New Material,China,$1.42 B,$4.4 B,$25.09 B
+1889.,SCA,Sweden,$2.19 B,$13.06 B,$14.09 B
+1890.,ACWA Power,Saudi Arabia,$1.47 B,$12.18 B,$26.39 B
+1891.,F&F,South Korea,$635 M,$2.45 B,$892 M
+1891.,PennyMac Financial Services,United States,$4.29 B,$18.78 B,$2.68 B
+1893.,Aareal Bank,Germany,$1.3 B,$55.41 B,$2.1 B
+1893.,Essex Property Trust,United States,$1.44 B,$13 B,$22.95 B
+1893.,Nanjing Iron & Steel,China,$11.69 B,$9.05 B,$3.46 B
+1893.,Samsung SDS,South Korea,$11.9 B,$8.85 B,$8.71 B
+1897.,Aozora Bank,Japan,$1.24 B,$55.38 B,$2.36 B
+1898.,Electrolux Group,Sweden,$14.63 B,$12.08 B,$4.2 B
+1899.,Azrieli Group,Israel,$703 M,$13.61 B,$10.92 B
+1899.,Brown & Brown,United States,$3.05 B,$9.93 B,$19.18 B
+1901.,Times Property Holdings,China,$6.83 B,$31.13 B,$721 M
+1902.,Gold Fields,South Africa,$4.2 B,$7.35 B,$12.23 B
+1903.,Commerce Bancshares,United States,$1.42 B,$34.99 B,$8.66 B
+1904.,TMB Bank,Thailand,$2.47 B,$53.81 B,$3.64 B
+1905.,China Aviation Oil,Singapore,$17.64 B,$1.54 B,$562 M
+1906.,Nippon Steel Trading,Japan,$17.62 B,$9.58 B,$1.33 B
+1907.,Webster Financial,United States,$1.26 B,$34.99 B,$9 B
+1908.,Novatek Microelectronics Corp.,Taiwan,$4.85 B,$4.36 B,$8.05 B
+1908.,Persimmon,United Kingdom,$4.97 B,$6.49 B,$9.08 B
+1910.,Seagen,United States,$1.57 B,$3.72 B,$25.23 B
+1911.,Commercial Metals,United States,$7.87 B,$5.5 B,$5.12 B
+1912.,MongoDB,United States,$874 M,$2.45 B,$25.07 B
+1913.,Bank of Xi'an,China,$2.27 B,$52.05 B,$2.64 B
+1913.,Grifols,Spain,$5.83 B,$21.96 B,$11.87 B
+1915.,Murphy USA,United States,$17.36 B,$4.17 B,$5.92 B
+1916.,Cencosud,Chile,$14.43 B,$15.21 B,$4.96 B
+1917.,Ares Management,United States,$4.31 B,$21.68 B,$12.94 B
+1917.,Kiyo Bank ,Japan,$705 M,$51.38 B,$728 M
+1919.,Shandong Iron and Steel,China,$17.14 B,$11.38 B,$2.72 B
+1920.,Parkland,Canada,$17.12 B,$9.14 B,$4.19 B
+1921.,Central Bank of India,India,$3.42 B,$51.26 B,$2.23 B
+1922.,Galaxy Entertainment,Hong Kong,$1.67 B,$10.93 B,$24.56 B
+1923.,Teledyne Technologies,United States,$4.6 B,$14.43 B,$21.88 B
+1924.,Dexus,Australia,$680 M,$14.09 B,$8.51 B
+1925.,Palantir Technologies,United States,$1.54 B,$3.25 B,$24.28 B
+1926.,Rothschild & Co.,France,$3.4 B,$20.07 B,$2.96 B
+1926.,Wintrust Financial,United States,$1.88 B,$50.25 B,$5.31 B
+1928.,CoStar Group,United States,$1.94 B,$7.26 B,$24.17 B
+1929.,Banque Centrale Populaire,Morocco,$2.95 B,$50.25 B,$5.49 B
+1929.,Mr. Cooper Group,United States,$2.9 B,$14.2 B,$3.35 B
+1931.,Xiamen Xinde,China,$16.82 B,$3.39 B,$501 M
+1932.,Ayala Corp,Philippines,$4.58 B,$26.5 B,$8.96 B
+1932.,Shanghai Fosun Pharmaceutical,China,$6.03 B,$14.63 B,$10.21 B
+1932.,Shenzhen Inovance Technology,China,$2.79 B,$4.25 B,$20.48 B
+1935.,Genmab,Denmark,$1.35 B,$3.77 B,$24.07 B
+1936.,Ansys,United States,$1.91 B,$6.32 B,$24.06 B
+1937.,TMX Group,Canada,$825 M,$50.03 B,$5.57 B
+1938.,Gap,United States,$16.67 B,$12.76 B,$4.33 B
+1939.,Hyakujushi Bank,Japan,$652 M,$49.45 B,$383 M
+1940.,ASM International,Netherlands,$2.15 B,$3.33 B,$16.59 B
+1940.,Tokyu Fudosan,Japan,$8.64 B,$23.04 B,$3.79 B
+1942.,Albemarle,United States,$3.33 B,$10.97 B,$23.5 B
+1943.,Bradespar,Brazil,$0 M,$1.36 B,$2.43 B
+1944.,Aristocrat Leisure,Australia,$3.56 B,$6.26 B,$15.82 B
+1945.,Hainan Airlines Holding,China,$5.63 B,$33.03 B,$8.76 B
+1945.,Metropolitan Bank & Trust,Philippines,$2.34 B,$49.11 B,$4.76 B
+1947.,Robert Half International,United States,$6.46 B,$2.95 B,$12.45 B
+1948.,Shanghai Yuyuan Tourist Mart,China,$7.53 B,$20.63 B,$5.8 B
+1949.,Bread Financial Holdings,United States,$3.65 B,$22.26 B,$2.77 B
+1949.,Healthpeak Properties,United States,$1.9 B,$15.26 B,$18.59 B
+1949.,Steris,Ireland,$4.25 B,$11.69 B,$23.38 B
+1949.,Yamada Denki,Japan,$15.13 B,$11.57 B,$2.47 B
+1953.,XPO Logistics,United States,$16.44 B,$8.71 B,$6.4 B
+1954.,Hera,Italy,$12.48 B,$16.22 B,$5.68 B
+1954.,Intco Medical Technology,China,$2.84 B,$3.15 B,$3.33 B
+1956.,ADNOC Drilling,United Arab Emirates,$2.27 B,$5.1 B,$16.18 B
+1956.,Hokkoku Financial Holdings,Japan,$700 M,$48.35 B,$677 M
+1956.,Shenzhou International Group Holdings,Hong Kong,$3.7 B,$6.61 B,$20.58 B
+1959.,Far Eastern New Century,Taiwan,$8.55 B,$22.96 B,$5.55 B
+1959.,Farfetch,United Kingdom,$2.26 B,$3.83 B,$4.39 B
+1959.,Huali Industrial Group,China,$2.71 B,$2.54 B,$23.04 B
+1959.,Jindal Steel & Power,India,$6.58 B,$10.14 B,$7.16 B
+1963.,Mashreq Bank,United Arab Emirates,$2.54 B,$48.2 B,$4.18 B
+1964.,Zall Smart Commerce Group,China,$16.21 B,$9.3 B,$698 M
+1965.,FCC,Spain,$7.87 B,$16.2 B,$5.07 B
+1965.,VEON,Netherlands,$8.11 B,$15.92 B,$1.04 B
+1967.,AviChina Industry & Technology,China,$9.33 B,$21.01 B,$4.08 B
+1967.,Masco,United States,$8.38 B,$5.58 B,$12.05 B
+1967.,Weihai City Commercial Bank,China,$1.38 B,$32.96 B,$2.46 B
+1970.,Cadence Bank,United States,$1.25 B,$47.67 B,$4.89 B
+1970.,Yamato Holdings,Japan,$16.13 B,$10.38 B,$6.93 B
+1972.,Musashino Bank,Japan,$535 M,$47.63 B,$465 M
+1972.,Pinnacle Bank,United States,$1.32 B,$39.4 B,$6.26 B
+1974.,Jinshang Bank,China,$1.92 B,$47.6 B,$1.05 B
+1974.,Seiko Epson,Japan,$10.24 B,$10.46 B,$4.83 B
+1976.,Ampol ,Australia,$16.08 B,$6.44 B,$5.68 B
+1976.,JB Financial Group,South Korea,$2 B,$47.44 B,$1.41 B
+1976.,Tapestry,United States,$6.51 B,$7.93 B,$8.7 B
+1979.,Logitech International,Switzerland,$5.79 B,$4.16 B,$11.01 B
+1980.,Fertiglobe,United Arab Emirates,$3.31 B,$5.17 B,$12.77 B
+1980.,WT Microelectronics,Taiwan,$16.04 B,$6.27 B,$1.98 B
+1982.,Group 1 Automotive,United States,$13.71 B,$5.75 B,$2.86 B
+1983.,Unity Software,United States,$1.11 B,$4.84 B,$22.41 B
+1984.,China Petroleum Engineering,China,$11.95 B,$16.49 B,$2.53 B
+1984.,Li Auto,China,$4.2 B,$9.7 B,$22.39 B
+1986.,Swedish Match,Sweden,$2.15 B,$1.78 B,$12.43 B
+1986.,Twilio,United States,$2.84 B,$13 B,$22.29 B
+1986.,Whitecap Resources,Canada,$1.82 B,$5.45 B,$5.17 B
+1989.,EFG International,Switzerland,$1.79 B,$46.25 B,$2.32 B
+1989.,Grandjoy Holdings Group,China,$6.36 B,$33.38 B,$2.72 B
+1991.,Kloeckner & Co,Germany,$8.79 B,$4.46 B,$1.37 B
+1992.,Match Group,United States,$2.98 B,$5.06 B,$22.04 B
+1993.,Onex,Canada,$336 M,$12.46 B,$5.25 B
+1993.,Wingtech Technology,China,$7.93 B,$11.09 B,$12.46 B
+1995.,Aperam,Luxembourg,$6.03 B,$6.72 B,$3.16 B
+1995.,Shenzhen Feima International Supply Chain,China,$37 M,$166 M,$1.14 B
+1997.,NMDC,India,$3.52 B,$5.71 B,$6.4 B
+1997.,Sichuan Changhong Electric,China,$15.72 B,$12.11 B,$1.96 B
+1999.,Satellite Chemical,China,$4.41 B,$7.64 B,$9.52 B
+2000.,Sun Communities,United States,$2.27 B,$13.49 B,$21.71 B
