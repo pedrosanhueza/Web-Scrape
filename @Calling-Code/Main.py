@@ -837,7 +837,7 @@ if projectOption[project] == 16:
    with col1:
       st.write(' ')
    with col2:
-      st.image('@Calling-Code/Pictures/under-construction.gif', caption='Coming Soon', width=400) 
+      st.image('@Calling-Code/Pictures/under-construction.gif', caption='Coming Soon', width=600) 
    with col3:
       st.write(' ')
    
