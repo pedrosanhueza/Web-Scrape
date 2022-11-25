@@ -1050,4 +1050,32 @@ if projectOption[project] == 17:
       st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
       it also has {data_diff} times more boat dealer than the average state amount.""")
 
-# ---------
+## ----------------------------------------- Sigma Phi Epsilon - Chapters ------------------------------------------------------------------------ ##
+
+if projectOption[project] == 18:
+   from Projects._18_SigEp_Chapters import SigEp
+   
+   url = SigEp.url_main # https://sigep.org/
+   data = SigEp.data
+   script_1 = SigEp.script_1
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("See Website 👨🏻‍💻"):
+
+      st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
+
+      col1, col2, col3 = st.columns([1,3,1])
+      with col1:
+         st.write(' ')
+      with col2:
+         components.iframe(f"{url}", width=350, height=500, scrolling=True)
+      with col3:
+         st.write(' ')
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'SigEp.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
