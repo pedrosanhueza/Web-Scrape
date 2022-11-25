@@ -833,11 +833,11 @@ if projectOption[project] == 15:
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
    st.write(project)
-   col1, col2, col3 = st.columns([2,3,1])
+   col1, col2, col3 = st.columns([1,3,1])
    with col1:
       st.write(' ')
    with col2:
-      st.image('@Calling-Code/Pictures/under-construction.gif', caption='Coming Soon', width=600) 
+      st.image('@Calling-Code/Pictures/under-construction.gif', caption='Coming Soon', width=400) 
    with col3:
       st.write(' ')
    
