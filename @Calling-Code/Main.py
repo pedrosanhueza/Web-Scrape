@@ -1069,14 +1069,17 @@ if projectOption[project] == 18:
    st.markdown(f'''
    <h1 style="font-size:40px;text-align:center;"> Description: </h1>
    <p style="font-size:20px;text-align:center;">
-      I was asked to collect email addresses from a fraternity contact.
-      <br>
-      The website <a href="https://sigep.org/chapters/"> sigep.org </a> has a list of chapter/school each with particular information, among the individual data, I needed to extract the president's email address and enter it into a spreadsheet, along with their first name.
-      <br><br>
-      Here is the code, website, and a table with data extracted:
+   Sigma Phi Epsilon (SigEp) is one of the largest fraternities in the country.
+   Around 11,000 SigEp undergraduates are on nearly 200 college campuses. More than 345,000 members who have joined since 1901.
+   <br><br>
+   I was asked to collect email addresses from a fraternity contact.
+   <br>
+   The website <a href="https://sigep.org/chapters/"> sigep.org </a> has a list of chapter/school each with particular information, among the individual data, I needed to extract the president's email address and enter it into a spreadsheet, along with their first name.
+   <br><br>
+   Here is the code, website, and a table with data extracted:
    </p>
    ''',unsafe_allow_html=True)
-   
+
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("See Website 👨🏻‍💻"):
