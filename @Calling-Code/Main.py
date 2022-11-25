@@ -76,7 +76,8 @@ projectOption = {
    'SINCA MMA Gob':14,
    'Surplus Store - BYUI':15,
    'Representatives - USA':16,
-   'Boat Trader':17}
+   'Boat Trader':17,
+   'Sigma Phi Epsilon':18}
 
 projects = tuple(projectOption.keys())
 
