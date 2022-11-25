@@ -1062,9 +1062,7 @@ if projectOption[project] == 18:
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
    with st.expander("See Website 👨🏻‍💻"):
-
       st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
-
       col1, col2, col3 = st.columns([1,3,1])
       with col1:
          st.write(' ')
@@ -1080,3 +1078,19 @@ if projectOption[project] == 18:
          file_name =    'SigEp.csv',
          mime      =    'text/csv',)
       st.dataframe(data)
+      st.markdown('''
+      <center>
+         <img src='https://sigep.org/wp-content/themes/education-pro-sigep/images/sigep-logo-tm.png' alt="Logo">
+      </center>
+      ''',unsafe_allow_html=True)
+
+      st.markdown(f'''
+      <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+      <p style="font-size:20px;text-align:center;">
+         I was asked to collect email addresses from a fraternity contact.
+         <br>
+         The website <a href="https://sigep.org/chapters/"> sigep.org </a> has a list of chapter/school each with particular information, among the individual data, I needed to extract the president's email address and enter it into a spreadsheet, along with their first name.
+         <br><br>
+         Here is the code, website, and a table with data extracted:
+      </p>
+      ''',unsafe_allow_html=True)
