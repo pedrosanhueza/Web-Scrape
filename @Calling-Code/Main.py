@@ -789,6 +789,7 @@ if projectOption[project] == 15:
    data_1 = SurplusStore.data_1
    data_2 = SurplusStore.data_2
    table_3 = SurplusStore.table_3
+   script_1 = SurplusStore.script_1
    # data_1_names = SurplusStore.data_1_names
    # data_1_values = SurplusStore.data_1_values
 
@@ -825,6 +826,9 @@ if projectOption[project] == 15:
    condition_option = st.select_slider('Select a color of the rainbow', options = data.Condition.unique())
    data_3 = table_3[table_3.Condition == condition_option]
    st.table(data_3)
+
+   with st.expander("How to extract the data - Python Code 🐍"):
+      st.code(script_1,language="python")
 
 # ## -----------------------------------------  ------------------------------------------------------------------------ ##
 if projectOption[project] == 16:
