@@ -1119,10 +1119,10 @@ if projectOption[project] == 18:
          file_name =    'SigEp.csv',
          mime      =    'text/csv',)
       st.dataframe(data)
-   # with st.expander("Analysis 🧐"):
-   #    KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
-   #    KPI1.metric('Institutions listed', data.dyadinstitutionalid.nunique())
-   #    KPI2.metric('President emails', data.chapterpresidentemail.nunique())
-   #    KPI3.metric('Vice president emails', data.avcpresidentemail.nunique())
-   #    KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
-   #    KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
+   with st.expander("Analysis 🧐"):
+      KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
+      KPI1.metric('Institutions listed', data.dyadinstitutionalid.nunique())
+      KPI2.metric('President emails', data.chapterpresidentemail.nunique())
+      KPI3.metric('Vice president emails', data.avcpresidentemail.nunique())
+      KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
+      KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
