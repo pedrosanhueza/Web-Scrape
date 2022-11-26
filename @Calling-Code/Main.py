@@ -126,7 +126,8 @@ if projectOption[project] == 1:
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
-   from Projects._2_BYUI_ClassCatalog import catalogBYUI
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._2_BYUI_ClassCatalog import catalogBYUI
    url = catalogBYUI.url_display
    data = catalogBYUI.data
    script_1 = catalogBYUI.script_1
@@ -679,8 +680,8 @@ if projectOption[project] == 10:
    feedback.mutual.app allows a few data requests per hour ...
    If you run into a TCP port 443 error, is the default port used by HTTPS.
    This means that the port is blocked on any server or device from your browser to the website: https://feedback.mutual.app/''', icon="ℹ️")
-
-   from Projects._10_MutualAppFeedback import Mutual_App_Feedback
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._10_MutualAppFeedback import Mutual_App_Feedback
 
    data = Mutual_App_Feedback.data
    data_1 = Mutual_App_Feedback.data_1
@@ -721,7 +722,9 @@ if projectOption[project] == 10:
 
 ## ----------------------------------------- News CBS ------------------------------------------------------------------------ ##
 if projectOption[project] == 11:
-   from Projects._11_NewsCBS import cbsnews
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._11_NewsCBS import cbsnews
+   
    url_main = st.write(cbsnews.url_main)
    data = cbsnews.data
    script_1 = cbsnews.script_1
@@ -739,10 +742,11 @@ if projectOption[project] == 11:
 
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 12:
-   from Projects._12_PoliticosChilenos.camara_diputados import url_main
-   from Projects._12_PoliticosChilenos.camara_diputados import data_simple
-   from Projects._12_PoliticosChilenos.camara_diputados import ID_options
-   from Projects._12_PoliticosChilenos.camara_diputados import script_1
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._12_PoliticosChilenos.camara_diputados import url_main
+      from Projects._12_PoliticosChilenos.camara_diputados import data_simple
+      from Projects._12_PoliticosChilenos.camara_diputados import ID_options
+      from Projects._12_PoliticosChilenos.camara_diputados import script_1
 
    data_1 = data_simple
 
@@ -769,20 +773,23 @@ if projectOption[project] == 12:
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 13:
-   from Projects._13_PoliticosEspanoles import DiputadosEspanoles
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._13_PoliticosEspanoles import DiputadosEspanoles
    st.write(DiputadosEspanoles.url_main)
    data = DiputadosEspanoles.data
    st.dataframe(data)
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 14:
-   from Projects._14_SINCAMMAGob import SINCAMMAGob
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._14_SINCAMMAGob import SINCAMMAGob
    data = SINCAMMAGob.data
    url_main = SINCAMMAGob.url_main
 
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
-   from Projects._15_BYUI_SurplusStore import SurplusStore
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._15_BYUI_SurplusStore import SurplusStore
 
    st.write(SurplusStore.url)
    data = SurplusStore.data
@@ -999,7 +1006,8 @@ if projectOption[project] == 16:
 
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 17:
-   from Projects._17_BoatTrader import BoatTrader
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._17_BoatTrader import BoatTrader
    
    url = BoatTrader.url_main # https://www.boattrader.com/boat-dealers/
    data = BoatTrader.data
@@ -1062,7 +1070,8 @@ if projectOption[project] == 17:
 ## ----------------------------------------- Sigma Phi Epsilon - Chapters ------------------------------------------------------------------------ ##
 
 if projectOption[project] == 18:
-   from Projects._18_SigEp_Chapters import SigEp
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._18_SigEp_Chapters import SigEp
    
    url = SigEp.url_main # https://sigep.org/
    data = SigEp.data
