@@ -20,7 +20,7 @@ response_object = response.json()
 data = pd.DataFrame(response_object)
 
 # Select particular columns
-data = data[['dyadinstitutionalid','chapterpresidentname','chapterpresidentemail','avcpresidentname','avcpresidentemail']]
+data = data[['dyadinstitutionalid','chapterpresidentname','chapterpresidentemail','avcpresidentname','avcpresidentemail','currentchaptersize']]
 
 # Change all columns name
 data.set_axis(['instution','presidentname','presidentemail','vcpresidentname','vcpresidentemail'], axis=1, copy=True)
