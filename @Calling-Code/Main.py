@@ -92,13 +92,8 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- TEST ------------------------------------------------------------------------ ##
 if projectOption[project] == 1:
-   st.write(project)
 
-   url1 = 'https://www.boattrader.com/boat-dealers/'
-   url5 = 'https://www.irvinespectrumcenter.com/shopping/stores'
-   url7 = 'https://www.cbsnews.com/world/'
-   url11= 'https://web.byui.edu/SurplusList/'
-   url12= 'https://www.byui.edu/catalog#/courses'
+   # table_report = pd.read_excel
    
    st.markdown(f'''
    <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
@@ -121,6 +116,8 @@ if projectOption[project] == 1:
       st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Scraping Process') 
    with col3:
       st.write(' ')
+
+   # st.table()
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
