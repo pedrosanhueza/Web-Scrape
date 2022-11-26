@@ -23,7 +23,7 @@ data = pd.DataFrame(response_object)
 data = data[['dyadinstitutionalid','chapterpresidentname','chapterpresidentemail','avcpresidentname','avcpresidentemail','currentchaptersize']]
 
 # Change all columns name
-data.set_axis(['instution','presidentname','presidentemail','vcpresidentname','vcpresidentemail'], axis=1, copy=True)
+# data.set_axis(['instution','presidentname','presidentemail','vcpresidentname','vcpresidentemail','currentchaptersize'], axis=1, copy=True)
 
 # ---------------- Script_1 ----------------
 
