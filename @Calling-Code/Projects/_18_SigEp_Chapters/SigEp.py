@@ -20,7 +20,7 @@ response_object = response.json()
 data = pd.DataFrame(response_object)
 
 # Select particular columns
-data = data[['dyadinstitutionalid','chapterpresidentname','chapterpresidentemail','avcpresidentname','avcpresidentemail','currentchaptersize']]
+data = data[['dyadinstitutionalid','chapterpresidentname','chapterpresidentemail','avcpresidentname','avcpresidentemail','currentchaptersize','state']]
 
 # change dtype from str to int
 data.currentchaptersize = data.currentchaptersize.apply(pd.to_numeric)
