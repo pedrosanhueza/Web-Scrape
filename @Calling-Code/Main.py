@@ -1124,6 +1124,5 @@ if projectOption[project] == 18:
       KPI1.metric('Institutions listed', data.dyadinstitutionalid.nunique())
       KPI2.metric('President emails', data.chapterpresidentemail.nunique())
       KPI3.metric('Vice president emails', data.avcpresidentemail.nunique())
-      data.currentchaptersize = data.currentchaptersize.apply(pd.to_numeric)
       KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
       KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))

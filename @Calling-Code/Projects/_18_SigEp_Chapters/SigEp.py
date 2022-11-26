@@ -22,6 +22,9 @@ data = pd.DataFrame(response_object)
 # Select particular columns
 data = data[['dyadinstitutionalid','chapterpresidentname','chapterpresidentemail','avcpresidentname','avcpresidentemail','currentchaptersize']]
 
+# change dtype from str to int
+data.currentchaptersize = data.currentchaptersize.apply(pd.to_numeric)
+
 # Change all columns name
 # data.set_axis(['instution','presidentname','presidentemail','vcpresidentname','vcpresidentemail','currentchaptersize'], axis=1, copy=True)
 
