@@ -776,10 +776,17 @@ if projectOption[project] == 13:
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 14:
-   with st.spinner('Web scraping data from website ...'):
-      from Projects._14_SINCAMMAGob import SINCAMMAGob
-   data = SINCAMMAGob.data
-   url_main = SINCAMMAGob.url_main
+   col1, col2, col3 = st.columns([1,3,1])
+   with col1:
+      st.write(' ')
+   with col2:
+      st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Scraping Process') 
+   with col3:
+      st.write(' ')
+   # with st.spinner('Web scraping data from website ...'):
+   #    from Projects._14_SINCAMMAGob import SINCAMMAGob
+   # data = SINCAMMAGob.data
+   # url_main = SINCAMMAGob.url_main
 
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
