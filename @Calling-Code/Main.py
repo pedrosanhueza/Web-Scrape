@@ -94,6 +94,7 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 if projectOption[project] == 1:
 
    # table_report = pd.read_excel
+   st.write(st.__version__)
    
    st.markdown(f'''
    <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
