@@ -944,7 +944,7 @@ if projectOption[project] == 16:
    
    elif party_group == 'Both':
       fig = px.bar(data,y='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=900,height=400,labels={'count': 'Amount'})
-      fig.update_layout(yaxis={'categoryorder':'total descending'})
+      fig.update_layout(yaxis={'categoryorder':'total ascending'})
       # fig.update_xaxes(tickangle=-45, title="Members per State")
       # fig.update_yaxes(title=None)
       newnames = {'R':'Republicans','D':'Democrats'}
