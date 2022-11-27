@@ -871,24 +871,25 @@ if projectOption[project] == 16:
       <br>
    ''',unsafe_allow_html=True)
 
-   st.markdown('''
-   <center>
-      <p style="font-size:30px;">
-         <b> Part 1/3: </b>
-         Web Scraping Data Extraction 🐍
-      </p>
-   </center>
-   ''',unsafe_allow_html=True)
 
-   st.code(script_1, language='python')
-   
-   st.markdown('''
-   <center>
-      <p style="font-size:30px;">
-         Code Extraction Output
-      </p>
-   </center>
-   ''',unsafe_allow_html=True)
+   with st.expander("Code Used 🐍"):
+      st.markdown('''
+      <center>
+         <p style="font-size:30px;">
+            <b> Web Scraping: </b> Data Extraction 🐍
+         </p>
+      </center>
+      ''',unsafe_allow_html=True)
+      st.code(script_1,language="python")
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'House of Representatives.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
+   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
    # st.dataframe(data)
 
