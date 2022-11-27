@@ -10,8 +10,7 @@ import pytz
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-
-import os
+import plotly.express as px
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -871,27 +870,6 @@ if projectOption[project] == 16:
       <br>
    ''',unsafe_allow_html=True)
 
-
-   with st.expander("Code Used 🐍"):
-      st.markdown('''
-      <center>
-         <p style="font-size:30px;">
-            <b> Web Scraping: </b> Data Extraction 🐍
-         </p>
-      </center>
-      ''',unsafe_allow_html=True)
-      st.code(script_1,language="python")
-
-   with st.expander("Data Extracted 🕸"):
-      st.write("Table containing data extracted from website")
-      st.download_button(
-         label     =    "Download data as CSV",
-         data      =    data.to_csv().encode('utf-8'),
-         file_name =    'House of Representatives.csv',
-         mime      =    'text/csv',)
-      st.dataframe(data)
-   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
-
    data_melt_committee = data.copy()
    data_melt_committee[[0,1,2,3,4,5]] = data['Committee Assignment'].str.split('|',expand=True)
    data_melt_committee.drop('Committee Assignment',axis=1, inplace=True)
@@ -905,16 +883,16 @@ if projectOption[project] == 16:
    KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
    KPI5.metric('States', f"{data.State.nunique()}")
 
-   # newnames = {'R':'Republicans','D':'Democrats'}
-   # fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
-   # fig.update_traces(textfont_size=22,textinfo='percent+value')
-   # fig.update_layout(legend=dict(
-   #  orientation="h",
-   #  yanchor="bottom",
-   #  y=1.02,
-   #  xanchor="right",
-   #  x=0.67))
-   # st.plotly_chart(fig,use_container_width=True)
+   newnames = {'R':'Republicans','D':'Democrats'}
+   fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
+   fig.update_traces(textfont_size=22,textinfo='percent+value')
+   fig.update_layout(legend=dict(
+    orientation="h",
+    yanchor="bottom",
+    y=1.02,
+    xanchor="right",
+    x=0.67))
+   st.plotly_chart(fig,use_container_width=True)
 
    # st.bar_chart(data.State.value_counts().reset_index(), y='State',x='index')
 
@@ -988,6 +966,26 @@ if projectOption[project] == 16:
    #    </p>
    # </center>
    # ''',unsafe_allow_html=True)
+
+   with st.expander("Code Used 🐍"):
+      st.markdown('''
+      <center>
+         <p style="font-size:30px;">
+            <b> Web Scraping: </b> Data Extraction 🐍
+         </p>
+      </center>
+      ''',unsafe_allow_html=True)
+      st.code(script_1,language="python")
+
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'House of Representatives.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
+   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 17:
