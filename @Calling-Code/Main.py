@@ -873,63 +873,63 @@ if projectOption[project] == 16:
       <br>
    ''',unsafe_allow_html=True)
 
-   st.markdown('''
-   <center>
-      <p style="font-size:30px;">
-         <b> Part 1/3: </b>
-         Web Scraping Data Extraction 🐍
-      </p>
-   </center>
-   ''',unsafe_allow_html=True)
+   # st.markdown('''
+   # <center>
+   #    <p style="font-size:30px;">
+   #       <b> Part 1/3: </b>
+   #       Web Scraping Data Extraction 🐍
+   #    </p>
+   # </center>
+   # ''',unsafe_allow_html=True)
 
-   st.code(representatives.script1, language='python')
+   # st.code(representatives.script1, language='python')
    
-   st.markdown('''
-   <center>
-      <p style="font-size:30px;">
-         Code Extraction Output
-      </p>
-   </center>
-   ''',unsafe_allow_html=True)
+   # st.markdown('''
+   # <center>
+   #    <p style="font-size:30px;">
+   #       Code Extraction Output
+   #    </p>
+   # </center>
+   # ''',unsafe_allow_html=True)
 
-   st.dataframe(data)
+   # st.dataframe(data)
 
-   st.markdown('''
-   <center>
-      <p style="font-size:30px;">
-         <b> Part 2/3: </b>
-         Explanatory Data Analysis
-      </p>
-   </center>
-   ''',unsafe_allow_html=True)
+   # st.markdown('''
+   # <center>
+   #    <p style="font-size:30px;">
+   #       <b> Part 2/3: </b>
+   #       Explanatory Data Analysis
+   #    </p>
+   # </center>
+   # ''',unsafe_allow_html=True)
 
-   data_melt_committee = data.copy()
-   data_melt_committee[[0,1,2,3,4,5]] = data['Committee Assignment'].str.split('|',expand=True)
-   data_melt_committee.drop('Committee Assignment',axis=1, inplace=True)
-   data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
-   data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
+   # data_melt_committee = data.copy()
+   # data_melt_committee[[0,1,2,3,4,5]] = data['Committee Assignment'].str.split('|',expand=True)
+   # data_melt_committee.drop('Committee Assignment',axis=1, inplace=True)
+   # data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
+   # data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
 
-   KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
-   KPI1.metric('Districts', f"{data.District.nunique()}")
-   KPI2.metric('Representatives', f"{data.Name.nunique()}")
-   KPI3.metric('Parties', f"{data.Party.nunique()}")
-   KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
-   KPI5.metric('States', f"{data.State.nunique()}")
+   # KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
+   # KPI1.metric('Districts', f"{data.District.nunique()}")
+   # KPI2.metric('Representatives', f"{data.Name.nunique()}")
+   # KPI3.metric('Parties', f"{data.Party.nunique()}")
+   # KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
+   # KPI5.metric('States', f"{data.State.nunique()}")
 
-   newnames = {'R':'Republicans','D':'Democrats'}
-   fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
-   fig.update_traces(textfont_size=22,textinfo='percent+value')
-   fig.update_layout(legend=dict(
-    orientation="h",
-    yanchor="bottom",
-    y=1.02,
-    xanchor="right",
-    x=0.67))
-   st.plotly_chart(fig,use_container_width=True)
+   # newnames = {'R':'Republicans','D':'Democrats'}
+   # fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
+   # fig.update_traces(textfont_size=22,textinfo='percent+value')
+   # fig.update_layout(legend=dict(
+   #  orientation="h",
+   #  yanchor="bottom",
+   #  y=1.02,
+   #  xanchor="right",
+   #  x=0.67))
+   # st.plotly_chart(fig,use_container_width=True)
 
-   st.bar_chart(data.State.value_counts().reset_index(), y='State',x='index')
+   # st.bar_chart(data.State.value_counts().reset_index(), y='State',x='index')
 
-   party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
+   # party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
    # if party_group == 'Republicans':
    #    fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
@@ -991,14 +991,14 @@ if projectOption[project] == 16:
    # fig.update_xaxes(tickangle=45)
    # st.plotly_chart(fig)
 
-   st.markdown('''
-   <center>
-      <p style="font-size:30px;">
-         <b> Part 3/3: </b>
-         Conclusion
-      </p>
-   </center>
-   ''',unsafe_allow_html=True)
+   # st.markdown('''
+   # <center>
+   #    <p style="font-size:30px;">
+   #       <b> Part 3/3: </b>
+   #       Conclusion
+   #    </p>
+   # </center>
+   # ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 17:
