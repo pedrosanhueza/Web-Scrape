@@ -855,6 +855,9 @@ if projectOption[project] == 16:
    from Projects._16_USHouseRepresentatives import representatives
    data = representatives.data   
    script_1 = representatives.script_1
+   response = representatives.response
+
+   st.write(response.status_code)
 
    st.markdown('''
       <p style="text-align:right;">
