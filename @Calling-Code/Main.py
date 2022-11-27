@@ -853,11 +853,17 @@ if projectOption[project] == 16:
    #    st.write(' ')
    
    from Projects._16_USHouseRepresentatives import representatives
-   # data = representatives.data   
-   script_1 = representatives.script_1
+   
    response = representatives.response
-
    st.write(response.status_code)
+   
+   rows = representatives.rows
+   st.dataframe(rows[0])
+
+   data = representatives.data   
+   st.dataframe(data)
+   
+   script_1 = representatives.script_1
 
    st.markdown('''
       <p style="text-align:right;">
