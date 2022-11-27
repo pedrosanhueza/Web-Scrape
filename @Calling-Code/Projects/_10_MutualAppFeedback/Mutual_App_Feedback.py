@@ -12,7 +12,7 @@ rows_votes = []
 url_base = 'https://feedback.mutual.app/'
 
 while page:
-    url = f'https://{url_base}/?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
+    url = f'{url_base}?page={page}&order=popular&filter=all#controls' # url for each page. only change the page number
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     
