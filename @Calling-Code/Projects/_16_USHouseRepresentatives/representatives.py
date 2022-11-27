@@ -27,9 +27,9 @@ for table in tables[:56]:
     rows.append(df_state)
 
 data = pd.Series([1,2,3,4])
-data = rows[0]
-data = pd.concat([rows[0],rows[1]])
-data = pd.concat(rows)
+# data = rows[0]
+# data = pd.concat([rows[0],rows[1]])
+# data = pd.concat(rows)
 
 # ---------------------------------------
 
