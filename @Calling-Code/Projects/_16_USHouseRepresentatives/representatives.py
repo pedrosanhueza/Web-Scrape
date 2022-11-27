@@ -18,8 +18,6 @@ headers = {'User-Agent': random_user_agent}
 
 response = requests.get(url, headers=headers)
 
-a = requests.session().cookies.keys()
-
 soup = BeautifulSoup(response.text, 'html.parser')
 
 tables = soup.select('table')
