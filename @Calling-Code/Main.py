@@ -865,22 +865,25 @@ if projectOption[project] == 16:
    
    script_1 = representatives.script_1
 
+   with st.container():
+      st.markdown('''
+         <p style="text-align:right;">
+            Author: Pedro Sanhueza
+         </p>
+         <center>
+            <img src='https://www.house.gov/sites/default/themes/housegov/images/header_bg_mobile.jpg' alt="Logo" width="100%">
+            <h1 style="color:#214491;font-size: 90px;">
+               UNITED STATES
+               <br>
+               HOUSE of
+               <br>
+               REPRESENTATIVES
+            </h1>
+         </center>
+         <br><br>
+      ''',unsafe_allow_html=True)
+   
    st.markdown('''
-      <p style="text-align:right;">
-         Author: Pedro Sanhueza
-      </p>
-      <center>
-         <img src='https://www.house.gov/sites/default/themes/housegov/images/header_bg_mobile.jpg' alt="Logo" width="100%">
-         <h1 style="color:#214491;font-size: 90px;">
-            UNITED STATES
-            <br>
-            HOUSE of
-            <br>
-            REPRESENTATIVES
-         </h1>
-      </center>
-      <br><br>
-
       <h1 style="font-size:40px;text-align:center;"> Description: </h1>
       <p style="font-size:20px;text-align:center;">
          The <a href="https://www.house.gov/"> U.S. House of Representatives </a> makes and passes federal laws.
