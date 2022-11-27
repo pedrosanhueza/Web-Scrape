@@ -852,13 +852,14 @@ if projectOption[project] == 16:
    
    from Projects._16_USHouseRepresentatives import representatives
    data = representatives.data   
-   st.dataframe(data)
+   script_1 = representatives.script_1
 
    st.markdown('''
       <p style="text-align:right;">
          Author: Pedro Sanhueza
       </p>
       <center>
+         <img src='https://www.house.gov/sites/default/themes/housegov/images/header_bg_mobile.jpg' alt="Logo" width="100%">
          <h1 style="color:#214491;font-size: 90px;">
             UNITED STATES
             <br>
@@ -868,11 +869,6 @@ if projectOption[project] == 16:
          </h1>
       </center>
       <br>
-   ''',unsafe_allow_html=True)
-   st.markdown('''
-   <center>
-      <img src='https://www.house.gov/sites/default/themes/housegov/images/header_bg_mobile.jpg' alt="Logo" width="100%">
-   </center>
    ''',unsafe_allow_html=True)
 
    st.markdown('''
@@ -884,7 +880,7 @@ if projectOption[project] == 16:
    </center>
    ''',unsafe_allow_html=True)
 
-   st.code(representatives.script1, language='python')
+   st.code(script_1, language='python')
    
    st.markdown('''
    <center>
