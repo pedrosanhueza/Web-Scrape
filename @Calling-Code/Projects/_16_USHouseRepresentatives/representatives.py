@@ -21,7 +21,7 @@ for table in tables[:56]:
     df_state = pd.DataFrame(row)
     rows.append(row)
 
-data = pd.concat(rows)
+# data = pd.concat(rows)
 
 # ---------------------------------------
 
