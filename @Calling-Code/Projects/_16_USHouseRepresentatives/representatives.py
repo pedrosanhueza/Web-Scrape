@@ -24,7 +24,8 @@ for table in tables[:56]:
     df_state = pd.DataFrame(row)
     rows.append(df_state)
 
-data = pd.concat(rows)
+data = rows[0]
+# data = pd.concat(rows)
 
 # ---------------------------------------
 
