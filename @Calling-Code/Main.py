@@ -257,8 +257,8 @@ if projectOption[project] == 4:
       st.info('Refresh the page if table is not showing up', icon="ℹ️")
       st.warning(
          '''
-         www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me", icon="⚠️
-      ''')
+         www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
+         ''',icon="⚠️")
 
 #    data_main = data.copy()
    
