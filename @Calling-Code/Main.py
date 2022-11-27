@@ -842,7 +842,7 @@ if projectOption[project] == 15:
    with st.expander("How to extract the data - Python Code 🐍"):
       st.code(script_1,language="python")
 
-# ## -----------------------------------------  ------------------------------------------------------------------------ ##
+# ## ----------------------------------------- U.S. House of Representatives ------------------------------------------------ ##
 if projectOption[project] == 16:
    # col1, col2, col3 = st.columns([1,3,1])
    # with col1:
@@ -1003,7 +1003,7 @@ if projectOption[project] == 16:
    # </center>
    # ''',unsafe_allow_html=True)
 
-## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
+## ----------------------------------------- Boat Trader ------------------------------------------------------------------------ ##
 if projectOption[project] == 17:
    with st.spinner('Web scraping data from website ...'):
       from Projects._17_BoatTrader import BoatTrader
