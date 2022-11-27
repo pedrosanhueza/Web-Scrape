@@ -3,12 +3,15 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 url = "https://www.house.gov/representatives"
+
 response = requests.get(url)
+
 soup = BeautifulSoup(response.text, 'html.parser')
 
 tables = soup.select('table')
 
 rows = []
+
 for table in tables[:56]:
     row = {}
     row['District']             = [x.text.strip() for x in table.select('td')][0::6]
