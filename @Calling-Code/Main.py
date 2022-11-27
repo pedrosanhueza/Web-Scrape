@@ -857,6 +857,9 @@ if projectOption[project] == 16:
    response = representatives.response
    st.write(response.status_code)
    
+   a = representatives.a
+   st.write(a)
+   
    rows = representatives.rows
    st.dataframe(rows[0])
 
