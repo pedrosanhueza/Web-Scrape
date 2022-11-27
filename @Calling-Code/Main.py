@@ -96,7 +96,7 @@ if projectOption[project] == 1:
    # table_report = pd.read_excel
    st.write(st.__version__)
    import platform
-   print(platform.python_version())
+   st.write(platform.python_version())
    
    st.markdown(f'''
    <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
