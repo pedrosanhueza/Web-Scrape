@@ -881,6 +881,7 @@ if projectOption[project] == 16:
       </center>
       ''',unsafe_allow_html=True)
       st.code(script_1,language="python")
+      
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       st.download_button(
