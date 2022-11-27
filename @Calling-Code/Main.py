@@ -869,25 +869,30 @@ if projectOption[project] == 16:
       </center>
       <br>
    ''',unsafe_allow_html=True)
+   st.markdown('''
+   <center>
+      <img src='https://www.house.gov/sites/default/themes/housegov/images/header_bg_mobile.jpg' alt="Logo" width="100%">
+   </center>
+   ''',unsafe_allow_html=True)
 
-   # st.markdown('''
-   # <center>
-   #    <p style="font-size:30px;">
-   #       <b> Part 1/3: </b>
-   #       Web Scraping Data Extraction 🐍
-   #    </p>
-   # </center>
-   # ''',unsafe_allow_html=True)
+   st.markdown('''
+   <center>
+      <p style="font-size:30px;">
+         <b> Part 1/3: </b>
+         Web Scraping Data Extraction 🐍
+      </p>
+   </center>
+   ''',unsafe_allow_html=True)
 
-   # st.code(representatives.script1, language='python')
+   st.code(representatives.script1, language='python')
    
-   # st.markdown('''
-   # <center>
-   #    <p style="font-size:30px;">
-   #       Code Extraction Output
-   #    </p>
-   # </center>
-   # ''',unsafe_allow_html=True)
+   st.markdown('''
+   <center>
+      <p style="font-size:30px;">
+         Code Extraction Output
+      </p>
+   </center>
+   ''',unsafe_allow_html=True)
 
    # st.dataframe(data)
 
