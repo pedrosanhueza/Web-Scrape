@@ -871,12 +871,12 @@ if projectOption[project] == 16:
 
       <h1 style="font-size:40px;text-align:center;"> Description: </h1>
       <p style="font-size:20px;text-align:center;">
-         The <a href="https://www.house.gov/"> U.S. House of Representatives makes and passes federal laws. </a>
+         The <a href="https://www.house.gov/"> U.S. House of Representatives </a> makes and passes federal laws.
          The House is one of Congress's two chambers (the other is the U.S. Senate), and part of the federal government's legislative branch.
          <br><br>
          The code collects the Directory of Representatives data into a table and then run some basic Explanatory Data Analysis (EDA).
          <br>
-         The website <a href="https://www.house.gov/representatives"> house.gov/representatives </a> has a list of all U.S. Congressman's each with particular information,
+         The <a href="https://www.house.gov/representatives"> house.gov/representatives </a> has a list of all U.S. Congressman's each with particular information,
          such as Name, District, Party, Office Room, Phone, and Committee Assignment.
          <br><br>
          Here is the EDA, code, and a table with data extracted:
