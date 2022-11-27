@@ -958,7 +958,6 @@ if projectOption[project] == 16:
    fig.update_xaxes(tickangle=45)
    st.plotly_chart(fig)
 
-   
    # st.markdown('''
    # <center>
    #    <p style="font-size:30px;">
