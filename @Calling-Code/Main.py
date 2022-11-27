@@ -894,69 +894,69 @@ if projectOption[project] == 16:
     x=0.67))
    st.plotly_chart(fig,use_container_width=True)
 
-   # st.bar_chart(data.State.value_counts().reset_index(), y='State',x='index')
+   st.bar_chart(data.State.value_counts().reset_index(), y='State',x='index')
 
-   # party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
+   party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
-   # if party_group == 'Republicans':
-   #    fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
-   #    fig.update_layout(xaxis={'categoryorder':'total descending'})
-   #    fig.update_xaxes(tickangle=-45)
-   #    newnames = {'R':'Republicans'}
-   #    fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   #    st.plotly_chart(fig)
+   if party_group == 'Republicans':
+      fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
+      fig.update_layout(xaxis={'categoryorder':'total descending'})
+      fig.update_xaxes(tickangle=-45)
+      newnames = {'R':'Republicans'}
+      fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+      st.plotly_chart(fig)
 
-   # elif party_group == 'Democrats':
-   #    fig = px.bar(data[data.Party=='D'],x='State',color='Party',color_discrete_map={'D': 'Blue'},width=900,height=400,labels={'count': 'Amount'})
-   #    fig.update_layout(xaxis={'categoryorder':'total descending'})
-   #    fig.update_xaxes(tickangle=-45)
-   #    newnames = {'D':'Democrats'}
-   #    fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   #    st.plotly_chart(fig)
+   elif party_group == 'Democrats':
+      fig = px.bar(data[data.Party=='D'],x='State',color='Party',color_discrete_map={'D': 'Blue'},width=900,height=400,labels={'count': 'Amount'})
+      fig.update_layout(xaxis={'categoryorder':'total descending'})
+      fig.update_xaxes(tickangle=-45)
+      newnames = {'D':'Democrats'}
+      fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+      st.plotly_chart(fig)
    
-   # elif party_group == 'Both':
-   #    fig = px.bar(data,x='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=900,height=400,labels={'count': 'Amount'})
-   #    fig.update_layout(xaxis={'categoryorder':'total descending'})
-   #    fig.update_xaxes(tickangle=-45)
-   #    fig.update_yaxes(title=None)
-   #    newnames = {'R':'Republicans','D':'Democrats'}
-   #    fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   #    st.plotly_chart(fig)
+   elif party_group == 'Both':
+      fig = px.bar(data,x='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=900,height=400,labels={'count': 'Amount'})
+      fig.update_layout(xaxis={'categoryorder':'total descending'})
+      fig.update_xaxes(tickangle=-45)
+      fig.update_yaxes(title=None)
+      newnames = {'R':'Republicans','D':'Democrats'}
+      fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+      st.plotly_chart(fig)
 
-   # fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1000, height=800,barmode="group")
-   # fig.update_layout(xaxis={'categoryorder':'total descending'})
-   # st.plotly_chart(fig)
+   fig = px.bar(data,x='State',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1000, height=800,barmode="group")
+   fig.update_layout(xaxis={'categoryorder':'total descending'})
+   st.plotly_chart(fig)
 
 
-   # fig = px.bar(data, x='District', color='Party', color_discrete_map={'D': 'Blue', 'R':'Red'},width=1200, height=400)
-   # fig.update_layout(xaxis={'categoryorder':'total descending'})
-   # newnames = {'R':'Republicans','D':'Democrats'}
-   # fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
-   # fig.update_xaxes(tickangle=45)
-   # st.plotly_chart(fig)
+   fig = px.bar(data, x='District', color='Party', color_discrete_map={'D': 'Blue', 'R':'Red'},width=1200, height=400)
+   fig.update_layout(xaxis={'categoryorder':'total descending'})
+   newnames = {'R':'Republicans','D':'Democrats'}
+   fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
+   fig.update_xaxes(tickangle=45)
+   st.plotly_chart(fig)
 
-   # fig = px.bar(
-   #    data_melt_committee,
-   #    y='Committee Assignment',
-   #    color='Party',
-   #    color_discrete_map={'D': 'Blue', 'R':'Red'},
-   #    orientation='h',
-   #    title="Representatives per Party grouped by Committee",
-   #    width=1200, height=400)
-   # fig.update_layout(yaxis={'categoryorder':'total descending'})
-   # newnames = {'R':'Republicans','D':'Democrats'}
-   # st.plotly_chart(fig)
+   fig = px.bar(
+      data_melt_committee,
+      y='Committee Assignment',
+      color='Party',
+      color_discrete_map={'D': 'Blue', 'R':'Red'},
+      orientation='h',
+      title="Representatives per Party grouped by Committee",
+      width=1200, height=400)
+   fig.update_layout(yaxis={'categoryorder':'total descending'})
+   newnames = {'R':'Republicans','D':'Democrats'}
+   st.plotly_chart(fig)
 
-   # order = {'District':['1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th' ,'11th','12th','13th','14th','15th','16th','17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st','32nd','33rd','34th','35th','36th','37th','38th','39th','40th','41st','42nd','43rd','44th','45th','46th','47th','48th','49th','50th','51st','52nd','53rd','At Large', 'Delegate','Resident Commissioner']}
-   # fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1300, height=800,category_orders=order,facet_col="Party")
-   # fig.update_layout(xaxis={'categoryorder':'total descending'})
-   # newnames = {'R':'Republicans','D':'Democrats'}
-   # fig.for_each_trace(lambda t: t.update(name = newnames[t.name])) # Interactive graph does not show up on GitHub
-   # st.plotly_chart(fig)
+   order = {'District':['1st','2nd','3rd','4th','5th','6th','7th','8th','9th','10th' ,'11th','12th','13th','14th','15th','16th','17th','18th','19th','20th','21st','22nd','23rd','24th','25th','26th','27th','28th','29th','30th','31st','32nd','33rd','34th','35th','36th','37th','38th','39th','40th','41st','42nd','43rd','44th','45th','46th','47th','48th','49th','50th','51st','52nd','53rd','At Large', 'Delegate','Resident Commissioner']}
+   fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1300, height=800,category_orders=order,facet_col="Party")
+   fig.update_layout(xaxis={'categoryorder':'total descending'})
+   newnames = {'R':'Republicans','D':'Democrats'}
+   fig.for_each_trace(lambda t: t.update(name = newnames[t.name])) # Interactive graph does not show up on GitHub
+   st.plotly_chart(fig)
 
-   # fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group",category_orders=order)
-   # fig.update_xaxes(tickangle=45)
-   # st.plotly_chart(fig)
+   fig = px.bar(data,x='District',color='Party',color_discrete_map={'D': 'Blue', 'R':'Red'},title="Committee Members per Party",width=1400, height=800,barmode="group",category_orders=order)
+   fig.update_xaxes(tickangle=45)
+   st.plotly_chart(fig)
 
    # st.markdown('''
    # <center>
