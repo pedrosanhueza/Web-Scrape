@@ -851,27 +851,26 @@ if projectOption[project] == 16:
    #    st.write(' ')
    
    from Projects._16_USHouseRepresentatives import representatives
-
-   data = representatives.data
+   data = representatives.data   
    st.dataframe(data)
 
-   st.markdown('''
-      <p style="text-align:right;">
-         Author: Pedro Sanhueza
-      </p>
+   # st.markdown('''
+   #    <p style="text-align:right;">
+   #       Author: Pedro Sanhueza
+   #    </p>
 
-      <center>
-         <h1 style="color:#214491;font-size: 90px;">
-            UNITED STATES
-            <br>
-            HOUSE of
-            <br>
-            REPRESENTATIVES
-         </h1>
-      </center>
+   #    <center>
+   #       <h1 style="color:#214491;font-size: 90px;">
+   #          UNITED STATES
+   #          <br>
+   #          HOUSE of
+   #          <br>
+   #          REPRESENTATIVES
+   #       </h1>
+   #    </center>
 
-      <br>
-   ''',unsafe_allow_html=True)
+   #    <br>
+   # ''',unsafe_allow_html=True)
 
    # st.markdown('''
    # <center>
