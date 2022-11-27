@@ -862,7 +862,8 @@ if projectOption[project] == 16:
 
    data = representatives.data   
    st.dataframe(data)
-   
+   data = rows[0]
+
    script_1 = representatives.script_1
 
    with st.container():
