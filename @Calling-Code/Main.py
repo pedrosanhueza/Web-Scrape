@@ -899,7 +899,7 @@ if projectOption[project] == 16:
    party_group = st.radio("Representative Members by State",('Both','Republicans','Democrats'), horizontal=True)
 
    if party_group == 'Republicans':
-      fig = px.bar(data[data.Party=='R'],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
+      fig = px.bar(data[data.Party == "R"],x='State',color='Party',color_discrete_map={'R': 'red'},width=900,height=400,labels={'count': 'Amount'})
       fig.update_layout(xaxis={'categoryorder':'total descending'})
       fig.update_xaxes(tickangle=-45)
       newnames = {'R':'Republicans'}
