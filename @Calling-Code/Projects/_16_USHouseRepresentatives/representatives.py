@@ -19,7 +19,7 @@ for table in tables[:56]:
     row['Committee Assignment'] = [x.text.strip() for x in table.select('td')][5::6]
     row['State']                = table.select_one('caption').text.strip()
     df_state = pd.DataFrame(row)
-    rows.append(row)
+    rows.append(df_state)
 
 # s1 = pd.DataFrame(['a', 'b'])
 # s2 = pd.DataFrame(['c', 'd'])
