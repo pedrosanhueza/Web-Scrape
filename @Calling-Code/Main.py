@@ -867,7 +867,20 @@ if projectOption[project] == 16:
             REPRESENTATIVES
          </h1>
       </center>
-      <br>
+      <br><br>
+
+      <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+      <p style="font-size:20px;text-align:center;">
+         The <a href="https://www.house.gov/"> U.S. House of Representatives makes and passes federal laws. </a>
+         The House is one of Congress's two chambers (the other is the U.S. Senate), and part of the federal government's legislative branch.
+         <br><br>
+         The code collects the Directory of Representatives data into a table and then run some basic Explanatory Data Analysis (EDA).
+         <br>
+         The website <a href="https://www.house.gov/representatives"> house.gov/representatives </a> has a list of all U.S. Congressman's each with particular information,
+         such as Name, District, Party, Office Room, Phone, and Committee Assignment.
+         <br><br>
+         Here is the EDA, code, and a table with data extracted:
+      </p>
    ''',unsafe_allow_html=True)
 
    data_melt_committee = data.copy()
@@ -958,17 +971,6 @@ if projectOption[project] == 16:
    fig.update_xaxes(tickangle=45)
    st.plotly_chart(fig)
 
-   # st.markdown('''
-   # <center>
-   #    <p style="font-size:30px;">
-   #       <b> Part 3/3: </b>
-   #       Conclusion
-   #    </p>
-   # </center>
-   # ''',unsafe_allow_html=True)
-
-
-
    with st.expander("Code Used 🐍"):
       st.markdown('''
       <center>
@@ -988,6 +990,15 @@ if projectOption[project] == 16:
          mime      =    'text/csv',)
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
+
+   # st.markdown('''
+   # <center>
+   #    <p style="font-size:30px;">
+   #       <b> Part 3/3: </b>
+   #       Conclusion
+   #    </p>
+   # </center>
+   # ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 17:
