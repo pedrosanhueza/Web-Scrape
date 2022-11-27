@@ -892,29 +892,18 @@ if projectOption[project] == 16:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   # st.dataframe(data)
+   data_melt_committee = data.copy()
+   data_melt_committee[[0,1,2,3,4,5]] = data['Committee Assignment'].str.split('|',expand=True)
+   data_melt_committee.drop('Committee Assignment',axis=1, inplace=True)
+   data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
+   data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
 
-   # st.markdown('''
-   # <center>
-   #    <p style="font-size:30px;">
-   #       <b> Part 2/3: </b>
-   #       Explanatory Data Analysis
-   #    </p>
-   # </center>
-   # ''',unsafe_allow_html=True)
-
-   # data_melt_committee = data.copy()
-   # data_melt_committee[[0,1,2,3,4,5]] = data['Committee Assignment'].str.split('|',expand=True)
-   # data_melt_committee.drop('Committee Assignment',axis=1, inplace=True)
-   # data_melt_committee = data_melt_committee.melt(id_vars=['District','Name','Party','Office Room','Phone','State'],value_name='Committee Assignment')
-   # data_melt_committee = data_melt_committee[~data_melt_committee['Committee Assignment'].isnull()].drop('variable',axis=1)
-
-   # KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
-   # KPI1.metric('Districts', f"{data.District.nunique()}")
-   # KPI2.metric('Representatives', f"{data.Name.nunique()}")
-   # KPI3.metric('Parties', f"{data.Party.nunique()}")
-   # KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
-   # KPI5.metric('States', f"{data.State.nunique()}")
+   KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
+   KPI1.metric('Districts', f"{data.District.nunique()}")
+   KPI2.metric('Representatives', f"{data.Name.nunique()}")
+   KPI3.metric('Parties', f"{data.Party.nunique()}")
+   KPI4.metric('Committees', f"{data_melt_committee['Committee Assignment'].nunique()}")
+   KPI5.metric('States', f"{data.State.nunique()}")
 
    # newnames = {'R':'Republicans','D':'Democrats'}
    # fig = px.pie(data['Party'].replace(newnames),names='Party',color='Party',color_discrete_map={'Republicans':'Red','Democrats':'Blue'})
