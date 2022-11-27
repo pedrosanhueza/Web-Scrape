@@ -944,9 +944,9 @@ if projectOption[project] == 16:
    
    elif party_group == 'Both':
       fig = px.bar(data,x='State',color='Party',color_discrete_map={'R': 'red','D': 'blue'},width=900,height=400,labels={'count': 'Amount'})
-      fig.update_layout(xaxis={'categoryorder':'total descending'})
-      fig.update_xaxes(tickangle=-45)
-      fig.update_yaxes(title=None)
+      fig.update_layout(yaxis={'categoryorder':'total descending'})
+      # fig.update_xaxes(tickangle=-45, title="Members per State")
+      # fig.update_yaxes(title=None)
       newnames = {'R':'Republicans','D':'Democrats'}
       fig.for_each_trace(lambda t: t.update(name = newnames[t.name]))
       st.plotly_chart(fig)
