@@ -1143,7 +1143,7 @@ if projectOption[project] == 18:
 
 ## ----------------------------------------- App Shopify ------------------------------------------------------------------------ ##
 if projectOption[project] == 19:
-   with st.spinner('This might take a counple of minutes ...'):
+   with st.spinner('This might take up to 3 minutes. We are extracting the live data from apps.shopify.com...'):
       from Projects._19_ShopifyApps import Shopify_Apps
    url = Shopify_Apps.url_main
    data = Shopify_Apps.data
