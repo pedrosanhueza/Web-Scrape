@@ -12,7 +12,7 @@ review_count = []
 icon_logo = []
 pricing = []
 
-for page in range(1,201): # first 200 pages (sort by most relevant)
+for page in range(1,201): # first 200 pages
     url = f"https://apps.shopify.com/browse?page={page}"
     response = requests.get(url)
     
@@ -27,12 +27,12 @@ for page in range(1,201): # first 200 pages (sort by most relevant)
 
 data = pd.DataFrame({
     'name': title,
-    'url': href,
     'developer': developer,
-    'details': details,
     'review_count': review_count,
+    'pricing': pricing,
     'icon_logo': icon_logo,
-    'pricing': pricing
+    'details': details,
+    'url': href
 })
 
 data.name = data.name.str.replace("Go to ","",regex=True)

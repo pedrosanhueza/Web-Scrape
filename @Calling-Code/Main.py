@@ -1143,17 +1143,21 @@ if projectOption[project] == 18:
 
 ## ----------------------------------------- App Shopify ------------------------------------------------------------------------ ##
 if projectOption[project] == 19:
-   with st.spinner('Web scraping data from website ...'):
+   with st.spinner('This might take a counple of minutes ...'):
       from Projects._19_ShopifyApps import Shopify_Apps
    url = Shopify_Apps.url_main
    data = Shopify_Apps.data
    script_1 = Shopify_Apps.script_1
 
    st.markdown(f'''
-   <br><p style="font-size:20px;text-align:left;">
+   <br>
+   <p style="font-size:20px;text-align:left;">
       Extracting data from: 
       <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Shoppify App Store </a>
    </p>
+   <center>
+      <img src='https://swym.it/wp-content/uploads/2020/01/shopify-logo-png-shopify-logo-3076-1.png' alt="Logo" width="100%">
+   </center>
    ''',unsafe_allow_html=True)
    
    st.markdown(f'''
@@ -1171,8 +1175,6 @@ if projectOption[project] == 19:
 
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
-   with st.expander("See Website 👨🏻‍💻"):
-      components.iframe(f"{url}",width=1000, height=500, scrolling=True)
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
       st.download_button(
