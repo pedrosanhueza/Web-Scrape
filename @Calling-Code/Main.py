@@ -74,7 +74,8 @@ projectOption = {
    'Surplus Store - BYUI':15,
    'Representatives - USA':16,
    'Boat Trader':17,
-   'Sigma Phi Epsilon':18}
+   'Sigma Phi Epsilon':18,
+   'App Shopify':19}
 
 projects = tuple(projectOption.keys())
 
@@ -1139,3 +1140,47 @@ if projectOption[project] == 18:
 
       state_chapterSize = data.groupby('state').agg('sum').reset_index()
       st.bar_chart(data=state_chapterSize, x='state', y='currentchaptersize')
+
+## ----------------------------------------- App Shopify ------------------------------------------------------------------------ ##
+if projectOption[project] == 19:
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._19_ShopifyApps import Shopify_Apps
+   url = Shopify_Apps.url_main
+   data = Shopify_Apps.data
+   script_1 = Shopify_Apps.script_1
+
+   st.markdown(f'''
+   <br><p style="font-size:20px;text-align:left;">
+      Extracting data from: 
+      <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Shoppify App Store </a>
+   </p>
+   ''',unsafe_allow_html=True)
+   
+   st.markdown(f'''
+         <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+         <p style="font-size:20px;text-align:Center;">
+            The
+            <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
+            website has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
+            There are about {data.shape[0]} courses and {data.shape[1]} descriptions for each course.
+            <br>
+            This code extract all that data and puts it into a local CSV file.
+         </p>
+      <br>
+   ''',unsafe_allow_html=True)
+
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("See Website 👨🏻‍💻"):
+      components.iframe(f"{url}",width=1000, height=500, scrolling=True)
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'App Shopify.csv',
+         mime      =    'text/csv',)
+      
+      st.dataframe(data)
+
+   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
