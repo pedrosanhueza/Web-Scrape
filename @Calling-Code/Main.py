@@ -824,7 +824,7 @@ if projectOption[project] == 15:
       <br>
    ''',unsafe_allow_html=True)
 
-   with st.expander("How to extract the data - Python Code 🐍"):
+   with st.expander("Data Extract Code - Python 🐍"):
       st.code(script_1,language="python")
    
    highest_price = '$' + str( round(data.Price.max(),2))
