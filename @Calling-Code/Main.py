@@ -297,18 +297,20 @@ if projectOption[project] == 4:
    KPI6.metric('Average Weight',         int(df_c.WT.mean()))
    KPI7.metric('Average Body Mass Index',int(df_c.BMI.mean()))
 
+   x_axis = "Amount of Players"
+
    st.bar_chart(
-      data=df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': 'Players'}, axis=1),
-      x='Position',
+      data=df_c.POS.value_counts().reset_index().rename({'index': f'{x_axis}', 'POS': 'Players'}, axis=1),
+      x=f'{x_axis}',
       y='Players'
    )
 
-   data_comparisson = df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': f'{country}'}, axis=1)
+   data_comparisson = df_c.POS.value_counts().reset_index().rename({'index': f'{x_axis}', 'POS': f'{country}'}, axis=1)
    data_comparisson['Average'] = data.groupby('POS').agg('count').Country.apply(lambda x: int(x/data.Country.nunique())).to_list()
 
 
    bar = alt.Chart(data_comparisson).mark_bar().encode(
-      x='Position',
+      x=f'{x_axis}',
       y=f'{country}'
    ).properties(
       width=alt.Step(40)  # controls width of bar.
@@ -319,17 +321,11 @@ if projectOption[project] == 4:
       thickness=4,
       size=40 * 0.9,  # controls width of tick.
    ).encode(
-      x='Position',
+      x=f'{x_axis}',
       y='Average'
    )
 
    st.altair_chart(bar + tick, use_container_width=True)
-
-   st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average")['index'].to_list())
-   st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average")['index'])
-   st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average"))
-   st.dataframe(df_c.mean(numeric_only=True))
-   st.dataframe(data[data.Country == "Canada"])
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
