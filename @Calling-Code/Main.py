@@ -325,7 +325,7 @@ if projectOption[project] == 4:
    )
 
    tick = alt.Chart(data_comparisson).mark_tick(
-      color='darkgreen',
+      color='lightgreen',
       thickness=4,
       size=40 * 0.9,  # controls width of tick.
    ).encode(
