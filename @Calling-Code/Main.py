@@ -314,7 +314,7 @@ if projectOption[project] == 4:
       y=f'{country}'
    )
 
-   text = bar.mark_text(
+   text = tick.mark_text(
       align='center',
       baseline='middle',
       dx=6  # Nudges text to right so it doesn't appear on top of the bar
