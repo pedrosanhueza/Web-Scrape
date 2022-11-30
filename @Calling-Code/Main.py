@@ -322,14 +322,14 @@ if projectOption[project] == 4:
       dx=6  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text=f'{country}')
 
-   col1,col2,col3 = st.columns([1,2,1])
+   col1,col2,col3 = st.columns([1,3,1])
    with col1:
       st.write('')
    with col2:
       st.altair_chart(bar + tick + text, use_container_width=True)
    with col3:
       st.write('')
-      
+
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
    KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
    KPI5.metric('Forward',      (df_c.POS == 'Forward').sum())
