@@ -1140,7 +1140,7 @@ if projectOption[project] == 18:
    KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
 
    import altair as alt
-   bars = alt.Chart(state_chapterSize).mark_bar().encode(
+   bars = alt.Chart(data).mark_bar().encode(
       x='currentchaptersize:Q',
       y="state:O"
    )
