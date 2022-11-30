@@ -857,15 +857,15 @@ if projectOption[project] == 16:
    
    from Projects._16_USHouseRepresentatives import representatives
    
-   response = representatives.response
-   st.write(response.status_code)
+   # response = representatives.response
+   # st.write(response.status_code)
    
-   rows = representatives.rows
-   st.dataframe(rows[0])
+   # rows = representatives.rows
+   # st.dataframe(rows[0])
 
    data = representatives.data   
-   st.dataframe(data)
-   data = rows[0]
+   # st.dataframe(data)
+   # data = rows[0]
 
    script_1 = representatives.script_1
 
@@ -1074,7 +1074,6 @@ if projectOption[project] == 17:
 
    state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
    state_perc = data.state.value_counts().iloc[0]
-   # state_rank = data.groupby('state').aggregate('count').loc['FL']['id']
    data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),1) 
 
    st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
