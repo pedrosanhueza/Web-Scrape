@@ -350,8 +350,6 @@ if projectOption[project] == 6:
    script_1 = forbesBillionaires.script_1
    data = forbesBillionaires.data
 
-   st.write(url_main)
-
    st.markdown('''
    <center>
       <img src='https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Flanding-1500px.gif' alt="Logo" width=50%>
@@ -1166,12 +1164,13 @@ if projectOption[project] == 19:
    st.markdown(f'''
          <h1 style="font-size:40px;text-align:center;"> Description: </h1>
          <p style="font-size:20px;text-align:Center;">
-            The
-            <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
-            website has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
-            There are about {data.shape[0]} courses and {data.shape[1]} descriptions for each course.
-            <br>
-            This code extract all that data and puts it into a local CSV file.
+         The <a href='{url}' style="color:#4F9ACF;" >Shopify App Store</a>
+         is a plataform from where to download free and paid ecommerce plugins.
+         Most apps are oriented to grow business and improve marketing, sales and social media strategy.
+         <br>
+         The client requested a list of all apps from the website, across all pages, with the app name, url, and description.
+         <br>
+         This code extract all that data and puts it into an organized table which can be downloaded to a local file.
          </p>
       <br>
    ''',unsafe_allow_html=True)
@@ -1180,6 +1179,10 @@ if projectOption[project] == 19:
       st.code(script_1,language="python")
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
+      
+      if st.button("Extract new data from web (takes about 3 minutes)"):
+         data = Shopify_Apps.data_extraction()
+      
       st.download_button(
          label     =    "Download data as CSV",
          data      =    data.to_csv().encode('utf-8'),
