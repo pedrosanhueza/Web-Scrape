@@ -329,6 +329,7 @@ if projectOption[project] == 4:
    st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average")['index'])
    st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average"))
    st.dataframe(df_c.mean(numeric_only=True))
+   st.dataframe(data[data.Country == "Canada"])
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
