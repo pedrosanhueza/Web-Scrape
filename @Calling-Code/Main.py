@@ -1140,11 +1140,9 @@ if projectOption[project] == 18:
    KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
 
    import altair as alt
-   from vega_datasets import data
-   source = data.wheat()
-   bars = alt.Chart(source).mark_bar().encode(
-      x='wheat:Q',
-      y="year:O"
+   bars = alt.Chart(state_chapterSize).mark_bar().encode(
+      x='currentchaptersize:Q',
+      y="state:O"
    )
 
    text = bars.mark_text(
@@ -1152,14 +1150,15 @@ if projectOption[project] == 18:
       baseline='middle',
       dx=3  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(
-      text='wheat:Q'
+      text='currentchaptersize:Q'
    )
 
    c = (bars + text).properties(height=900)
+
    st.altair_chart(c, use_container_width=True)
-   
-   state_chapterSize = data.groupby('state').agg('sum').reset_index()
-   st.bar_chart(data=state_chapterSize, y='state', x='currentchaptersize')
+
+   # state_chapterSize = data.groupby('state').agg('sum').reset_index()
+   # st.bar_chart(data=state_chapterSize, y='state', x='currentchaptersize')
 
 ## ----------------------------------------- App Shopify ------------------------------------------------------------------------ ##
 if projectOption[project] == 19:
