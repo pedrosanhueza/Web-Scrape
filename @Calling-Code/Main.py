@@ -805,7 +805,7 @@ if projectOption[project] == 14:
             mime      =    'text/csv',)
       
       with col2:
-         if st.button("Extract new data from web (running time: few seconds)"):
+         if st.button("Extract new data from web (running time: 4m 2s)"):
             data = representatives.data_extraction()
       st.dataframe(data)
 
