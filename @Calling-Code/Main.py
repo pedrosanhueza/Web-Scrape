@@ -222,7 +222,7 @@ if projectOption[project] == 4:
 
    st.write(project)
 
-   data = pd.read_csv("Projects/_4_FIFAWorldCup/2022-fifa-world-cup 29-11-2022 200249 - Webscrape.csv")
+   data = pd.read_csv("@Calling-Code/Projects/_4_FIFAWorldCup/2022-fifa-world-cup 29-11-2022 200249 - Webscrape.csv")
 
    st.dataframe(data)
 
