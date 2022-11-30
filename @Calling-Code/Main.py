@@ -824,7 +824,11 @@ if projectOption[project] == 15:
 
          <img src='https://brightspotcdn.byui.edu/dims4/default/c99c1a8/2147483647/strip/true/crop/5561x3712+0+0/resize/1920x1282!/quality/90/?url=http%3A%2F%2Fbyu-idaho-brightspot.s3.amazonaws.com%2F5b%2Fd3%2Fbbdb3e63419082a1254c289f9bbf%2F190613-surplusstore-03.jpg' alt="Logo" width="100%">
 
-      <p>
+      </center>
+
+      <br><br>
+
+      <p style="font-size:20px;text-align:center;">
          The
          <a href="{url}">Surplus Campus Outlet Store </a>
          has a list of overstock items available being sold for cheap.
@@ -832,9 +836,8 @@ if projectOption[project] == 15:
          Merchandise changes in a regular basis.
       </P>
       
-      </center>
 
-      <br>
+      <br><br>
    ''',unsafe_allow_html=True)
 
    with st.expander("Data Extract Code - Python 🐍"):
