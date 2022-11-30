@@ -927,11 +927,19 @@ if projectOption[project] == 16:
 
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
-      st.download_button(
-         label     =    "Download data as CSV",
-         data      =    data.to_csv().encode('utf-8'),
-         file_name =    'House of Representatives.csv',
-         mime      =    'text/csv',)
+      
+      col1, col2 = st.columns([1,2])
+      with col1:
+         st.download_button(
+            label     =    "Download data as CSV",
+            data      =    data.to_csv().encode('utf-8'),
+            file_name =    'House of Representatives.csv',
+            mime      =    'text/csv',)
+      
+      with col2:
+         if st.button("Extract new data from web (running time: few seconds)"):
+            data = representatives.data_extraction()
+
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
