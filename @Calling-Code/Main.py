@@ -300,7 +300,7 @@ if projectOption[project] == 4:
 
    bar = alt.Chart(data_comparisson).mark_bar().encode(
       x=f'{x_axis}',
-      y=f'{country}'
+      y='Average'
    ).properties(
       width=alt.Step(120)  # controls width of bar.
    )
@@ -311,7 +311,7 @@ if projectOption[project] == 4:
       size=40 * 0.9,  # controls width of tick.
    ).encode(
       x=f'{x_axis}',
-      y='Average'
+      y=f'{country}'
    )
 
    text = bar.mark_text(
