@@ -792,7 +792,7 @@ if projectOption[project] == 14:
 
    st.markdown(f'''
       <p style="text-align:right;">
-         Author: Pedro Sanhueza
+         Autor: Pedro Sanhueza
       </p>
          <h1 style="color:#214491;font-size: 90px;text-align:center;"> Ministerio del Medio Ambiente <br> Gobierno de Chile </h1>
       <center>
@@ -802,10 +802,10 @@ if projectOption[project] == 14:
       <p style="font-size:20px;text-align:center;">
          El
          <a href="{url_main}"> Sistema de Información Nacional de Calidad del Aire </a>
-         Monitorea en línea todas las estaciones ambientales a lo largo del pais.
+         monitorea en línea todas las estaciones ambientales a lo largo del pais.
          Esta pagina web contiene muestras de los contaminantes atmosféricos actualmente normados en Chile.
          <br><br>
-         El codigo colecta la informacion de cada estacion de monitoreo y la odena en una sola tabla.
+         El codigo colecta la informacion de cada estación de monitoreo y la odena en una sola tabla.
       </P>
       <br><br>
    ''',unsafe_allow_html=True)
