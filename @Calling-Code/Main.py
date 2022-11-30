@@ -337,7 +337,7 @@ if projectOption[project] == 4:
       align='center',
       baseline='middle',
       color = 'green',
-      size = 12,
+      size = 25,
       dx=6  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text=f'{country}')
 
