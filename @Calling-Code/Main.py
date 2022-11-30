@@ -306,7 +306,7 @@ if projectOption[project] == 4:
    )
 
    tick = alt.Chart(data_comparisson).mark_tick(
-      color='green',
+      color='lightgreen',
       thickness=4,
       size=40 * 0.9,  # controls width of tick.
    ).encode(
@@ -317,7 +317,8 @@ if projectOption[project] == 4:
    text = tick.mark_text(
       align='center',
       baseline='top',
-      color = 'white',
+      color = 'green',
+      size = 12,
       dx=6  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text=f'{country}:Q')
 
