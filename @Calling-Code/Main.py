@@ -703,9 +703,8 @@ if projectOption[project] == 10:
       <p style="font-size:20px;text-align:center;">
          Mutual is a mobile software application designed for Christians to meet, date, and hopefully find someone that will lead to a marriage.
          <br>
-         Mutual LLC gathers feedback from users and publish them at <a href='{url_base}'> feedback.mutual.app<a>.
-         <br><br>
-         This code extracts that data makes a table with only key componenets of each feedback, such as:
+         Mutual LLC has an open feedback <a href='{url_base}'> site <a>
+         from where this code extracts specific data to make a table with only key componenets of each feedback, such as:
          Suggestion, author, number of votes, created date, number of comments, feedback status, etc.
       
       </P>
