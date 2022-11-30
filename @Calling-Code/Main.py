@@ -131,7 +131,7 @@ if projectOption[project] == 2:
 
    st.markdown(f'''
    <center>
-      <img href="https://photo.byui.edu/img/s/v-10/p2538975367-3.jpg">
+      <img src="https://photo.byui.edu/img/s/v-10/p2538975367-3.jpg" alt="Logo" width="100%">
    </center>
    ''')
    st.markdown(f'''
