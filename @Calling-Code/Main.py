@@ -303,13 +303,13 @@ if projectOption[project] == 4:
 
    data_comparisson = pd.DataFrame({
     'Metric':keys,
-    'Selected Country Average':c_keys,
+    f'{country} Average':c_keys,
     'Overall Average':all_keys
    })
 
    bar = alt.Chart(data_comparisson).mark_bar().encode(
       x='Metric',
-      y='Selected Country Average'
+      y=f'{country} Average'
    ).properties(
       width=alt.Step(40)  # controls width of bar.
    )
