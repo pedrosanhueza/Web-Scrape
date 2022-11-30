@@ -164,6 +164,10 @@ if projectOption[project] == 2:
          mime      =    'text/csv',)
       
       st.dataframe(data)
+   
+   st.bar_chart(
+      data = data.description.value_counts()
+   )
 
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
