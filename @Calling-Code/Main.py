@@ -325,7 +325,10 @@ if projectOption[project] == 4:
 
    st.altair_chart(bar + tick, use_container_width=True)
 
-   st.dataframe(data_comparisson)
+   st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average")['index'].to_list())
+   st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average")['index'])
+   st.dataframe(df_c.mean(numeric_only=True).reset_index(name="Average"))
+   st.dataframe(df_c.mean(numeric_only=True))
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
