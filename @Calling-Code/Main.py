@@ -292,10 +292,10 @@ if projectOption[project] == 4:
    # KPI7.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
 
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
-   KPI4.metric('Age',            int(df_c.AGE.mean()))
-   KPI5.metric('Height',         int(df_c.HT.mean()))
-   KPI6.metric('Weight',         int(df_c.WT.mean()))
-   KPI7.metric('Body Mass Index',int(df_c.BMI.mean()))
+   KPI4.metric('Average Age',            int(df_c.AGE.mean()))
+   KPI5.metric('Average Height',         int(df_c.HT.mean()))
+   KPI6.metric('Average Weight',         int(df_c.WT.mean()))
+   KPI7.metric('Average Body Mass Index',int(df_c.BMI.mean()))
 
    st.bar_chart(
       data=df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': 'Players'}, axis=1),
@@ -303,19 +303,13 @@ if projectOption[project] == 4:
       y='Players'
    )
 
-   keys = df_c.mean(numeric_only=True).reset_index(name="Average")['index'].to_list()
-   c_keys = df_c.mean(numeric_only=True).to_list()
-   all_keys = data.mean(numeric_only=True).to_list()
+   data_comparisson = df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': f'country'}, axis=1)
+   data_comparisson['Average'] = data.groupby('POS').agg('count').Country.apply(lambda x: int(x/data.Country.nunique())).to_list()
 
-   data_comparisson = pd.DataFrame({
-    'Metric':keys,
-    f'{country} Average':c_keys,
-    'Overall Average':all_keys
-   })
 
    bar = alt.Chart(data_comparisson).mark_bar().encode(
-      x='Metric',
-      y=f'{country} Average'
+      x='Position',
+      y=f'country'
    ).properties(
       width=alt.Step(40)  # controls width of bar.
    )
@@ -325,8 +319,8 @@ if projectOption[project] == 4:
       thickness=2,
       size=40 * 0.9,  # controls width of tick.
    ).encode(
-      x='Metric',
-      y='Overall Average'
+      x='Position',
+      y='Average'
    )
 
    st.altair_chart(bar + tick, use_container_width=True)
