@@ -789,7 +789,7 @@ if projectOption[project] == 13:
       with col1:
          st.write(' ')
       with col2:
-         components.iframe(f"{url}", width=350, height=500, scrolling=True)
+         components.iframe(f"{url_main}", width=350, height=500, scrolling=True)
       with col3:
          st.write(' ')
 
