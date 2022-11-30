@@ -828,6 +828,8 @@ if projectOption[project] == 14:
    KPI5.metric('Cantidad de Provincias',  data.Provincia.nunique())
    KPI6.metric('Cantidad de Comunas',     data.Comuna.nunique())
 
+   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Repartición de la recepción de datos </h1>''',unsafe_allow_html=True)
+
    st.bar_chart(data=data['Recepción de datos'].value_counts())
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
