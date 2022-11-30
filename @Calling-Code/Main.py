@@ -701,9 +701,9 @@ if projectOption[project] == 10:
       <br>
       
       <p style="font-size:20px;text-align:center;">
-         Mutual is a mobile software application designed for Christians to meet, date, and hopefully find someone that will lead to a marriage.
+         <a href="https://mutual.app/"> Mutual </a> is a mobile software application designed for Christians to meet, date, and hopefully find someone that will lead to a marriage.
          <br>
-         Mutual LLC has an open feedback <a href='{url_base}'> site <a>
+         Mutual LLC has an <a href='{url_base}'>open feedback site <a>
          from where this code extracts specific data to make a table with only key componenets of each feedback, such as:
          Suggestion, author, number of votes, created date, number of comments, feedback status, etc.
       
