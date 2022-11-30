@@ -320,7 +320,7 @@ if projectOption[project] == 4:
    )
 
    text = bar.mark_text(
-      align='center'
+      align='center',
       baseline='middle',
       dx=3  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text='Amount of Players:Q')
