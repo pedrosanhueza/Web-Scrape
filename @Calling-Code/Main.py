@@ -788,6 +788,7 @@ if projectOption[project] == 14:
       from Projects._14_SINCAMMAGob import SINCAMMAGob
    data = SINCAMMAGob.data
    url_main = SINCAMMAGob.url_main
+   script_1 = SINCAMMAGob.script_1
 
    with st.expander("Data Extract Code - Python 🐍"):
       st.code(script_1,language="python")
@@ -806,6 +807,16 @@ if projectOption[project] == 14:
       with col2:
          if st.button("Extract new data from web (running time: few seconds)"):
             data = representatives.data_extraction()
+
+   with st.expander("See Website 👨🏻‍💻"):
+      st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
+      col1, col2, col3 = st.columns([1,3,1])
+      with col1:
+         st.write(' ')
+      with col2:
+         components.iframe(f"{url_main}", width=350, height=500, scrolling=True)
+      with col3:
+         st.write(' ')
 
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
