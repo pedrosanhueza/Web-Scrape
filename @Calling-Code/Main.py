@@ -142,7 +142,7 @@ if projectOption[project] == 2:
             The
             <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
             website has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
-            There are about {data.shape[0]} courses and {data.shape[1]} descriptions for each course.
+            There are about <b> {data.shape[0]} </b> courses and <b> {data.shape[1]} </b> descriptions for each course.
             <br>
             This code extract all that data and puts it into a local CSV file.
          </p>
