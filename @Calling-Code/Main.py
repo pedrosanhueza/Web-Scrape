@@ -733,7 +733,7 @@ if projectOption[project] == 11:
 
    st.markdown(f'''
       <center>
-         <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACBS_News.svg&psig=AOvVaw0aLC4xwCx-WpLfxLEaANrq&ust=1669885015884000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOiGvtPE1fsCFQAAAAAdAAAAABAD' alt="Logo" width="100%">
+         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/CBS_News.svg/800px-CBS_News.svg.png?20200627011847' alt="Logo" width="100%">
       </center>
    ''',unsafe_allow_html=True)
    
