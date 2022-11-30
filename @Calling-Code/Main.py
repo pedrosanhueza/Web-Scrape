@@ -730,6 +730,12 @@ if projectOption[project] == 11:
    url_main = st.write(cbsnews.url_main)
    data = cbsnews.data
    script_1 = cbsnews.script_1
+
+   st.markdown(f'''
+      <center>
+         <img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3ACBS_News.svg&psig=AOvVaw0aLC4xwCx-WpLfxLEaANrq&ust=1669885015884000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCOiGvtPE1fsCFQAAAAAdAAAAABAD' alt="Logo" width="100%">
+      </center>
+   ''',unsafe_allow_html=True)
    
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
