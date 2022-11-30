@@ -679,7 +679,7 @@ if projectOption[project] == 9:
 if projectOption[project] == 10:
 
    st.info('''
-   Information Disclaimer: feedback.mutual.app allows a few data requests per hour ...
+   Please wait a few seconds: feedback.mutual.app allows a few data requests per hour ...
    If you run into a TCP port 443 error, is due to your default port used by your HTTPS endpoint.
    This means that the port is blocked on any server or device from your browser to the website: https://feedback.mutual.app/''', icon="ℹ️")
    with st.spinner('Web scraping data from website ...'):
@@ -694,20 +694,22 @@ if projectOption[project] == 10:
    url_base = Mutual_App_Feedback.url_base
 
    st.markdown(f'''
-      <p style="text-align:right;">
-         Author: Pedro Sanhueza
-      </p>
+      <p style="text-align:right;"> Author: Pedro Sanhueza </p>
       
       <center> <br> <img src="{logo}"> <br><br><br> </center>
       
-      <br><br>
+      <br>
+      
       <p style="font-size:20px;text-align:center;">
          Mutual is a mobile software application designed for Christians to meet, date, and hopefully find someone that will lead to a marriage.
          <br>
-         Mutual LLC gathers feedback from users and publish them at <a href='{url_base}'> feedback.mutual.app <a>.
+         Mutual LLC gathers feedback from users and publish them at <a href='{url_base}'> feedback.mutual.app<a>.
+         <br><br>
          This code extracts that data makes a table with only key componenets of each feedback, such as:
          Suggestion, author, number of votes, created date, number of comments, feedback status, etc.
+      
       </P>
+      
       <br><br>
    ''',unsafe_allow_html=True)
 
