@@ -11,6 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import plotly.express as px
+import altair as alt
 
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
@@ -1139,7 +1140,6 @@ if projectOption[project] == 18:
    KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
    KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
 
-   import altair as alt
    state_chapterSize = data.groupby('state').agg('sum').reset_index()
 
    bars = alt.Chart(state_chapterSize).mark_bar().encode(
@@ -1153,6 +1153,9 @@ if projectOption[project] == 18:
    ).encode(text='currentchaptersize:Q')
    
    c = (bars + text).properties(height=900)
+
+   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Members of the Fraternities per State </h1>''',unsafe_allow_html=True)
+
    st.altair_chart(c, use_container_width=True)
 
    # state_chapterSize = data.groupby('state').agg('sum').reset_index()
