@@ -693,7 +693,23 @@ if projectOption[project] == 10:
    scrpt_1 = Mutual_App_Feedback.script_1
    url_base = Mutual_App_Feedback.url_base
 
-   st.markdown(f''' <center> <br> <img src="{logo}"> <br><br><br> </center> ''',unsafe_allow_html=True)
+   st.markdown(f'''
+      <p style="text-align:right;">
+         Author: Pedro Sanhueza
+      </p>
+      
+      <center> <br> <img src="{logo}"> <br><br><br> </center>
+      
+      <br><br>
+      <p style="font-size:20px;text-align:center;">
+         Mutual is a mobile software application designed for Christians to meet, date, and hopefully find someone that will lead to a marriage.
+         <br>
+         Mutual LLC gathers feedback from users and publish them at <a href='{url_base}'> feedback.mutual.app <a>.
+         This code extracts that data makes a table with only key componenets of each feedback, such as:
+         Suggestion, author, number of votes, created date, number of comments, feedback status, etc.
+      </P>
+      <br><br>
+   ''',unsafe_allow_html=True)
 
    tab1, tab2, tab3 = st.tabs(["Analysis 🧐", "Script 🐍","Table 🥩"])
    with tab1:
