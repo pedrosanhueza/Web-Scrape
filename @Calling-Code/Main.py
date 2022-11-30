@@ -313,7 +313,7 @@ if projectOption[project] == 4:
       x=f'{x_axis}',
       y=f'{country}'
    ).properties(
-      width=alt.Step(40)  # controls width of bar.
+      width=alt.Step(80)  # controls width of bar.
    )
 
    tick = alt.Chart(data_comparisson).mark_tick(
@@ -325,7 +325,7 @@ if projectOption[project] == 4:
       y='Average'
    )
 
-   st.altair_chart(bar + tick)
+   st.altair_chart(bar + tick, use_container_width=True)
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
