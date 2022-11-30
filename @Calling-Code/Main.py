@@ -1131,16 +1131,16 @@ if projectOption[project] == 18:
          file_name =    'SigEp.csv',
          mime      =    'text/csv',)
       st.dataframe(data)
-   with st.expander("Analysis 🧐"):
-      KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
-      KPI1.metric('Institutions listed', data.dyadinstitutionalid.nunique())
-      KPI2.metric('President emails', data.chapterpresidentemail.nunique())
-      KPI3.metric('Vice president emails', data.avcpresidentemail.nunique())
-      KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
-      KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
+   
+   KPI1,KPI2,KPI3,KPI4,KPI5 = st.columns(5)
+   KPI1.metric('Institutions listed', data.dyadinstitutionalid.nunique())
+   KPI2.metric('President emails', data.chapterpresidentemail.nunique())
+   KPI3.metric('Vice president emails', data.avcpresidentemail.nunique())
+   KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
+   KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
 
-      state_chapterSize = data.groupby('state').agg('sum').reset_index()
-      st.bar_chart(data=state_chapterSize, x='state', y='currentchaptersize')
+   state_chapterSize = data.groupby('state').agg('sum').reset_index()
+   st.bar_chart(data=state_chapterSize, y='state', x='currentchaptersize')
 
 ## ----------------------------------------- App Shopify ------------------------------------------------------------------------ ##
 if projectOption[project] == 19:
