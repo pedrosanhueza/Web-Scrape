@@ -130,6 +130,11 @@ if projectOption[project] == 2:
    script_1 = catalogBYUI.script_1
 
    st.markdown(f'''
+   <center>
+      <img href="https://photo.byui.edu/img/s/v-10/p2538975367-3.jpg">
+   </center>
+   ''')
+   st.markdown(f'''
    <br><p style="font-size:20px;text-align:left;">
       Extracting data from: 
       <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Class Catalog - BYUI </a>
@@ -279,7 +284,7 @@ if projectOption[project] == 4:
             file_name =    'Soccer teams FIFA 2022.csv',
             mime      =    'text/csv',)
       with col2:
-         if st.button("Extract new data from web (running time: 1m 20s)"):
+         if st.button("Refresh data (running time: 1m 20s)"):
             data = FIFAWorldCup.data_extraction()
       st.dataframe(data)
 
