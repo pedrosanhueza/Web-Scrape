@@ -824,6 +824,9 @@ if projectOption[project] == 15:
       <br>
    ''',unsafe_allow_html=True)
 
+   with st.expander("How to extract the data - Python Code 🐍"):
+      st.code(script_1,language="python")
+   
    highest_price = '$' + str( round(data.Price.max(),2))
    price_mean = '$' + str( round(data.Price.mean(),2) )
    excellent_items = str(data[data.Condition == 'Excellent'].shape[0]) + ' Items'
@@ -838,12 +841,10 @@ if projectOption[project] == 15:
    st.table(data_1)
    st.bar_chart(data_2, x='Description', y='Price')
    st.table(data_2)
-   condition_option = st.select_slider('Select a color of the rainbow', options = data.Condition.unique())
+   condition_option = st.select_slider('Select a condition of the product', options = data.Condition.unique())
    data_3 = table_3[table_3.Condition == condition_option]
    st.table(data_3)
 
-   with st.expander("How to extract the data - Python Code 🐍"):
-      st.code(script_1,language="python")
 
 # ## ----------------------------------------- U.S. House of Representatives ------------------------------------------------ ##
 if projectOption[project] == 16:
