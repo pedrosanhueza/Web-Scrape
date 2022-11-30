@@ -285,11 +285,17 @@ if projectOption[project] == 4:
 
    st.markdown(f''' <center> <img src={country_img} alt="Logo" width="30%"> </center> ''',unsafe_allow_html=True)
 
+   # KPI4,KPI5,KPI6,KPI7 = st.columns(4)
+   # KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
+   # KPI5.metric('Forward',      (df_c.POS == 'Forward').sum())
+   # KPI6.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
+   # KPI7.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
+
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
-   KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
-   KPI5.metric('Forward',      (df_c.POS == 'Forward').sum())
-   KPI6.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
-   KPI7.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
+   KPI4.metric('Age',            int(df_c.AGE.mean()))
+   KPI5.metric('Height',         int(df_c.HT.mean()))
+   KPI6.metric('Weight',         int(df_c.WT.mean()))
+   KPI7.metric('Body Mass Index',int(df_c.BMI.mean()))
 
    st.bar_chart(
       data=df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': 'Players'}, axis=1),
