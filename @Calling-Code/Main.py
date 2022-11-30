@@ -1167,9 +1167,9 @@ if projectOption[project] == 19:
          The <a href='{url}' style="color:#4F9ACF;" >Shopify App Store</a>
          is a plataform from where to download free and paid ecommerce plugins.
          Most apps are oriented to grow business and improve marketing, sales and social media strategy.
-         <br>
-         The client requested a list of all apps from the website, across all pages, with the app name, url, and description.
-         <br>
+         <br><br>
+         The client requested me to make a table with all the apps listed on the website, with the app name, url, and description.
+         <br><br>
          This code extract all that data and puts it into an organized table which can be downloaded to a local file.
          </p>
       <br>
