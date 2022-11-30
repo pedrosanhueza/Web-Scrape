@@ -303,20 +303,20 @@ if projectOption[project] == 4:
       y='Players'
    )
 
-   data_comparisson = df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': f'country'}, axis=1)
+   data_comparisson = df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': f'{country}'}, axis=1)
    data_comparisson['Average'] = data.groupby('POS').agg('count').Country.apply(lambda x: int(x/data.Country.nunique())).to_list()
 
 
    bar = alt.Chart(data_comparisson).mark_bar().encode(
       x='Position',
-      y=f'country'
+      y=f'{country}'
    ).properties(
       width=alt.Step(40)  # controls width of bar.
    )
 
    tick = alt.Chart(data_comparisson).mark_tick(
       color='green',
-      thickness=2,
+      thickness=4,
       size=40 * 0.9,  # controls width of tick.
    ).encode(
       x='Position',
