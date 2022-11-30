@@ -286,10 +286,10 @@ if projectOption[project] == 4:
    st.markdown(f''' <img src={country_img} alt="Logo" width="100%"> </center> ''',unsafe_allow_html=True)
 
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
-   KPI4.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
-   KPI5.metric('Defender',     (df_c.POS == 'Defender').sum())
-   KPI6.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
-   KPI7.metric('Forward',      (df_c.POS == 'Forward').sum())
+   KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
+   KPI5.metric('Forward',      (df_c.POS == 'Forward').sum())
+   KPI6.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
+   KPI7.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
 
    st.bar_chart(
       data=df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': 'Players'}, axis=1),
