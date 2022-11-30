@@ -1065,22 +1065,24 @@ if projectOption[project] == 17:
          file_name =    'BoatTrader_dealers.csv',
          mime      =    'text/csv',)
       st.dataframe(data)
-   with st.expander("Analysis 🧐"):   
-      KPI1, KPI2, KPI3, KPI4 = st.columns(4)
-      KPI1.metric('Number of dealers', f"{data.shape[0]}")
-      KPI2.metric("Number of duplicates", f"{data[data.name.duplicated()].shape[0]}") # based on dealership name
-      KPI3.metric("Dealers without phone", data[data.phone.isna()].shape[0])
-      KPI4.metric("Dealers with website", data[(~data.website.isna()) & (data.name.duplicated() == False)].shape[0])
-      st.write('Boat dealers by state')
-      plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
-      st.bar_chart(plot_state, x='state', y='count')
-      state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
-      state_perc = data.state.value_counts().iloc[0]
-      state_rank = data.groupby('state').aggregate('count').loc['FL']['id']
-      data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),1) 
 
-      st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
-      it also has {data_diff} times more boat dealer than the average state amount.""")
+   KPI1, KPI2, KPI3, KPI4 = st.columns(4)
+   KPI1.metric('Number of dealers', f"{data.shape[0]}")
+   KPI2.metric("Number of duplicates", f"{data[data.name.duplicated()].shape[0]}") # based on dealership name
+   KPI3.metric("Dealers without phone", data[data.phone.isna()].shape[0])
+   KPI4.metric("Dealers with website", data[(~data.website.isna()) & (data.name.duplicated() == False)].shape[0])
+
+   st.write('Boat dealers by state')
+   plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
+   st.bar_chart(plot_state, x='state', y='count')
+
+   state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
+   state_perc = data.state.value_counts().iloc[0]
+   # state_rank = data.groupby('state').aggregate('count').loc['FL']['id']
+   data_diff = round(state_perc / data.groupby('state').aggregate('count')['id'].mean(),1) 
+
+   st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
+   it also has {data_diff} times more boat dealer than the average state amount.""")
 
 ## ----------------------------------------- Sigma Phi Epsilon - Chapters ------------------------------------------------------------------------ ##
 
