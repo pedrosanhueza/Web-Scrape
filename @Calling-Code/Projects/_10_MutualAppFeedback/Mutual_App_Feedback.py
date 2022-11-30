@@ -70,6 +70,7 @@ data['date_created_month'] = data['date_created'].apply(
     if 'days' not in x and 'yesterday' not in x and 'today' not in x
     else datetime.now().strftime('%h'))
 
+
 # find logo
 url = 'https://blog.mutual.app/'
 response = requests.get(url)
