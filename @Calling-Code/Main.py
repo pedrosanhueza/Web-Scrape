@@ -783,17 +783,29 @@ if projectOption[project] == 13:
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 14:
-   col1, col2, col3 = st.columns([1,3,1])
-   with col1:
-      st.write(' ')
-   with col2:
-      st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Scraping Process') 
-   with col3:
-      st.write(' ')
-   # with st.spinner('Web scraping data from website ...'):
-   #    from Projects._14_SINCAMMAGob import SINCAMMAGob
-   # data = SINCAMMAGob.data
-   # url_main = SINCAMMAGob.url_main
+
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._14_SINCAMMAGob import SINCAMMAGob
+   data = SINCAMMAGob.data
+   url_main = SINCAMMAGob.url_main
+
+   with st.expander("Data Extract Code - Python 🐍"):
+      st.code(script_1,language="python")
+
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from ramifications of the website")
+      
+      col1, col2 = st.columns([1,2])
+      with col1:
+         st.download_button(
+            label     =    "Download data as CSV",
+            data      =    data.to_csv().encode('utf-8'),
+            file_name =    'Sistema de Información Nacional de Calidad del Aire.csv',
+            mime      =    'text/csv',)
+      
+      with col2:
+         if st.button("Extract new data from web (running time: few seconds)"):
+            data = representatives.data_extraction()
 
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
