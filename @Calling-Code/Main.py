@@ -819,6 +819,14 @@ if projectOption[project] == 14:
       with col3:
          st.write(' ')
 
+   KPI1,KPI2,KPI3,KPI4,KPI5,KPI6 = st.columns(6)
+   KPI1.metric('Numero de Estaciones',    data.Estacion_id.nunique())
+   KPI2.metric('Numero de Propietarios',  data.Propietario.nunique())
+   KPI3.metric('Numero de Operadores',    data.Operador.nunique())
+   KPI4.metric('Cantidad de Regiones',    data.Región.nunique())
+   KPI5.metric('Cantidad de Provincias',  data.Provincia.nunique())
+   KPI6.metric('Cantidad de Comunas',     data.Comuna.nunique())
+
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
    with st.spinner('Web scraping data from website ...'):
