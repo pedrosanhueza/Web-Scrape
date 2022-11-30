@@ -219,47 +219,52 @@ if projectOption[project] == 3:
 
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
-   with st.spinner('Web scraping data from website ...'):
-      from Projects._4_FIFAWorldCup import FIFAWorldCup
-   url = FIFAWorldCup.url
-   data = FIFAWorldCup.data
-   script_1 = FIFAWorldCup.script_1
 
-   logo_url = 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png'
+   st.write(project)
 
-   st.markdown(f'''
-   <center>
-      <img src={logo_url} alt="Logo" width="100%">
-   </center>
-   ''',unsafe_allow_html=True)
+   
 
-   st.markdown(f'''
-   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
-   <p style="font-size:20px;text-align:center;">
-      <a href='{url}' style="color:#4F9ACF;" > Fox Sports </a>
-      has a complete list of all teams and players in the FIFA World Cup 2022.
-      This python code organizes the data from various pages within this website and merges them all together into one big dataset.
-      <br><br>
+   # with st.spinner('Web scraping data from website ...'):
+   #    from Projects._4_FIFAWorldCup import FIFAWorldCup
+   # url = FIFAWorldCup.url
+   # data = FIFAWorldCup.data
+   # script_1 = FIFAWorldCup.script_1
+
+   # logo_url = 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png'
+
+   # st.markdown(f'''
+   # <center>
+   #    <img src={logo_url} alt="Logo" width="100%">
+   # </center>
+   # ''',unsafe_allow_html=True)
+
+   # st.markdown(f'''
+   # <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   # <p style="font-size:20px;text-align:center;">
+   #    <a href='{url}' style="color:#4F9ACF;" > Fox Sports </a>
+   #    has a complete list of all teams and players in the FIFA World Cup 2022.
+   #    This python code organizes the data from various pages within this website and merges them all together into one big dataset.
+   #    <br><br>
       
-   </p>
-   ''',unsafe_allow_html=True)
+   # </p>
+   # ''',unsafe_allow_html=True)
 
-   with st.expander("Code Used 🐍"):
-      st.code(script_1,language="python")
+   # with st.expander("Code Used 🐍"):
+   #    st.code(script_1,language="python")
 
-   with st.expander("Data Extracted 🕸"):
-      st.write("Table containing data extracted from website")
-      st.download_button(
-         label     =    "Download data as CSV",
-         data      =    data.to_csv().encode('utf-8'),
-         file_name =    'Soccer_Teams_2022.csv',
-         mime      =    'text/csv',)
-      st.dataframe(data)
-      st.info('Refresh the page if table is not showing up', icon="ℹ️")
-      st.warning(
-         '''
-         www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
-         ''',icon="⚠️")
+   # with st.expander("Data Extracted 🕸"):
+   #    st.write("Table containing data extracted from website")
+   #    st.download_button(
+   #       label     =    "Download data as CSV",
+   #       data      =    data.to_csv().encode('utf-8'),
+   #       file_name =    'Soccer_Teams_2022.csv',
+   #       mime      =    'text/csv',)
+   #    st.dataframe(data)
+   #    st.info('Refresh the page if table is not showing up', icon="ℹ️")
+   #    st.warning(
+   #       '''
+   #       www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
+   #       ''',icon="⚠️")
 
 #    data_main = data.copy()
    
