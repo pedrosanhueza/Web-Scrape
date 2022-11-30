@@ -320,9 +320,9 @@ if projectOption[project] == 4:
    )
 
    text = bar.mark_text(
-      align='top',
-      baseline='middle',
-      dx=3  # Nudges text to right so it doesn't appear on top of the bar
+      align='top'
+      # baseline='middle',
+      # dx=3  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text=f'{x_axis}:Q')
 
    st.altair_chart(bar + tick + text, use_container_width=True)
