@@ -143,7 +143,7 @@ if projectOption[project] == 2:
             <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
             website has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
             The university currenlt has <b> {data.shape[0]} </b> open courses from where the students can register to (including online classes).
-            It also has <b> {data.shape[1]} </b> main academic departments.
+            It also has <b> {data.description.nunique()} </b> main academic departments.
             <br>
             This code extract all that data and puts it into a local CSV file.
          </p>
@@ -165,8 +165,21 @@ if projectOption[project] == 2:
       
       st.dataframe(data)
    
-   st.bar_chart(
-      data = data.description.value_counts()
+      df = data.description.value_counts().reset_index().rename({'index':'Department','description':'Classes'}, axis=1)
+
+      bars = alt.Chart(df).mark_bar().encode(
+      x='Classes:Q',
+      y="Department:O")
+
+   text = bars.mark_text(
+      align='left',
+      baseline='middle',
+      dx=3  # Nudges text to right so it doesn't appear on top of the bar
+   ).encode(text='Classes:Q')
+
+   st.altair_chart(
+      (bars + text).properties(height=900),
+      use_container_width=True
    )
 
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
