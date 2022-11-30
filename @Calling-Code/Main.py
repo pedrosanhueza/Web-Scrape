@@ -177,12 +177,11 @@ if projectOption[project] == 2:
       dx=3  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text='Classes:Q')
 
+   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Classes per Department </h1>''',unsafe_allow_html=True)
+
    st.altair_chart(
       (bars + text).properties(height=900),
-      use_container_width=True
-   )
-
-   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Classes per Department </h1>''',unsafe_allow_html=True)
+      use_container_width=True)
 
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
