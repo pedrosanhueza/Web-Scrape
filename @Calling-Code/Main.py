@@ -1083,8 +1083,8 @@ if projectOption[project] == 17:
    plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
 
    bars = alt.Chart(plot_state).mark_bar().encode(
-      x='state:Q',
-      y="count:O")
+      x='count:Q',
+      y="state:O")
 
    text = bars.mark_text(
       align='left',
