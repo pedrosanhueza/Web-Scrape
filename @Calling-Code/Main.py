@@ -270,31 +270,30 @@ if projectOption[project] == 4:
          www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
          ''',icon="⚠️")
 
-   country = st.select_slider('Select a country', options = data.Country.unique())
-
-   st.write(country)
-
    KPI1,KPI2,KPI3 = st.columns(3)
    KPI1.metric('Amount of Countries', data.Country.nunique())
    KPI2.metric('Avg Age', int(data.AGE.mean()))
    KPI3.metric('Avg Height', int(data.HT.mean()))
-   
+
+   country = st.select_slider('Select a country', options = data.Country.unique())
+
    df_c = data[data.Country == country]
 
-   st.dataframe(df_c)
-
    country_img = df_c.Country_logo.iloc[0]
-
+   
    st.markdown(f'''
    <center>
+      <p> {country} has {df_c.Name.nunique()} players
+      </p>
       <img src={country_img} alt="Logo" width="100%">
    </center>
    ''',unsafe_allow_html=True)
 
-   KPI4,KPI5,KPI6 = st.columns(3)
-   KPI4.metric('Cantidad de Regiones',    df_c.Región.nunique())
-   KPI5.metric('Cantidad de Provincias',  df_c.Provincia.nunique())
-   KPI6.metric('Cantidad de Comunas',     df_c.Comuna.nunique())
+   KPI4,KPI5,KPI6,KPI7 = st.columns(4)
+   KPI4.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
+   KPI5.metric('Defender',     (df_c.POS == 'Defender').sum())
+   KPI6.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
+   KPI6.metric('Forward',      (df_c.POS == 'Forward').sum())
 
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
