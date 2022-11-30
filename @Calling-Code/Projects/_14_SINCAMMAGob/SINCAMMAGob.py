@@ -45,6 +45,9 @@ data['Región'] = data['Región'].apply(lambda x: x.replace('de ',''))
 # data['Huso horario'] = data['Huso horario'].apply(lambda x: int(x))
 '''
 
+url_main = 'https://sinca.mma.gob.cl/'
+
+
 data = pd.read_csv('@Calling-Code/Projects/_14_SINCAMMAGob/Información general 23-07-2022 233329 - Webscrape.csv')
 
 # --------------------------------------------------------------
