@@ -266,67 +266,67 @@ if projectOption[project] == 4:
          www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
          ''',icon="⚠️")
 
-#    data_main = data.copy()
+   data_main = data.copy()
    
-#    countries = ('All Countries',) + tuple(data.Country.unique())
-#    country_selected = st.sidebar.selectbox("Countries",countries)
+   countries = ('All Countries',) + tuple(data.Country.unique())
+   country_selected = st.sidebar.selectbox("Countries",countries)
 
-#    positions = ('All Positions',) + tuple(data.POS.unique())
-#    position_selected = st.sidebar.selectbox("Positions",positions)
+   positions = ('All Positions',) + tuple(data.POS.unique())
+   position_selected = st.sidebar.selectbox("Positions",positions)
 
-#    if country_selected != 'All Countries':
-#       data_main = data[data.Country == country_selected]
-#       url_pic_country = data_main.Country_logo.iloc[0]
+   if country_selected != 'All Countries':
+      data_main = data[data.Country == country_selected]
+      url_pic_country = data_main.Country_logo.iloc[0]
 
-#    if position_selected != 'All Positions':
-#       data_main = data[data.POS == position_selected]
-#       url_pic_country = data_main.Country_logo.iloc[0]
+   if position_selected != 'All Positions':
+      data_main = data[data.POS == position_selected]
+      url_pic_country = data_main.Country_logo.iloc[0]
 
-#    if (country_selected != 'All Countries') and (position_selected != 'All Positions'):
-#       data_main = data[(data.POS == position_selected) & (data.Country == country_selected)]
+   if (country_selected != 'All Countries') and (position_selected != 'All Positions'):
+      data_main = data[(data.POS == position_selected) & (data.Country == country_selected)]
    
-#    if (country_selected == 'All Countries') and (position_selected != 'All Positions'):
-#       data_main = data[data.POS == position_selected]
+   if (country_selected == 'All Countries') and (position_selected != 'All Positions'):
+      data_main = data[data.POS == position_selected]
    
    
-#    st.image(f"{url_pic}",width=400)
+   st.image(f"{url_pic}",width=400)
 
-#    Players_avg = round(1 - data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
-#    Age_avg =     round(1 - data.AGE.mean() / data[data.Country == country_selected].AGE.mean(),2)
-#    HT_avg =      round(1 - data.HT.mean()  / data[data.Country == country_selected].HT.mean() ,2)
-#    WT_avg =      round(1 - data.WT.mean()  / data[data.Country == country_selected].WT.mean() ,2)
-#    BMI_avg =     round(1 - data.BMI.mean()  / data[data.Country == country_selected].BMI.mean(),2)
+   Players_avg = round(1 - data_main.shape[0] / (data.shape[0] / data.Country.nunique())  - 1,2)
+   Age_avg =     round(1 - data.AGE.mean() / data[data.Country == country_selected].AGE.mean(),2)
+   HT_avg =      round(1 - data.HT.mean()  / data[data.Country == country_selected].HT.mean() ,2)
+   WT_avg =      round(1 - data.WT.mean()  / data[data.Country == country_selected].WT.mean() ,2)
+   BMI_avg =     round(1 - data.BMI.mean()  / data[data.Country == country_selected].BMI.mean(),2)
 
-#    tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
+   tab1, tab2, tab3, tab4 = st.tabs(['Overview', 'Table', 'Code', 'Analysis'])
 
-#    with tab1:
-#       col2, col3, col4, col5, col6 = st.columns(5)
-#       if country_selected == 'All Countries':
-#          col2.metric("Players",    round(data_main.shape[0]))
-#          col3.metric("Age Avg",    round(data_main.AGE.mean()))
-#          col4.metric("Height Avg", round(data_main.HT.mean()))
-#          col5.metric("Weight Avg", round(data_main.WT.mean()))
-#          col6.metric("BMI Avg",    round(data_main.BMI.mean()))
-#       else:
-#          col2.metric("Players",    round(data_main.shape[0]), str(Players_avg) + '%')
-#          col3.metric("Age Avg",    round(data_main.AGE.mean()), str(Age_avg) + "%")
-#          col4.metric("Height Avg", round(data_main.HT.mean()), str(HT_avg)  + "%")
-#          col5.metric("Weight Avg", round(data_main.WT.mean()), str(WT_avg)  + "%")
-#          col6.metric("BMI Avg",    round(data_main.BMI.mean()), str(BMI_avg) + "%")
+   with tab1:
+      col2, col3, col4, col5, col6 = st.columns(5)
+      if country_selected == 'All Countries':
+         col2.metric("Players",    round(data_main.shape[0]))
+         col3.metric("Age Avg",    round(data_main.AGE.mean()))
+         col4.metric("Height Avg", round(data_main.HT.mean()))
+         col5.metric("Weight Avg", round(data_main.WT.mean()))
+         col6.metric("BMI Avg",    round(data_main.BMI.mean()))
+      else:
+         col2.metric("Players",    round(data_main.shape[0]), str(Players_avg) + '%')
+         col3.metric("Age Avg",    round(data_main.AGE.mean()), str(Age_avg) + "%")
+         col4.metric("Height Avg", round(data_main.HT.mean()), str(HT_avg)  + "%")
+         col5.metric("Weight Avg", round(data_main.WT.mean()), str(WT_avg)  + "%")
+         col6.metric("BMI Avg",    round(data_main.BMI.mean()), str(BMI_avg) + "%")
 
-#          st.image(f"{url_pic_country}",width=400)
+         st.image(f"{url_pic_country}",width=400)
 
-#    with tab2:
-#       if (country_selected != 'All Countries' or position_selected != 'All Positions'):
-#          st.dataframe(data_main.drop('Country_logo', axis=1))
-#       else:
-#          st.dataframe(data.drop('Country_logo', axis=1))
-#    with tab3:
-#       st.header('Code for live data extraction')
-#       st.write('Runs every time you load the page and updates the table')
-#       st.code(FIFAWorldCup.script, language="python")
-#    with tab4:
-#       st.header(option)
+   with tab2:
+      if (country_selected != 'All Countries' or position_selected != 'All Positions'):
+         st.dataframe(data_main.drop('Country_logo', axis=1))
+      else:
+         st.dataframe(data.drop('Country_logo', axis=1))
+   with tab3:
+      st.header('Code for live data extraction')
+      st.write('Runs every time you load the page and updates the table')
+      st.code(FIFAWorldCup.script, language="python")
+   with tab4:
+      st.header(option)
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
