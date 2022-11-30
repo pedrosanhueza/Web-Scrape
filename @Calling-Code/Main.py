@@ -781,17 +781,14 @@ if projectOption[project] == 13:
    data = DiputadosEspanoles.data
    script_1 = DiputadosEspanoles.script_1
 
+   st.markdown(f'''
+      <center>
+         <img src='https://www.congreso.es/webpublica/ficherosportal/logo_actual.png' alt="Logo" width="100%">
+      </center>
+   ''',unsafe_allow_html=True)
+
    with st.expander("Code Used 🐍"):
       st.code(script_1,language="python")
-   with st.expander("See Website 👨🏻‍💻"):
-      st.markdown(f'''<a href={url_main}> www.congreso.es/busqueda-de-diputados </a>''',unsafe_allow_html=True)
-      col1, col2, col3 = st.columns([1,3,1])
-      with col1:
-         st.write(' ')
-      with col2:
-         components.iframe(f"{url_main}", width=350, height=500, scrolling=True)
-      with col3:
-         st.write(' ')
 
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
