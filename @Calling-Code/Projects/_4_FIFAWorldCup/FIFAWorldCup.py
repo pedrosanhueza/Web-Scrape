@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 import pandas as pd 
 from datetime import datetime
 
+url = 'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams'
+
 script_1 = '''
 import requests
 from bs4 import BeautifulSoup
@@ -70,7 +72,6 @@ data = pd.read_csv("@Calling-Code/Projects/_4_FIFAWorldCup/2022-fifa-world-cup 2
 # ---------------------------------------------------------------- DATA EXTRACTION ---------------------------------------------------------------- #
 
 def data_extraction():
-    url = 'https://www.foxsports.com/soccer/2022-fifa-world-cup/teams'
     headers = {'user-agent': "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36"}
     response = requests.get(url,headers=headers)
     soup = BeautifulSoup(response.text, features="html.parser")
