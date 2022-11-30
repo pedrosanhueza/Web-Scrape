@@ -291,6 +291,12 @@ if projectOption[project] == 4:
    KPI6.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
    KPI7.metric('Forward',      (df_c.POS == 'Forward').sum())
 
+   st.bar_chart(
+      data=df_c.POS.value_counts().reset_index().rename({'index': 'Position', 'POS': 'Players'}, axis=1),
+      x='Position',
+      y='Players'
+   )
+
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
