@@ -4,69 +4,74 @@ from bs4 import BeautifulSoup
 
 url_main = 'https://www.forbes.com/billionaires/'
 
-url = "https://www.forbes.com/billionaires/page-data/index/page-data.json"
+data = pd.read_csv('Billionaires.csv')
 
-response = requests.get(url)
+def data_extraction():
+    url = "https://www.forbes.com/billionaires/page-data/index/page-data.json"
 
-json_data = response.json()
+    response = requests.get(url)
 
-rows = json_data['result']['pageContext']['tableData']
+    json_data = response.json()
 
-ls_=[]
+    rows = json_data['result']['pageContext']['tableData']
 
-for row in rows:
-    tableData = {
-        k: v
-        for (k, v) in row.items()
-        if
-        (k != 'person') & # dict
-        (k != 'employment') & # dict
-        (k != 'qas') & # two dicts
-        (k != 'bios') & # list
-        (k != 'abouts') & #list
-        (k != 'csfDisplayFields') #list
-        }
-    ls_.append(tableData)
+    ls_=[]
 
-data = pd.DataFrame(ls_)
+    for row in rows:
+        tableData = {
+            k: v
+            for (k, v) in row.items()
+            if
+            (k != 'person') & # dict
+            (k != 'employment') & # dict
+            (k != 'qas') & # two dicts
+            (k != 'bios') & # list
+            (k != 'abouts') & #list
+            (k != 'csfDisplayFields') #list
+            }
+        ls_.append(tableData)
 
-cols_to_drop = [
-    'parentListUri',
-    'organization',
-    'title',
-    'selfMadeRank',
-    'residenceStateRegion',
-    'embargo',
-    'residenceMsa',
-    'impactInvestor',
-    'numberOfSiblings',
-    'numberOfSiblingsEst',
-    'bio',
-    # 'totalCharitableDonation',
-    # 'charitableDonationPercentage',
-    'thumbnail',
-    'notableDeal',
-    'valueCreated',
-    'primaryIndustry',
-    'portraitImage',
-    'landscapeImage',
-    'clients']
+    data = pd.DataFrame(ls_)
 
-data.drop(cols_to_drop, axis=1, inplace=True)
+    cols_to_drop = [
+        'parentListUri',
+        'organization',
+        'title',
+        'selfMadeRank',
+        'residenceStateRegion',
+        'embargo',
+        'residenceMsa',
+        'impactInvestor',
+        'numberOfSiblings',
+        'numberOfSiblingsEst',
+        'bio',
+        # 'totalCharitableDonation',
+        # 'charitableDonationPercentage',
+        'thumbnail',
+        'notableDeal',
+        'valueCreated',
+        'primaryIndustry',
+        'portraitImage',
+        'landscapeImage',
+        'clients']
 
-data['squareImage'].fillna('https://i.forbesimg.com/media/assets/forbes_1200x1200.jpg', inplace=True)
+    data.drop(cols_to_drop, axis=1, inplace=True)
 
-data['country'].fillna('Not Specified', inplace=True)
+    data['squareImage'].fillna('https://i.forbesimg.com/media/assets/forbes_1200x1200.jpg', inplace=True)
 
-data['state'].fillna('Not Specified', inplace=True)
+    data['country'].fillna('Not Specified', inplace=True)
 
-data['city'].fillna('Not Specified', inplace=True)
+    data['state'].fillna('Not Specified', inplace=True)
 
-data['gender'].fillna('Not Specified', inplace=True)
+    data['city'].fillna('Not Specified', inplace=True)
 
-data['birthDate'].fillna('Not Specified', inplace=True)
+    data['gender'].fillna('Not Specified', inplace=True)
 
-data['firstName'].fillna('Not Specified', inplace=True)
+    data['birthDate'].fillna('Not Specified', inplace=True)
+
+    data['firstName'].fillna('Not Specified', inplace=True)
+
+    return data
 
 # --------------------------------------------------------------------
 

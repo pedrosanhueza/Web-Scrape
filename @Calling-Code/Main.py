@@ -220,53 +220,49 @@ if projectOption[project] == 3:
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
 
-   st.write(project)
-
    data = pd.read_csv("@Calling-Code/Projects/_4_FIFAWorldCup/2022-fifa-world-cup 29-11-2022 200249 - Webscrape.csv")
 
-   st.dataframe(data)
+   with st.spinner('Web scraping data from website ...'):
+      from Projects._4_FIFAWorldCup import FIFAWorldCup
+   url = FIFAWorldCup.url
+   data = FIFAWorldCup.data
+   script_1 = FIFAWorldCup.script_1
 
-   # with st.spinner('Web scraping data from website ...'):
-   #    from Projects._4_FIFAWorldCup import FIFAWorldCup
-   # url = FIFAWorldCup.url
-   # data = FIFAWorldCup.data
-   # script_1 = FIFAWorldCup.script_1
+   logo_url = 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png'
 
-   # logo_url = 'https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/1200px-2022_FIFA_World_Cup.svg.png'
+   st.markdown(f'''
+   <center>
+      <img src={logo_url} alt="Logo" width="100%">
+   </center>
+   ''',unsafe_allow_html=True)
 
-   # st.markdown(f'''
-   # <center>
-   #    <img src={logo_url} alt="Logo" width="100%">
-   # </center>
-   # ''',unsafe_allow_html=True)
-
-   # st.markdown(f'''
-   # <h1 style="font-size:40px;text-align:center;"> Description: </h1>
-   # <p style="font-size:20px;text-align:center;">
-   #    <a href='{url}' style="color:#4F9ACF;" > Fox Sports </a>
-   #    has a complete list of all teams and players in the FIFA World Cup 2022.
-   #    This python code organizes the data from various pages within this website and merges them all together into one big dataset.
-   #    <br><br>
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      <a href='{url}' style="color:#4F9ACF;" > Fox Sports </a>
+      has a complete list of all teams and players in the FIFA World Cup 2022.
+      This python code organizes the data from various pages within this website and merges them all together into one big dataset.
+      <br><br>
       
-   # </p>
-   # ''',unsafe_allow_html=True)
+   </p>
+   ''',unsafe_allow_html=True)
 
-   # with st.expander("Code Used 🐍"):
-   #    st.code(script_1,language="python")
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
 
-   # with st.expander("Data Extracted 🕸"):
-   #    st.write("Table containing data extracted from website")
-   #    st.download_button(
-   #       label     =    "Download data as CSV",
-   #       data      =    data.to_csv().encode('utf-8'),
-   #       file_name =    'Soccer_Teams_2022.csv',
-   #       mime      =    'text/csv',)
-   #    st.dataframe(data)
-   #    st.info('Refresh the page if table is not showing up', icon="ℹ️")
-   #    st.warning(
-   #       '''
-   #       www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
-   #       ''',icon="⚠️")
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Soccer_Teams_2022.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
+      st.info('Refresh the page if table is not showing up', icon="ℹ️")
+      st.warning(
+         '''
+         www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
+         ''',icon="⚠️")
 
 #    data_main = data.copy()
    
@@ -347,44 +343,50 @@ if projectOption[project] == 5:
 
 ## ----------------------------------------- Forbes Billionaires ------------------------------------------------------------------------ ##
 if projectOption[project] == 6:
+
    with st.spinner('Web scraping data from website ...'):
       from Projects._6_ForbesBillionaries import forbesBillionaires
    url_main = forbesBillionaires.url_main 
    script_1 = forbesBillionaires.script_1
    data = forbesBillionaires.data
+
+   if st.button("Update Data:"):
+      data = forbesBillionaires.data_extraction()
+
+   st.dataframe(data)
    
-   st.write(url_main)
+   # st.write(url_main)
 
-   st.markdown('''
-   <center>
-      <img src='https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Flanding-1500px.gif' alt="Logo" width=50%>
-   </center>
-   ''',unsafe_allow_html=True)
+   # st.markdown('''
+   # <center>
+   #    <img src='https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Flanding-1500px.gif' alt="Logo" width=50%>
+   # </center>
+   # ''',unsafe_allow_html=True)
 
-   st.markdown(f'''
-   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
-   <p style="font-size:20px;text-align:center;">
-      Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
-      It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
-   <br><br>
-      In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
-      Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
-      <br><br>
-      Here is the web scraping code, and table with data extracted:
-   </p>
-   ''',unsafe_allow_html=True)
+   # st.markdown(f'''
+   # <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   # <p style="font-size:20px;text-align:center;">
+   #    Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
+   #    It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
+   # <br><br>
+   #    In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
+   #    Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
+   #    <br><br>
+   #    Here is the web scraping code, and table with data extracted:
+   # </p>
+   # ''',unsafe_allow_html=True)
 
-   with st.expander("Code Used 🐍"):
-      st.code(script_1,language="python")
-   with st.expander("Data Extracted 🕸"):
-      st.write("Table containing data extracted from website")
-      st.download_button(
-         label     =    "Download data as CSV",
-         data      =    data.to_csv().encode('utf-8'),
-         file_name =    'Forbes_Billionaires_list.csv',
-         mime      =    'text/csv',)
-      st.dataframe(data)
-   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
+   # with st.expander("Code Used 🐍"):
+   #    st.code(script_1,language="python")
+   # with st.expander("Data Extracted 🕸"):
+   #    st.write("Table containing data extracted from website")
+   #    st.download_button(
+   #       label     =    "Download data as CSV",
+   #       data      =    data.to_csv().encode('utf-8'),
+   #       file_name =    'Forbes_Billionaires_list.csv',
+   #       mime      =    'text/csv',)
+   #    st.dataframe(data)
+   # st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
