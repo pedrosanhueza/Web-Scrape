@@ -1179,17 +1179,18 @@ if projectOption[project] == 19:
       st.code(script_1,language="python")
    with st.expander("Data Extracted 🕸"):
       st.write("Table containing data extracted from website")
-
-      col1, col2 = st.columns(2)
+      
+      col1, col2 = st.columns([1,2])
       with col1:
-         if st.button("Extract new data from web (running time: 3 minutes)"):
-            data = Shopify_Apps.data_extraction()
-      with col2:
          st.download_button(
             label     =    "Download data as CSV",
             data      =    data.to_csv().encode('utf-8'),
             file_name =    'App Shopify.csv',
             mime      =    'text/csv',)
+      
+      with col2:
+         if st.button("Extract new data from web (running time: 3 minutes)"):
+            data = Shopify_Apps.data_extraction()
          
       st.dataframe(data)
 
