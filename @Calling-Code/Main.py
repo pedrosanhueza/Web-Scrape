@@ -323,7 +323,7 @@ if projectOption[project] == 4:
       align='center',
       baseline='middle',
       dx=3  # Nudges text to right so it doesn't appear on top of the bar
-   ).encode(text='Amount of Players:Q')
+   ).encode(text=f'{country}:Q')
 
    st.altair_chart(bar + tick + text, use_container_width=True)
 
