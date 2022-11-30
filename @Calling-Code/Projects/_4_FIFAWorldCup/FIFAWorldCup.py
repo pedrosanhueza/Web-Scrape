@@ -69,6 +69,7 @@ data['BMI'] = data.apply(lambda x: round(x.WT / (x.HT/100)**2,1) , axis=1)
 
 data = pd.read_csv("@Calling-Code/Projects/_4_FIFAWorldCup/2022-fifa-world-cup.csv")
 
+
 # ---------------------------------------------------------------- DATA EXTRACTION ---------------------------------------------------------------- #
 
 def data_extraction():
