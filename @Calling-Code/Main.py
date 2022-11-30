@@ -321,9 +321,9 @@ if projectOption[project] == 4:
 
    text = bar.mark_text(
       align='center'
-      # baseline='middle',
-      # dx=3  # Nudges text to right so it doesn't appear on top of the bar
-   ).encode(text=f'{x_axis}:Q')
+      baseline='middle',
+      dx=3  # Nudges text to right so it doesn't appear on top of the bar
+   ).encode(text='Amount of Players:Q')
 
    st.altair_chart(bar + tick + text, use_container_width=True)
 
