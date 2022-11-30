@@ -777,9 +777,30 @@ if projectOption[project] == 12:
 if projectOption[project] == 13:
    with st.spinner('Web scraping data from website ...'):
       from Projects._13_PoliticosEspanoles import DiputadosEspanoles
-   st.write(DiputadosEspanoles.url_main)
+   url_main = DiputadosEspanoles.url_main
    data = DiputadosEspanoles.data
-   st.dataframe(data)
+   script_1 = DiputadosEspanoles.script_1
+
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("See Website 👨🏻‍💻"):
+      st.markdown(f'''<a href={url_main}> www.congreso.es/busqueda-de-diputados </a>''',unsafe_allow_html=True)
+      col1, col2, col3 = st.columns([1,3,1])
+      with col1:
+         st.write(' ')
+      with col2:
+         components.iframe(f"{url}", width=350, height=500, scrolling=True)
+      with col3:
+         st.write(' ')
+
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Politicos Españoles - Camara Diputados.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
 
 ## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 14:
