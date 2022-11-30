@@ -1068,9 +1068,9 @@ if projectOption[project] == 17:
 
    KPI1, KPI2, KPI3, KPI4 = st.columns(4)
    KPI1.metric('Number of dealers', f"{data.shape[0]}")
-   KPI2.metric("Number of duplicates", f"{data[data.name.duplicated()].shape[0]}") # based on dealership name
+   KPI2.metric("Duplicates dealer's info", f"{data[data.name.duplicated()].shape[0]}") # based on dealership name
    KPI3.metric("Unique Emails", data.email.nunique())
-   KPI4.metric("Unique Phone Number", data.phone.nunique())
+   KPI4.metric("Unique Phone Numbers", data.phone.nunique())
 
    state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
    state_perc = data.state.value_counts().iloc[0]
