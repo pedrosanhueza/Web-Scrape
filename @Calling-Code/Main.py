@@ -314,7 +314,15 @@ if projectOption[project] == 4:
       y=f'{country}'
    )
 
-   st.altair_chart(bar + tick, use_container_width=True)
+   text = tick.mark_text(
+      align='center',
+      baseline='top',
+      color = 'green',
+      size = 12,
+      dx=6  # Nudges text to right so it doesn't appear on top of the bar
+   ).encode(text=f'{country}')
+
+   st.altair_chart(bar + tick + text, use_container_width=True)
 
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
    KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
