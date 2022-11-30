@@ -1139,6 +1139,25 @@ if projectOption[project] == 18:
    KPI4.metric('Chapter size average', int(data.currentchaptersize.mean()))
    KPI5.metric('Chapter size median', int(data.currentchaptersize.median()))
 
+   import altair as alt
+   from vega_datasets import data
+   source = data.wheat()
+   bars = alt.Chart(source).mark_bar().encode(
+      x='wheat:Q',
+      y="year:O"
+   )
+
+   text = bars.mark_text(
+      align='left',
+      baseline='middle',
+      dx=3  # Nudges text to right so it doesn't appear on top of the bar
+   ).encode(
+      text='wheat:Q'
+   )
+
+   c = (bars + text).properties(height=900)
+   st.altair_chart(c, use_container_width=True)
+   
    state_chapterSize = data.groupby('state').agg('sum').reset_index()
    st.bar_chart(data=state_chapterSize, y='state', x='currentchaptersize')
 
