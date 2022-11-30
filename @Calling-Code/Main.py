@@ -325,6 +325,8 @@ if projectOption[project] == 4:
 
    st.altair_chart(bar + tick, use_container_width=True)
 
+   st.dataframe(data_comparisson)
+
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
    # from Projects._5_Financial Data import 
