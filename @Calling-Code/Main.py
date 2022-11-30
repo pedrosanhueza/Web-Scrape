@@ -354,7 +354,7 @@ if projectOption[project] == 6:
       data = forbesBillionaires.data_extraction()
 
    st.dataframe(data)
-   
+
    # st.write(url_main)
 
    # st.markdown('''
@@ -684,8 +684,7 @@ if projectOption[project] == 9:
 if projectOption[project] == 10:
 
    st.info('''
-   Information Disclaimer: <br>
-   feedback.mutual.app allows a few data requests per hour ...
+   Information Disclaimer: feedback.mutual.app allows a few data requests per hour ...
    If you run into a TCP port 443 error, is due to your default port used by your HTTPS endpoint.
    This means that the port is blocked on any server or device from your browser to the website: https://feedback.mutual.app/''', icon="ℹ️")
    with st.spinner('Web scraping data from website ...'):

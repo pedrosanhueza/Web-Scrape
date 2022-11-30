@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 url_main = 'https://www.forbes.com/billionaires/'
 
-data = pd.read_csv('Billionaires.csv')
+data = pd.read_csv("@Calling-Code/Projects/_6_ForbesBillionaries/Billionaires.csv")
 
 def data_extraction():
     url = "https://www.forbes.com/billionaires/page-data/index/page-data.json"
