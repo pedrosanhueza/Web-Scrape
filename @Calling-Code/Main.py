@@ -1154,7 +1154,7 @@ if projectOption[project] == 18:
    
    c = (bars + text).properties(height=900)
 
-   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Members of the Fraternities per State </h1>''',unsafe_allow_html=True)
+   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Members of the Fraternity per State </h1>''',unsafe_allow_html=True)
 
    st.altair_chart(c, use_container_width=True)
 
