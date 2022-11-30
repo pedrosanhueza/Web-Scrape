@@ -809,9 +809,19 @@ if projectOption[project] == 15:
    # data_1_values = SurplusStore.data_1_values
 
    st.markdown('''
+   <center>
+      <img src='https://countrycode.org/static/images/map_970da81.png' alt="Logo" width="100%">
+   </center>
+   ''',unsafe_allow_html=True)
+   st.markdown('''
       <p style="text-align:right;">
          Author: Pedro Sanhueza
       </p>
+
+      <center>
+         <img src='https://brightspotcdn.byui.edu/dims4/default/c99c1a8/2147483647/strip/true/crop/5561x3712+0+0/resize/1920x1282!/quality/90/?url=http%3A%2F%2Fbyu-idaho-brightspot.s3.amazonaws.com%2F5b%2Fd3%2Fbbdb3e63419082a1254c289f9bbf%2F190613-surplusstore-03.jpg' alt="Logo" width="100%">
+      </center>
+   
 
       <center>
          <h1 style="color:#214491;font-size: 90px;">
