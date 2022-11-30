@@ -133,7 +133,8 @@ if projectOption[project] == 2:
    <center>
       <img src="https://photo.byui.edu/img/s/v-10/p2538975367-3.jpg" alt="Logo" width="100%">
    </center>
-   ''')
+   ''',unsafe_allow_html=True)
+   
    st.markdown(f'''
    <br><p style="font-size:20px;text-align:left;">
       Extracting data from: 
