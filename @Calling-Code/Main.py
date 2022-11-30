@@ -1072,10 +1072,6 @@ if projectOption[project] == 17:
    KPI3.metric("Unique Emails", data.email.nunique())
    KPI4.metric("Unique Phone Number", data.phone.nunique())
 
-   st.write('Boat dealers by state')
-   plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
-   st.bar_chart(plot_state, x='state', y='count')
-
    state_name = data.state.value_counts().reset_index().iloc[0,0] # Florida
    state_perc = data.state.value_counts().iloc[0]
    # state_rank = data.groupby('state').aggregate('count').loc['FL']['id']
@@ -1083,6 +1079,24 @@ if projectOption[project] == 17:
 
    st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
    it also has {data_diff} times more boat dealer than the average state amount.""")
+
+   plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
+
+   bars = alt.Chart(plot_state).mark_bar().encode(
+      x='state:Q',
+      y="count:O")
+
+   text = bars.mark_text(
+      align='left',
+      baseline='middle',
+      dx=3  # Nudges text to right so it doesn't appear on top of the bar
+   ).encode(text='state:Q')
+   
+   c = (bars + text).properties(height=900)
+
+   st.write('Boat dealers by state')
+
+   st.altair_chart(c, use_container_width=True)
 
 ## ----------------------------------------- Sigma Phi Epsilon - Chapters ------------------------------------------------------------------------ ##
 
