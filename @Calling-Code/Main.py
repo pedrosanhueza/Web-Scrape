@@ -182,6 +182,8 @@ if projectOption[project] == 2:
       use_container_width=True
    )
 
+   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Classes per Department </h1>''',unsafe_allow_html=True)
+
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
 # ## ----------------------------------------- # Country Code ------------------------------------------------------------------------ ##
