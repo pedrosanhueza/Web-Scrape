@@ -790,6 +790,24 @@ if projectOption[project] == 14:
    url_main = SINCAMMAGob.url_main
    script_1 = SINCAMMAGob.script_1
 
+   st.markdown(f'''
+      <p style="text-align:right;">
+         Author: Pedro Sanhueza
+      </p>
+         <h1 style="color:#214491;font-size: 90px;text-align:center;"> Ministerio del Medio Ambiente. <br> Gobierno de Chile </h1>
+      <center>
+         <img src='https://sinca.mma.gob.cl/css/images/banner1.jpg' alt="Logo" width="100%">
+      </center>
+      <br><br>
+      <p style="font-size:20px;text-align:center;">
+         El
+         <a href="{url_main}"> Sistema de Información Nacional de Calidad del Aire </a>
+         contiene muestras las concentraciones ambientales de los contaminantes atmosféricos actualmente normados en Chile.
+         Todas las estaciones cuentan con monitoreo en línea.
+      </P>
+      <br><br>
+   ''',unsafe_allow_html=True)
+
    with st.expander("Data Extract Code - Python 🐍"):
       st.code(script_1,language="python")
 
