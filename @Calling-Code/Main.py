@@ -794,7 +794,7 @@ if projectOption[project] == 14:
       <p style="text-align:right;">
          Author: Pedro Sanhueza
       </p>
-         <h1 style="color:#214491;font-size: 90px;text-align:center;"> Ministerio del Medio Ambiente. <br> Gobierno de Chile </h1>
+         <h1 style="color:#214491;font-size: 90px;text-align:center;"> Ministerio del Medio Ambiente <br> Gobierno de Chile </h1>
       <center>
          <img src='https://sinca.mma.gob.cl/css/images/banner1.jpg' alt="Logo" width="100%">
       </center>
@@ -802,8 +802,10 @@ if projectOption[project] == 14:
       <p style="font-size:20px;text-align:center;">
          El
          <a href="{url_main}"> Sistema de Información Nacional de Calidad del Aire </a>
-         contiene muestras las concentraciones ambientales de los contaminantes atmosféricos actualmente normados en Chile.
-         Todas las estaciones cuentan con monitoreo en línea.
+         Monitorea en línea todas las estaciones ambientales a lo largo del pais.
+         Esta pagina web contiene muestras de los contaminantes atmosféricos actualmente normados en Chile.
+         <br><br>
+         El codigo colecta la informacion de cada estacion de monitoreo y la odena en una sola tabla.
       </P>
       <br><br>
    ''',unsafe_allow_html=True)
