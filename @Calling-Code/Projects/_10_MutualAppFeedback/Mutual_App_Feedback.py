@@ -67,7 +67,7 @@ data = data.astype({'votes': 'float','comments': 'float'}, copy=True)
 data['date_created_month'] = data['date_created'].apply(
     lambda x:
     x.split(' ')[1].replace(',','')
-    if 'days' not in x and 'yesterday' not in x
+    if 'days' not in x and 'yesterday' not in x and 'today' not in x
     else datetime.now().strftime('%h'))
 
 # find logo
