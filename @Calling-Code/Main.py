@@ -1090,7 +1090,7 @@ if projectOption[project] == 17:
       align='left',
       baseline='middle',
       dx=3  # Nudges text to right so it doesn't appear on top of the bar
-   ).encode(text='state:Q')
+   ).encode(text='count:Q')
    
    c = (bars + text).properties(height=900)
 
