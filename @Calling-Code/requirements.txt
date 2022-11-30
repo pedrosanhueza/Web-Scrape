@@ -4,3 +4,4 @@ seaborn
 plotly
 scipy
 kaleido
+vega_datasets
