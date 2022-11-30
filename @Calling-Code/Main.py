@@ -842,6 +842,16 @@ if projectOption[project] == 15:
 
    with st.expander("Data Extract Code - Python 🐍"):
       st.code(script_1,language="python")
+      
+   with st.expander("See Website 👨🏻‍💻"):
+      st.markdown(f'''<a href={url}>{url}</a>''',unsafe_allow_html=True)
+      col1, col2, col3 = st.columns([1,3,1])
+      with col1:
+         st.write(' ')
+      with col2:
+         components.iframe(f"{url}", width=350, height=500, scrolling=True)
+      with col3:
+         st.write(' ')
    
    highest_price = '$' + str( round(data.Price.max(),2))
    price_mean = '$' + str( round(data.Price.mean(),2) )
