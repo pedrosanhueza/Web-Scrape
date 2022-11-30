@@ -294,7 +294,7 @@ if projectOption[project] == 4:
    KPI2.metric('Avg Age', int(data.AGE.mean()))
    KPI3.metric('Avg Height', int(data.HT.mean()))
 
-   country = st.select_slider('Select a country', options = data.Country.unique())
+   country = st.select_slider('Select a country', options=data.Country.unique(), value=('United states'))
 
    df_c = data[data.Country == country]
 
