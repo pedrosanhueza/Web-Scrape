@@ -222,8 +222,6 @@ if projectOption[project] == 3:
 # ## ----------------------------------------- FIFA World Cup ------------------------------------------------------------------------ ##
 if projectOption[project] == 4:
 
-   data = pd.read_csv("@Calling-Code/Projects/_4_FIFAWorldCup/2022-fifa-world-cup 29-11-2022 200249 - Webscrape.csv")
-
    with st.spinner('Web scraping data from website ...'):
       from Projects._4_FIFAWorldCup import FIFAWorldCup
    url = FIFAWorldCup.url
