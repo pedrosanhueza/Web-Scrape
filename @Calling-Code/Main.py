@@ -272,6 +272,11 @@ if projectOption[project] == 4:
          www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
          ''',icon="⚠️")
 
+   country = st.select_slider('Select a condition of the product', options = data.Country.unique())
+
+   st.write(country)
+
+
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
    # from Projects._5_Financial Data import 
