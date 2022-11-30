@@ -316,7 +316,8 @@ if projectOption[project] == 4:
 
    text = tick.mark_text(
       align='center',
-      baseline='middle',
+      baseline='top',
+      color = 'white',
       dx=6  # Nudges text to right so it doesn't appear on top of the bar
    ).encode(text=f'{country}:Q')
 
