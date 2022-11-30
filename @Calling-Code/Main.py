@@ -262,7 +262,7 @@ if projectOption[project] == 4:
             file_name =    'Soccer teams FIFA 2022.csv',
             mime      =    'text/csv',)
       with col2:
-         if st.button("Extract new data from web (running time: 4m 2s)"):
+         if st.button("Extract new data from web (running time: 1m 20s)"):
             data = FIFAWorldCup.data_extraction()
       st.dataframe(data)
 
@@ -272,9 +272,31 @@ if projectOption[project] == 4:
          www.FoxSports.com is a protected websited agains automation code, if you're not able to see the extracted table please contact me
          ''',icon="⚠️")
 
-   country = st.select_slider('Select a condition of the product', options = data.Country.unique())
+   country = st.select_slider('Select a country', options = data.Country.unique())
 
    st.write(country)
+
+   KPI1,KPI2,KPI3 = st.columns(3)
+   KPI1.metric('Amount of Countries', data.Country.nunique())
+   KPI2.metric('Avg Age', int(data.AGE.mean()))
+   KPI3.metric('Avg Height', int(data.HT.mean()))
+   
+   df_c = data[data.Country == country]
+
+   st.dataframe(df_c)
+
+   country_img = df_c.Country_logo.iloc[0]
+
+   st.markdown(f'''
+   <center>
+      <img src={country_img} alt="Logo" width="100%">
+   </center>
+   ''',unsafe_allow_html=True)
+
+   KPI4,KPI5,KPI6 = st.columns(3)
+   KPI4.metric('Cantidad de Regiones',    df_c.Región.nunique())
+   KPI5.metric('Cantidad de Provincias',  df_c.Provincia.nunique())
+   KPI6.metric('Cantidad de Comunas',     df_c.Comuna.nunique())
 
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##

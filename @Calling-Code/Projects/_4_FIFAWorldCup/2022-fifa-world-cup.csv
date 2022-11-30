@@ -1,0 +1,747 @@
+,Country,Name,POS,AGE,HT,WT,Country_logo,BMI
+0,Argentina,Franco Armani,Goalkeeper,36,187.96,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,24.9
+1,Argentina,Emiliano Martinez,Goalkeeper,30,193.04,88.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.9
+2,Argentina,Geronimo Rulli,Goalkeeper,30,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.7
+3,Argentina,Juan Foyth,Defender,24,187.96,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,19.5
+4,Argentina,Lisandro Martinez,Defender,24,172.72,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,24.0
+5,Argentina,Nahuel Molina,Defender,24,177.8,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,21.8
+6,Argentina,Gonzalo Montiel,Defender,25,172.72,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.1
+7,Argentina,Nicolas Otamendi,Defender,34,182.88,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,24.7
+8,Argentina,German Pezzella,Defender,31,187.96,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.1
+9,Argentina,Cristian Romero,Defender,24,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.6
+10,Argentina,Nicolas Tagliafico,Defender,30,170.18,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.0
+11,Argentina,Marcos Acuna,Midfielder,31,170.18,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.8
+12,Argentina,Thiago Almada,Midfielder,21,170.18,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,21.3
+13,Argentina,Rodrigo De Paul,Midfielder,28,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,22.1
+14,Argentina,Enzo Fernandez,Midfielder,21,177.8,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,21.1
+15,Argentina,Papu Gomez,Midfielder,34,165.1,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,24.8
+16,Argentina,Alexis Mac Allister,Midfielder,23,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,22.7
+17,Argentina,Exequiel Palacios,Midfielder,24,175.26,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.0
+18,Argentina,Leandro Paredes,Midfielder,28,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.0
+19,Argentina,Guido Rodriguez,Midfielder,28,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,22.6
+20,Argentina,Julian Alvarez,Forward,22,167.64000000000001,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,25.2
+21,Argentina,Angel Correa,Forward,27,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,22.7
+22,Argentina,Angel Di Maria,Forward,34,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.7
+23,Argentina,Paulo Dybala,Forward,29,175.26,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,24.4
+24,Argentina,Lautaro Martinez,Forward,25,172.72,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,26.7
+25,Argentina,Lionel Messi,Forward,35,167.64000000000001,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/32.vresize.350.350.medium.0.png,23.7
+26,Australia,Andrew Redmayne,Goalkeeper,33,193.04,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,22.5
+27,Australia,Mathew Ryan,Goalkeeper,30,182.88,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,24.4
+28,Australia,Danny Vukovic,Goalkeeper,37,185.42000000000002,93.9,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,27.3
+29,Australia,Nathaniel Atkinson,Defender,23,180.34,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,22.3
+30,Australia,Aziz Behich,Defender,31,167.64000000000001,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,22.3
+31,Australia,Milos Degenek,Defender,28,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,23.2
+32,Australia,Thomas Deng,Defender,25,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,23.0
+33,Australia,Fran Karacic,Defender,26,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,23.0
+34,Australia,Joel King,Defender,22,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,24.5
+35,Australia,Kye Rowles,Defender,24,182.88,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,26.8
+36,Australia,Harry Souttar,Defender,24,195.58,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,20.9
+37,Australia,Bailey Wright,Defender,30,182.88,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,25.1
+38,Australia,Keanu Baccus,Midfielder,24,177.8,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,21.1
+39,Australia,Cameron Devlin,Midfielder,24,170.18,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,23.3
+40,Australia,Ajdin Hrustic,Midfielder,26,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,24.5
+41,Australia,Jackson Irvine,Midfielder,29,187.96,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,21.7
+42,Australia,Riley McGree,Midfielder,24,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,22.7
+43,Australia,Aaron Mooy,Midfielder,32,172.72,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,24.0
+44,Australia,Jason Cummings,Forward,27,177.8,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,21.4
+45,Australia,Mitchell Duke,Forward,31,180.34,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,25.8
+46,Australia,Craig Goodwin,Forward,30,182.88,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,21.4
+47,Australia,Garang Kuol,Forward,18,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,22.7
+48,Australia,Mathew Leckie,Forward,31,180.34,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,25.8
+49,Australia,Awer Mabil,Forward,27,177.8,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,20.5
+50,Australia,Jamie MacLaren,Forward,29,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/36.vresize.350.350.medium.0.png,22.7
+52,Belgium,Koen Casteels,Goalkeeper,30,195.58,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,20.3
+53,Belgium,Thibaut Courtois,Goalkeeper,30,198.12,95.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,24.4
+54,Belgium,Simon Mignolet,Goalkeeper,34,190.5,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.9
+55,Belgium,Toby Alderweireld,Defender,33,185.42000000000002,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.5
+56,Belgium,Zeno Debast,Defender,19,187.96,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,20.5
+57,Belgium,Leander Dendoncker,Defender,27,187.96,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.4
+58,Belgium,Wout Faes,Defender,24,185.42000000000002,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,24.4
+59,Belgium,Arthur Theate,Defender,22,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.2
+60,Belgium,Jan Vertonghen,Defender,35,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,22.3
+61,Belgium,Timothy Castagne,Midfielder,26,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.9
+62,Belgium,Kevin De Bruyne,Midfielder,31,180.34,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,20.8
+63,Belgium,Thorgan Hazard,Midfielder,29,172.72,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.7
+64,Belgium,Thomas Meunier,Midfielder,31,187.96,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,25.4
+65,Belgium,Amadou Mvom Onana,Midfielder,21,190.5,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,20.9
+66,Belgium,Youri Tielemans,Midfielder,25,175.26,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.3
+67,Belgium,Hans Vanaken,Midfielder,30,193.04,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,20.6
+68,Belgium,Axel Witsel,Midfielder,33,185.42000000000002,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.5
+69,Belgium,Michy Batshuayi,Forward,29,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.2
+70,Belgium,Yannick Carrasco,Forward,29,177.8,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,21.1
+71,Belgium,Charles De Ketelaere,Forward,21,190.5,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,20.4
+72,Belgium,Jeremy Doku,Forward,20,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,22.7
+73,Belgium,Eden Hazard,Forward,31,172.72,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,24.8
+74,Belgium,Romelu Lukaku,Forward,29,187.96,93.0,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,26.3
+75,Belgium,Dries Mertens,Forward,35,167.64000000000001,60.8,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,21.6
+76,Belgium,Lois Openda,Forward,22,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,23.4
+77,Belgium,Leandro Trossard,Forward,27,170.18,60.8,https://b.fssta.com/uploads/application/countries/flag-logos/56.vresize.350.350.medium.0.png,21.0
+78,Brazil,Alisson,Goalkeeper,30,190.5,90.7,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,25.0
+79,Brazil,Ederson,Goalkeeper,29,187.96,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,24.3
+80,Brazil,Weverton,Goalkeeper,34,187.96,88.9,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,25.2
+81,Brazil,Dani Alves,Defender,39,170.18,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.3
+82,Brazil,Bremer,Defender,25,187.96,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.6
+83,Brazil,Danilo,Defender,31,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.2
+84,Brazil,Marquinhos,Defender,28,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.4
+85,Brazil,Eder Militao,Defender,24,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.6
+86,Brazil,Alex Sandro,Defender,31,177.8,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,20.8
+87,Brazil,Thiago Silva,Defender,38,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.6
+88,Brazil,Alex Telles,Defender,29,180.34,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,20.2
+89,Brazil,Casemiro,Midfielder,30,182.88,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,25.1
+90,Brazil,Fabinho,Midfielder,29,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.0
+91,Brazil,Fred,Midfielder,29,167.64000000000001,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.7
+92,Brazil,Bruno Guimaraes,Midfielder,25,180.34,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.9
+93,Brazil,Lucas Paqueta,Midfielder,25,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.7
+94,Brazil,Everton Ribeiro,Midfielder,33,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.4
+95,Brazil,Gabriel Jesus,Forward,25,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,24.3
+96,Brazil,Vinicius Junior,Forward,22,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.6
+97,Brazil,Gabriel Martinelli,Forward,21,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.7
+98,Brazil,Neymar,Forward,30,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.7
+99,Brazil,Pedro,Forward,25,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,23.2
+100,Brazil,Raphinha,Forward,25,175.26,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,22.0
+101,Brazil,Richarlison,Forward,25,182.88,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,21.1
+102,Brazil,Rodrygo,Forward,21,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,21.4
+103,Brazil,Antony Santos,Forward,22,170.18,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/76.vresize.350.350.medium.0.png,21.6
+104,Cameroon,Devis Epassy,Goalkeeper,29,185.42000000000002,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.7
+105,Cameroon,Simon Ngapandouetnbu,Goalkeeper,19,185.42000000000002,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,21.5
+106,Cameroon,Andre Onana,Goalkeeper,26,187.96,90.7,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.7
+107,Cameroon,Jean-Charles Castelletto,Defender,27,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,22.6
+108,Cameroon,Enzo Ebosse,Defender,23,182.88,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,22.1
+109,Cameroon,Collins Fai,Defender,30,165.1,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.6
+110,Cameroon,Olivier Mbaizo,Defender,25,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,22.1
+111,Cameroon,Nicolas N`Koulou,Defender,32,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,22.9
+112,Cameroon,Jerome Ngom Mbekeli,Defender,24,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.4
+113,Cameroon,Nouhou Tolo,Defender,25,177.8,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.0
+114,Cameroon,Christopher Wooh,Defender,21,190.5,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,24.7
+115,Cameroon,Martin Hongla,Midfielder,24,180.34,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.6
+116,Cameroon,Pierre Kunde,Midfielder,27,177.8,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,27.1
+117,Cameroon,Souaibou Marou,Midfielder,21,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,24.5
+118,Cameroon,Georges-Kevin N’Koudou,Midfielder,27,170.18,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.8
+119,Cameroon,Olivier Ntcham,Midfielder,26,177.8,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.2
+120,Cameroon,Gael Ondua,Midfielder,27,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.6
+121,Cameroon,Samuel Oum Gouet,Midfielder,24,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,22.4
+122,Cameroon,Andre Zambo Anguissa,Midfielder,27,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.2
+123,Cameroon,Vincent Aboubakar,Forward,30,175.26,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.7
+124,Cameroon,Christian Bassogog,Forward,27,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.7
+125,Cameroon,Eric Maxim Choupo-Moting,Forward,33,190.5,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,24.7
+126,Cameroon,Karl Toko Ekambi,Forward,30,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,23.2
+127,Cameroon,Bryan Mbeumo,Forward,23,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,21.4
+128,Cameroon,Nicolas Moumi Ngamaleu,Forward,28,180.34,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,22.7
+129,Cameroon,Jean-Pierre Nsame,Forward,29,187.96,88.9,https://b.fssta.com/uploads/application/countries/flag-logos/120.vresize.350.350.medium.0.png,25.2
+130,Canada,Milan Borjan,Goalkeeper,35,193.04,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.1
+131,Canada,James Pantemis,Goalkeeper,25,182.88,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.6
+132,Canada,Dayne St. Clair,Goalkeeper,25,190.5,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,20.6
+133,Canada,Sam Adekugbe,Defender,27,172.72,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,25.1
+134,Canada,Derek Cornelius,Defender,25,185.42000000000002,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,24.9
+135,Canada,Alistair Johnston,Defender,24,177.8,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,24.2
+136,Canada,Richie Laryea,Defender,27,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.7
+137,Canada,Kamal Miller,Defender,25,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.4
+138,Canada,Steven Vitoria,Defender,35,193.04,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,23.0
+139,Canada,Joel Waterman,Defender,26,182.88,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.1
+140,Canada,Stephen Eustaquio,Midfielder,25,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.1
+141,Canada,Liam Fraser,Midfielder,24,182.88,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,24.1
+142,Canada,Junior Hoilett,Midfielder,32,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,23.4
+143,Canada,Atiba Hutchinson,Midfielder,39,182.88,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,24.7
+144,Canada,Mark-Anthony Kaye,Midfielder,27,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,20.9
+145,Canada,Ismael Kone,Midfielder,20,187.96,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,21.4
+146,Canada,Liam Millar,Midfielder,23,175.26,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,23.3
+147,Canada,Jonathan Osorio,Midfielder,30,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,24.3
+148,Canada,Samuel Piette,Midfielder,28,170.18,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,25.1
+149,Canada,David Wotherspoon,Midfielder,32,170.18,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,26.1
+150,Canada,Tajon Buchanan,Forward,23,182.88,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,21.1
+151,Canada,Lucas Cavallini,Forward,29,177.8,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,27.1
+152,Canada,Jonathan David,Forward,22,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,23.4
+153,Canada,Alphonso Davies,Forward,22,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,22.4
+154,Canada,Cyle Larin,Forward,27,187.96,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,25.4
+155,Canada,Ike Ugbo,Forward,24,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/124.vresize.350.350.medium.0.png,23.6
+156,Costa rica,Esteban Alvarado Brown,Goalkeeper,33,190.5,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,24.2
+157,Costa rica,Keylor Navas,Goalkeeper,35,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,23.9
+158,Costa rica,Patrick Sequeira,Goalkeeper,23,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,23.7
+159,Costa rica,Francisco Calvo,Defender,30,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,24.5
+160,Costa rica,Oscar Duarte,Defender,33,185.42000000000002,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,23.5
+161,Costa rica,Keysher Fuller,Defender,28,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,23.2
+162,Costa rica,Carlos Martinez,Defender,23,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,22.7
+163,Costa rica,Ronald Matarrita,Defender,28,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,23.4
+164,Costa rica,Bryan Oviedo,Defender,32,170.18,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,24.1
+165,Costa rica,Juan Pablo Vargas,Defender,27,190.5,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,24.2
+166,Costa rica,Kendall Waston,Defender,34,195.58,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,22.6
+167,Costa rica,Brandon Aguilera,Midfielder,19,177.8,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,21.4
+168,Costa rica,Jewison Bennette,Midfielder,18,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,22.7
+169,Costa rica,Celso Borges,Midfielder,34,180.34,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,24.3
+170,Costa rica,Daniel Chacon,Midfielder,21,182.88,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,20.6
+173,Costa rica,Bryan Ruiz,Midfielder,37,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,23.2
+175,Costa rica,Yeltsin Tejeda,Midfielder,30,177.8,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,21.1
+176,Costa rica,Gerson Torres,Midfielder,25,175.26,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,20.4
+177,Costa rica,Roan Wilson,Midfielder,20,182.88,59.0,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,17.6
+179,Costa rica,Joel Campbell,Forward,30,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,24.5
+180,Costa rica,Anthony Contreras,Forward,22,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,22.7
+181,Costa rica,Johan Venegas,Forward,34,182.88,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/188.vresize.350.350.medium.0.png,22.6
+182,Croatia,Ivo Grbic,Goalkeeper,26,193.04,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.1
+183,Croatia,Ivica Ivusic,Goalkeeper,27,193.04,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.8
+184,Croatia,Dominik Livakovic,Goalkeeper,27,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.3
+185,Croatia,Borna Barisic,Defender,30,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.2
+186,Croatia,Martin Erlic,Defender,24,190.5,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,21.4
+187,Croatia,Josko Gvardiol,Defender,20,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.9
+188,Croatia,Josip Juranovic,Defender,27,172.72,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.1
+189,Croatia,Dejan Lovren,Defender,33,187.96,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,24.9
+190,Croatia,Borna Sosa,Defender,24,185.42000000000002,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.9
+191,Croatia,Josip Stanisic,Defender,22,185.42000000000002,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.3
+192,Croatia,Josip Sutalo,Defender,22,187.96,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.1
+193,Croatia,Domagoj Vida,Defender,33,182.88,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,21.7
+194,Croatia,Marcelo Brozovic,Midfielder,30,180.34,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,20.8
+195,Croatia,Kristijan Jakic,Midfielder,25,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.0
+196,Croatia,Mateo Kovacic,Midfielder,28,175.26,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,24.9
+197,Croatia,Lovro Majer,Midfielder,24,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.7
+198,Croatia,Luka Modric,Midfielder,37,170.18,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.7
+199,Croatia,Mario Pasalic,Midfielder,27,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.0
+200,Croatia,Luka Sucic,Midfielder,20,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.9
+201,Croatia,Nikola Vlasic,Midfielder,25,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.7
+202,Croatia,Ante Budimir,Forward,31,187.96,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,21.2
+203,Croatia,Andrej Kramaric,Forward,31,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,23.6
+204,Croatia,Marko Livaja,Forward,29,180.34,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,24.5
+205,Croatia,Mislav Orsic,Forward,29,177.8,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,21.8
+206,Croatia,Ivan Perisic,Forward,33,185.42000000000002,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,22.3
+207,Croatia,Bruno Petkovic,Forward,28,190.5,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/191.vresize.350.350.medium.0.png,24.2
+208,Ecuador,Alexander Dominguez,Goalkeeper,35,193.04,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,21.9
+209,Ecuador,Hernan Galindez,Goalkeeper,35,187.96,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,25.4
+210,Ecuador,Moises Ramirez,Goalkeeper,22,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.4
+211,Ecuador,Robert Arboleda,Defender,31,187.96,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,23.4
+212,Ecuador,Xavier Arreaga,Defender,28,182.88,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.6
+213,Ecuador,Pervis Estupinan,Defender,24,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,24.3
+214,Ecuador,Piero Hincapie,Defender,20,182.88,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.6
+215,Ecuador,William Pacho,Defender,21,187.96,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.8
+216,Ecuador,Diego Palacios,Defender,23,167.64000000000001,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,23.1
+217,Ecuador,Jackson Porozo,Defender,22,190.5,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,23.1
+218,Ecuador,Angelo Preciado,Defender,24,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,24.3
+219,Ecuador,Felix Torres,Defender,25,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.6
+220,Ecuador,Moises Caicedo,Midfielder,21,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,23.0
+221,Ecuador,Jose Cifuentes,Midfielder,23,177.8,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,21.4
+222,Ecuador,Alan Franco,Midfielder,24,172.72,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.4
+223,Ecuador,Carlos Gruezo,Midfielder,27,170.18,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,24.4
+224,Ecuador,Romario Ibarra,Midfielder,28,172.72,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,26.0
+225,Ecuador,Angel Mena,Midfielder,34,167.64000000000001,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,25.2
+226,Ecuador,Jhegson Mendez,Midfielder,25,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,23.4
+227,Ecuador,Gonzalo Plata,Midfielder,22,177.8,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,20.5
+228,Ecuador,Ayrton Preciado,Midfielder,28,180.34,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,23.9
+229,Ecuador,Jeremy Sarmiento,Midfielder,20,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.1
+230,Ecuador,Michael Estrada,Forward,26,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.6
+231,Ecuador,Djorkaeff Reascos,Forward,23,170.18,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,24.4
+232,Ecuador,Kevin Rodriguez,Forward,22,187.96,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,22.6
+233,Ecuador,Enner Valencia,Forward,33,175.26,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/218.vresize.350.350.medium.0.png,24.4
+234,England,Jordan Pickford,Goalkeeper,28,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.9
+235,England,Nick Pope,Goalkeeper,30,190.5,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,20.9
+236,England,Aaron Ramsdale,Goalkeeper,24,187.96,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,21.7
+237,England,Trent Alexander-Arnold,Defender,24,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,23.4
+238,England,Conor Coady,Defender,29,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,23.2
+239,England,Eric Dier,Defender,28,187.96,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,25.4
+240,England,Harry Maguire,Defender,29,190.5,99.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,27.5
+241,England,Luke Shaw,Defender,27,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.4
+242,England,John Stones,Defender,28,187.96,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,19.8
+243,England,Kieran Trippier,Defender,32,177.8,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,25.5
+244,England,Kyle Walker,Defender,32,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.1
+245,England,Ben White,Defender,25,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.6
+246,England,Jude Bellingham,Midfielder,19,185.42000000000002,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,21.8
+247,England,Phil Foden,Midfielder,22,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.1
+248,England,Conor Gallagher,Midfielder,22,182.88,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.1
+249,England,Jordan Henderson,Midfielder,32,182.88,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,19.9
+250,England,James Maddison,Midfielder,26,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,24.3
+251,England,Mason Mount,Midfielder,23,177.8,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,20.5
+252,England,Kalvin Phillips,Midfielder,26,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.7
+253,England,Declan Rice,Midfielder,23,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,23.9
+254,England,Jack Grealish,Forward,27,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.7
+255,England,Harry Kane,Forward,29,187.96,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,18.4
+256,England,Marcus Rashford,Forward,25,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,22.1
+257,England,Bukayo Saka,Forward,21,177.8,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,20.5
+258,England,Raheem Sterling,Forward,27,167.64000000000001,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,24.5
+259,England,Callum Wilson,Forward,30,177.8,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/1001.vresize.350.350.medium.0.png,20.8
+260,Germany,Manuel Neuer,Goalkeeper,36,190.5,91.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,25.2
+261,Germany,Marc-Andre ter Stegen,Goalkeeper,30,185.42000000000002,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.7
+262,Germany,Kevin Trapp,Goalkeeper,32,187.96,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.9
+263,Germany,Armel Bella-Kotchap,Defender,20,187.96,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.5
+264,Germany,Matthias Ginter,Defender,28,187.96,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,23.4
+265,Germany,Christian Gunter,Defender,29,182.88,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.1
+266,Germany,Thilo Kehrer,Defender,26,185.42000000000002,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.0
+267,Germany,Lukas Klostermann,Defender,26,185.42000000000002,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,25.6
+268,Germany,David Raum,Defender,24,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,23.7
+269,Germany,Antonio Rudiger,Defender,29,187.96,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.0
+270,Germany,Nico Schlotterbeck,Defender,23,190.5,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,23.6
+271,Germany,Niklas Sule,Defender,27,193.04,96.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,25.9
+272,Germany,Julian Brandt,Midfielder,26,182.88,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.4
+273,Germany,Leon Goretzka,Midfielder,27,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.3
+274,Germany,Mario Gotze,Midfielder,30,175.26,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.4
+275,Germany,Ilkay Gundogan,Midfielder,32,177.8,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,25.0
+276,Germany,Jonas Hofmann,Midfielder,30,175.26,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,21.7
+277,Germany,Joshua Kimmich,Midfielder,27,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,23.6
+278,Germany,Thomas Muller,Midfielder,33,182.88,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.6
+279,Germany,Jamal Musiala,Midfielder,19,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.7
+280,Germany,Leroy Sane,Midfielder,26,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.4
+281,Germany,Karim Adeyemi,Forward,20,177.8,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,21.8
+282,Germany,Niclas Fullkrug,Forward,29,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.0
+283,Germany,Serge Gnabry,Forward,27,175.26,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,24.4
+284,Germany,Kai Havertz,Forward,23,187.96,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,21.7
+285,Germany,Youssoufa Moukoko,Forward,18,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/276.vresize.350.350.medium.0.png,22.7
+286,Ghana,Ibrahim Danlad,Goalkeeper,19,180.34,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.3
+287,Ghana,Manaf Nurudeen,Goalkeeper,23,187.96,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,21.2
+288,Ghana,Lawrence Ati Zigi,Goalkeeper,26,187.96,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,24.5
+289,Ghana,Joseph Aidoo,Defender,27,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.9
+290,Ghana,Daniel Amartey,Defender,27,185.42000000000002,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.9
+291,Ghana,Rahman Baba,Defender,28,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.1
+292,Ghana,Alexander Djiku,Defender,28,180.34,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,24.8
+293,Ghana,Tariq Lamptey,Defender,22,167.64000000000001,54.9,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,19.5
+294,Ghana,Gideon Mensah,Defender,24,177.8,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,20.2
+295,Ghana,Denis Odoi,Defender,34,177.8,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,21.1
+296,Ghana,Mohammed Salisu,Defender,23,190.5,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.5
+297,Ghana,Alidu Seidu,Defender,22,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.7
+298,Ghana,Salis Abdul Samed,Midfielder,22,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.0
+299,Ghana,Daniel Afriyie,Midfielder,21,167.64000000000001,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,27.6
+300,Ghana,Osman Bukari,Midfielder,23,167.64000000000001,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.4
+301,Ghana,Issahaku Fatawu,Midfielder,18,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.6
+302,Ghana,Mohammed Kudus,Midfielder,22,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.4
+303,Ghana,Daniel-Kofi Kyereh,Midfielder,26,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,23.0
+304,Ghana,Elisha Owusu,Midfielder,25,180.34,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,19.0
+305,Ghana,Thomas Partey,Midfielder,29,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.9
+306,Ghana,Kamal Sowah,Midfielder,22,177.8,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,20.8
+307,Ghana,Kamaldeen Sulemana,Midfielder,20,172.72,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.4
+308,Ghana,Andre Morgan Rami Ayew,Forward,32,172.72,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,24.0
+309,Ghana,Jordan Ayew,Forward,31,180.34,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,24.5
+310,Ghana,Antoine Semenyo,Forward,22,170.18,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,24.1
+311,Ghana,Inaki Williams,Forward,28,185.42000000000002,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/288.vresize.350.350.medium.0.png,22.9
+312,Iran,Amir Abedzadeh,Goalkeeper,29,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.2
+313,Iran,Alireza Beiranvand,Goalkeeper,30,193.04,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,22.8
+314,Iran,Seyed Hossein Hosseini,Goalkeeper,30,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.2
+315,Iran,Payam Niazmand,Goalkeeper,27,193.04,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,21.9
+316,Iran,Roozbeh Cheshmi,Defender,29,193.04,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,21.4
+317,Iran,Ehsan Hajsafi,Defender,32,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.7
+318,Iran,Majid Hosseini,Defender,26,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,22.6
+319,Iran,Abolfazl Jalali,Defender,24,175.26,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.0
+320,Iran,Hosssin Kanani,Defender,28,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,22.3
+321,Iran,Shojae Khalilzadeh,Defender,33,177.8,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,26.5
+322,Iran,Milad Mohammadi,Defender,29,177.8,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,21.8
+323,Iran,Sadegh Moharrami,Defender,26,172.72,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.7
+324,Iran,Morteza Pouraliganji,Defender,30,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.9
+325,Iran,Ramin Rezaeian,Defender,32,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,22.4
+326,Iran,Vahid Amiri,Midfielder,34,177.8,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,22.4
+327,Iran,Saeid Ezatollahi,Midfielder,26,187.96,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.1
+328,Iran,Saman Ghoddos,Midfielder,29,172.72,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,25.1
+329,Iran,Ali Gholizadeh,Midfielder,26,175.26,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.3
+330,Iran,Alireza Jahanbakhsh,Midfielder,29,180.34,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.6
+331,Iran,Ali Karimi,Midfielder,28,182.88,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,24.1
+332,Iran,Ahmad Nourollahi,Midfielder,29,182.88,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,19.4
+333,Iran,Mehdi Torabi,Midfielder,28,177.8,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,22.4
+334,Iran,Karim Ansarifard,Forward,32,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.2
+335,Iran,Sardar Azmoun,Forward,27,185.42000000000002,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.7
+336,Iran,Mehdi Taremi,Forward,30,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/364.vresize.350.350.medium.0.png,23.2
+337,Japan,Shuichi Gonda,Goalkeeper,33,185.42000000000002,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.4
+338,Japan,Eiji Kawashima,Goalkeeper,39,182.88,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.4
+339,Japan,Daniel Schmidt,Goalkeeper,30,195.58,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.0
+340,Japan,Ko Itakura,Defender,25,185.42000000000002,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,21.8
+341,Japan,Hiroki Ito,Defender,23,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.7
+342,Japan,Yuto Nagatomo,Defender,36,167.64000000000001,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.1
+343,Japan,Hiroki Sakai,Defender,32,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.2
+344,Japan,Shogo Taniguchi,Defender,31,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.4
+345,Japan,Takehiro Tomiyasu,Defender,24,185.42000000000002,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.4
+346,Japan,Miki Yamane,Defender,28,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.7
+347,Japan,Maya Yoshida,Defender,34,187.96,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.5
+348,Japan,Ritsu Doan,Midfielder,24,170.18,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.1
+349,Japan,Wataru Endo,Midfielder,29,177.8,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.9
+350,Japan,Junya Ito,Midfielder,29,175.26,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,21.4
+351,Japan,Daichi Kamada,Midfielder,26,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.7
+352,Japan,Takumi Minamino,Midfielder,27,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.7
+353,Japan,Kaoru Mitoma,Midfielder,25,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.0
+354,Japan,Hidemasa Morita,Midfielder,27,175.26,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.1
+355,Japan,Gaku Shibasaki,Midfielder,30,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,21.4
+356,Japan,Yuki Soma,Midfielder,25,165.1,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,24.8
+357,Japan,Take,Midfielder,21,172.72,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.4
+358,Japan,Ao Tanaka,Midfielder,24,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.7
+359,Japan,Takuma Asano,Forward,28,172.72,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.7
+360,Japan,Shuto Machino,Forward,23,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.9
+361,Japan,Daizen Maeda,Forward,25,172.72,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,22.4
+362,Japan,Ayase Ueda,Forward,24,180.34,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/392.vresize.350.350.medium.0.png,23.3
+363,Mexico,Rodolfo Cota,Goalkeeper,35,187.96,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,24.0
+364,Mexico,Guillermo Ochoa,Goalkeeper,37,182.88,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.6
+365,Mexico,Alfredo Talavera,Goalkeeper,40,187.96,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,23.1
+366,Mexico,Edson Alvarez,Defender,25,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.7
+367,Mexico,Kevin Alvarez,Defender,23,175.26,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,20.4
+368,Mexico,Nestor Araujo,Defender,31,185.42000000000002,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,25.2
+369,Mexico,Gerardo Arteaga,Defender,24,172.72,60.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,20.4
+370,Mexico,Jesus Gallardo,Defender,28,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,24.3
+371,Mexico,Cesar Montes,Defender,25,190.5,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,19.2
+372,Mexico,Hector Moreno,Defender,34,180.34,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,24.5
+373,Mexico,Jorge Sanchez,Defender,24,167.64000000000001,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,25.2
+374,Mexico,Johan Vasquez,Defender,24,180.34,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.0
+375,Mexico,Luis Chavez,Midfielder,26,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,23.0
+376,Mexico,Andres Guardado,Midfielder,36,165.1,59.9,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.0
+377,Mexico,Erick Gutierrez,Midfielder,27,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.7
+378,Mexico,Hector Herrera,Midfielder,32,177.8,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,25.2
+379,Mexico,Carlos Rodriguez,Midfielder,25,167.64000000000001,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,23.4
+380,Mexico,Luis Romo,Midfielder,27,182.88,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,25.1
+381,Mexico,Roberto Alvarado,Forward,24,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.7
+382,Mexico,Uriel Antuna,Forward,25,165.1,60.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.3
+383,Mexico,Rogelio Funes Mori,Forward,31,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.6
+384,Mexico,Raul Jimenez,Forward,31,187.96,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,21.4
+385,Mexico,Hirving Lozano,Forward,27,175.26,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,21.4
+386,Mexico,Henry Martin,Forward,30,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,23.0
+387,Mexico,Orbelin Pineda,Forward,26,167.64000000000001,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,22.3
+388,Mexico,Alexis Vega,Forward,25,172.72,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/484.vresize.350.350.medium.0.png,25.7
+389,Morocco,Bono,Goalkeeper,31,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,22.0
+390,Morocco,Munir,Goalkeeper,33,187.96,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,24.9
+391,Morocco,Ahmed Reda Tagnaouti,Goalkeeper,26,185.42000000000002,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,20.3
+392,Morocco,Nayef Aguerd,Defender,26,187.96,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,21.4
+393,Morocco,Yahya Attiat-Allah,Defender,27,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,22.7
+394,Morocco,Badr Benoun,Defender,29,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,22.3
+395,Morocco,Achraf Dari,Defender,23,187.96,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,23.1
+396,Morocco,Jawad El Yamiq,Defender,30,190.5,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,22.7
+397,Morocco,Achraf Hakimi,Defender,24,180.34,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,22.3
+398,Morocco,Noussair Mazraoui,Defender,25,182.88,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,19.4
+399,Morocco,Romain Saiss,Defender,32,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,23.7
+400,Morocco,Zakaria Aboukhlal,Midfielder,22,177.8,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,23.4
+401,Morocco,Selim Amallah,Midfielder,26,185.42000000000002,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,21.5
+402,Morocco,Sofyan Amrabat,Midfielder,26,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,20.9
+403,Morocco,Sofiane Boufal,Midfielder,29,167.64000000000001,59.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,21.3
+404,Morocco,Ilias Chair,Midfielder,25,162.56,54.9,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,20.8
+405,Morocco,Bilal El Khannouss,Midfielder,18,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,22.1
+406,Morocco,Yahya Jabrane,Midfielder,31,182.88,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,24.7
+407,Morocco,Azzedine Ounahi,Midfielder,22,180.34,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,19.0
+408,Morocco,Hakim Ziyech,Midfielder,29,180.34,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,21.5
+409,Morocco,Walid Cheddira,Forward,24,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,23.2
+410,Morocco,Youssef En-Nesyri,Forward,25,187.96,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,20.5
+411,Morocco,Abdessamad Ezzalzouli,Forward,20,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,23.6
+412,Morocco,Abderazak Hamdallah,Forward,31,177.8,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,25.2
+413,Morocco,Abdelhamid Sabiri,Forward,26,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/504.vresize.350.350.medium.0.png,23.2
+415,Netherlands,Justin Bijlow,Goalkeeper,24,187.96,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,20.5
+416,Netherlands,Andries Noppert,Goalkeeper,28,200.66,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,21.5
+417,Netherlands,Remko Pasveer,Goalkeeper,39,187.96,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,24.5
+418,Netherlands,Nathan Ake,Defender,27,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,23.7
+419,Netherlands,Daley Blind,Defender,32,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.7
+420,Netherlands,Matthijs De Ligt,Defender,23,185.42000000000002,88.9,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,25.9
+421,Netherlands,Stefan De Vrij,Defender,30,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.0
+422,Netherlands,Denzel Dumfries,Defender,26,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,23.9
+423,Netherlands,Jeremie Frimpong,Defender,21,170.18,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.1
+424,Netherlands,Tyrell Malacia,Defender,23,167.64000000000001,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,23.7
+425,Netherlands,Jurrien Timber,Defender,21,177.8,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,25.0
+426,Netherlands,Virgil Van Dijk,Defender,31,193.04,91.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,24.6
+427,Netherlands,Steven Berghuis,Midfielder,30,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,23.0
+428,Netherlands,Frenkie De Jong,Midfielder,25,180.34,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.7
+429,Netherlands,Marten De Roon,Midfielder,31,185.42000000000002,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.0
+430,Netherlands,Davy Klaassen,Midfielder,29,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,24.5
+431,Netherlands,Teun Koopmeiners,Midfielder,24,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.9
+432,Netherlands,Xavi Simons,Midfielder,19,177.8,57.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,18.2
+433,Netherlands,Kenneth Taylor,Midfielder,20,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,23.0
+434,Netherlands,Steven Bergwijn,Forward,25,172.72,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,24.8
+435,Netherlands,Luuk De Jong,Forward,32,187.96,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.6
+436,Netherlands,Memphis Depay,Forward,28,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,24.5
+437,Netherlands,Cody Gakpo,Forward,23,190.5,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,20.9
+438,Netherlands,Vincent Janssen,Forward,28,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,23.6
+439,Netherlands,Noa Lang,Forward,23,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,22.7
+440,Netherlands,Wout Weghorst,Forward,30,195.58,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/528.vresize.350.350.medium.0.png,21.3
+441,Poland,Kamil Grabara,Goalkeeper,23,193.04,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,20.1
+442,Poland,Lukasz Skorupski,Goalkeeper,31,185.42000000000002,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,24.4
+443,Poland,Wojciech Szczesny,Goalkeeper,32,193.04,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.5
+444,Poland,Jan Bednarek,Defender,26,187.96,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,21.7
+445,Poland,Bartosz Bereszynski,Defender,30,180.34,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,23.9
+446,Poland,Matty Cash,Defender,25,182.88,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,19.1
+447,Poland,Kamil Glik,Defender,34,187.96,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.6
+448,Poland,Robert Gumny,Defender,24,180.34,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,21.7
+449,Poland,Artur Jedrzejczyk,Defender,35,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.0
+450,Poland,Jakub Kiwior,Defender,22,187.96,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,21.2
+451,Poland,Mateusz Wieteska,Defender,25,185.42000000000002,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.3
+452,Poland,Krystian Bielik,Midfielder,24,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.0
+453,Poland,Przemyslaw Frankowski,Midfielder,27,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,23.4
+454,Poland,Kamil Grosicki,Midfielder,34,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,24.5
+455,Poland,Jakub Kaminski,Midfielder,20,177.8,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,20.2
+456,Poland,Grzegorz Krychowiak,Midfielder,32,185.42000000000002,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,24.0
+457,Poland,Michal Skoras,Midfielder,22,170.18,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.1
+458,Poland,Damian Szymanski,Midfielder,27,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,20.9
+459,Poland,Sebastian Szymanski,Midfielder,23,172.72,59.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,20.1
+460,Poland,Nicola Zalewski,Midfielder,20,172.72,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,23.1
+461,Poland,Piotr Zielinski,Midfielder,28,175.26,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,20.8
+462,Poland,Szymon Zurkowski,Midfielder,25,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.9
+463,Poland,Robert Lewandowski,Forward,34,182.88,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,24.1
+464,Poland,Arkadiusz Milik,Forward,28,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,23.2
+465,Poland,Krzysztof Piatek,Forward,27,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.9
+466,Poland,Karol Swiderski,Forward,25,182.88,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/616.vresize.350.350.medium.0.png,22.1
+467,Portugal,Diogo Costa,Goalkeeper,23,190.5,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.0
+468,Portugal,Rui Patricio,Goalkeeper,34,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,23.7
+469,Portugal,Jose Sa,Goalkeeper,29,190.5,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,21.4
+470,Portugal,Joao Cancelo,Defender,28,180.34,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.7
+471,Portugal,Diogo Dalot,Defender,23,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.4
+472,Portugal,Ruben Dias,Defender,25,185.42000000000002,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,24.0
+473,Portugal,Raphael Guerreiro,Defender,28,167.64000000000001,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,25.2
+474,Portugal,Nuno Mendes,Defender,20,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.7
+475,Portugal,Pepe,Defender,39,187.96,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.8
+476,Portugal,Danilo Pereira,Defender,31,187.96,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,23.4
+477,Portugal,Antonio Silva,Defender,19,185.42000000000002,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.9
+478,Portugal,William Carvalho,Midfielder,30,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.3
+479,Portugal,Bruno Fernandes,Midfielder,28,182.88,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,19.1
+480,Portugal,Joao Mario,Midfielder,29,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,23.0
+481,Portugal,Ruben Neves,Midfielder,25,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.7
+482,Portugal,Matheus Nunes,Midfielder,24,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,23.0
+483,Portugal,Otavio,Midfielder,27,170.18,55.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,19.3
+484,Portugal,Joao Palhinha,Midfielder,27,187.96,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,21.7
+485,Portugal,Vitinha,Midfielder,22,170.18,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.4
+486,Portugal,Joao Felix,Forward,23,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.1
+487,Portugal,Ricardo Horta,Forward,28,172.72,60.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,20.4
+488,Portugal,Rafael Leao,Forward,23,187.96,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.8
+489,Portugal,Goncalo Ramos,Forward,21,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,22.9
+490,Portugal,Cristiano Ronaldo,Forward,37,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,23.9
+491,Portugal,Andre Silva,Forward,27,182.88,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,25.1
+492,Portugal,Bernardo Silva,Forward,28,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/620.vresize.350.350.medium.0.png,21.4
+493,Qatar,Saad Abdullah Al Sheeb,Goalkeeper,32,187.96,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,23.4
+494,Qatar,Meshaal Aissa Barsham,Goalkeeper,24,177.8,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,20.8
+495,Qatar,Yousof Hassan Mohamed Ali,Goalkeeper,26,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,22.6
+496,Qatar,Homam Ahmed,Defender,23,185.42000000000002,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,20.6
+497,Qatar,Mohammed Waad Abdulwahab Jadoua Al Bayati,Defender,23,182.88,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,20.2
+498,Qatar,Bassam Hisham Al Rawi,Defender,24,172.72,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,25.7
+499,Qatar,Pedro Miguel Carvalho Deus Correia,Defender,32,177.8,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,24.5
+500,Qatar,Musaab Khidir,Defender,29,175.26,59.9,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,19.5
+501,Qatar,Boualem Khoukhi,Defender,32,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,23.2
+502,Qatar,Ismail Mohamad,Defender,32,170.18,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,24.8
+503,Qatar,Tarek Salman,Defender,24,177.8,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,21.8
+504,Qatar,Salem Al Hajri,Midfielder,26,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,20.9
+505,Qatar,Hasan Al Heidos,Midfielder,31,172.72,57.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,19.3
+506,Qatar,Naif Al-Hadhrami,Midfielder,21,177.8,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,23.4
+507,Qatar,Karim Boudiaf,Midfielder,32,187.96,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,24.5
+508,Qatar,Jassem Gaber,Midfielder,20,180.34,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,20.0
+509,Qatar,Abdelkarim Hassan,Midfielder,29,182.88,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,24.4
+510,Qatar,Abdelaziz Hatem,Midfielder,32,180.34,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,23.3
+511,Qatar,Assim Madibo,Midfielder,26,167.64000000000001,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,22.3
+512,Qatar,Mostafa Taerk Mashaal,Midfielder,21,172.72,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,22.4
+513,Qatar,Ali Assadalla Thaimn Qambar,Midfielder,29,172.72,60.8,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,20.4
+514,Qatar,Almoez Ali Zainalabedeen Abdulla,Forward,26,177.8,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,21.4
+515,Qatar,Akram Afif,Forward,26,175.26,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,22.0
+516,Qatar,Ahmed Alaaeldin,Forward,29,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,23.6
+517,Qatar,Khalid Muneer,Forward,24,172.72,55.8,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,18.7
+518,Qatar,Mohammed Muntari,Forward,28,190.5,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/634.vresize.350.350.medium.0.png,21.1
+519,Saudi arabia,Mohammed Khalil Al Owais,Goalkeeper,31,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,20.9
+520,Saudi arabia,Nawaf Al-Aqidi,Goalkeeper,22,185.42000000000002,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,24.7
+521,Saudi arabia,Mohammed Alyami,Goalkeeper,25,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.0
+522,Saudi arabia,Saud Abdulhamid,Defender,23,170.18,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,24.1
+523,Saudi arabia,Abdulelah Al Amri,Defender,25,182.88,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,21.7
+524,Saudi arabia,Ali Al Bulayhi,Defender,33,180.34,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,24.5
+525,Saudi arabia,Yasir Al Shahrani,Defender,30,170.18,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.1
+526,Saudi arabia,Hassan Al Tambakti,Defender,23,180.34,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.3
+527,Saudi arabia,Mohammed Alburayk,Defender,30,172.72,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,20.7
+528,Saudi arabia,Sultan Alganham,Defender,28,172.72,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,20.7
+529,Saudi arabia,Abdullah Madu,Defender,29,185.42000000000002,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,24.9
+530,Saudi arabia,Nawaf Shaker Al Abed,Midfielder,32,167.64000000000001,59.0,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,21.0
+531,Saudi arabia,Salman Al Faraj,Midfielder,33,177.8,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,20.2
+532,Saudi arabia,Abdulelah Al Malki,Midfielder,28,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.7
+533,Saudi arabia,Nasser Al-Dawsari,Midfielder,23,177.8,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,20.5
+534,Saudi arabia,Ali Al-Hassan,Midfielder,25,180.34,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,20.5
+535,Saudi arabia,Sami Al-Najei,Midfielder,25,175.26,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.4
+536,Saudi arabia,Mohamed Kanno,Midfielder,28,190.5,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,18.4
+537,Saudi arabia,Abdullah Otayf,Midfielder,30,175.26,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,21.4
+538,Saudi arabia,Riyadh Sharahili,Midfielder,29,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.9
+539,Saudi arabia,Salem Al Dawsari,Forward,31,170.18,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,23.8
+540,Saudi arabia,Feras Al-Buraikan,Forward,22,180.34,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.7
+541,Saudi arabia,Abdulrahman Al-Oboud,Forward,27,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,23.4
+542,Saudi arabia,Saleh Al-Shehri,Forward,29,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,22.9
+543,Saudi arabia,Haitham Asiri,Forward,21,172.72,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,21.8
+544,Saudi arabia,Hattan Bahebri,Forward,30,170.18,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/682.vresize.350.350.medium.0.png,23.0
+545,Senegal,Seny Dieng,Goalkeeper,28,193.04,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.5
+546,Senegal,Alfred Gomis,Goalkeeper,29,195.58,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,20.9
+547,Senegal,Edouard Mendy,Goalkeeper,30,193.04,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,23.0
+548,Senegal,Pape Cisse,Defender,27,190.5,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.7
+549,Senegal,Abdou Diallo,Defender,26,185.42000000000002,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.9
+550,Senegal,Ismail Jakobs,Defender,23,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.9
+551,Senegal,Kalidou Koulibaly,Defender,31,193.04,88.9,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,23.9
+552,Senegal,Cheikhou Kouyate,Defender,32,187.96,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,21.2
+553,Senegal,Formose Mendy,Defender,21,190.5,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.0
+554,Senegal,Moussa N’Diaye,Defender,20,177.8,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,20.8
+555,Senegal,Moustapha Name,Defender,27,182.88,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,21.7
+556,Senegal,Youssouf Sabaly,Defender,29,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.7
+557,Senegal,Fode Toure,Defender,25,180.34,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,21.5
+558,Senegal,Pathe Ciss,Midfielder,28,182.88,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,21.1
+559,Senegal,Krepin Diatta,Midfielder,23,172.72,59.0,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,19.8
+560,Senegal,Idrissa Gueye,Midfielder,33,172.72,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.1
+561,Senegal,Pape Gueye,Midfielder,23,187.96,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,18.4
+562,Senegal,Nampalys Mendy,Midfielder,30,165.1,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,26.6
+563,Senegal,Mamadou Loum N&#039;Diaye,Midfielder,25,190.5,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,23.1
+564,Senegal,Pape Matar Sarr,Midfielder,20,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,20.9
+565,Senegal,Boulaye Dia,Forward,26,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,23.7
+566,Senegal,Famara Diedhiou,Forward,29,190.5,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.0
+567,Senegal,Bamba Dieng,Forward,22,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.7
+568,Senegal,Nicolas Jackson,Forward,21,185.42000000000002,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.6
+569,Senegal,Iliman Ndiaye,Forward,22,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,22.1
+570,Senegal,Ismaila Sarr,Forward,24,172.72,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/686.vresize.350.350.medium.0.png,25.4
+571,Serbia,Marko Dmitrovic,Goalkeeper,30,193.04,93.9,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,25.2
+572,Serbia,Vanja Milinkovic-Savic,Goalkeeper,25,200.66,91.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.7
+573,Serbia,Predrag Rajkovic,Goalkeeper,27,190.5,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,23.4
+574,Serbia,Srdjan Babic,Defender,26,193.04,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,23.6
+575,Serbia,Strahinja Erakovic,Defender,21,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.9
+576,Serbia,Nikola Milenkovic,Defender,25,193.04,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,24.1
+577,Serbia,Stefan Mitrovic,Defender,32,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,23.7
+578,Serbia,Filip Mladenovic,Defender,31,180.34,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,20.0
+579,Serbia,Strahinja Pavlovic,Defender,21,193.04,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.8
+580,Serbia,Milos Veljkovic,Defender,27,187.96,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,24.0
+581,Serbia,Marko Grujic,Midfielder,26,190.5,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.5
+582,Serbia,Nemanja Gudelj,Midfielder,31,185.42000000000002,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,23.5
+583,Serbia,Ivan Ilic,Midfielder,21,180.34,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,23.6
+584,Serbia,Filip Kostic,Midfielder,30,182.88,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,25.1
+585,Serbia,Darko Lazovic,Midfielder,32,180.34,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,20.2
+586,Serbia,Sasa Lukic,Midfielder,26,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.9
+587,Serbia,Nemanja Maksimovic,Midfielder,27,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.0
+588,Serbia,Sergej Milinkovic-Savic,Midfielder,27,190.5,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,20.9
+589,Serbia,Uros Racic,Midfielder,24,190.5,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.2
+590,Serbia,Andrija Zivkovic,Midfielder,26,167.64000000000001,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,24.1
+591,Serbia,Filip Djuricic,Forward,30,175.26,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,24.4
+592,Serbia,Luka Jovic,Forward,24,180.34,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,26.1
+593,Serbia,Aleksandar Mitrovic,Forward,28,187.96,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,25.4
+594,Serbia,Nemanja Radonjic,Forward,26,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.9
+595,Serbia,Dusan Tadic,Forward,34,180.34,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,23.3
+596,Serbia,Dusan Vlahovic,Forward,22,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/688.vresize.350.350.medium.0.png,22.0
+597,South korea,Song Beom-keun,Goalkeeper,25,195.58,91.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,23.9
+598,South korea,Jo Hyeon-uh,Goalkeeper,31,187.96,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,21.2
+599,South korea,Kim Seung Gyu,Goalkeeper,32,185.42000000000002,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,24.4
+600,South korea,Yu-min Cho,Defender,26,180.34,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,24.3
+601,South korea,Chul Hong,Defender,32,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.7
+602,South korea,Yoon Jong-gyu,Defender,24,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,21.4
+603,South korea,Jin-su Kim,Defender,30,175.26,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.0
+604,South korea,Min-jae Kim,Defender,26,187.96,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,19.8
+605,South korea,Tae-hwan Kim,Defender,33,175.26,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,23.3
+606,South korea,Kyung-won Kwon,Defender,30,185.42000000000002,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,24.0
+607,South korea,Kim Moon-hwan,Defender,27,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,21.4
+608,South korea,Kim Young-gwon,Defender,32,185.42000000000002,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,21.5
+609,South korea,Kwon Chang-Hoon,Midfielder,28,172.72,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.1
+610,South korea,Hwang Hee-chan,Midfielder,26,175.26,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,24.9
+611,South korea,Son Heung-min,Midfielder,30,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,23.2
+612,South korea,In-beom Hwang,Midfielder,26,175.26,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.7
+613,South korea,Woo-yeong Jeong,Midfielder,23,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.1
+614,South korea,Lee Kang-in,Midfielder,21,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.7
+615,South korea,Jae-sung Lee,Midfielder,30,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.1
+616,South korea,Song Min-kyu,Midfielder,23,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,22.7
+617,South korea,Na Sang-ho,Midfielder,26,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,23.4
+618,South korea,Paik Seung-Ho,Midfielder,25,180.34,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,20.8
+619,South korea,Jun-ho Son,Midfielder,30,177.8,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,19.5
+620,South korea,Jung Woo-young,Midfielder,32,187.96,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,21.7
+621,South korea,Cho Gue-sung,Forward,24,187.96,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,19.8
+622,South korea,Hwang Ui-jo,Forward,30,182.88,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/410.vresize.350.350.medium.0.png,24.4
+623,Spain,David Raya,Goalkeeper,27,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.9
+624,Spain,Robert Sanchez,Goalkeeper,25,195.58,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.5
+625,Spain,Unai Simon,Goalkeeper,25,187.96,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,24.9
+626,Spain,Jordi Alba,Defender,33,167.64000000000001,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,24.1
+627,Spain,Cesar Azpilicueta,Defender,33,177.8,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,24.2
+628,Spain,Alejandro Balde,Defender,19,172.72,68.9,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.1
+629,Spain,Dani Carvajal,Defender,30,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,24.3
+630,Spain,Eric Garcia,Defender,21,180.34,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.3
+631,Spain,Hugo Guillamon,Defender,22,177.8,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,19.5
+632,Spain,Aymeric Laporte,Defender,28,187.96,86.6,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,24.5
+633,Spain,Pau Torres,Defender,25,190.5,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.0
+634,Spain,Sergio Busquets,Midfielder,34,187.96,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,21.4
+635,Spain,Gavi,Midfielder,18,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.4
+636,Spain,Koke,Midfielder,30,175.26,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,24.1
+637,Spain,Marcos Llorente,Midfielder,27,182.88,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.1
+638,Spain,Pedri,Midfielder,20,172.72,59.9,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,20.1
+639,Spain,Rodri,Midfielder,26,187.96,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.0
+640,Spain,Carlos Soler,Midfielder,25,177.8,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.9
+641,Spain,Marco Asensio,Forward,26,172.72,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,25.4
+642,Spain,Ansu Fati,Forward,20,177.8,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,20.8
+643,Spain,Alvaro Morata,Forward,30,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,23.7
+644,Spain,Dani Olmo,Forward,24,177.8,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.7
+645,Spain,Yeremy Pino,Forward,20,170.18,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.4
+646,Spain,Pablo Sarabia,Forward,30,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.1
+647,Spain,Ferran Torres,Forward,22,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,22.9
+648,Spain,Nico Williams,Forward,20,180.34,66.7,https://b.fssta.com/uploads/application/countries/flag-logos/724.vresize.350.350.medium.0.png,20.5
+649,Tunisia,Bechir Ben Said,Goalkeeper,30,190.5,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.0
+650,Tunisia,Aymen Dahmen,Goalkeeper,25,187.96,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.4
+651,Tunisia,Mouez Hassen,Goalkeeper,27,185.42000000000002,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,20.3
+652,Tunisia,Aymen Mathlouthi,Goalkeeper,38,180.34,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,25.8
+653,Tunisia,Ali Abdi,Defender,28,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.6
+654,Tunisia,Dylan Bronn,Defender,27,185.42000000000002,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.0
+655,Tunisia,Mohamed Drager,Defender,26,177.8,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.4
+656,Tunisia,Bilel Ifa,Defender,32,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.9
+657,Tunisia,Wajdi Kechrida,Defender,27,175.26,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,26.0
+658,Tunisia,Ali Maaloul,Defender,32,172.72,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,24.0
+659,Tunisia,Yassine Meriah,Defender,29,182.88,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,20.9
+660,Tunisia,Montassar Talbi,Defender,24,187.96,80.7,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.8
+661,Tunisia,Mohamed Ali Ben Romdhane,Midfielder,23,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.0
+662,Tunisia,Ghaylen Chaalali,Midfielder,28,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.1
+663,Tunisia,Nader Ghandri,Midfielder,27,195.58,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.0
+664,Tunisia,Aissa Laidouni,Midfielder,25,182.88,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,21.7
+665,Tunisia,Hannibal Mejbri,Midfielder,19,175.26,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,24.9
+666,Tunisia,Ferjani Sassi,Midfielder,30,185.42000000000002,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.2
+667,Tunisia,Ellyes Skhiri,Midfielder,27,182.88,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.1
+668,Tunisia,Seifeddine Jaziri,Forward,29,177.8,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,22.4
+669,Tunisia,Issam Jebali,Forward,30,180.34,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,25.8
+670,Tunisia,Wahbi Khazri,Forward,31,180.34,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,24.5
+671,Tunisia,Taha Yassine Khenissi,Forward,30,177.8,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,23.7
+672,Tunisia,Youssef Msakni,Forward,32,172.72,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,24.3
+673,Tunisia,Anis Slimane,Forward,21,187.96,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,24.3
+674,Tunisia,Naim Sliti,Forward,30,172.72,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/788.vresize.350.350.medium.0.png,25.4
+675,United states,Ethan Horvath,Goalkeeper,27,190.5,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,22.5
+676,United states,Sean Johnson,Goalkeeper,33,187.96,99.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,28.2
+677,United states,Matt Turner,Goalkeeper,28,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,22.3
+678,United states,Cameron Carter-Vickers,Defender,24,182.88,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,25.6
+679,United states,Sergino Dest,Defender,22,172.72,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,20.7
+680,United states,Aaron Long,Defender,30,187.96,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,22.3
+681,United states,Shaq Moore,Defender,26,177.8,73.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,23.4
+682,United states,Tim Ream,Defender,35,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,23.6
+683,United states,Antonee Robinson,Defender,25,180.34,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,22.3
+684,United states,Joe Scally,Defender,19,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,23.9
+685,United states,DeAndre Yedlin,Defender,29,170.18,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,25.8
+686,United states,Walker Zimmerman,Defender,29,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,23.7
+687,United states,Kellyn Acosta,Midfielder,27,175.26,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,20.8
+688,United states,Tyler Adams,Midfielder,23,172.72,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,24.0
+689,United states,Luca De la Torre,Midfielder,24,177.8,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,19.8
+690,United states,Weston McKennie,Midfielder,24,182.88,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,25.1
+691,United states,Yunus Musah,Midfielder,20,175.26,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,24.4
+692,United states,Cristian Roldan,Midfielder,27,170.18,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,25.8
+693,United states,Brenden Aaronson,Forward,22,175.26,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,20.8
+694,United states,Jesus Ferreira,Forward,21,172.72,63.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,21.4
+695,United states,Jordan Morris,Forward,28,182.88,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,24.7
+696,United states,Christian Pulisic,Forward,24,177.8,62.6,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,19.8
+697,United states,Giovanni Reyna,Forward,20,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,23.6
+698,United states,Josh Sargent,Forward,22,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,23.9
+699,United states,Tim Weah,Forward,22,180.34,65.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,20.2
+700,United states,Haji Wright,Forward,24,190.5,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/840.vresize.350.350.medium.0.png,22.0
+701,Uruguay,Fernando Muslera,Goalkeeper,36,187.96,84.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,24.0
+702,Uruguay,Sergio Rochet,Goalkeeper,29,187.96,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.1
+703,Uruguay,Sebastian Sosa,Goalkeeper,36,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,22.9
+704,Uruguay,Ronald Araujo,Defender,23,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.6
+705,Uruguay,Martin Caceres,Defender,35,177.8,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,24.2
+706,Uruguay,Sebastian Coates,Defender,32,195.58,91.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.9
+707,Uruguay,Jose Maria Gimenez,Defender,27,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.9
+708,Uruguay,Diego Godin,Defender,36,182.88,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.9
+709,Uruguay,Mathias Olivera,Defender,25,172.72,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,26.0
+710,Uruguay,Jose Luis Rodriguez,Defender,25,182.88,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,22.9
+711,Uruguay,Guillermo Varela,Defender,29,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.4
+712,Uruguay,Matias Vina,Defender,25,177.8,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,22.1
+713,Uruguay,Rodrigo Bentancur,Midfielder,25,185.42000000000002,76.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,22.3
+714,Uruguay,Agustin Canobbio,Midfielder,24,172.72,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,25.1
+715,Uruguay,Giorgian De Arrascaeta,Midfielder,28,175.26,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.6
+716,Uruguay,Nicolas De La Cruz,Midfielder,25,165.1,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,25.6
+717,Uruguay,Lucas Torreira,Midfielder,26,167.64000000000001,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.1
+719,Uruguay,Federico Valverde,Midfielder,24,180.34,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.9
+720,Uruguay,Matias Vecino,Midfielder,31,187.96,79.8,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,22.6
+721,Uruguay,Edinson Cavani,Forward,35,187.96,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,20.0
+722,Uruguay,Maxi Gomez,Forward,26,185.42000000000002,90.7,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,26.4
+723,Uruguay,Darwin Nunez,Forward,23,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,23.6
+724,Uruguay,Facundo Pellistri,Forward,20,172.72,64.9,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,21.8
+725,Uruguay,Luis Suarez,Forward,35,180.34,85.7,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,26.4
+726,Uruguay,Facundo Torres,Forward,22,172.72,67.6,https://b.fssta.com/uploads/application/countries/flag-logos/858.vresize.350.350.medium.0.png,22.7
+727,Wales,Adam Davies,Goalkeeper,30,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,22.4
+728,Wales,Wayne Hennessey,Goalkeeper,35,195.58,89.8,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.5
+729,Wales,Danny Ward,Goalkeeper,29,190.5,88.0,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,24.2
+730,Wales,Ethan Ampadu,Defender,22,182.88,77.6,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.2
+731,Wales,Ben Cabango,Defender,22,185.42000000000002,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,24.4
+732,Wales,Rubin Colwill,Defender,20,167.64000000000001,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,26.6
+733,Wales,Ben Davies,Defender,29,180.34,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.3
+734,Wales,Chris Gunter,Defender,33,177.8,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,22.4
+735,Wales,Tom Lockyer,Defender,27,182.88,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,21.4
+736,Wales,Chris Mepham,Defender,25,187.96,83.9,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.7
+737,Wales,Connor Roberts,Defender,27,172.72,98.0,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,32.9
+738,Wales,Joe Rodon,Defender,25,190.5,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,20.9
+739,Wales,Neco Williams,Defender,21,182.88,71.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,21.4
+740,Wales,Joe Allen,Midfielder,32,167.64000000000001,61.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,22.0
+741,Wales,Dylan Levitt,Midfielder,22,177.8,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,22.4
+742,Wales,Joe Morrell,Midfielder,25,182.88,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,22.4
+743,Wales,Aaron Ramsey,Midfielder,31,177.8,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.9
+744,Wales,Matt Smith,Midfielder,23,172.72,70.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.7
+745,Wales,Sorba Thomas,Midfielder,23,182.88,78.9,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.6
+746,Wales,Jonathan Williams,Midfielder,29,167.64000000000001,59.9,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,21.3
+747,Wales,Harry Wilson,Midfielder,25,172.72,69.8,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.4
+748,Wales,Gareth Bale,Forward,33,182.88,81.6,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,24.4
+749,Wales,Mark Harris,Forward,23,180.34,74.8,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.0
+750,Wales,Daniel James,Forward,25,170.18,75.7,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,26.1
+751,Wales,Brennan Johnson,Forward,21,177.8,72.6,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,23.0
+752,Wales,Kieffer Moore,Forward,30,195.58,82.5,https://b.fssta.com/uploads/application/countries/flag-logos/1004.vresize.350.350.medium.0.png,21.6
