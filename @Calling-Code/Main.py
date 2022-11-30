@@ -299,12 +299,6 @@ if projectOption[project] == 4:
 
    x_axis = "Amount of Players"
 
-   st.bar_chart(
-      data=df_c.POS.value_counts().reset_index().rename({'index': f'{x_axis}', 'POS': 'Players'}, axis=1),
-      x=f'{x_axis}',
-      y='Players'
-   )
-
    data_comparisson = df_c.POS.value_counts().reset_index().rename({'index': f'{x_axis}', 'POS': f'{country}'}, axis=1)
    data_comparisson['Average'] = data.groupby('POS').agg('count').Country.apply(lambda x: int(x/data.Country.nunique())).to_list()
 
@@ -325,7 +319,13 @@ if projectOption[project] == 4:
       y='Average'
    )
 
-   st.altair_chart(bar + tick, use_container_width=True)
+   text = bar.mark_text(
+      align='top',
+      baseline='middle',
+      dx=3  # Nudges text to right so it doesn't appear on top of the bar
+   ).encode(text=f'{x_axis}:Q')
+
+   st.altair_chart(bar + tick + text, use_container_width=True)
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
