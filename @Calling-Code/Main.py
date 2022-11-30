@@ -828,6 +828,7 @@ if projectOption[project] == 14:
    KPI5.metric('Cantidad de Provincias',  data.Provincia.nunique())
    KPI6.metric('Cantidad de Comunas',     data.Comuna.nunique())
 
+   st.bar_chart(data=data['Recepción de datos'].value_counts())
 ## ----------------------------------------- Surplus Store ------------------------------------------------------------------------ ##
 if projectOption[project] == 15:
    with st.spinner('Web scraping data from website ...'):
