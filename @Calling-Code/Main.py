@@ -350,43 +350,38 @@ if projectOption[project] == 6:
    script_1 = forbesBillionaires.script_1
    data = forbesBillionaires.data
 
-   if st.button("Update Data:"):
-      data = forbesBillionaires.data_extraction()
+   st.write(url_main)
 
-   st.dataframe(data)
+   st.markdown('''
+   <center>
+      <img src='https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Flanding-1500px.gif' alt="Logo" width=50%>
+   </center>
+   ''',unsafe_allow_html=True)
 
-   # st.write(url_main)
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;"> Description: </h1>
+   <p style="font-size:20px;text-align:center;">
+      Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
+      It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
+   <br><br>
+      In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
+      Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
+      <br><br>
+      Here is the web scraping code, and table with data extracted:
+   </p>
+   ''',unsafe_allow_html=True)
 
-   # st.markdown('''
-   # <center>
-   #    <img src='https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillies22%2Flanding-1500px.gif' alt="Logo" width=50%>
-   # </center>
-   # ''',unsafe_allow_html=True)
-
-   # st.markdown(f'''
-   # <h1 style="font-size:40px;text-align:center;"> Description: </h1>
-   # <p style="font-size:20px;text-align:center;">
-   #    Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
-   #    It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
-   # <br><br>
-   #    In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
-   #    Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
-   #    <br><br>
-   #    Here is the web scraping code, and table with data extracted:
-   # </p>
-   # ''',unsafe_allow_html=True)
-
-   # with st.expander("Code Used 🐍"):
-   #    st.code(script_1,language="python")
-   # with st.expander("Data Extracted 🕸"):
-   #    st.write("Table containing data extracted from website")
-   #    st.download_button(
-   #       label     =    "Download data as CSV",
-   #       data      =    data.to_csv().encode('utf-8'),
-   #       file_name =    'Forbes_Billionaires_list.csv',
-   #       mime      =    'text/csv',)
-   #    st.dataframe(data)
-   # st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
+   with st.expander("Code Used 🐍"):
+      st.code(script_1,language="python")
+   with st.expander("Data Extracted 🕸"):
+      st.write("Table containing data extracted from website")
+      st.download_button(
+         label     =    "Download data as CSV",
+         data      =    data.to_csv().encode('utf-8'),
+         file_name =    'Forbes_Billionaires_list.csv',
+         mime      =    'text/csv',)
+      st.dataframe(data)
+   st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
