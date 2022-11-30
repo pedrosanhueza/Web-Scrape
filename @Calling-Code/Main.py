@@ -103,8 +103,8 @@ if projectOption[project] == 1:
    </p>
    <h1 style="font-size:30px;text-align:center;"> How  Web Scrapers Work? </h1>
    <p>
-      A web scraper first needs the URLs to scrape a site. Then it loads all the HTML code for those sites
-      Then the scraper obtains the required data from this HTML code and outputs this data in the format specified by the client.
+      A web scraper first needs the URLs to scrape a site; it loads all the HTML code for those sites, then
+      the scraper obtains the required data from this HTML code and outputs this data in the format specified by the client.
       Mostly, this is in the form of an Excel spreadsheet or a CSV file.
    </p>
    ''',unsafe_allow_html=True)
