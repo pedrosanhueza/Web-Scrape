@@ -325,7 +325,7 @@ if projectOption[project] == 4:
       y='Average'
    )
 
-   st.altair_chart(bar + tick, use_container_width=True)
+   st.altair_chart(bar + tick)
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
