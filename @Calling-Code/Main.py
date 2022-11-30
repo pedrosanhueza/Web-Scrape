@@ -281,7 +281,7 @@ if projectOption[project] == 4:
 
    country_img = df_c.Country_logo.iloc[0]
    
-   st.markdown(f''' <center> <h1 style="font-size:40px;text-align:center;"> {country}: </h1> </center>''',unsafe_allow_html=True)
+   st.markdown(f''' <center> <h1 style="font-size:40px;text-align:center;"> {country} </h1> </center>''',unsafe_allow_html=True)
 
    st.markdown(f''' <img src={country_img} alt="Logo" width="100%"> </center> ''',unsafe_allow_html=True)
 
@@ -289,7 +289,7 @@ if projectOption[project] == 4:
    KPI4.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
    KPI5.metric('Defender',     (df_c.POS == 'Defender').sum())
    KPI6.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
-   KPI6.metric('Forward',      (df_c.POS == 'Forward').sum())
+   KPI7.metric('Forward',      (df_c.POS == 'Forward').sum())
 
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
