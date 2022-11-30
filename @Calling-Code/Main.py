@@ -1079,6 +1079,14 @@ if projectOption[project] == 17:
 
    st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
    it also has {data_diff} times more boat dealer than the average state amount.""")
+   
+   st.markdown(f'''
+   <p style="font-size:20px;text-align:center;">
+      <b> Florida ({state_name}) </b> is the state with most boat dealers with <b>{state_perc}</b> stores across the United States,
+      it also has <b>{data_diff}</b> times more boat dealer than the average state amount.
+   </p>
+   ''',unsafe_allow_html=True)
+
 
    plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "Dealers",'state':'State'})
 
