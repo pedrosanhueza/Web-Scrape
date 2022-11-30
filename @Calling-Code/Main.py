@@ -37,6 +37,7 @@ st.markdown('''
    <br>
    Feel free to connect with me on 
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
+   for any question!
 </p>
 
 ''',unsafe_allow_html=True)
@@ -813,19 +814,15 @@ if projectOption[project] == 15:
          Author: Pedro Sanhueza
       </p>
 
-      <center>
-
-         <h1 style="color:#214491;font-size: 90px;">
-
+         <h1 style="color:#214491;font-size: 90px;text-align:center;">
             BYU-I
             <br>
             Surplus Store
-
          </h1>
+      
+      <center>
 
          <img src='https://brightspotcdn.byui.edu/dims4/default/c99c1a8/2147483647/strip/true/crop/5561x3712+0+0/resize/1920x1282!/quality/90/?url=http%3A%2F%2Fbyu-idaho-brightspot.s3.amazonaws.com%2F5b%2Fd3%2Fbbdb3e63419082a1254c289f9bbf%2F190613-surplusstore-03.jpg' alt="Logo" width="100%">
-
-      </center>
 
       <p>
          The
@@ -834,6 +831,8 @@ if projectOption[project] == 15:
          The items available for purchase might contain: Computers, electronics, furniture, etc.
          Merchandise changes in a regular basis.
       </P>
+      
+      </center>
 
       <br>
    ''',unsafe_allow_html=True)
