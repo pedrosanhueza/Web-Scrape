@@ -281,13 +281,9 @@ if projectOption[project] == 4:
 
    country_img = df_c.Country_logo.iloc[0]
    
-   st.markdown(f'''
-   <center>
-      <p> {country} has {df_c.Name.nunique()} players
-      </p>
-      <img src={country_img} alt="Logo" width="100%">
-   </center>
-   ''',unsafe_allow_html=True)
+   st.markdown(f''' <center> <h1 style="font-size:40px;text-align:center;"> {country}: </h1> </center>''',unsafe_allow_html=True)
+
+   st.markdown(f''' <img src={country_img} alt="Logo" width="100%"> </center> ''',unsafe_allow_html=True)
 
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
    KPI4.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
