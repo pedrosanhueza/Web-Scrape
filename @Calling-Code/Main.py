@@ -1080,21 +1080,21 @@ if projectOption[project] == 17:
    st.write(f"""Florida ({state_name}) is the state with most boat dealers with {state_perc} stores across the United States,
    it also has {data_diff} times more boat dealer than the average state amount.""")
 
-   plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "count"})
+   plot_state = data.groupby('state').aggregate('count').reset_index()[['state','id']].sort_values('id', ascending=False).rename(columns={"id": "Dealers",'state':'State'})
 
    bars = alt.Chart(plot_state).mark_bar().encode(
-      x='count:Q',
-      y="state:O")
+      x='Dealers:Q',
+      y="State:O")
 
    text = bars.mark_text(
       align='left',
       baseline='middle',
       dx=3  # Nudges text to right so it doesn't appear on top of the bar
-   ).encode(text='count:Q')
+   ).encode(text='Dealers:Q')
    
    c = (bars + text).properties(height=900)
 
-   st.write('Boat dealers by state')
+   st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Boat Dealers per State </h1>''',unsafe_allow_html=True)
 
    st.altair_chart(c, use_container_width=True)
 
