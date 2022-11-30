@@ -1194,13 +1194,14 @@ if projectOption[project] == 19:
          
       st.dataframe(data)
 
-   KPI1,KPI2,KPI3,KPI4,KPI5,KPI6 = st.columns(6)
+   KPI1,KPI2 = st.columns(2)
    KPI1.metric('Amount of Developers', data.developer.nunique())
    KPI2.metric('Number of Apps', data.shape[0])
+   KPI3,KPI4,KPI5,KPI6 = st.columns(4)
    KPI3.metric('Free Apps', data[data.pricing.str.contains('Free')].shape[0])
-   KPI4.metric('Trial Period Apps', data[data.pricing.str.contains('trial')].shape[0])
-   KPI5.metric('One-Time charge', data[data.pricing.str.contains('one')].shape[0])
-   KPI6.metric('Paid Apps', data[data.pricing.str.contains('month|year')].shape[0])
+   KPI4.metric('One-Time charge', data[data.pricing.str.contains('one')].shape[0])
+   KPI5.metric('Paid Apps', data[data.pricing.str.contains('month|year')].shape[0])
+   KPI6.metric('Trial Period Apps', data[data.pricing.str.contains('trial')].shape[0])
 
    data.loc[data['pricing'].str.contains('Free'), 'Payment'] = 'Free'
    data.loc[data['pricing'].str.contains('trial'), 'Payment'] = 'Trial Period'
