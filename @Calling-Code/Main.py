@@ -285,11 +285,6 @@ if projectOption[project] == 4:
 
    st.markdown(f''' <center> <img src={country_img} alt="Logo" width="30%"> </center> ''',unsafe_allow_html=True)
 
-   # KPI4,KPI5,KPI6,KPI7 = st.columns(4)
-   # KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
-   # KPI5.metric('Forward',      (df_c.POS == 'Forward').sum())
-   # KPI6.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
-   # KPI7.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
 
    KPI4,KPI5,KPI6,KPI7 = st.columns(4)
    KPI4.metric('Average Age',            int(df_c.AGE.mean()))
@@ -326,6 +321,12 @@ if projectOption[project] == 4:
    ).encode(text=f'{country}:Q')
 
    st.altair_chart(bar + tick + text, use_container_width=True)
+
+   KPI4,KPI5,KPI6,KPI7 = st.columns(4)
+   KPI4.metric('Defender',     (df_c.POS == 'Defender').sum())
+   KPI5.metric('Forward',      (df_c.POS == 'Forward').sum())
+   KPI6.metric('Goalkeepers',  (df_c.POS == 'Goalkeeper').sum())
+   KPI7.metric('Midfielder',   (df_c.POS == 'Midfielder').sum())
 
 ## ----------------------------------------- Financial Data ------------------------------------------------------------------------ ##
 if projectOption[project] == 5:
