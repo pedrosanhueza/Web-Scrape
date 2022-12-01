@@ -20,7 +20,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
 st.markdown('''
-<h1 style="font-size:40px;text-align:center;"> Hi there! </h1>
+<h1 style="font-size:40px;text-align:center;"> Hi There! </h1>
 ''',unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1,2,1])
