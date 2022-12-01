@@ -13,6 +13,8 @@ import matplotlib.dates as mdates
 import plotly.express as px
 import altair as alt
 
+import os
+
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
@@ -27,12 +29,12 @@ with col1:
 with col2:
    st.markdown('''
    <center>
-      <img src ="@Calling-Code/Pictures/profile.jpg" alt="Logo" width="100%">
+      <img src="@Calling-Code/Pictures/profile.jpg" alt="Logo" width="100%">
    </center>
    ''',unsafe_allow_html=True)
 # , caption='Profile Sticker', width=300, style="border-radius: 50%;")
 with col3:
-   st.write(' ')
+   st.write(f'{os.getcwd()}')
 
 st.markdown('''
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
