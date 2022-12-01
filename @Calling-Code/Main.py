@@ -27,11 +27,11 @@ col1, col2, col3 = st.columns([2,3,1])
 with col1:
    st.write(' ')
 with col2:
+         # border-radius: 50%;
    st.markdown('''
    <center>
       <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile.jpg?raw=true" alt="Logo" width="100%"
       style="
-         border-radius: 50%;
          width: 150px; 
          height: 150px; 
          overflow: hidden;
