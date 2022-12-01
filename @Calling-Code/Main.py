@@ -29,7 +29,14 @@ with col1:
 with col2:
    st.markdown('''
    <center>
-      <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile.jpg?raw=true" alt="Logo" width="100%" style="border-radius: 50%;">
+      <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile.jpg?raw=true" alt="Logo" width="100%"
+      style="
+         border-radius: 50%;
+         width: 150px; 
+         height: 150px; 
+         overflow: hidden;
+         "
+      >
    </center>
    ''',unsafe_allow_html=True)
 with col3:
