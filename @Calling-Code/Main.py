@@ -29,12 +29,11 @@ with col1:
 with col2:
    st.markdown('''
    <center>
-      <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile.jpg?raw=true" alt="Logo" width="100%">
+      <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile.jpg?raw=true" alt="Logo" width="100%" style="border-radius: 50%;">
    </center>
    ''',unsafe_allow_html=True)
-# , caption='Profile Sticker', width=300, style="border-radius: 50%;")
 with col3:
-   st.write(f'{os.getcwd()}')
+   st.write('')
 
 st.markdown('''
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
