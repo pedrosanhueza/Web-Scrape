@@ -99,23 +99,27 @@ timeZoneMountain = datetime.now(IdahoTz)
 currentTimeInRexburg = timeZoneMountain.strftime("%Y-%m-%d")
 YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
-## ----------------------------------------- TEST ------------------------------------------------------------------------ ##
+## ----------------------------------------- Select a Project ------------------------------------------------------------------------ ##
 if projectOption[project] == 1:
-
-   # table_report = pd.read_excel
    
-   st.markdown(f'''
-   <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
-   <p>
-      Web scraping is an automatic method to obtain large amounts of data from websites.
-      It is a form of copying specific data gathered from the web, most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database for later retrieval or analysis.
-   </p>
-   <h1 style="font-size:30px;text-align:center;"> How  Web Scrapers Work? </h1>
-   <p>
-      A web scraper first needs the URLs to scrape a site; it loads all the HTML code for those sites, then
-      the scraper obtains the required data from this HTML code and outputs this data in the format specified by the client.
-      Mostly, this is in the form of an Excel spreadsheet or a CSV file.
-   </p>
+   col1, col2 = st.columns([1,1])
+   with col1:
+      st.markdown(f'''
+      <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
+      <p>
+         Web scraping is an automatic method to obtain large amounts of data from websites.
+         It is a form of copying specific data gathered from the web, most of this data is unstructured data in an HTML format which is then converted into structured data in a spreadsheet or a database for later retrieval or analysis.
+      </p>
+      ''',unsafe_allow_html=True)
+
+   with col2:
+      st.markdown(f'''
+      <h1 style="font-size:30px;text-align:center;"> How  Web Scrapers Work? </h1>
+      <p>
+         A web scraper first needs the URLs to scrape a site; it loads all the HTML code for those sites, then
+         the scraper obtains the required data from this HTML code and outputs this data in the format specified by the client.
+         Mostly, this is in the form of an Excel spreadsheet or a CSV file.
+      </p>
    ''',unsafe_allow_html=True)
 
    col1, col2, col3 = st.columns([1,3,1])
