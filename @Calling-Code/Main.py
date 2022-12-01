@@ -29,7 +29,7 @@ with col1:
 with col2:
    st.markdown('''
    <center>
-      <img src="@Calling-Code/Pictures/profile.jpg" alt="Logo" width="100%">
+      <img src="/@Calling-Code/Pictures/profile.jpg" alt="Logo" width="100%">
    </center>
    ''',unsafe_allow_html=True)
 # , caption='Profile Sticker', width=300, style="border-radius: 50%;")
