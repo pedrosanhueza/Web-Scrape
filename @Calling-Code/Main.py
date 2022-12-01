@@ -28,9 +28,7 @@ with col1:
    st.write(' ')
 with col2:
    st.markdown('''
-   <center>
       <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile-square.jpg?raw=true" alt="Logo" width="100%" style="border-radius: 50%;">
-   </center>
    ''',unsafe_allow_html=True)
 with col3:
    st.write('')
