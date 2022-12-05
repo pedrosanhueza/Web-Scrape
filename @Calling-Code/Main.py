@@ -437,7 +437,7 @@ if projectOption[project] == 6:
       title='Age Distribution',
       xaxis_title='Age',
       yaxis_title='Billionaires Amount',
-      barmode='stack'
+      legend_traceorder="reversed"
       )
    st.plotly_chart(fig_1, use_container_width=True)
 
