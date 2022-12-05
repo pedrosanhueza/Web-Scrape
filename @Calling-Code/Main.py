@@ -431,6 +431,10 @@ if projectOption[project] == 6:
       x='age',
       nbins=100,
       marginal="violin",
+      labels={
+         "count": "Billionaires Amount",
+         "age": "Age (Yrs)"
+         },
       title="Age Distribution"
    )
    st.plotly_chart(fig_1, use_container_width=True)
