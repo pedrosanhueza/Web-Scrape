@@ -429,6 +429,7 @@ if projectOption[project] == 6:
    fig_1 = px.histogram(
       data_1,
       x='age',
+      color="gender",
       nbins=100,
       marginal="violin",
       labels={
