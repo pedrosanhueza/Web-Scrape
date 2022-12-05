@@ -425,7 +425,7 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   data_1 = data[(data.age != 0)&(data.gender.notna())] # remove missing data
+   data_1 = data[(data.age != 0)&(data.gender.notna()==True)] # remove missing data
    fig_1 = px.histogram(
       data_1,
       x='age',
