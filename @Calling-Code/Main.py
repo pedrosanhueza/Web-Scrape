@@ -406,8 +406,8 @@ if projectOption[project] == 6:
       Forbes is an American business magazine. It features articles on finance, industry, investing, and marketing topics.
       It is best known for its lists, which rank billionaires, colleges, real estate, and entertainers, to name a few.
    <br><br>
-      In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> along with their key attributes such as 
-      Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
+      In this project, I extract the data from <a href="{url_main}"> The Richest People In The World </a> 
+      to build a dataset with their Name, Net Worth, Age, Country, Source of Wealth, and Education Level (bachelor's, master's, PhD, etc).
       <br><br>
       Here is the web scraping code, and table with data extracted:
    </p>
@@ -424,6 +424,8 @@ if projectOption[project] == 6:
          mime      =    'text/csv',)
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
+
+   px.histogram(data, x='Age', nbins=100, marginal="violin")
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
