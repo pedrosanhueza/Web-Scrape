@@ -427,10 +427,6 @@ if projectOption[project] == 6:
 
    data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified')] # remove missing data
 
-   st.write(data.gender.notna().sum())
-
-   st.dataframe(data_1)
-
    fig_1 = px.histogram(
       data_1,
       x='age',
