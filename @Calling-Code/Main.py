@@ -436,7 +436,8 @@ if projectOption[project] == 6:
    ).update_layout(
       title='Age Distribution',
       xaxis_title='Age',
-      yaxis_title='Billionaires Amount'
+      yaxis_title='Billionaires Amount',
+      barmode='stack'
       )
    st.plotly_chart(fig_1, use_container_width=True)
 
