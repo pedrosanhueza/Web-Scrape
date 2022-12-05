@@ -430,7 +430,7 @@ if projectOption[project] == 6:
       data_1,
       x='age',
       color="gender",
-      nbins=100,
+      nbins=200,
       marginal="violin",
       labels={
          "count": "Billionaires Amount",
