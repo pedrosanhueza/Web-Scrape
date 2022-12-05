@@ -425,7 +425,10 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   px.histogram(data, x='Age', nbins=100, marginal="violin")
+   fig = px.histogram(data, x='Age', nbins=100, marginal="violin")
+
+   st.plotly_chart(fig, use_container_width=True)
+
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
