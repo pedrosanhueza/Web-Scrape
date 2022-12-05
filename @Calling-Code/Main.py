@@ -433,12 +433,11 @@ if projectOption[project] == 6:
       color="gender",
       nbins=120,
       marginal="violin",
-      labels={
-         "count": "Billionaires Amount",
-         "age": "Age (Yrs)"
-         },
-      title="Age Distribution"
-   )
+   ).update_layout(
+      title='Age Distribution',
+      xaxis_title='Age',
+      yaxis_title='Billionaires Amount'
+      )
    st.plotly_chart(fig_1, use_container_width=True)
 
 
