@@ -425,18 +425,19 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   gender_ = st.radio("Gender",('Male','Female'),horizontal=True)
+   gender = st.radio("Gender",('Male','Female'),horizontal=True)
    
    st.write(gender_)
 
-   if gender_ == 'Male':
-      gender_ == 'M'
+   if gender == 'Male':
+      gender == 'M'
    else:
-      gender_ == 'F'
+      gender == 'F'
 
+   st.write(gender)
    st.write(gender_)
    
-   data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (data.gender == gender_)] # remove missing data
+   data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (data.gender == gender)] # remove missing data
 
    fig_1 = px.histogram(
       data_1,
