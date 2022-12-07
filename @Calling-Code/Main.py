@@ -457,9 +457,9 @@ if projectOption[project] == 6:
       Outlier
    </h1>
    <p style="font-size:20px;text-align:center;">
-      the youngest billionary is <b> {data_age_tail.personName.iloc[0]} </b>
-      a net worth of <b> {data_age_tail.netWorth.iloc[0]} </b>
-      at their <b> {data_age_tail.age.iloc[0]} </b> years old.
+      The youngest billionary is <b> {data_age_tail.personName.iloc[0]} </b>
+      with a net worth of <b> {data_age_tail.netWorth.iloc[0]} </b>
+      at his <b> {data_age_tail.age.iloc[0]} </b> years old.
    </p>
    ''',unsafe_allow_html=True)
 
