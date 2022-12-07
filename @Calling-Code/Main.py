@@ -430,9 +430,9 @@ if projectOption[project] == 6:
    st.write(gender_)
 
    if gender_ == 'Male':
-      gender == 'M'
+      gender = 'M'
    else:
-      gender == 'F'
+      gender = 'F'
 
    st.write(gender)
    st.write(gender_)
