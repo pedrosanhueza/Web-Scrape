@@ -425,7 +425,13 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified')] # remove missing data
+   gender = st.radio("What's your favorite movie genre",('Male','Female'),horizontal=True)
+   if gender == 'Male':
+      gender == 'M'
+   else:
+      gender == 'F'
+
+   data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (data.gender == gender)] # remove missing data
 
    fig_1 = px.histogram(
       data_1,
