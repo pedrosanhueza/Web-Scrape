@@ -427,11 +427,15 @@ if projectOption[project] == 6:
 
    gender_ = st.radio("Gender",('Male','Female'),horizontal=True)
    
+   st.write(gender_)
+
    if gender_ == 'Male':
       gender_ == 'M'
    else:
       gender_ == 'F'
 
+   st.write(gender_)
+   
    data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (data.gender == gender_)] # remove missing data
 
    fig_1 = px.histogram(
