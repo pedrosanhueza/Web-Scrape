@@ -425,11 +425,11 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   gender = st.radio("Gender",('Male','Female'),horizontal=True)
+   gender_ = st.radio("Gender",('Male','Female'),horizontal=True)
    
    st.write(gender_)
 
-   if gender == 'Male':
+   if gender_ == 'Male':
       gender == 'M'
    else:
       gender == 'F'
