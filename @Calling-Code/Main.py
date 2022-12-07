@@ -450,6 +450,16 @@ if projectOption[project] == 6:
       )
    st.plotly_chart(fig_1, use_container_width=True)
 
+   data_age_tail = data[data.age != 0].sort_values('age').head(1)
+
+   st.markdown(f'''
+   <h1 style="font-size:40px;text-align:center;">
+      Outlier
+   </h1>
+   <p style="font-size:20px;text-align:center;">
+      the youngest billionary is <b> {data_age_tail.age.iloc[0]} </b> years old, with a net worth of <b> {data_age_tail.netWorth.iloc[0]} </b>
+   </p>
+   ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
