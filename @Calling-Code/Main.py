@@ -432,7 +432,7 @@ if projectOption[project] == 6:
    KPI1.metric('Countries', f"{data.countryOfCitizenship.nunique()}")
    KPI3.metric("Industries", f"{data.industries.nunique()}")
    america = data[data.countryOfCitizenship == "United States"].shape[0]
-   KPI4.metric("Americans",f'{america}', f'{round(data.shape[0]/america,2)*100}%')
+   KPI4.metric("Americans",f'{america}', f'{round(america/data.shape[0],2)*100}%')
 
 
    fig_0 = px.bar(
