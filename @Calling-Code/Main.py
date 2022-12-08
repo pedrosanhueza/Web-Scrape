@@ -443,7 +443,7 @@ if projectOption[project] == 6:
    else:
       gender_filter = (data.gender)
    
-   col1, col2 = st.columns([2,1]):
+   col1, col2 = st.columns([2,1])
    with col1:
       data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (gender_filter)] # remove missing data
       fig_1 = px.histogram(
