@@ -446,9 +446,15 @@ if projectOption[project] == 6:
       title='Age Distribution',
       xaxis_title='Age',
       yaxis_title='Billionaires Amount',
-      legend_traceorder="reversed"
-      )
+      legend_traceorder="reversed")
    st.plotly_chart(fig_1, use_container_width=True)
+
+   fig_2 = px.box(
+    data_1,
+    x="age",
+    # y="total_bill",
+    color="gender")
+   st.plotly_chart(fig_2, use_container_width=True)
 
    data_age_tail = data[data.age != 0].sort_values('age').head(1)
 
