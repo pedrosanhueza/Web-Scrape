@@ -426,7 +426,7 @@ if projectOption[project] == 6:
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
    fig_0 = px.bar(
-    data_1.industries.value_counts().reset_index(),
+    data.industries.value_counts().reset_index(),
     y='index',
     x='industries',
     text_auto='.2s',
