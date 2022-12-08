@@ -451,7 +451,10 @@ if projectOption[project] == 6:
    fig_2.show()
    st.plotly_chart(fig_2, use_container_width=True)
 
-   
+   fig_3=px.bar(data.country.value_counts().reset_index().head(7),x='index',y='country',text_auto='.2s')
+   fig_3.update_traces(textfont_size=12, textposition="outside", cliponaxis=False)
+   fig_3.update_layout(xaxis_title='Industry Category',yaxis_title='Billionaires Amount',title='Industries')
+   st.plotly_chart(fig_3, use_container_width=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
