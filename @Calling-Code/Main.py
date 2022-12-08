@@ -425,6 +425,15 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
+   fig_0 = px.bar(
+    data_1.industries.value_counts().reset_index(),
+    y='index',
+    x='industries',
+    text_auto='.2s',
+    title='Billionaires per Industry')
+   fig_0.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
+   st.plotly_chart(fig_0, use_container_width=True)
+   
    gender_ = st.radio("Gender",('Male','Female','Both'),horizontal=True)
 
    if gender_ == 'Male':
@@ -435,7 +444,6 @@ if projectOption[project] == 6:
       gender_filter = (data.gender)
    
    data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (gender_filter)] # remove missing data
-
    fig_1 = px.histogram(
       data_1,
       x='age',
