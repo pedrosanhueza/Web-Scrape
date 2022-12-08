@@ -425,11 +425,11 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   st.markdown(f'''<p style="font-size:20px;text-align:center;"> Top {data.shape[0]} Billionaires </p> ''',unsafe_allow_html=True)
+   st.markdown(f'''<p style="font-size:20px;text-align:center;"> Wolrd's Billionaires </p> ''',unsafe_allow_html=True)
 
    KPI1, KPI2, KPI3, KPI4= st.columns(4)
-   KPI1.metric("Billionaires", f"{data.shape[0]}")
-   KPI2.metric('Countries', f"{data.countryOfCitizenship.nunique()}")
+   KPI2.metric("Billionaires", f"{data.shape[0]}")
+   KPI1.metric('Countries', f"{data.countryOfCitizenship.nunique()}")
    KPI3.metric("Industries", f"{data.industries.nunique()}")
    KPI4.metric("Americans",f'{data[data.countryOfCitizenship == "United States"].shape[0]}')
 
