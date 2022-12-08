@@ -441,8 +441,8 @@ if projectOption[project] == 6:
     x='industries',
     text_auto='.2s',
     title='Industries',
-    orientation='h')
-   fig_0.update_traces(textfont_size=12, textangle=-45, textposition="outside", cliponaxis=False)
+    orientation='v')
+   fig_0.update_traces(textfont_size=12, textposition="outside", cliponaxis=False)
    st.plotly_chart(fig_0, use_container_width=True)
 
    fig_01 = px.pie(
