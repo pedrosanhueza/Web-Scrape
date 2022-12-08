@@ -443,39 +443,42 @@ if projectOption[project] == 6:
    else:
       gender_filter = (data.gender)
    
-   data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (gender_filter)] # remove missing data
-   fig_1 = px.histogram(
+   col1, col2 = st.columns([2,1]):
+   with col1:
+      data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') & (gender_filter)] # remove missing data
+      fig_1 = px.histogram(
+         data_1,
+         x='age',
+         color="gender",
+         nbins=120,
+         marginal="violin",
+      ).update_layout(
+         title='Age Distribution',
+         xaxis_title='Age',
+         yaxis_title='Billionaires Amount',
+         legend_traceorder="reversed")
+      st.plotly_chart(fig_1, use_container_width=True)
+
+      fig_2 = px.box(
       data_1,
-      x='age',
-      color="gender",
-      nbins=120,
-      marginal="violin",
-   ).update_layout(
-      title='Age Distribution',
-      xaxis_title='Age',
-      yaxis_title='Billionaires Amount',
-      legend_traceorder="reversed")
-   st.plotly_chart(fig_1, use_container_width=True)
+      x="age",
+      # y="total_bill",
+      color="gender")
+      st.plotly_chart(fig_2, use_container_width=True)
 
-   fig_2 = px.box(
-    data_1,
-    x="age",
-    # y="total_bill",
-    color="gender")
-   st.plotly_chart(fig_2, use_container_width=True)
+   with col2:
+      data_age_tail = data[data.age != 0].sort_values('age').head(1)
 
-   data_age_tail = data[data.age != 0].sort_values('age').head(1)
-
-   st.markdown(f'''
-   <h1 style="font-size:40px;text-align:center;">
-      Outlier
-   </h1>
-   <p style="font-size:20px;text-align:center;">
-      The youngest billionary is <b> {data_age_tail.personName.iloc[0]} </b>
-      with a net worth of <b> {data_age_tail.netWorth.iloc[0]} </b>
-      at his <b> {data_age_tail.age.iloc[0]} </b> years old.
-   </p>
-   ''',unsafe_allow_html=True)
+      st.markdown(f'''
+      <h1 style="font-size:40px;text-align:center;">
+         Outlier
+      </h1>
+      <p style="font-size:20px;text-align:center;">
+         The youngest billionary is <b> {data_age_tail.personName.iloc[0]} </b>
+         with a net worth of <b> {data_age_tail.netWorth.iloc[0]} </b>
+         at his <b> {data_age_tail.age.iloc[0]} </b> years old.
+      </p>
+      ''',unsafe_allow_html=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
