@@ -425,7 +425,7 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   st.markdown(f'''<p style="font-size:20px;text-align:center;"> Wolrd's Billionaires </p> ''',unsafe_allow_html=True)
+   st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> Wolrd's Billionaires </h1> ''',unsafe_allow_html=True)
 
    KPI1, KPI2, KPI3, KPI4= st.columns(4)
    KPI2.metric("Billionaires", f"{data.shape[0]}")
