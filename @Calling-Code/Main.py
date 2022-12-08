@@ -442,7 +442,7 @@ if projectOption[project] == 6:
     text_auto='.2s',
     title='Industries')
    fig_0.update_traces(textfont_size=12, textposition="outside", cliponaxis=False)
-   fig_0.update_layout(xaxis_title="Industry Category",yaxis_title=" ",)
+   fig_0.update_layout(xaxis_title="Industry Category",yaxis_title="Billionaires Amount",)
    st.plotly_chart(fig_0, use_container_width=True)
    
    data_1 = data[ (data.age != 0) & (data.gender != 'Not Specified') ] # remove missing data
@@ -457,6 +457,12 @@ if projectOption[project] == 6:
       yaxis_title='Billionaires Amount',
       legend_traceorder="reversed")
    st.plotly_chart(fig_1, use_container_width=True)
+
+   fig_2 = px.box(data, x="finalWorth",
+   points="all",
+   hover_data=["personName"])
+   fig_2.show()
+   st.plotly_chart(fig_2, use_container_width=True)
 
 ## ----------------------------------------- Forbes Universities ------------------------------------------------------------------------ ##
 if projectOption[project] == 7:
