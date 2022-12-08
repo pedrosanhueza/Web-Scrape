@@ -433,6 +433,12 @@ if projectOption[project] == 6:
     title='Billionaires per Industry')
    fig_0.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
    st.plotly_chart(fig_0, use_container_width=True)
+
+   fig_01 = px.pie(
+    data.industries.value_counts().reset_index(),
+    values='industries',
+    names='index')
+   st.plotly_chart(fig_01, use_container_width=True)
    
    gender_ = st.radio("Gender",('Male','Female','Both'),horizontal=True)
 
