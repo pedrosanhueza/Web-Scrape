@@ -437,11 +437,10 @@ if projectOption[project] == 6:
 
    fig_0 = px.bar(
     data.industries.value_counts().reset_index(),
-    y='index',
-    x='industries',
+    x='index',
+    y='industries',
     text_auto='.2s',
-    title='Industries',
-    orientation='v')
+    title='Industries')
    fig_0.update_traces(textfont_size=12, textposition="outside", cliponaxis=False)
    st.plotly_chart(fig_0, use_container_width=True)
 
