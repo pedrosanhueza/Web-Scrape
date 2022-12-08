@@ -442,7 +442,7 @@ if projectOption[project] == 6:
     text_auto='.2s',
     title='Industries')
    fig_0.update_traces(textfont_size=12, textposition="outside", cliponaxis=False)
-   fig_0.update_layout(xaxis_title="X Axis Title",yaxis_title="Y Axis Title",)
+   fig_0.update_layout(xaxis_title="Industry Category",yaxis_title=" ",)
    st.plotly_chart(fig_0, use_container_width=True)
 
    fig_01 = px.pie(
