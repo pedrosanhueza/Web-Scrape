@@ -449,9 +449,8 @@ if projectOption[project] == 6:
    fig_1 = px.histogram(
       data_1,
       x='age',
-      color="gender",
-      nbins=120,
-      marginal="violin",
+      # nbins=120,
+      marginal="box",
    ).update_layout(
       title='Age Distribution',
       xaxis_title='Age',
