@@ -428,7 +428,7 @@ if projectOption[project] == 6:
    st.markdown(f'''<p style="font-size:20px;text-align:center;"> Top {data.shape[0]} Billionaires </p> ''',unsafe_allow_html=True)
 
    KPI1, KPI2, KPI3= st.columns(3)
-   KPI1.metric('Countries', f"{data.countries.nunqiue()}")
+   KPI1.metric('Countries', f"{data.countryOfCiticenship.nunqiue()}")
    KPI2.metric("Industries", f"{data.industries.nunique()}")
    KPI3.metric("Americans",f'{data[data.countryOfCiticenship == "United States"].shape[0]}')
    # KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
