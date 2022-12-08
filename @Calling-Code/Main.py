@@ -441,7 +441,7 @@ if projectOption[project] == 6:
    st.plotly_chart(fig_0, use_container_width=True)
    
    data_1=data[ (data.age != 0) & (data.gender != 'Not Specified') ] # remove missing data
-   fig_1=px.histogram(data_1,x='age',marginal="box",)
+   fig_1=px.histogram(data_1,x='age',marginal="box",hover_data=["personName"])
    fig_1.update_layout(title='Age Distribution',xaxis_title='Age',yaxis_title='Billionaires Amount',legend_traceorder="reversed")
    st.plotly_chart(fig_1, use_container_width=True)
 
