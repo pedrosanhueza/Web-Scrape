@@ -440,8 +440,9 @@ if projectOption[project] == 6:
     y='index',
     x='industries',
     text_auto='.2s',
-    title='Billionaires per Industry')
-   fig_0.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
+    title='Industries',
+    orientation='h')
+   fig_0.update_traces(textfont_size=12, textangle=-45, textposition="outside", cliponaxis=False)
    st.plotly_chart(fig_0, use_container_width=True)
 
    fig_01 = px.pie(
