@@ -450,7 +450,8 @@ if projectOption[project] == 6:
    fig_1.update_layout(title='Age Distribution',xaxis_title='Age',yaxis_title='Billionaires Amount',legend_traceorder="reversed")
    st.plotly_chart(fig_1, use_container_width=True)
 
-   fig_2 = px.box(data_2, x="finalWorth",points="all",hover_data=["personName"])
+   data.finalWorth = data.finalWorth.apply(lambda x: x*1000000)
+   fig_2 = px.box(data, x="finalWorth",points="all",hover_data=["personName"])
    fig_2.update_layout(xaxis_title="Net Worth",yaxis_title="Billionaires Amount",title='Net Worth')
    fig_2.show()
    st.plotly_chart(fig_2, use_container_width=True)
