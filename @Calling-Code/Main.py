@@ -427,11 +427,11 @@ if projectOption[project] == 6:
 
    st.markdown(f'''<p style="font-size:20px;text-align:center;"> Top {data.shape[0]} Billionaires </p> ''',unsafe_allow_html=True)
 
-   KPI1, KPI2, KPI3= st.columns(3)
-   KPI1.metric('Countries', f"{data.countryOfCitizenship.nunique()}")
-   KPI2.metric("Industries", f"{data.industries.nunique()}")
-   KPI3.metric("Americans",f'{data[data.countryOfCitizenship == "United States"].shape[0]}')
-   # KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+   KPI1, KPI2, KPI3, KPI4= st.columns(4)
+   KPI1.metric("Billionaires", f"{data.shape[0]}")
+   KPI2.metric('Countries', f"{data.countryOfCitizenship.nunique()}")
+   KPI3.metric("Industries", f"{data.industries.nunique()}")
+   KPI4.metric("Americans",f'{data[data.countryOfCitizenship == "United States"].shape[0]}')
 
 
    fig_0 = px.bar(
