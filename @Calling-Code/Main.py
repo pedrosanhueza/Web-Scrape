@@ -425,6 +425,15 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
+   st.markdown(f'''<p style="font-size:20px;text-align:center;"> Top {data.shape[0]} Billionaires </p> ''',unsafe_allow_html=True)
+
+   KPI1, KPI2, KPI3= st.columns(3)
+   KPI1.metric('Countries', f"{data.countries.nunqiue()}")
+   KPI2.metric("Industries", f"{data.industries.nunique()}")
+   KPI3.metric("Americans",f'{data[data.countryOfCiticenship == "United States"].shape[0]}')
+   # KPI4.metric("Highest Pay Rate Job", f"${data.payRate.max()}")
+
+
    fig_0 = px.bar(
     data.industries.value_counts().reset_index(),
     y='index',
@@ -439,7 +448,7 @@ if projectOption[project] == 6:
     values='industries',
     names='index')
    st.plotly_chart(fig_01, use_container_width=True)
-   
+
    gender_ = st.radio("Gender",('Male','Female','Both'),horizontal=True)
 
    if gender_ == 'Male':
