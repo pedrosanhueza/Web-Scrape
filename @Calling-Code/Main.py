@@ -122,13 +122,13 @@ if projectOption[project] == 1:
       </p>
    ''',unsafe_allow_html=True)
 
-   col1, col2, col3 = st.columns([1,3,1])
-   with col1:
-      st.write(' ')
-   with col2:
-      st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Scraping Process') 
-   with col3:
-      st.write(' ')
+   # col1, col2, col3 = st.columns([1,3,1])
+   # with col1:
+   #    st.write(' ')
+   # with col2:
+   #    st.image('@Calling-Code/Pictures/API_call_3.gif', caption='Scraping Process') 
+   # with col3:
+   #    st.write(' ')
 
    # st.table()
 
