@@ -832,9 +832,10 @@ if projectOption[project] == 11:
          mime      =    'text/csv',)
       st.dataframe(data)
 
+   st.write('#### Amount per Section')
    st.bar_chart(
-      data=data.Section.value_counts().reset_index().rename(columns={'index': 'Method'}),
-      x='Method',
+      data=data.Section.value_counts().reset_index().rename(columns={'index': 'Topic'}),
+      x='Topic',
       y='Section'
    )
 
