@@ -147,18 +147,11 @@ if projectOption[project] == 2:
    ''',unsafe_allow_html=True)
    
    st.markdown(f'''
-   <br><p style="font-size:20px;text-align:left;">
-      Extracting data from: 
-      <a style="color:#4F9ACF; padding:7px 10px;" target="_blank" href = '{url}'> Class Catalog - BYUI </a>
-   </p>
-   ''',unsafe_allow_html=True)
-   
-   st.markdown(f'''
          <h1 style="font-size:40px;text-align:center;"> Description: </h1>
          <p style="font-size:20px;text-align:Center;">
-            The
-            <a href='{url}' style="color:#4F9ACF;" >University's catalog </a>
-            website has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
+            Brigham Young University - Idaho' catalog
+            <a href='{url}' style="color:#4F9ACF;" > website </a>
+            has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
             The university currenlt has <b> {data.shape[0]} </b> open courses from where the students can register to (including online classes).
             It also has <b> {data.description.nunique()} </b> main academic departments.
             <br>
