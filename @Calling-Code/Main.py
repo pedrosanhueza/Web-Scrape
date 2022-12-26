@@ -180,7 +180,7 @@ if projectOption[project] == 2:
 
       bars = alt.Chart(df).mark_bar().encode(
       x='Classes:Q',
-      y="Department:O")
+      y="Department:O",sort='-x')
 
    text = bars.mark_text(
       align='left',
