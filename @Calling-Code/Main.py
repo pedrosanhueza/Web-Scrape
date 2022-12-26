@@ -149,13 +149,14 @@ if projectOption[project] == 2:
    st.markdown(f'''
          <h1 style="font-size:40px;text-align:center;"> Description: </h1>
          <p style="font-size:20px;text-align:Center;">
-            Brigham Young University - Idaho' catalog
-            <a href='{url}' style="color:#4F9ACF;" > website </a>
+            Brigham Young University - Idaho's
+            <a href='{url}' style="color:#4F9ACF;" > catalog </a>
             has the list of all classes offered and its Course ID, Title, Activation Date, Department, and more.
-            The university currenlt has <b> {data.shape[0]} </b> open courses from where the students can register to (including online classes).
-            It also has <b> {data.description.nunique()} </b> main academic departments.
             <br>
-            This code extract all that data and puts it into a local CSV file.
+            The university has <b> {data.shape[0]} </b> courses offered (including online classes).
+            These courses are divided in <b> {data.description.nunique()} </b> unique academic departments.
+            <br>
+            The code below extract the specifc raw data from the web structures it into an organized table.
          </p>
       <br>
    ''',unsafe_allow_html=True)
