@@ -191,7 +191,7 @@ if projectOption[project] == 2:
    st.markdown(f'''<h1 style="font-size:30px;text-align:center;"> Classes per Department </h1>''',unsafe_allow_html=True)
 
    st.altair_chart(
-      (bars + text).properties(height=1000),
+      (bars + text).properties(height=1200),
       use_container_width=True)
 
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
