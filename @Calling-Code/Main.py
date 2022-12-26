@@ -832,6 +832,12 @@ if projectOption[project] == 11:
          mime      =    'text/csv',)
       st.dataframe(data)
 
+   st.bar_chart(
+      data=data.Section.value_counts().reset_index().rename(columns={'index': 'Method'}),
+      x='Method',
+      y='Section'
+   )
+
 ## ----------------------------------------- Politicos Chilenos - Camara Diputados ------------------------------------------------------------------------ ##
 if projectOption[project] == 12:
    with st.spinner('Web scraping data from website ...'):
@@ -889,7 +895,7 @@ if projectOption[project] == 13:
          mime      =    'text/csv',)
       st.dataframe(data)
 
-## ----------------------------------------- Politicos Españoles - Camara Diputados ------------------------------------------------------------------------ ##
+## ----------------------------------------- Sistema de Información Nacional de Calidad del Aire - Ministerio Medio Ambiente - Gob ------------------------- ##
 if projectOption[project] == 14:
 
    with st.spinner('Web scraping data from website ...'):
