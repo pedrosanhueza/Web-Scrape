@@ -108,6 +108,7 @@ col1, col2, col3 = st.columns([1,1,1])
 with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('BYU-Idaho Class Catalog'):
+      project = projectOption_list[1]
       projectOption[projectOption_list[1]] == 2
 
 with col2:
