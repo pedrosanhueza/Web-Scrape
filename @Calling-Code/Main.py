@@ -167,9 +167,9 @@ with st.sidebar:
    if st.button(f'{projectName_list[16]}'):
       project = projectName_list[16]
 
-   st.image('@Calling-Code/Pictures/logos/Sigma-Phi-Epsilon.png', width = 130)
-   if st.button(f'{projectName_list[17]}'):
-      project = projectName_list[17]
+   # st.image('@Calling-Code/Pictures/logos/Sigma-Phi-Epsilon.png', width = 130)
+   # if st.button(f'{projectName_list[17]}'):
+   #    project = projectName_list[17]
 
    st.image('@Calling-Code/Pictures/logos/App-Shopify.png', width = 130)
    if st.button(f'{projectName_list[18]}'):
