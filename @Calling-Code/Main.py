@@ -68,13 +68,20 @@ Welcome to the world of Web Scraping!
 # with col3:
 #     st.write(' ')
    
-st.markdown('''<hr>''',unsafe_allow_html=True)
+st.markdown('''
+
+<hr>
+
+<p>
+
+Well, my dear friend, if you want to see these fancy web scraping projects, you gotta open up the secret portal, like Indiana Jones searching for the Ark of the Covenant. This portal is located in the top left corner of the page, like a treasure map leading you to the treasure. Once you open it up, it's like opening the door to a room full of treasure, only this treasure is knowledge and data. You'll find a variety of projects just waiting to be explored, like a pirate's treasure trove. So, go on and give it a click, who knows, you might just find the treasure you've been searching for!
+
+</p>
+'''
+
+,unsafe_allow_html=True)
 
 ## ----------------------------------------- Begining Side Bar ----------------------------------------------------------------------------- ##
-
-st.markdown('''
-<h1 style="font-size:40px;text-align:center;"> Web Scraping Projects </h1> 
-''',unsafe_allow_html=True)
 
 projectOption = {
    'Select a project':1,
@@ -96,8 +103,6 @@ projectOption = {
    'Boat Trader':17,
    'Sigma Phi Epsilon':18,
    'App Shopify':19}
-
-# projects = tuple(projectOption.keys())
 
 projectName_list = list(projectOption.keys())
 
