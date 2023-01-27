@@ -42,50 +42,35 @@ st.markdown('''
 
 <h2 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h2>
 
+<h1 style="font-size:30px;text-align:center;"> Who is Pedro? </h1>
+
+<p style="font-size:20px;">
+
+Ladies and gents, meet Pedro Sanhueza, a recent graduate in Business Analytics with a minor in Data Science. This young man is as sharp as a tack when it comes to solving business problems. He's got 2+ years of experience in BI, data analysis, and business strategy, and is like a human version of Sherlock Holmes, but with less of the pipe smoking and more of the SQL and Python.
+
+You see, Pedro is like a human Swiss Army knife, but instead of scissors and a bottle opener, he's got skills in BI, data analysis, and business strategy. He's been honing his craft for 2+ years, working with big data sets and developing data pipelines using SQL/Python. He's also a pro with Tableau and Power BI, which he uses to create beautiful and informative visualizations, like a modern-day Rembrandt with numbers instead of paint.
+
+</p>
+
+<h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
+
+<p>
+
+Now, in his previous role as a Data Analyst Consultant at HCMI in Los Angeles, Pedro built and maintained Power BI dashboards for forecasting, analysis, and tracking key indicators. He also presented findings and insights to clients, and even wrote a code to automatically extract 10-k filings from public trade companies listed on sec.gov and added the data into Azure database. Talk about efficiency! It's like he's a human version of a search engine, but with more personality.
+
+But Pedro's not just a one-trick pony. He was also a Senior Data Analyst at Brigham Young University - Idaho, where he established key performance indicators to measure the effectiveness of business decisions, managed and wrangled large datasets of 5,000,000+ rows, and wrote DAX code for quantitative analysis and data modeling to glean actionable insights from data. He's also a pro at creating and maintaining reports in a CRM (TeamDynamix) as well as Excel, and presenting Power BI reports in partnering department meetings.
+
+Beyond his impressive business analytics skills, Pedro is also a talented communicator, fluent in English and Spanish, and has experience working in customer service, where he used professional communication in bilingual interactions and solved rising problems that involve a variety of departments to elevate the student experience.
+
+But wait, there's more! Pedro is fluent in English and Spanish, has advanced Excel skills, and is certified in Excel Spreadsheet Modeling from Harvard. He also has advanced knowledge of Tableau and Power BI, proficiency in SQL and strong capability in Python or R. He's also a statistical whiz, understanding concepts such as covariance, correlation, regression, and conditional probability. All in all, Pedro is a data-crunching wizard, a true "Data-Sherlock Holmes" who can make sense of any data-puzzle and turn it into actionable insights.
+
+Pedro also has a wealth of volunteer experience, including serving as Vice President of the Student Representative Council, where he met with external institutions, planned involvement ideas along with community members, and coordinated young adult events of 2,000+ people. He also served as a Full-Time Volunteer for The Church of Jesus Christ of Latter-day Saints, where he directed training meetings and presentations for leaders with a focus on improving communication and teaching skills, and supervised and instructed 20-30 volunteers in meeting short and long-term goals.
+
+In short, Pedro Sanhueza is a data-driven, customer-focused, and results-oriented business analytics professional who can turn data into actionable insights and communicate them effectively to stakeholders. He's always looking for new opportunities to apply his skills and drive business growth, so if you're in need of a data analyst, don't hesitate to reach out!
+
+</p>
+
 ''',unsafe_allow_html=True)
-
-
-col1, col2 = st.columns([1,1])
-
-with col1:
-   
-   st.markdown('''
-
-   <h1 style="font-size:30px;text-align:center;"> Who is Pedro? </h1>
-
-   <p style="font-size:20px;">
-
-   Ladies and gents, meet Pedro Sanhueza, a recent graduate in Business Analytics with a minor in Data Science. This young man is as sharp as a tack when it comes to solving business problems. He's got 2+ years of experience in BI, data analysis, and business strategy, and is like a human version of Sherlock Holmes, but with less of the pipe smoking and more of the SQL and Python.
-
-   You see, Pedro is like a human Swiss Army knife, but instead of scissors and a bottle opener, he's got skills in BI, data analysis, and business strategy. He's been honing his craft for 2+ years, working with big data sets and developing data pipelines using SQL/Python. He's also a pro with Tableau and Power BI, which he uses to create beautiful and informative visualizations, like a modern-day Rembrandt with numbers instead of paint.
-
-   </p>
-   
-   ''',unsafe_allow_html=True)
-
-with col2:
-
-   st.markdown('''
-
-   <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
-
-   <p>
-
-   Now, in his previous role as a Data Analyst Consultant at HCMI in Los Angeles, Pedro built and maintained Power BI dashboards for forecasting, analysis, and tracking key indicators. He also presented findings and insights to clients, and even wrote a code to automatically extract 10-k filings from public trade companies listed on sec.gov and added the data into Azure database. Talk about efficiency! It's like he's a human version of a search engine, but with more personality.
-
-   But Pedro's not just a one-trick pony. He was also a Senior Data Analyst at Brigham Young University - Idaho, where he established key performance indicators to measure the effectiveness of business decisions, managed and wrangled large datasets of 5,000,000+ rows, and wrote DAX code for quantitative analysis and data modeling to glean actionable insights from data. He's also a pro at creating and maintaining reports in a CRM (TeamDynamix) as well as Excel, and presenting Power BI reports in partnering department meetings.
-
-   Beyond his impressive business analytics skills, Pedro is also a talented communicator, fluent in English and Spanish, and has experience working in customer service, where he used professional communication in bilingual interactions and solved rising problems that involve a variety of departments to elevate the student experience.
-
-   But wait, there's more! Pedro is fluent in English and Spanish, has advanced Excel skills, and is certified in Excel Spreadsheet Modeling from Harvard. He also has advanced knowledge of Tableau and Power BI, proficiency in SQL and strong capability in Python or R. He's also a statistical whiz, understanding concepts such as covariance, correlation, regression, and conditional probability. All in all, Pedro is a data-crunching wizard, a true "Data-Sherlock Holmes" who can make sense of any data-puzzle and turn it into actionable insights.
-
-   Pedro also has a wealth of volunteer experience, including serving as Vice President of the Student Representative Council, where he met with external institutions, planned involvement ideas along with community members, and coordinated young adult events of 2,000+ people. He also served as a Full-Time Volunteer for The Church of Jesus Christ of Latter-day Saints, where he directed training meetings and presentations for leaders with a focus on improving communication and teaching skills, and supervised and instructed 20-30 volunteers in meeting short and long-term goals.
-
-   In short, Pedro Sanhueza is a data-driven, customer-focused, and results-oriented business analytics professional who can turn data into actionable insights and communicate them effectively to stakeholders. He's always looking for new opportunities to apply his skills and drive business growth, so if you're in need of a data analyst, don't hesitate to reach out!
-
-   </p>
-
-   ''',unsafe_allow_html=True)
 
 st.markdown('''
 
