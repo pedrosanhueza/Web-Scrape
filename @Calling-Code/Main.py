@@ -19,6 +19,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
+st.markdown(''' <h1 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h1> <br><br>''',unsafe_allow_html=True)
+
 col1, col2, col3 = st.columns([1,2,1])
 
 with col1:
@@ -40,8 +42,6 @@ with col2:
 with col3:
 
    st.write('')
-
-st.markdown(''' <h1 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h1> ''',unsafe_allow_html=True)
 
 st.markdown('''
 
