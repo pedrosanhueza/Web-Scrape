@@ -103,22 +103,24 @@ projectName_list = list(projectOption.keys())
 
 project = projectName_list[0]
 
-col1, col2, col3 = st.columns([1,1,1])
+with st.sidebar():
 
-with col1:
+# col1, col2, col3 = st.columns([1,1,1])
+
+# with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button(f'{projectName_list[1]}'):
       project = projectName_list[1]
 
-with col2:
+# with col2:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
-    project = projectName_list[2]
+      project = projectName_list[2]
 
-with col3:
+# with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Fifa Soccer 2022'):
-    project = projectName_list[3]
+      project = projectName_list[3]
    
 st.write(projectOption[project])
 
