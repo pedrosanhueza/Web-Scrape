@@ -109,17 +109,16 @@ with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('BYU-Idaho Class Catalog'):
       project = projectOption_list[1]
-      projectOption[projectOption_list[1]] == 2
 
 with col2:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
-    projectOption[projectOption_list[2]] == 3
+    project = projectOption_list[2]
 
 with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Fifa Soccer 2022'):
-    projectOption[projectOption_list[3]] == 4
+    project = projectOption_list[3]
    
 st.write(projectOption[project])
 
