@@ -149,23 +149,23 @@ with st.sidebar:
    if st.button(f'{projectName_list[11]}'):
       project = projectName_list[11]
    
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Políticos-Españoles.png', width = 130)
    if st.button(f'{projectName_list[12]}'):
       project = projectName_list[12]
    
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/SINCA-MMA-Gob.jpeg', width = 130)
    if st.button(f'{projectName_list[13]}'):
       project = projectName_list[13]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Surplus-Store-BYUI.jpeg', width = 130)
    if st.button(f'{projectName_list[14]}'):
       project = projectName_list[14]
 
-   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Representatives-USA.jpeg', width = 130)
    if st.button(f'{projectName_list[15]}'):
       project = projectName_list[15]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Boat-Trader.jpeg', width = 130)
    if st.button(f'{projectName_list[16]}'):
       project = projectName_list[16]
 
@@ -173,7 +173,7 @@ with st.sidebar:
    if st.button(f'{projectName_list[17]}'):
       project = projectName_list[17]
 
-   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   st.image('@Calling-Code/Pictures/logos/App Shopify.png', width = 130)
    if st.button(f'{projectName_list[18]}'):
       project = projectName_list[18]
    
