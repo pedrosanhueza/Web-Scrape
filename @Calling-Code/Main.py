@@ -105,24 +105,17 @@ project = projectName_list[0]
 
 with st.sidebar:
 
-# col1, col2, col3 = st.columns([1,1,1])
-
-# with col1:
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 100)
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
    if st.button(f'{projectName_list[1]}'):
       project = projectName_list[1]
 
-# with col2:
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 120)
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
    if st.button('Phone Country Code'):
       project = projectName_list[2]
 
-# with col3:
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.jpg', width = 130)
    if st.button('Fifa Soccer 2022'):
       project = projectName_list[3]
-   
-st.write(projectOption[project])
 
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
