@@ -106,17 +106,17 @@ col1, col2, col3 = st.columns([1,1,1])
 with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('BYU-Idaho Class Catalog'):
-    st.write('Why hello there')
+      projectOption[project] == 2
 
 with col2:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
-    st.write('Why hello there')
+    projectOption[project] == 3
 
 with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Fifa Soccer 2022'):
-    st.write('Why hello there')
+    projectOption[project] == 4
 
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
