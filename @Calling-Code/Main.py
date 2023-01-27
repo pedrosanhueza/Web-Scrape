@@ -19,9 +19,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
-st.markdown('''
-<h1 style="font-size:40px;text-align:center;"> Hi There! </h1>
-''',unsafe_allow_html=True)
+st.markdown(''' <h2 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h2> ''',unsafe_allow_html=True)
 
 col1, col2, col3 = st.columns([1,2,1])
 with col1:
@@ -40,9 +38,7 @@ st.markdown('''
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<h2 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h2>
-
-<h1 style="font-size:30px;text-align:center;"> Who is Pedro? </h1>
+<h2 style="font-size:40px;text-align:center;"> Who is Pedro? </h2>
 
 <p style="font-size:20px;">
 
