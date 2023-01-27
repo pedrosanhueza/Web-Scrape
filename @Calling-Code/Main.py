@@ -99,6 +99,8 @@ project = projectName_list[0]
 
 with st.sidebar:
 
+   st.write('Data Mining: A Selection of Real-World Examples')
+
    st.image('@Calling-Code/Pictures/logos/BYU-Idaho-Class-Catalog.png', width = 130)
    if st.button(f'{projectName_list[1]}'):
       project = projectName_list[1]
