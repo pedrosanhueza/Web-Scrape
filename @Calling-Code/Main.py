@@ -37,8 +37,10 @@ with col3:
 
 st.markdown('''
 <br><br>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<h2 style="font-size:40px;text-align:center;"> Who is Pedro? </h2>
 
 <p style="font-size:20px;">
 
