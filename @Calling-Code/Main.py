@@ -45,18 +45,14 @@ with col3:
 
 st.markdown('''
 
-<br><br>
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <p style="font-size:20px;text-align:center;">
-
    Select a project from the drop-down bar.
    <br>
    Feel free to connect with me on 
    <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
    for any question!
-
 </p>
 
 ''',unsafe_allow_html=True)
