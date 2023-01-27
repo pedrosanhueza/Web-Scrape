@@ -108,17 +108,17 @@ with st.sidebar:
 # col1, col2, col3 = st.columns([1,1,1])
 
 # with col1:
-   st.image('@Calling-Code/Pictures/profile-square.jpg')
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 10)
    if st.button(f'{projectName_list[1]}'):
       project = projectName_list[1]
 
 # with col2:
-   st.image('@Calling-Code/Pictures/profile-square.jpg')
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 20)
    if st.button('Phone Country Code'):
       project = projectName_list[2]
 
 # with col3:
-   st.image('@Calling-Code/Pictures/profile-square.jpg')
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 5)
    if st.button('Fifa Soccer 2022'):
       project = projectName_list[3]
    
