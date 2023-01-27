@@ -105,7 +105,7 @@ project = projectName_list[0]
 
 with st.sidebar:
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/BYU-Idaho-Class-Catalog.png', width = 130)
    if st.button(f'{projectName_list[1]}'):
       project = projectName_list[1]
 
