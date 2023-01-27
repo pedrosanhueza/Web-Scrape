@@ -177,9 +177,9 @@ with st.sidebar:
    if st.button(f'{projectName_list[18]}'):
       project = projectName_list[18]
    
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
-   if st.button(f'{projectName_list[19]}'):
-      project = projectName_list[19]
+   # st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   # if st.button(f'{projectName_list[19]}'):
+   #    project = projectName_list[19]
 
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
