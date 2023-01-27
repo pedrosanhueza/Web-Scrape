@@ -190,7 +190,7 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Select a Project ------------------------------------------------------------------------ ##
 if projectOption[project] == 1:
-   st.info('In order to view the available projects, access the selection options located in the top left corner of the page by opening the menu on the left side.', icon="ℹ️")
+   st.info('To view the available projects, access the selection options located in the top left corner of the page by opening the menu on the left side.', icon="ℹ️")
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
@@ -479,7 +479,7 @@ if projectOption[project] == 6:
       st.dataframe(data)
    st.markdown(f'''<br><br><br><br><br>''',unsafe_allow_html=True)
 
-   st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> Wolrd's Billionaires </h1> ''',unsafe_allow_html=True)
+   st.markdown(f'''<h1 style="font-size:40px;text-align:center;"> World's Billionaires </h1> ''',unsafe_allow_html=True)
 
    KPI1, KPI2, KPI3, KPI4= st.columns(4)
    KPI2.metric("Billionaires", f"{data.shape[0]}")
