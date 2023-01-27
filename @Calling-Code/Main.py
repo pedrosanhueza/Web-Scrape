@@ -103,7 +103,7 @@ projectName_list = list(projectOption.keys())
 
 project = projectName_list[0]
 
-with st.sidebar():
+with st.sidebar:
 
 # col1, col2, col3 = st.columns([1,1,1])
 
