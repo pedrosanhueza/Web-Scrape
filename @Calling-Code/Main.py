@@ -148,12 +148,11 @@ with st.sidebar:
    st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
    if st.button('Phone Country Code'):
       project = projectName_list[11]
-
-   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
    
    if st.button('Fifa Soccer 2022'):
       project = projectName_list[12]
    st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   
    if st.button(f'{projectName_list[1]}'):
       project = projectName_list[13]
 
