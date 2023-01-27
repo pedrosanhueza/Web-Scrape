@@ -113,7 +113,7 @@ with st.sidebar:
    if st.button('Phone Country Code'):
       project = projectName_list[2]
 
-   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
    if st.button('Fifa Soccer 2022'):
       project = projectName_list[3]
 
