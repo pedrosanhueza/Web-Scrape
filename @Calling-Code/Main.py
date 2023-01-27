@@ -99,26 +99,26 @@ projectOption = {
 
 # projects = tuple(projectOption.keys())
 
-projectOption_list = list(projectOption.keys())
+projectName_list = list(projectOption.keys())
 
-project = projectOption_list[0]
+project = projectName_list[0]
 
 col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
-   if st.button('BYU-Idaho Class Catalog'):
-      project = projectOption_list[1]
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[1]
 
 with col2:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
-    project = projectOption_list[2]
+    project = projectName_list[2]
 
 with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Fifa Soccer 2022'):
-    project = projectOption_list[3]
+    project = projectName_list[3]
    
 st.write(projectOption[project])
 
