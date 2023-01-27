@@ -23,11 +23,11 @@ st.markdown('''
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<h2 style="font-size:40px;text-align:center;">
+<h1 style="font-size:40px;text-align:center;">
 
 The Data Ninja: Stealthily turning numbers into insights
 
-</h2>
+</h1>
 
 <br><br>
 
