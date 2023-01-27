@@ -51,15 +51,9 @@ st.markdown('''
 
 <p style="font-size:20px;text-align:center;">
 Welcome to the world of Web Scraping! In this collection of projects, you will find a variety of examples demonstrating how to extract valuable information from the web using Python. Each project includes the code used to perform the scraping, the data that was extracted, and some visualizations of the results.
-
-<br>
-
 Whether you're looking to gather data for market research, build a personal project, or simply satisfy your own curiosity, you'll find something here that will be of interest. From scraping social media platforms to extract user data, to collecting data from e-commerce websites to analyze pricing trends, the possibilities are endless.
-
 You'll find that these projects are not only informative, but also easy to follow and replicate. We have included explanations and comments in the code to make it easy for you to understand the process and adapt it to your own needs.
-
 So, without further ado, let's dive in and explore the exciting world of Web Scraping!
-
 </p>
 
 ''',unsafe_allow_html=True)
