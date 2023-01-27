@@ -101,7 +101,7 @@ projects = tuple(projectOption.keys())
 
 project = st.selectbox('Select project: ', projects)
 
-col1, col2 = st.columns([1,1])
+col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
@@ -109,6 +109,11 @@ with col1:
     st.write('Why hello there')
 
 with col2:
+   st.image('@Calling-Code/Pictures/profile-square.jpg')
+   if st.button('Phone Country Code'):
+    st.write('Why hello there')
+
+with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
     st.write('Why hello there')
