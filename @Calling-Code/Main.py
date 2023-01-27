@@ -190,10 +190,7 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Select a Project ------------------------------------------------------------------------ ##
 if projectOption[project] == 1:
-   st.markdown('''
-   <h1 style="font-size:40px;text-align:center;"> The Door to Knowledge: Open the Sidebar to Enter the World of Web Scraping Located in the Top Left Corner of the Page. </h1>
-   '''
-   ,unsafe_allow_html=True)
+   st.info('In order to view the available projects, access the selection options located in the top left corner of the page by opening the menu on the left side.', icon="ℹ️")
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
