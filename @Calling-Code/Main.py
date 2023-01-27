@@ -99,8 +99,6 @@ project = projectName_list[0]
 
 with st.sidebar:
 
-   
-
    st.markdown(''' <h1 style="font-size:30px;text-align:center;"> Data Mining: A Selection of Real-World Examples </h1>''',unsafe_allow_html=True)
 
    st.image('@Calling-Code/Pictures/logos/BYU-Idaho-Class-Catalog.png', width = 130)
