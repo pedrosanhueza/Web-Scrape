@@ -103,7 +103,7 @@ projectOption_list = list(projectOption.keys())
 
 project = projectOption_list[0]
 
-st.write(projectOption_list)
+st.write(projectOption[project])
 
 col1, col2, col3 = st.columns([1,1,1])
 
