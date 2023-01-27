@@ -121,15 +121,15 @@ with st.sidebar:
    if st.button(f'{projectName_list[4]}'):
       project = projectName_list[4]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Billionaires-Forbes.jpeg', width = 130)
    if st.button(f'{projectName_list[5]}'):
       project = projectName_list[5]
 
-   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Universities-Forbes.jpeg', width = 130)
    if st.button(f'{projectName_list[6]}'):
       project = projectName_list[6]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Irvine-Spectrum-Center-Stores.jpeg', width = 130)
    if st.button(f'{projectName_list[7]}'):
       project = projectName_list[7]
 
@@ -137,7 +137,7 @@ with st.sidebar:
    if st.button(f'{projectName_list[8]}'):
       project = projectName_list[8]
 
-   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Mutual-App-Feedback.png', width = 130)
    if st.button(f'{projectName_list[9]}'):
       project = projectName_list[9]
 
