@@ -115,7 +115,7 @@ with col2:
 
 with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
-   if st.button('Phone Country Code'):
+   if st.button('Fifa Soccer 2022'):
     st.write('Why hello there')
 
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
