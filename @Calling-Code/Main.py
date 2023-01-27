@@ -111,9 +111,10 @@ with st.sidebar:
    if st.button(f'{projectName_list[3]}'):
       project = projectName_list[3]
 
-   st.image('@Calling-Code/Pictures/logos/Stocks-ADVFN.png', width = 130)
-   if st.button(f'{projectName_list[4]}'):
-      project = projectName_list[4]
+   # Stocks ADVFN
+   # st.image('@Calling-Code/Pictures/logos/Stocks-ADVFN.png', width = 130)
+   # if st.button(f'{projectName_list[4]}'):
+   #    project = projectName_list[4]
 
    st.image('@Calling-Code/Pictures/logos/Billionaires-Forbes.jpeg', width = 130)
    if st.button(f'{projectName_list[5]}'):
@@ -127,9 +128,10 @@ with st.sidebar:
    if st.button(f'{projectName_list[7]}'):
       project = projectName_list[7]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
-   if st.button(f'{projectName_list[8]}'):
-      project = projectName_list[8]
+   # STUDENT EMPLOYMENT
+   # st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   # if st.button(f'{projectName_list[8]}'):
+   #    project = projectName_list[8]
 
    st.image('@Calling-Code/Pictures/logos/Mutual-App-Feedback.png', width = 130)
    if st.button(f'{projectName_list[9]}'):
@@ -188,7 +190,7 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 if projectOption[project] == 1:
    st.markdown('''
 
-   <h1 style="font-size:20px;text-align:center;"> The Door to Knowledge: Open the Sidebar to Enter the World of Web Scraping </h1>
+   <h1 style="font-size:40px;text-align:center;"> The Door to Knowledge: Open the Sidebar to Enter the World of Web Scraping </h1>
 
    <p style="font-size:20px;text-align:center;">
    Well, my dear friend, if you want to see these fancy web scraping projects, you gotta open up the secret portal, like Indiana Jones searching for the Ark of the Covenant. This portal is located in the top left corner of the page, like a treasure map leading you to the treasure. Once you open it up, it's like opening the door to a room full of treasure, only this treasure is knowledge and data. You'll find a variety of projects just waiting to be explored, like a pirate's treasure trove. So, go on and give it a click, who knows, you might just find the treasure you've been searching for!
