@@ -101,6 +101,13 @@ projects = tuple(projectOption.keys())
 
 project = st.selectbox('Select project: ', projects)
 
+col1, col2 = st.columns([1,1])
+
+with col1:
+   st.image('Pictures/profile-square.jpg')
+with col2:
+   st.image('Pictures/profile-square.jpg')
+
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
 project_order = list(projectOption.values())
