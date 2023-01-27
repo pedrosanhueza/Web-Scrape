@@ -103,8 +103,6 @@ projectOption_list = list(projectOption.keys())
 
 project = projectOption_list[0]
 
-st.write(projectOption[project])
-
 col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
@@ -122,6 +120,8 @@ with col3:
    if st.button('Fifa Soccer 2022'):
     projectOption[projectOption_list[3]] == 4
    
+st.write(projectOption[project])
+
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
 project_order = list(projectOption.values())
@@ -133,7 +133,7 @@ YesterdayTimeInRexburg = (timeZoneMountain - timedelta(1)).strftime("%Y-%m-%d")
 
 ## ----------------------------------------- Select a Project ------------------------------------------------------------------------ ##
 if projectOption[project] == 1:
-   st.write(' ')
+   st.write('TOM @@@@@@@@')
 
 ## ----------------------------------------- Class Catalog - BYUI ------------------------------------------------------------------------ ##
 if projectOption[project] == 2:
