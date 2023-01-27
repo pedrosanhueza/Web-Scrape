@@ -141,11 +141,11 @@ with st.sidebar:
    if st.button(f'{projectName_list[9]}'):
       project = projectName_list[9]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/News-CBS.png', width = 130)
    if st.button(f'{projectName_list[10]}'):
       project = projectName_list[10]
 
-   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Politicos-Chilenos.jpeg', width = 130)
    if st.button(f'{projectName_list[11]}'):
       project = projectName_list[11]
    
