@@ -51,16 +51,25 @@ with col1:
    
    st.markdown('''
 
+   <h1 style="font-size:30px;text-align:center;"> Who is Pedro? </h1>
+
    <p style="font-size:20px;">
 
    Ladies and gents, meet Pedro Sanhueza, a recent graduate in Business Analytics with a minor in Data Science. This young man is as sharp as a tack when it comes to solving business problems. He's got 2+ years of experience in BI, data analysis, and business strategy, and is like a human version of Sherlock Holmes, but with less of the pipe smoking and more of the SQL and Python.
 
+   You see, Pedro is like a human Swiss Army knife, but instead of scissors and a bottle opener, he's got skills in BI, data analysis, and business strategy. He's been honing his craft for 2+ years, working with big data sets and developing data pipelines using SQL/Python. He's also a pro with Tableau and Power BI, which he uses to create beautiful and informative visualizations, like a modern-day Rembrandt with numbers instead of paint.
+
+   </p>
+   
    ''',unsafe_allow_html=True)
 
 with col2:
 
    st.markdown('''
-   You see, Pedro is like a human Swiss Army knife, but instead of scissors and a bottle opener, he's got skills in BI, data analysis, and business strategy. He's been honing his craft for 2+ years, working with big data sets and developing data pipelines using SQL/Python. He's also a pro with Tableau and Power BI, which he uses to create beautiful and informative visualizations, like a modern-day Rembrandt with numbers instead of paint.
+
+   <h1 style="font-size:30px;text-align:center;"> What is Web Scraping? </h1>
+
+   <p>
 
    Now, in his previous role as a Data Analyst Consultant at HCMI in Los Angeles, Pedro built and maintained Power BI dashboards for forecasting, analysis, and tracking key indicators. He also presented findings and insights to clients, and even wrote a code to automatically extract 10-k filings from public trade companies listed on sec.gov and added the data into Azure database. Talk about efficiency! It's like he's a human version of a search engine, but with more personality.
 
