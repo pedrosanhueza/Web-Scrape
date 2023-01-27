@@ -97,35 +97,31 @@ projectOption = {
    'Sigma Phi Epsilon':18,
    'App Shopify':19}
 
-projects = tuple(projectOption.keys())
+# projects = tuple(projectOption.keys())
 
-project = st.selectbox('Select project: ', projects)
+projectOption_list = list(projectOption.keys())
 
-st.write(project)
+# project = st.selectbox('Select project: ', projects)
+
+st.write(projectOption_list)
 
 col1, col2, col3 = st.columns([1,1,1])
 
 with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('BYU-Idaho Class Catalog'):
-      projectOption[project] == 2
-   else:
-      projectOption[project] == 1
+      projectOption[projectOption_list[1]] == 2
 
 with col2:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
-    projectOption[project] == 3
-   else:
-      projectOption[project] == 1
+    projectOption[projectOption_list[2]] == 3
 
 with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Fifa Soccer 2022'):
-    projectOption[project] == 4
-   else:
-      projectOption[project] == 1
-
+    projectOption[projectOption_list[3]] == 4
+   
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
 project_order = list(projectOption.values())
