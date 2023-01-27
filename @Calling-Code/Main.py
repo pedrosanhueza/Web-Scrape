@@ -117,6 +117,70 @@ with st.sidebar:
    if st.button('Fifa Soccer 2022'):
       project = projectName_list[3]
 
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[4]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button('Phone Country Code'):
+      project = projectName_list[5]
+
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   if st.button('Fifa Soccer 2022'):
+      project = projectName_list[6]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[7]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button('Phone Country Code'):
+      project = projectName_list[8]
+
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   if st.button('Fifa Soccer 2022'):
+      project = projectName_list[9]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[10]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button('Phone Country Code'):
+      project = projectName_list[11]
+
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   
+   if st.button('Fifa Soccer 2022'):
+      project = projectName_list[12]
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[13]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button('Phone Country Code'):
+      project = projectName_list[14]
+
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   if st.button('Fifa Soccer 2022'):
+      project = projectName_list[15]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[16]
+
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   if st.button('Phone Country Code'):
+      project = projectName_list[17]
+
+   st.image('@Calling-Code/Pictures/logos/FIFA-Soccer-2022.png', width = 130)
+   if st.button('Fifa Soccer 2022'):
+      project = projectName_list[18]
+   st.image('@Calling-Code/Pictures/profile-square.jpg', width = 130)
+   
+   if st.button(f'{projectName_list[1]}'):
+      project = projectName_list[19]
+
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
 project_order = list(projectOption.values())
