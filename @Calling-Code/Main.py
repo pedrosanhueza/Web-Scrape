@@ -19,28 +19,38 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 
 ## ----------------------------------------- Introduction ----------------------------------------------------------------------------- ##
 
-st.markdown('''
-<h1 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h1>
-''',unsafe_allow_html=True)
-
 col1, col2, col3 = st.columns([1,2,1])
+
 with col1:
+
    st.write(' ')
+
 with col2:
+
    st.markdown('''
+
    <center>
+
       <img src="https://github.com/pedrosanhueza/Web_Scrape/blob/main/@Calling-Code/Pictures/profile-square.jpg?raw=true" alt="Logo" width="100%" style="border-radius: 50%;">
+
    </center>
+
    ''',unsafe_allow_html=True)
+
 with col3:
+
    st.write('')
 
+st.markdown(''' <h1 style="font-size:40px;text-align:center;"> The Data Ninja: Stealthily turning numbers into insights </h1> ''',unsafe_allow_html=True)
+
 st.markdown('''
+
 <br><br>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <p style="font-size:20px;text-align:center;">
+
    Select a project from the drop-down bar.
    <br>
    Feel free to connect with me on 
