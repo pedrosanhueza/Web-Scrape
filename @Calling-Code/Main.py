@@ -107,16 +107,22 @@ with col1:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('BYU-Idaho Class Catalog'):
       projectOption[project] == 2
+   else:
+      projectOption[project] == 1
 
 with col2:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Phone Country Code'):
     projectOption[project] == 3
+   else:
+      projectOption[project] == 1
 
 with col3:
    st.image('@Calling-Code/Pictures/profile-square.jpg')
    if st.button('Fifa Soccer 2022'):
     projectOption[project] == 4
+   else:
+      projectOption[project] == 1
 
 ## ----------------------------------------- General Variables ------------------------------------------------------------------------ ##
 
