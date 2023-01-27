@@ -149,7 +149,7 @@ with st.sidebar:
    if st.button(f'{projectName_list[11]}'):
       project = projectName_list[11]
    
-   st.image('@Calling-Code/Pictures/logos/Politicos-Españoles.png', width = 130)
+   st.image('@Calling-Code/Pictures/logos/Politicos-Espanoles.png', width = 130)
    if st.button(f'{projectName_list[12]}'):
       project = projectName_list[12]
    
