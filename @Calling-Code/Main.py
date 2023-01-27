@@ -39,15 +39,8 @@ st.markdown('''
 <br><br>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<p style="font-size:20px;text-align:center;">
-   Select a project from the drop-down bar.
-   <br>
-   Feel free to connect with me on 
-   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
-   for any question!
-</p>
 
-<p>
+<p style="font-size:20px;">
 
 Ladies and gents, meet Pedro Sanhueza, a recent graduate in Business Analytics with a minor in Data Science. This young man is as sharp as a tack when it comes to solving business problems. He's got 2+ years of experience in BI, data analysis, and business strategy, and is like a human version of Sherlock Holmes, but with less of the pipe smoking and more of the SQL and Python.
 
@@ -65,7 +58,15 @@ Pedro also has a wealth of volunteer experience, including serving as Vice Presi
 
 In short, Pedro Sanhueza is a data-driven, customer-focused, and results-oriented business analytics professional who can turn data into actionable insights and communicate them effectively to stakeholders. He's always looking for new opportunities to apply his skills and drive business growth, so if you're in need of a data analyst, don't hesitate to reach out!
 
-</P
+</p>
+
+<p style="font-size:20px;text-align:center;">
+   Select a project from the drop-down bar.
+   <br>
+   Feel free to connect with me on 
+   <a href="https://www.linkedin.com/in/pedro-sanhueza/"> Linked-In</a>
+   for any question!
+</p>
 
 ''',unsafe_allow_html=True)
 
