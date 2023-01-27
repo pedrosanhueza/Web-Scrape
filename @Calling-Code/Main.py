@@ -101,7 +101,7 @@ projectOption = {
 
 projectOption_list = list(projectOption.keys())
 
-# project = st.selectbox('Select project: ', projects)
+project = projectOption_list[0]
 
 st.write(projectOption_list)
 
